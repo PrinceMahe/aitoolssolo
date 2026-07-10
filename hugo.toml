@@ -1,0 +1,74 @@
+baseURL = "https://www.aitoolssolo.com/"
+languageCode = "en-us"
+title = "AI Tools Solo — Smart AI Tools for Solopreneurs"
+theme = "PaperMod"
+paginate = 10
+
+[params]
+  env = "production"
+  description = "Discover the best AI tools, automation workflows, and SaaS comparisons built for solopreneurs. Real reviews, no fluff."
+  author = "AI Tools Solo"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  comments = false
+
+  [params.homeInfoParams]
+    Title = "🚀 AI Tools for Solopreneurs"
+    Content = "Real reviews, honest comparisons, and automation workflows for one-person businesses. No fluff, no filler — just tools that actually work."
+
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com/alooftruck"
+
+  label = "AI Tools Solo"
+
+  [params.assets]
+    favicon = "/favicon.ico"
+    favicon16x16 = "/favicon-16x16.png"
+    favicon32x32 = "/favicon-32x32.png"
+    apple_touch_icon = "/apple-touch-icon.png"
+    safari_pinned_tab = "/favicon.svg"
+
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 0
+    keys = ["title", "permalink", "summary", "content"]
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+
+[menu]
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "tools"
+    name = "Tools"
+    url = "/tools/"
+    weight = 20
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 30
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+    weight = 40

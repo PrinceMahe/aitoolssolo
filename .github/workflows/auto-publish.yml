@@ -1,0 +1,38 @@
+name: Auto Publish Post (Manual)
+
+# Real weekly publishing runs via cron on prin-pc with local Ollama.
+# This workflow is kept for manual triggers only.
+on:
+  workflow_dispatch:
+    inputs:
+      model:
+        description: 'Ollama model (default: gemma3:27b)'
+        required: false
+        default: 'gemma3:27b'
+
+permissions:
+  contents: write
+
+jobs:
+  generate-and-publish:
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate post
+        env:
+          OLLAMA_HOST: http://localhost:11434
+          OLLAMA_MODEL: ${{ github.event.inputs.model }}
+        run: python3 scripts/generate_post.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "AI Tools Solo Bot"
+          git config user.email "bot@aitoolssolo.com"
+          git add content/posts/ scripts/topics_done.txt
+          git diff --staged --quiet || git commit -m "Auto-publish: new post $(date +%Y-%m-%d)"
+          git push
