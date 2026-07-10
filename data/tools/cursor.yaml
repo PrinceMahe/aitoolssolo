@@ -1,0 +1,18 @@
+slug: cursor
+name: Cursor
+category: coding
+summary: An AI-first code editor (VS Code fork) that writes, edits, and refactors across your repo.
+pricing: Freemium — free tier; Pro $20/mo
+affiliate: ""
+rating: 4.7
+tags: [coding, ide, build, developer]
+features:
+  - Repo-wide chat and edits
+  - Tab autocomplete
+  - Natural-language refactors
+best_for:
+  - Solopreneurs shipping software
+pros:
+  - Real coding leverage
+cons:
+  - Needs coding basics to steer

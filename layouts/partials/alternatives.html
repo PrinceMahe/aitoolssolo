@@ -1,0 +1,16 @@
+{{/* "X alternatives": list OTHER tools as comparison links (internal mesh). */}}
+{{- $slug := .Params.tool | default .Params.slug -}}
+{{- $cur := index .Site.Data.tools $slug -}}
+{{- if $cur }}
+<div class="alternatives-list">
+  <p>If you're considering <strong>{{ $cur.name }}</strong>, also compare these solopreneur-friendly tools:</p>
+  <ul>
+  {{- range $k, $t := .Site.Data.tools }}
+    {{- if ne $t.slug $slug }}
+    <li><a href="/tools/{{ $t.slug }}/">{{ $t.name }}</a> — {{ $t.summary }}</li>
+    {{- end }}
+  {{- end }}
+  </ul>
+  <p class="alt-note">See the full <a href="/tools/">AI tools directory</a> or browse <a href="/categories/{{ $cur.category }}/">more in this category</a>.</p>
+</div>
+{{- end }}

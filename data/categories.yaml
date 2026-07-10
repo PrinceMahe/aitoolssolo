@@ -1,0 +1,26 @@
+# AI Tools Solo — category taxonomy
+# Drives /categories/<slug>/ aggregator pages and tool cross-linking.
+- slug: writing
+  name: Writing & Content
+  description: AI writing assistants, editors, and content generators that help solopreneurs publish faster.
+- slug: image
+  name: Image & Design
+  description: AI image generators, design tools, and branding helpers for one-person businesses.
+- slug: video
+  name: Video & Audio
+  description: Transcribe, edit, and produce video or podcast content without a production crew.
+- slug: automation
+  name: Automation & Workflow
+  description: Connect your apps, automate busywork, and build no-code workflows.
+- slug: productivity
+  name: Productivity & Research
+  description: Research, note-taking, and focus tools that multiply a solo founder's output.
+- slug: coding
+  name: Coding & Build
+  description: AI pair programmers and builders that ship sites, scripts, and apps solo.
+- slug: marketing
+  name: Marketing & SEO
+  description: Rank, reach, and convert with AI-driven SEO, email, and ad tooling.
+- slug: business
+  name: Business & Finance
+  description: Invoicing, planning, and financial copilots for the solo operator.

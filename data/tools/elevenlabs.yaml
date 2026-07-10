@@ -1,0 +1,18 @@
+slug: elevenlabs
+name: ElevenLabs
+category: video
+summary: Realistic AI voice synthesis for narration, dubbing, and audio content at scale.
+pricing: Freemium — free tier; Starter $5/mo
+affiliate: ""
+rating: 4.6
+tags: [audio, voice, tts, video]
+features:
+  - Lifelike text-to-speech
+  - Voice cloning
+  - Multilingual dubbing
+best_for:
+  - Creators needing voiceover
+pros:
+  - Best-in-class voice quality
+cons:
+  - Cloned voices need consent/setup

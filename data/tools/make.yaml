@@ -1,0 +1,18 @@
+slug: make
+name: Make
+category: automation
+summary: Visual automation builder with branching scenarios for complex no-code workflows.
+pricing: Freemium — free tier; Core $9/mo
+affiliate: ""
+rating: 4.4
+tags: [automation, no-code, workflows]
+features:
+  - Visual scenario builder
+  - Branching logic
+  - Rich app catalog
+best_for:
+  - Builders wanting control
+pros:
+  - Powerful visual logic
+cons:
+  - Steeper learning curve

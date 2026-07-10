@@ -1,0 +1,24 @@
+{{/* JSON-LD structured data injected into <head> for tool/category/alternatives pages. */}}
+{{- if eq .Type "tool" }}
+  {{- $t := index .Site.Data.tools .Params.tool }}
+  {{- if $t }}
+    {{- $cat := "" }}
+    {{- with (where .Site.Data.categories "slug" $t.category) }}{{ $cat = (index . 0).name }}{{ end }}
+    {{- $obj := dict
+      "@context" "https://schema.org"
+      "@type" "SoftwareApplication"
+      "name" $t.name
+      "description" $t.summary
+      "applicationCategory" $cat
+      "aggregateRating" (dict "@type" "AggregateRating" "ratingValue" (printf "%v" $t.rating) "ratingCount" "1")
+      "offers" (dict "@type" "Offer" "price" "0" "priceCurrency" "USD")
+    }}
+  <script type="application/ld+json">{{ $obj | jsonify | safeJS }}</script>
+  {{- end }}
+{{- else if eq .Type "category" }}
+  {{- $obj := dict "@context" "https://schema.org" "@type" "CollectionPage" "name" .Title "description" .Description }}
+  <script type="application/ld+json">{{ $obj | jsonify | safeJS }}</script>
+{{- else if eq .Type "alternatives" }}
+  {{- $obj := dict "@context" "https://schema.org" "@type" "ItemList" "name" .Title "description" .Description }}
+  <script type="application/ld+json">{{ $obj | jsonify | safeJS }}</script>
+{{- end }}

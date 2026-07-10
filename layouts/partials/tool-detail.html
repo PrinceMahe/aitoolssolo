@@ -1,0 +1,45 @@
+{{/* Render a single tool page from .Site.Data.tools by .Params.tool */}}
+{{- $slug := .Params.tool -}}
+{{- $t := index .Site.Data.tools $slug -}}
+{{- if not $t }}<p>Tool not found.</p>{{ return }}{{ end -}}
+<section class="tool-detail">
+  <p class="tool-summary">{{ $t.summary }}</p>
+
+  <div class="tool-rating">Rating: <strong>{{ $t.rating }}/5</strong></div>
+
+  {{- with $t.features }}
+  <h2>Key features</h2>
+  <ul class="tool-features">
+    {{- range . }}<li>{{ . }}</li>{{ end -}}
+  </ul>
+  {{- end }}
+
+  {{- with $t.best_for }}
+  <h2>Best for</h2>
+  <ul>
+    {{- range . }}<li>{{ . }}</li>{{ end -}}
+  </ul>
+  {{- end }}
+
+  {{- if or $t.pros $t.cons }}
+  <div class="tool-proscons">
+    {{- with $t.pros }}<div><h3>Pros</h3><ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul></div>{{ end }}
+    {{- with $t.cons }}<div><h3>Cons</h3><ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul></div>{{ end }}
+  </div>
+  {{- end }}
+
+  <p class="tool-pricing"><strong>Pricing:</strong> {{ $t.pricing }}</p>
+
+  {{- if $t.affiliate }}
+  <p class="tool-cta"><a class="btn" href="{{ $t.affiliate }}" rel="sponsored nofollow" target="_blank">Try {{ $t.name }} →</a></p>
+  {{- end }}
+
+  {{- with $t.tags }}
+  <div class="tool-tags">
+    {{- range . }}<span class="tag">#{{ . }}</span>{{ end -}}
+  </div>
+  {{- end }}
+</section>
+
+<h2>More {{ $t.name }} resources</h2>
+{{- partial "alternatives.html" . }}

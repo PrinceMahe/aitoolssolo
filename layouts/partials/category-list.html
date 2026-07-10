@@ -1,0 +1,25 @@
+{{/* List all tools in the current category + tag-based internal links */}}
+{{- $slug := .Params.slug -}}
+{{- $tools := where .Site.Data.tools "" "" -}}
+<div class="category-tools">
+  <ul>
+  {{- range $k, $t := .Site.Data.tools }}
+    {{- if eq $t.category $slug }}
+    <li class="tool-card">
+      <a href="/tools/{{ $t.slug }}/"><strong>{{ $t.name }}</strong></a>
+      <span class="tool-cat-summary">— {{ $t.summary }}</span>
+      <div class="tool-pricing-mini">Pricing: {{ $t.pricing }}</div>
+    </li>
+    {{- end }}
+  {{- end }}
+  </ul>
+</div>
+
+<h2>Explore by tag</h2>
+<div class="tag-cloud">
+  {{- $tags := slice -}}
+  {{- range .Site.Data.tools }}{{ range .tags }}{{ $tags = $tags | append . }}{{ end }}{{ end -}}
+  {{- range (uniq $tags) }}
+    <a class="tag-link" href="/tags/{{ . }}/">#{{ . }}</a>
+  {{- end }}
+</div>
