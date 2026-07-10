@@ -1,0 +1,9 @@
+{
+  "name": "aitoolssolo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI Tools Solo — directory of AI tools with 'There's an AI for that' use-case pages.",
+  "engines": {
+    "hugo": "extended_0.158.0"
+  }
+}
