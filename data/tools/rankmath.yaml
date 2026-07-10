@@ -1,0 +1,20 @@
+slug: rankmath
+name: "Rank Math"
+category: marketing
+summary: "WordPress SEO plugin with AI content and schema."
+pricing: "Freemium — free tier; Pro $59/yr"
+affiliate: ""
+rating: 4.5
+tags: [seo, wordpress, plugin]
+features:
+  - On-page SEO
+  - Schema generator
+  - AI suggestions
+best_for:
+  - WordPress site owners
+  - Bloggers
+pros:
+  - Powerful free
+  - WP-native
+cons:
+  - WP only

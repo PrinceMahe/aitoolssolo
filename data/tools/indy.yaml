@@ -1,0 +1,20 @@
+slug: indy
+name: "Indy"
+category: business
+summary: "All-in-one freelance suite: CRM, contracts, invoices."
+pricing: "Freemium — free tier; Pro $9/mo"
+affiliate: ""
+rating: 4.0
+tags: [freelance, business, crm]
+features:
+  - Proposals + contracts
+  - Time tracking
+  - Invoicing
+best_for:
+  - Freelancers
+  - Consultants
+pros:
+  - Covers everything
+  - Cheap
+cons:
+  - Less deep

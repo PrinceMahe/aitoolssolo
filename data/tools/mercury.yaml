@@ -1,0 +1,20 @@
+slug: mercury
+name: "Mercury"
+category: business
+summary: "Banking for startups with automation and APIs."
+pricing: "Free — banking"
+affiliate: ""
+rating: 4.4
+tags: [banking, finance, business]
+features:
+  - Startup banking
+  - API + automations
+  - Vaults
+best_for:
+  - Startups
+  - Founders
+pros:
+  - Great UX
+  - API
+cons:
+  - US/entities only

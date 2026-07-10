@@ -1,0 +1,20 @@
+slug: gumloop
+name: "Gumloop"
+category: automation
+summary: "Drag-and-drop AI automation for business workflows."
+pricing: "Freemium — free tier; Pro $29/mo"
+affiliate: ""
+rating: 4.2
+tags: [automation, ai, workflow]
+features:
+  - Visual AI flows
+  - Browser nodes
+  - Subflows
+best_for:
+  - Ops and GTM
+  - Founders
+pros:
+  - No-code AI
+  - Intuitive
+cons:
+  - Credits limit

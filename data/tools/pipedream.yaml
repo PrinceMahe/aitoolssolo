@@ -1,0 +1,20 @@
+slug: pipedream
+name: "Pipedream"
+category: automation
+summary: "Developer automation with code and 2,000+ APIs."
+pricing: "Freemium — free tier; Pro $20/mo"
+affiliate: ""
+rating: 4.4
+tags: [automation, api, developer]
+features:
+  - Serverless workflows
+  - Prebuilt API actions
+  - Event sources
+best_for:
+  - Developers
+  - Backend teams
+pros:
+  - Code + no-code
+  - Fast
+cons:
+  - Dev leaning

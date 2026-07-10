@@ -1,0 +1,20 @@
+slug: mailchimp
+name: "Mailchimp"
+category: marketing
+summary: "Email marketing with AI content and journeys."
+pricing: "Freemium — free tier; Essentials $13/mo"
+affiliate: ""
+rating: 4.2
+tags: [email, marketing, crm]
+features:
+  - Email builder
+  - Automations
+  - AI content
+best_for:
+  - Small businesses
+  - Creators
+pros:
+  - Familiar
+  - Free tier
+cons:
+  - Price creep

@@ -1,0 +1,20 @@
+slug: raycast
+name: "Raycast"
+category: productivity
+summary: "Launcher with AI commands, snippets, and dev tools."
+pricing: "Freemium — free tier; Pro $8/mo"
+affiliate: ""
+rating: 4.7
+tags: [launcher, productivity, dev]
+features:
+  - Instant commands
+  - AI chat + quicklinks
+  - Extensions
+best_for:
+  - Developers
+  - Power users
+pros:
+  - Huge speedup
+  - Extensible
+cons:
+  - macOS only

@@ -1,0 +1,19 @@
+slug: elicit
+name: "Elicit"
+category: productivity
+summary: "AI literature review that extracts data from papers."
+pricing: "Freemium — free tier; Pro $10/mo"
+affiliate: ""
+rating: 4.3
+tags: [research, academic, review]
+features:
+  - Literature review
+  - Data extraction
+  - Summaries
+best_for:
+  - Researchers
+  - Students
+pros:
+  - Saves review time
+cons:
+  - Academic only

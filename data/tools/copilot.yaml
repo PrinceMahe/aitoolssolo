@@ -1,0 +1,20 @@
+slug: copilot
+name: "GitHub Copilot"
+category: coding
+summary: "Inline AI pair programmer inside your editor."
+pricing: "Paid — from $10/mo"
+affiliate: ""
+rating: 4.4
+tags: [coding, pair, editor]
+features:
+  - Inline completions
+  - Chat in IDE
+  - Multi-file edits
+best_for:
+  - Developers
+  - Teams
+pros:
+  - Proven speedup
+  - Everywhere
+cons:
+  - Can suggest bugs

@@ -1,0 +1,20 @@
+slug: dify
+name: "Dify"
+category: automation
+summary: "Open-source LLM app builder and agent workflows."
+pricing: "Freemium — self-host free; Cloud $59/mo"
+affiliate: ""
+rating: 4.5
+tags: [automation, llm, agent]
+features:
+  - Build AI apps visually
+  - RAG pipelines
+  - Agent workflows
+best_for:
+  - AI builders
+  - Startups
+pros:
+  - Open and capable
+  - RAG built-in
+cons:
+  - Technical setup

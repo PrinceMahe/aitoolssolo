@@ -1,0 +1,20 @@
+slug: pika
+name: "Pika"
+category: video
+summary: "Fun, fast text-to-video with playful effects."
+pricing: "Freemium — free tier; Pro $8/mo"
+affiliate: ""
+rating: 4.3
+tags: [video, generator, social]
+features:
+  - Text/image-to-video
+  - Pikaffects
+  - Lip-sync
+best_for:
+  - Social creators
+  - Hobbyists
+pros:
+  - Easy and fast
+  - Playful
+cons:
+  - Less cinematic

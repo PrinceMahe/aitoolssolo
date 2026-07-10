@@ -1,0 +1,20 @@
+slug: sourcegraph
+name: "Sourcegraph Cody"
+category: coding
+summary: "Codebase-aware AI using your whole repo as context."
+pricing: "Freemium — free tier; Pro $9/mo"
+affiliate: ""
+rating: 4.2
+tags: [coding, rag, editor]
+features:
+  - Repo-aware chat
+  - Contextual edits
+  - Many IDEs
+best_for:
+  - Large codebases
+  - Teams
+pros:
+  - Knows your code
+  - Good free
+cons:
+  - Setup for big repos

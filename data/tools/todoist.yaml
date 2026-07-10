@@ -1,0 +1,20 @@
+slug: todoist
+name: "Todoist"
+category: productivity
+summary: "Clean task manager with natural-language AI."
+pricing: "Freemium — free tier; Pro $4/mo"
+affiliate: ""
+rating: 4.4
+tags: [tasks, productivity, gtd]
+features:
+  - Quick capture
+  - AI prioritization
+  - Cross-platform
+best_for:
+  - GTD practitioners
+  - Everyone
+pros:
+  - Simple and reliable
+  - Cheap
+cons:
+  - No docs

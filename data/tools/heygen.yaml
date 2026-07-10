@@ -1,0 +1,20 @@
+slug: heygen
+name: "HeyGen"
+category: video
+summary: "AI avatar spokespeople and video translation at scale."
+pricing: "Freemium — free tier; Pro $24/mo"
+affiliate: ""
+rating: 4.5
+tags: [video, avatar, translate]
+features:
+  - Photo-real avatars
+  - Video translation + lip-sync
+  - Templates
+best_for:
+  - Marketers
+  - Course creators
+pros:
+  - Convincing avatars
+  - Localization
+cons:
+  - Avatar uncanny at times

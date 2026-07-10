@@ -1,0 +1,19 @@
+slug: pythagora
+name: "Pythagora"
+category: coding
+summary: "Generate Node.js apps from natural language specs."
+pricing: "Free / open-source"
+affiliate: ""
+rating: 4.0
+tags: [coding, fullstack, agent]
+features:
+  - Spec-to-app
+  - Auto testing
+  - Debugging
+best_for:
+  - Founders
+  - Students
+pros:
+  - No-code-ish
+cons:
+  - Node only

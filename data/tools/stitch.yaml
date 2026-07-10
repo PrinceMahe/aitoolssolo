@@ -1,0 +1,20 @@
+slug: stitch
+name: "Stitch"
+category: business
+summary: "AI generates UI design from prompts and images."
+pricing: "Freemium — free tier; Pro $10/mo"
+affiliate: ""
+rating: 4.2
+tags: [design, ui, business]
+features:
+  - Prompt-to-UI
+  - Image-to-design
+  - Export to code
+best_for:
+  - Product teams
+  - Founders
+pros:
+  - Google-backed
+  - Fast
+cons:
+  - New/early

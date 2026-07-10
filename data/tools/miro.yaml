@@ -1,0 +1,20 @@
+slug: miro
+name: "Miro"
+category: productivity
+summary: "Infinite whiteboard with AI diagramming and synthesis."
+pricing: "Freemium — free tier; Pro $8/mo"
+affiliate: ""
+rating: 4.3
+tags: [whiteboard, productivity, brainstorm]
+features:
+  - Infinite canvas
+  - AI summarize + diagram
+  - Templates
+best_for:
+  - Teams
+  - Designers
+pros:
+  - Visual colllab
+  - Good free
+cons:
+  - Cluttered boards

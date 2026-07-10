@@ -1,0 +1,20 @@
+slug: expensify
+name: "Expensify"
+category: business
+summary: "Receipt scanning and expense approvals on autopilot."
+pricing: "Freemium — free tier; Pro $5/mo"
+affiliate: ""
+rating: 4.1
+tags: [expenses, finance, business]
+features:
+  - SmartScan receipts
+  - Approval flows
+  - Reimbursement
+best_for:
+  - Teams
+  - Finance
+pros:
+  - Receipts easy
+  - Integrations
+cons:
+  - UI dated

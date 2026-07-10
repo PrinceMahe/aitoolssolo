@@ -1,0 +1,20 @@
+slug: riverside
+name: "Riverside"
+category: video
+summary: "Studio-quality remote recording with AI show notes."
+pricing: "Freemium — free tier; Pro $15/mo"
+affiliate: ""
+rating: 4.5
+tags: [video, podcast, record]
+features:
+  - 4K local recording
+  - AI transcripts and clips
+  - Magic Audio
+best_for:
+  - Podcasters
+  - Interviews
+pros:
+  - Great audio
+  - Separate tracks
+cons:
+  - Pro for exports

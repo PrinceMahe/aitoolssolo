@@ -1,0 +1,20 @@
+slug: brevo
+name: "Brevo"
+category: marketing
+summary: "Email + SMS marketing with a free tier."
+pricing: "Freemium — free tier; Starter $9/mo"
+affiliate: ""
+rating: 4.3
+tags: [email, marketing, sms]
+features:
+  - Email + SMS
+  - CRM lite
+  - Automations
+best_for:
+  - SMBs
+  - Startups
+pros:
+  - Generous free
+  - Multi-channel
+cons:
+  - Deliverability tiers

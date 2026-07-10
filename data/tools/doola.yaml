@@ -1,0 +1,19 @@
+slug: doola
+name: "Doola"
+category: business
+summary: "Formation, bookkeeping, and banking for US startups."
+pricing: "Paid — from $39/mo"
+affiliate: ""
+rating: 4.1
+tags: [formation, finance, business]
+features:
+  - LLC/Corp formation
+  - Bookkeeping
+  - US banking
+best_for:
+  - Non-US founders
+  - Startups
+pros:
+  - Full-stack setup
+cons:
+  - US-focused

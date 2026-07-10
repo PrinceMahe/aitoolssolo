@@ -1,0 +1,20 @@
+slug: fireflies
+name: "Fireflies.ai"
+category: productivity
+summary: "Meeting recorder that logs and summarizes every call."
+pricing: "Freemium — free tier; Pro $10/mo"
+affiliate: ""
+rating: 4.3
+tags: [meeting, transcription, crm]
+features:
+  - Auto record + summarize
+  - CRM sync
+  - Searchable library
+best_for:
+  - Sales teams
+  - Founders
+pros:
+  - CRM integration
+  - Auto notes
+cons:
+  - Storage limits

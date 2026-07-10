@@ -1,0 +1,20 @@
+slug: replit
+name: "Replit"
+category: coding
+summary: "Cloud IDE with an AI agent that builds apps end to end."
+pricing: "Freemium — free tier; Core $20/mo"
+affiliate: ""
+rating: 4.3
+tags: [coding, ide, agent]
+features:
+  - Agent build
+  - Cloud IDE
+  - Deploy in-app
+best_for:
+  - Beginners
+  - Founders
+pros:
+  - Zero setup
+  - Deployable
+cons:
+  - Limited compute

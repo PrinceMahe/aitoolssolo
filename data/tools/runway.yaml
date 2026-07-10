@@ -1,0 +1,21 @@
+slug: runway
+name: "Runway"
+category: video
+summary: "Creative suite for AI video editing, generation, and motion."
+pricing: "Freemium — free tier; Pro $12/mo"
+affiliate: ""
+rating: 4.5
+tags: [video, edit, generator]
+features:
+  - Gen-2 text/image-to-video
+  - Inpainting and rotoscoping
+  - Motion tracking
+best_for:
+  - Video creators
+  - Agencies
+pros:
+  - Powerful toolkit
+  - Frequent updates
+cons:
+  - Credit cost
+  - Learning curve

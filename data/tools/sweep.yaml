@@ -1,0 +1,19 @@
+slug: sweep
+name: "Sweep"
+category: coding
+summary: "Bot that turns issues into code PRs."
+pricing: "Freemium — free tier; Pro $20/mo"
+affiliate: ""
+rating: 3.9
+tags: [coding, bot, pr]
+features:
+  - Issue-to-PR
+  - Repo-aware
+  - GitHub native
+best_for:
+  - Maintainers
+  - Teams
+pros:
+  - Auto PRs
+cons:
+  - Quality varies

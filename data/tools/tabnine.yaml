@@ -1,0 +1,20 @@
+slug: tabnine
+name: "Tabnine"
+category: coding
+summary: "Privacy-first AI completions, self-hostable."
+pricing: "Freemium — free tier; Pro $12/mo"
+affiliate: ""
+rating: 4.1
+tags: [coding, pair, privacy]
+features:
+  - Local/private models
+  - Whole-line completions
+  - Enterprise
+best_for:
+  - Enterprise devs
+  - Privacy buyers
+pros:
+  - Private option
+  - Cheap
+cons:
+  - Less capable

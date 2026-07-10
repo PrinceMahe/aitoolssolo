@@ -1,0 +1,20 @@
+slug: ifttt
+name: "IFTTT"
+category: automation
+summary: "Dead-simple applets connecting everyday apps and devices."
+pricing: "Freemium — free tier; Pro $3/mo"
+affiliate: ""
+rating: 4.0
+tags: [automation, simple, iot]
+features:
+  - One-line applets
+  - Smart-home triggers
+  - Mobile widgets
+best_for:
+  - Non-technical users
+  - Smart-home fans
+pros:
+  - Trivial to use
+  - Cheap
+cons:
+  - Limited logic

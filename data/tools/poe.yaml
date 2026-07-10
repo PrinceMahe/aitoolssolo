@@ -1,0 +1,20 @@
+slug: poe
+name: "Poe"
+category: productivity
+summary: "One inbox for many AI bots (Claude, GPT, others)."
+pricing: "Freemium — free tier; Pro $20/mo"
+affiliate: ""
+rating: 4.3
+tags: [chatbot, aggregator, ai]
+features:
+  - Many models in one
+  - Bot creator
+  - Fast switching
+best_for:
+  - AI power users
+  - Curious minds
+pros:
+  - Model choice
+  - Cheap
+cons:
+  - No own models

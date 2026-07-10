@@ -1,0 +1,20 @@
+slug: relay
+name: "Relay.app"
+category: automation
+summary: "Human-in-the-loop automation with AI steps."
+pricing: "Freemium — free tier; Pro $13/mo"
+affiliate: ""
+rating: 4.3
+tags: [automation, workflow, ai]
+features:
+  - AI steps
+  - Approvals
+  - Templates
+best_for:
+  - Ops teams
+  - SMBs
+pros:
+  - Human approvals
+  - Clean UI
+cons:
+  - Smaller catalog

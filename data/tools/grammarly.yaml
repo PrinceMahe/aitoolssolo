@@ -1,0 +1,21 @@
+slug: grammarly
+name: "Grammarly"
+category: writing
+summary: "AI grammar, clarity, and tone checker that polishes everything you write."
+pricing: "Freemium — free tier; Premium $12/mo"
+affiliate: ""
+rating: 4.7
+tags: [writing, editing, grammar]
+features:
+  - Real-time grammar and clarity fixes
+  - Tone and tone-rewrite suggestions
+  - Plagiarism and citation checks
+best_for:
+  - Anyone publishing written work
+  - Non-native English writers
+pros:
+  - Ubiquitous across apps
+  - Fast, low-friction
+cons:
+  - Premium paywalled features
+  - Can over-correct voice

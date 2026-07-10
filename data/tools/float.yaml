@@ -1,0 +1,19 @@
+slug: float
+name: "Float"
+category: business
+summary: "Cash-flow forecasting built on your accounting data."
+pricing: "Paid — from $49/mo"
+affiliate: ""
+rating: 4.2
+tags: [finance, cashflow, business]
+features:
+  - Cash forecasting
+  - Budget vs actual
+  - Syncs accounting
+best_for:
+  - Finance leads
+  - Agencies
+pros:
+  - Clear forecasts
+cons:
+  - Accounting required

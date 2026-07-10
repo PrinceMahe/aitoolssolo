@@ -1,0 +1,20 @@
+slug: chatpdf
+name: "ChatPDF"
+category: productivity
+summary: "Chat with any PDF to extract answers fast."
+pricing: "Freemium — free tier; Pro $5/mo"
+affiliate: ""
+rating: 4.3
+tags: [pdf, research, chat]
+features:
+  - Document chat
+  - Citations to pages
+  - Multi-file
+best_for:
+  - Researchers
+  - Students
+pros:
+  - Quick understanding
+  - Cheap
+cons:
+  - Large docs limit

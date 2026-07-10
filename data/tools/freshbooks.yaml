@@ -1,0 +1,20 @@
+slug: freshbooks
+name: "FreshBooks"
+category: business
+summary: "Invoicing and expense tracking for service businesses."
+pricing: "Paid — from $17/mo"
+affiliate: ""
+rating: 4.1
+tags: [invoicing, finance, business]
+features:
+  - Invoicing
+  - Time tracking
+  - Expense capture
+best_for:
+  - Freelancers
+  - Agencies
+pros:
+  - Simple billing
+  - Mobile
+cons:
+  - Limited accounting

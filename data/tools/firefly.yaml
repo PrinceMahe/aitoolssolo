@@ -1,0 +1,21 @@
+slug: firefly
+name: "Adobe Firefly"
+category: image
+summary: "Adobe's commercial-safe image and video model inside Creative Cloud."
+pricing: "Freemium — free tier; via CC"
+affiliate: ""
+rating: 4.4
+tags: [image, design, adobe]
+features:
+  - Commercially safe training
+  - Text effects and vectors
+  - Deep Photoshop integration
+best_for:
+  - Designers on Creative Cloud
+  - Brands
+pros:
+  - Safe for commercial
+  - Pro quality
+cons:
+  - Locked to Adobe
+  - Credits limit

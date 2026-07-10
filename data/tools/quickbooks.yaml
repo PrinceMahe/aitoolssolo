@@ -1,0 +1,21 @@
+slug: quickbooks
+name: "QuickBooks"
+category: business
+summary: "Full accounting with AI categorization and insights."
+pricing: "Paid — from $30/mo"
+affiliate: ""
+rating: 4.2
+tags: [accounting, finance, business]
+features:
+  - Auto-categorization
+  - Invoicing
+  - Reports
+best_for:
+  - Small businesses
+  - Freelancers
+pros:
+  - Industry standard
+  - Strong
+cons:
+  - Pricey
+  - Clunky

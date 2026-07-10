@@ -1,0 +1,20 @@
+slug: veed
+name: "Veed"
+category: video
+summary: "Browser video editor with auto-subtitles and cleanup."
+pricing: "Freemium — free tier; Pro $18/mo"
+affiliate: ""
+rating: 4.3
+tags: [video, edit, subtitles]
+features:
+  - Auto subtitles
+  - Background noise remover
+  - Trim and resize
+best_for:
+  - Marketers
+  - Educators
+pros:
+  - Easy in-browser
+  - Good subs
+cons:
+  - Watermark free

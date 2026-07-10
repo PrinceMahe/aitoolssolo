@@ -1,0 +1,20 @@
+slug: playground
+name: "Playground AI"
+category: image
+summary: "Graphic-design-meets-image-gen for social and product visuals."
+pricing: "Freemium — free tier; Pro $9/mo"
+affiliate: ""
+rating: 4.2
+tags: [image, design, social]
+features:
+  - Image generation + editor
+  - Templates
+  - Logo and mockup tools
+best_for:
+  - Social media creators
+  - Small brands
+pros:
+  - Design-friendly
+  - Free tier
+cons:
+  - Less precise prompts

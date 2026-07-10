@@ -1,0 +1,20 @@
+slug: v0
+name: "v0.dev"
+category: coding
+summary: "Generate UI components and apps from prompts."
+pricing: "Freemium — free tier; Pro $20/mo"
+affiliate: ""
+rating: 4.4
+tags: [coding, ui, frontend]
+features:
+  - Prompt-to-UI
+  - React + Tailwind
+  - Iterative chat
+best_for:
+  - Frontend devs
+  - Founders
+pros:
+  - Fast prototypes
+  - Clean code
+cons:
+  - Frontend only

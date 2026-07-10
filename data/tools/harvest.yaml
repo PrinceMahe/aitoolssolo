@@ -1,0 +1,20 @@
+slug: harvest
+name: "Harvest"
+category: business
+summary: "Time tracking and invoicing that feeds profitability."
+pricing: "Freemium — free tier; Pro $11/mo"
+affiliate: ""
+rating: 4.4
+tags: [time, invoicing, business]
+features:
+  - Time tracking
+  - Invoicing
+  - Reports
+best_for:
+  - Agencies
+  - Consultants
+pros:
+  - Simple + solid
+  - Integrations
+cons:
+  - No full accounting

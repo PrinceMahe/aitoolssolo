@@ -1,0 +1,20 @@
+slug: bolt
+name: "Bolt.new"
+category: coding
+summary: "Prompt-to-fullstack-app in the browser, edit live."
+pricing: "Freemium — free tier; Pro $20/mo"
+affiliate: ""
+rating: 4.4
+tags: [coding, fullstack, ui]
+features:
+  - Fullstack gen
+  - Live editor
+  - One-click deploy
+best_for:
+  - Founders
+  - Prototypers
+pros:
+  - Instant apps
+  - No setup
+cons:
+  - Token use

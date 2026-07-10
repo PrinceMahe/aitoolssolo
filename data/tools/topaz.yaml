@@ -1,0 +1,21 @@
+slug: topaz
+name: "Topaz Photo AI"
+category: image
+summary: "Upscale, denoise, and sharpen photos with AI."
+pricing: "Paid — from $99 one-time"
+affiliate: ""
+rating: 4.5
+tags: [image, enhance, photo]
+features:
+  - Upscaler
+  - Denoise and sharpen
+  - Batch processing
+best_for:
+  - Photographers
+  - Restorers
+pros:
+  - Pro quality
+  - One-time
+cons:
+  - Desktop only
+  - Heavy

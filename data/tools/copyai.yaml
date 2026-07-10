@@ -1,0 +1,21 @@
+slug: copyai
+name: "Copy.ai"
+category: writing
+summary: "Generative copy for ads, emails, and blogs with marketing templates."
+pricing: "Freemium — free tier; Pro $36/mo"
+affiliate: ""
+rating: 4.4
+tags: [writing, marketing, copy]
+features:
+  - Brand voice + workflows
+  - 30+ languages
+  - Sales and marketing workflows
+best_for:
+  - Marketers needing volume
+  - Agencies
+pros:
+  - Fast first drafts
+  - Good template library
+cons:
+  - Quality varies by prompt
+  - Pricey at scale

@@ -1,0 +1,20 @@
+slug: tactiq
+name: "Tactiq"
+category: productivity
+summary: "Real-time meeting notes and AI chat inside calls."
+pricing: "Freemium — free tier; Pro $8/mo"
+affiliate: ""
+rating: 4.1
+tags: [meeting, notes, transcript]
+features:
+  - Live transcript
+  - AI chat on call
+  - Export to docs
+best_for:
+  - Consultants
+  - Teams
+pros:
+  - Lightweight
+  - Cheap
+cons:
+  - Transcript quality

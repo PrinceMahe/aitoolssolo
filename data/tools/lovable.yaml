@@ -1,0 +1,20 @@
+slug: lovable
+name: "Lovable"
+category: coding
+summary: "Chat your way to full-stack web apps with auth and DB."
+pricing: "Freemium — free tier; Pro $20/mo"
+affiliate: ""
+rating: 4.5
+tags: [coding, fullstack, nocode]
+features:
+  - Chat-to-app
+  - Supabase backend
+  - Deploy
+best_for:
+  - Non-dev founders
+  - Builders
+pros:
+  - Ships real apps
+  - Fast
+cons:
+  - Backend ceiling

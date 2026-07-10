@@ -1,0 +1,19 @@
+slug: beamlabs
+name: "Beam AI"
+category: automation
+summary: "Autonomous agents that run repetitive back-office work."
+pricing: "Paid — custom"
+affiliate: ""
+rating: 4.0
+tags: [automation, agent, rpa]
+features:
+  - Autonomous agents
+  - Process mining
+  - Handoff to human
+best_for:
+  - Operations teams
+  - Finance
+pros:
+  - Agentic approach
+cons:
+  - Early/enterprise

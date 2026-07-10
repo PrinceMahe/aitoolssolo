@@ -1,0 +1,20 @@
+slug: mem
+name: "Mem"
+category: productivity
+summary: "Self-organizing notes with AI that writes and finds."
+pricing: "Freemium — free tier; Pro $8/mo"
+affiliate: ""
+rating: 4.1
+tags: [notes, productivity, ai]
+features:
+  - Auto-organized notes
+  - AI search
+  - Smart write
+best_for:
+  - Note-takers
+  - Researchers
+pros:
+  - No folders needed
+  - Fast
+cons:
+  - Sync limits

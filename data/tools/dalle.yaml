@@ -1,0 +1,21 @@
+slug: dalle
+name: "DALL-E 3"
+category: image
+summary: "OpenAI's image model, integrated into ChatGPT and Bing."
+pricing: "Freemium — via ChatGPT Plus"
+affiliate: ""
+rating: 4.3
+tags: [image, generator, art]
+features:
+  - Prompt-to-image in ChatGPT
+  - Inpainting and edits
+  - Natural language understanding
+best_for:
+  - Casual creators
+  - Writers wanting visuals
+pros:
+  - Easy access
+  - Good prompt adherence
+cons:
+  - Slow at peak
+  - Watermarked sometimes

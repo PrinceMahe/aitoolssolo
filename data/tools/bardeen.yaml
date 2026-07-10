@@ -1,0 +1,20 @@
+slug: bardeen
+name: "Bardeen"
+category: automation
+summary: "Browser-native automation with AI magic boxes."
+pricing: "Freemium — free tier; Pro $10/mo"
+affiliate: ""
+rating: 4.2
+tags: [automation, browser, scrape]
+features:
+  - No-code scraper
+  - GPT in workflows
+  - Playbooks
+best_for:
+  - Growth hackers
+  - Researchers
+pros:
+  - Browser-native
+  - Scraping
+cons:
+  - Chrome only

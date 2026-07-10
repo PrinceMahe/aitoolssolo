@@ -1,0 +1,20 @@
+slug: clickup
+name: "ClickUp"
+category: productivity
+summary: "All-in-one project and docs with AI assistant."
+pricing: "Freemium — free tier; Pro $7/mo"
+affiliate: ""
+rating: 4.2
+tags: [pm, productivity, docs]
+features:
+  - Tasks, docs, whiteboards
+  - AI writer
+  - Automations
+best_for:
+  - Teams
+  - Agencies
+pros:
+  - Very full-featured
+  - Free tier
+cons:
+  - Overwhelming UI

@@ -1,0 +1,20 @@
+slug: consensus
+name: "Consensus"
+category: productivity
+summary: "AI search over peer-reviewed research papers."
+pricing: "Freemium — free tier; Pro $7/mo"
+affiliate: ""
+rating: 4.3
+tags: [research, academic, search]
+features:
+  - Study summaries
+  - Consensus meters
+  - Citations
+best_for:
+  - Researchers
+  - Students
+pros:
+  - Evidence-based
+  - Fast
+cons:
+  - Narrow scope

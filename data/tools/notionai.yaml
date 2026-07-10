@@ -1,0 +1,20 @@
+slug: notionai
+name: "Notion AI"
+category: productivity
+summary: "Writing, Q&A, and search inside your Notion workspace."
+pricing: "Paid — add-on $8/user"
+affiliate: ""
+rating: 4.3
+tags: [notes, ai, productivity]
+features:
+  - AI writer in docs
+  - Q&A across workspace
+  - Summarize
+best_for:
+  - Notion users
+  - Teams
+pros:
+  - Context-aware
+  - Native
+cons:
+  - Add-on cost

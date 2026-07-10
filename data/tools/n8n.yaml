@@ -1,0 +1,20 @@
+slug: n8n
+name: "n8n"
+category: automation
+summary: "Open-source workflow automation with code when you need it."
+pricing: "Freemium — self-host free; Cloud $20/mo"
+affiliate: ""
+rating: 4.6
+tags: [automation, opensource, workflow]
+features:
+  - Visual + code nodes
+  - Self-host or cloud
+  - 200+ integrations
+best_for:
+  - Technical founders
+  - Ops engineers
+pros:
+  - Powerful and free self-host
+  - Flexible
+cons:
+  - Setup needed

@@ -1,0 +1,20 @@
+slug: verbix
+name: "Verb AI"
+category: writing
+summary: "Lightweight AI editor for rewriting and brainstorming."
+pricing: "Freemium"
+affiliate: ""
+rating: 4.0
+tags: [writing, rewrite]
+features:
+  - Rewrite suggestions
+  - Tone control
+  - Browser extension
+best_for:
+  - Casual writers
+  - Editors
+pros:
+  - Simple
+  - Free option
+cons:
+  - Basic features

@@ -1,0 +1,20 @@
+slug: windsurf
+name: "Windsurf"
+category: coding
+summary: "AI-native editor with Cascade agent flows."
+pricing: "Freemium — free tier; Pro $15/mo"
+affiliate: ""
+rating: 4.4
+tags: [coding, editor, agent]
+features:
+  - Cascade agent
+  - Multi-file edits
+  - Cmd+K
+best_for:
+  - Developers
+  - Teams
+pros:
+  - Agentic edits
+  - Fast
+cons:
+  - Pro for limits

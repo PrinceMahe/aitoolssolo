@@ -1,0 +1,20 @@
+slug: wave
+name: "Wave"
+category: business
+summary: "Free accounting and invoicing for tiny businesses."
+pricing: "Freemium — free accounting; Payments fee"
+affiliate: ""
+rating: 4.0
+tags: [accounting, free, business]
+features:
+  - Free accounting
+  - Invoicing
+  - Payments
+best_for:
+  - Micro-businesses
+  - Solopreneurs
+pros:
+  - Free core
+  - Easy
+cons:
+  - Paid add-ons

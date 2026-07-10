@@ -1,0 +1,20 @@
+slug: ideogram
+name: "Ideogram"
+category: image
+summary: "Image generator with notably accurate text rendering."
+pricing: "Freemium — free tier; Plus $8/mo"
+affiliate: ""
+rating: 4.4
+tags: [image, generator, typography]
+features:
+  - Accurate in-image text
+  - Logos and posters
+  - Fast generations
+best_for:
+  - Marketers needing text-in-image
+  - Designers
+pros:
+  - Best text rendering
+  - Cheap
+cons:
+  - Less photoreal

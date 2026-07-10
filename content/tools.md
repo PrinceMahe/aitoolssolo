@@ -41,7 +41,7 @@ Browse the tools we use and recommend for running a one-person business. Every t
 
 | Tool | Best For |
 |------|----------|
-| **[Hostinger](https://www.hostinger.com/)** | Affordable shared & VPS hosting |
+| **[Hostinger](https://www.hostinger.com/aitoolssolo)** | Affordable shared & VPS hosting |
 | **[Cloudflare](https://cloudflare.com/)** | CDN, DNS, security, free tier |
 | **[Vercel](https://vercel.com/)** | Static sites, serverless, Next.js |
 
@@ -49,8 +49,8 @@ Browse the tools we use and recommend for running a one-person business. Every t
 
 | Tool | Best For |
 |------|----------|
-| **[Descript](https://www.descript.com/)** | Transcript-based editing, AI overdub, show notes |
-| **[Riverside.fm](https://riverside.fm/)** | High-quality remote podcast/video recording |
+| **[Descript](https://www.descript.com/?lmref=aitoolssolo)** | Transcript-based editing, AI overdub, show notes |
+| **[Riverside.fm](https://riverside.fm/?via=aitoolssolo)** | High-quality remote podcast/video recording |
 | **[CapCut](https://capcut.com/)** | Quick social video edits, mobile-friendly |
 
 → *Read: [Descript vs Riverside for Podcast Editing](/posts/descript-vs-riverside-for-podcast-editing-a-builders-field-report-after-200-epis/)*

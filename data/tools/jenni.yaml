@@ -1,0 +1,21 @@
+slug: jenni
+name: "Jenni"
+category: writing
+summary: "Autocomplete writing assistant for academic and long-form drafts."
+pricing: "Freemium — free tier; Pro $20/mo"
+affiliate: ""
+rating: 4.3
+tags: [writing, research, academic]
+features:
+  - Inline autocomplete
+  - Citation insertion
+  - Journal templates
+best_for:
+  - Researchers and students
+  - Long-form writers
+pros:
+  - Speeds drafting
+  - Citation help
+cons:
+  - Academic only focus
+  - Autocomplete can drift

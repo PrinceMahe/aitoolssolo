@@ -1,0 +1,20 @@
+slug: postiz
+name: "Postiz"
+category: marketing
+summary: "Open-source social media scheduling and AI."
+pricing: "Freemium — self-host free; Pro $20/mo"
+affiliate: ""
+rating: 4.3
+tags: [social, opensource, marketing]
+features:
+  - Multi-channel scheduling
+  - AI drafts
+  - Analytics
+best_for:
+  - Solopreneurs
+  - Teams
+pros:
+  - Open + cheap
+  - Clean
+cons:
+  - Smaller catalog

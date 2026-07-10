@@ -1,0 +1,20 @@
+slug: devin
+name: "Devin"
+category: coding
+summary: "Autonomous AI software engineer for whole tasks."
+pricing: "Paid — from $500/mo"
+affiliate: ""
+rating: 4.0
+tags: [coding, agent, enterprise]
+features:
+  - End-to-end tasks
+  - PRs from issues
+  - Shell + browser
+best_for:
+  - Eng teams
+  - Startups
+pros:
+  - Truly autonomous
+cons:
+  - Pricey
+  - Needs review

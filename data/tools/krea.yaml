@@ -1,0 +1,20 @@
+slug: krea
+name: "Krea"
+category: image
+summary: "Real-time AI canvas with upscaling and enhancement."
+pricing: "Freemium — free tier; Pro $8/mo"
+affiliate: ""
+rating: 4.3
+tags: [image, realtime, enhance]
+features:
+  - Real-time generation
+  - Upscaler and enhancer
+  - Background removal
+best_for:
+  - Designers wanting speed
+  - Social creators
+pros:
+  - Real-time feel
+  - Good enhancer
+cons:
+  - Feature churn

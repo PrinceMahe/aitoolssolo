@@ -1,0 +1,21 @@
+slug: kling
+name: "Kling AI"
+category: video
+summary: "High-fidelity text-to-video with strong motion coherence."
+pricing: "Freemium — free tier; Pro $10/mo"
+affiliate: ""
+rating: 4.4
+tags: [video, generator, image]
+features:
+  - Text-to-video
+  - Image-to-video
+  - Motion brush
+best_for:
+  - Creators
+  - Filmmakers
+pros:
+  - Strong motion
+  - Free tier
+cons:
+  - Credits limit
+  - Access queues

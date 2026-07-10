@@ -1,0 +1,21 @@
+slug: leonardo
+name: "Leonardo.Ai"
+category: image
+summary: "Game-art and product-image generator with fine control."
+pricing: "Freemium — free tier; Pro $10/mo"
+affiliate: ""
+rating: 4.5
+tags: [image, generator, design]
+features:
+  - Custom model training
+  - Asset-focused presets
+  - API access
+best_for:
+  - Game and product designers
+  - Indie creators
+pros:
+  - Great control
+  - Daily free credits
+cons:
+  - Can be slow
+  - Art-style bias

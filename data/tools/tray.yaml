@@ -1,0 +1,19 @@
+slug: tray
+name: "Tray.io"
+category: automation
+summary: "Enterprise iPaaS with a flexible visual builder."
+pricing: "Paid — custom"
+affiliate: ""
+rating: 4.1
+tags: [automation, enterprise, ipaas]
+features:
+  - General automation
+  - Citizen + pro modes
+  - Connectors
+best_for:
+  - Enterprises
+  - RevOps
+pros:
+  - Scales well
+cons:
+  - Custom pricing

@@ -1,0 +1,20 @@
+slug: codeium
+name: "Codeium"
+category: coding
+summary: "Free AI autocomplete and chat across editors."
+pricing: "Freemium — free tier; Pro $15/mo"
+affiliate: ""
+rating: 4.4
+tags: [coding, pair, free]
+features:
+  - Fast completions
+  - Chat + search
+  - Many IDEs
+best_for:
+  - Developers
+  - Students
+pros:
+  - Free and solid
+  - Broad support
+cons:
+  - Not agentic

@@ -1,0 +1,21 @@
+slug: stablediffusion
+name: "Stable Diffusion"
+category: image
+summary: "Open, customizable image model you can run locally or in the cloud."
+pricing: "Free / open-source"
+affiliate: ""
+rating: 4.5
+tags: [image, opensource, generator]
+features:
+  - Fully local and private
+  - Fine-tune your own models
+  - Massive community models
+best_for:
+  - Technical creators
+  - Privacy-focused users
+pros:
+  - Free and open
+  - Infinite control
+cons:
+  - Setup friction
+  - Needs GPU

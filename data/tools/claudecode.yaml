@@ -1,0 +1,20 @@
+slug: claudecode
+name: "Claude Code"
+category: coding
+summary: "Agentic CLI that plans, edits, and runs your codebase."
+pricing: "Paid — via Claude Pro/Max"
+affiliate: ""
+rating: 4.6
+tags: [coding, agent, cli]
+features:
+  - Repo-wide edits
+  - Terminal agent
+  - Tool use
+best_for:
+  - Developers
+  - Power users
+pros:
+  - Strong reasoning
+  - Autonomous
+cons:
+  - Needs oversight

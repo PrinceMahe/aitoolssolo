@@ -1,0 +1,20 @@
+slug: cline
+name: "Cline"
+category: coding
+summary: "Open-source autonomous coding agent in VS Code."
+pricing: "Free / open-source"
+affiliate: ""
+rating: 4.5
+tags: [coding, agent, opensource]
+features:
+  - Plan + act modes
+  - Tool use in terminal
+  - File edits
+best_for:
+  - Developers
+  - OSS fans
+pros:
+  - Open and capable
+  - Transparent
+cons:
+  - Early maturity

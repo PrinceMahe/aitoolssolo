@@ -1,0 +1,20 @@
+slug: semrush
+name: "Semrush"
+category: marketing
+summary: "All-in-one SEO, PPC, and competitive research suite."
+pricing: "Paid — from $119/mo"
+affiliate: ""
+rating: 4.5
+tags: [seo, research, marketing]
+features:
+  - Keyword + position tracking
+  - Site audit
+  - Competitor gaps
+best_for:
+  - SEO pros
+  - Agencies
+pros:
+  - Comprehensive
+  - Reliable
+cons:
+  - Expensive

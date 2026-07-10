@@ -1,0 +1,21 @@
+slug: writesonic
+name: "Writesonic"
+category: writing
+summary: "SEO-optimized article writer with a built-in chatbot and fact checker."
+pricing: "Freemium — free tier; Pro from $16/mo"
+affiliate: ""
+rating: 4.3
+tags: [writing, seo, blog]
+features:
+  - Article Writer 6.0 with citations
+  - ChatSonic conversational search
+  - Bulk article generation
+best_for:
+  - Bloggers at scale
+  - SEO teams
+pros:
+  - Long-form capable
+  - Fact-checking helps
+cons:
+  - Credits burn fast
+  - Tone inconsistent

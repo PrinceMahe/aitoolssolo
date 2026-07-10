@@ -1,0 +1,20 @@
+slug: taskade
+name: "Taskade"
+category: productivity
+summary: "AI workspace for tasks, docs, and agents."
+pricing: "Freemium — free tier; Pro $8/mo"
+affiliate: ""
+rating: 4.3
+tags: [tasks, productivity, ai]
+features:
+  - Tasks + docs + chat
+  - AI agents
+  - Templates
+best_for:
+  - Remote teams
+  - Founders
+pros:
+  - All-in-one
+  - Cheap
+cons:
+  - Jack-of-all

@@ -1,0 +1,19 @@
+slug: vanna
+name: "Vanna"
+category: coding
+summary: "Text-to-SQL with verified, self-learning queries."
+pricing: "Freemium — free tier; Pro $19/mo"
+affiliate: ""
+rating: 4.1
+tags: [coding, sql, data]
+features:
+  - NL to SQL
+  - Self-improving
+  - Connectors
+best_for:
+  - Analysts
+  - Data teams
+pros:
+  - Democratizes SQL
+cons:
+  - Setup per DB

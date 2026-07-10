@@ -1,0 +1,20 @@
+slug: luma
+name: "Luma Dream Machine"
+category: image
+summary: "Image and video model with realistic motion and lighting."
+pricing: "Freemium — free tier; Pro $10/mo"
+affiliate: ""
+rating: 4.5
+tags: [image, video, generator]
+features:
+  - Image-to-video
+  - Photoreal stills
+  - Keyframe control
+best_for:
+  - Creators wanting motion
+  - Marketers
+pros:
+  - Impressive realism
+  - Easy
+cons:
+  - Queue at peak
