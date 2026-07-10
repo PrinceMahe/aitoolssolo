@@ -2,3 +2,6 @@ public/
 resources/
 .hugo_build.lock
 .DS_Store
+
+# auto-publish runtime log
+scripts/publish.log
