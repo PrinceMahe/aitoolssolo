@@ -1,23 +1,42 @@
 # AI Tools Solo — Content Calendar
 # One topic per line. Completed topics tracked in topics_done.txt.
+# New topics below are pulled from live search demand (Brave + competitor
+# roundups, 2026): the "best AI tools for solopreneurs 2026" cluster + specific
+# tool reviews (ChatGPT, Claude, ElevenLabs, Notion AI, etc.) that currently
+# drive the most organic traffic in this niche.
 
-Make.com vs Zapier: Which Is Actually Better for Solopreneurs in 2025
+# --- Top-of-funnel cluster (highest volume, biggest gap on the site) ---
+Best AI tools for solopreneurs in 2026: the actual stack that ships
+AI tools for solopreneurs Reddit: what founders actually use and pay for
+Free AI tools for solopreneurs that are genuinely useful (no filler)
+AI tools to replace your first hire as a solopreneur
+The solo founder AI stack in 2026: what saves time vs what's hype
+
+# --- Specific tool reviews (high intent, low-ish competition) ---
+ChatGPT review for solopreneurs: is Plus worth it in 2026
+Claude AI review for solopreneurs: best use cases and limits
+Notion AI vs ChatGPT: which one should you actually use in 2026
+Notion AI review for solopreneurs: is the $10 add-on worth it
+ElevenLabs review for solopreneurs: best AI voice generator in 2026
+Best ElevenLabs alternatives for AI voice in 2026 (tested)
+ChatGPT vs Claude for writing sales copy: real results
+Perplexity AI review for solopreneur research and competitive intel
+Canva vs Adobe Express: best AI design tool for solo founders
+Descript vs ElevenLabs: which audio tool earns its subscription
+Gamma AI review: building decks and proposals as a solo founder
+Otter.ai vs Fireflies: best meeting notes tool for solopreneurs
+
+# --- Existing-style affiliate + use-case posts (kept for continuity) ---
+Make.com vs Zapier: Which Is Actually Better for Solopreneurs
 How to Automate Your Twitter/X Posting as a Solopreneur
 Best AI Tools for Freelance Writers Who Want to 10x Output
 How to Build a One-Person Content Agency With AI
-n8n vs Make.com: The Honest Comparison After Using Both
 Best AI Tools for Creating and Selling Online Courses
 How Solopreneurs Use AI to Write Better Cold Emails
-Beehiiv vs Substack: Which Paid Newsletter Platform Actually Pays More
-How to Use Claude AI for Long-Form SEO Content
 Best No-Code Tools for Building a SaaS as a Solopreneur
 How to Automate Client Onboarding With Make.com
-Best AI Video Tools for YouTube Solopreneurs in 2025
+Best AI Video Tools for YouTube Solopreneurs
 Notion AI vs Obsidian for Solopreneur Knowledge Management
 How to Use AI for Competitor Research Without Paying for Expensive Tools
-Best Affordable Hosting for Hugo Static Sites in 2025
+Best Affordable Hosting for Hugo Static Sites
 How to Build an Automated Lead Generation System With AI
-ChatGPT vs Claude for Writing Sales Copy: Real Results
-Best AI Podcast Tools for Solopreneurs Who Edit Alone
-How to Use Make.com to Automate Your Entire Content Pipeline
-Riverside.fm Review After 100+ Remote Podcast Episodes

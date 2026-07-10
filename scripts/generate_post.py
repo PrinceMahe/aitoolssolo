@@ -123,9 +123,20 @@ Style guide:
 - Natural, conversational tone
 - Include 2-3 relevant affiliate links where genuinely useful (do not force them)
 
+SEO requirements (these directly affect organic traffic):
+- Target ONE primary keyword derived from the topic; use it in the title, the
+  first 100 words, and at least one H2.
+- Use 4-6 descriptive H2/H3 headings that read like real search queries
+  (e.g. "Is X worth it for solopreneurs?", "X vs Y: which should you pick?").
+- End with an FAQ section of 3-4 questions people actually search for about this
+  topic, each answered in 2-4 sentences. Wrap FAQ questions as plain "### Q: ..."
+  headings so they can be picked up as rich results.
+- Naturally link to 1-2 OTHER relevant posts on the site where useful
+  (internal links help rankings and keep readers on-site).
+
 {AFFILIATE_CONTEXT}
 
-Return ONLY the complete markdown with this exact frontmatter (no extra text before or after):
+Return ONLY the complete markdown with this exact front matter (no extra text before or after):
 ---
 title: "TITLE HERE"
 description: "ONE SENTENCE META DESCRIPTION UNDER 160 CHARS"

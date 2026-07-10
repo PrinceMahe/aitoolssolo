@@ -1,0 +1,29 @@
+{{- with site.Params.homeInfoParams }}
+<article class="first-entry home-info">
+    <header class="entry-header">
+        <h1>{{ .Title | markdownify }}</h1>
+    </header>
+    <div class="entry-content">
+        {{ .Content | markdownify }}
+    </div>
+    <p class="home-start-here">
+        <a href="/pages/best-ai-tools-for-solopreneurs/">👉 Start here: The best AI tools for solopreneurs in 2026 (full stack + reviews)</a>
+    </p>
+    <footer class="entry-footer">
+        {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
+    </footer>
+</article>
+
+{{- /* Recent posts grid so new content is one click from the homepage */ -}}
+{{- $recent := where site.RegularPages "Section" "posts" | first 6 -}}
+{{- if $recent -}}
+<section class="home-recent">
+    <h2 class="home-recent-title">Latest deep dives</h2>
+    <ul class="home-recent-list">
+        {{- range $recent -}}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{- end -}}
+    </ul>
+</section>
+{{- end -}}
+{{- end -}}
