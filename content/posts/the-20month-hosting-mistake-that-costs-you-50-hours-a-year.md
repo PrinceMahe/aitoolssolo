@@ -4,7 +4,7 @@ description: "Don’t waste $100/month on slow hosting—here’s the real, batt
 date: 2026-05-02T12:00:52-04:00
 lastmod: 2026-05-11T00:00:00-04:00
 draft: false
-tags: ["the", "20month", "hosting", "mistake", "that"]
+tags: ["20", "month", "hosting", "mistake", "costs"]
 categories: ["AI Tools"]
 ShowToc: true
 TocOpen: false

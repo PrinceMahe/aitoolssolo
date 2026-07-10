@@ -4,7 +4,7 @@ description: "Honest descript review for youtube creators from a solo builder wh
 date: 2026-04-04T12:03:15-04:00
 lastmod: 2026-05-11T00:00:00-04:00
 draft: false
-tags: ["descript", "review", "for", "youtube", "creators"]
+tags: ["descript", "youtube", "creators", "i", "edit"]
 categories: ["AI Tools"]
 ShowToc: true
 TocOpen: false

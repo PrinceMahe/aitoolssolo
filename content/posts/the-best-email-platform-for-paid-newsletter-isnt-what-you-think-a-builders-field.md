@@ -4,7 +4,7 @@ description: "I tested every major paid newsletter platform so you don't have to
 date: 2026-03-28T12:01:16-04:00
 lastmod: 2026-05-11T00:00:00-04:00
 draft: false
-tags: ["the", "best", "email", "platform", "for"]
+tags: ["email", "platform", "paid", "newsletter", "isn"]
 categories: ["AI Tools"]
 ShowToc: true
 TocOpen: false

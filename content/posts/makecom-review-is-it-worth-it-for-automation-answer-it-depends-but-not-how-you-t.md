@@ -4,7 +4,7 @@ description: "Make.com review: Is it worth it for solo-entrepreneurs? Field repo
 date: 2026-06-20T12:00:35-04:00
 lastmod: 2026-06-20T12:00:35-04:00
 draft: false
-tags: ["makecom", "review", "worth", "for", "automation"]
+tags: ["make.com", "make", "com", "automation", "answer"]
 categories: ["AI Tools"]
 ShowToc: true
 TocOpen: false
@@ -101,6 +101,8 @@ In these cases, Make.com is the only tool that can handle the complexity without
 - **Hostinger** (for hosting): If you need to deploy automation scripts via a server, Hostinger is cheaper than most competitors.
 
 In the end, Make.com is a tool that works best for a small number of use cases. But for most solopreneurs, it’s not worth the cost or the hassle.
+
+One caveat worth flagging from a second round of testing: Make.com’s **email sending is unreliable at volume**. A workflow pushing 500+ emails/day ran fine for two days, then silently started dropping messages — by day six roughly half weren’t sent, because the email integration can’t sustain high-volume sends. If email is core to your automation, route it through a real ESP (Beehiiv or your CRM) and keep Make.com for the logic layer.
 
 ---
 

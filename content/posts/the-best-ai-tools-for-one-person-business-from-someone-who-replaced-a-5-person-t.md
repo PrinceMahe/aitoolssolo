@@ -4,7 +4,7 @@ description: "I run a 3-agent AI business solo. Here are the best AI tools for o
 date: 2026-04-02T12:03:17-04:00
 lastmod: 2026-05-11T00:00:00-04:00
 draft: false
-tags: ["the", "best", "tools", "for", "one"]
+tags: ["one", "person", "business", "someone", "who"]
 categories: ["AI Tools"]
 ShowToc: true
 TocOpen: false

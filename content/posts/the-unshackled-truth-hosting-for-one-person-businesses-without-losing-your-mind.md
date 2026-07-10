@@ -4,7 +4,7 @@ description: "Skip the fluff. Here's the real talk on hosting your one-person bu
 date: 2026-06-13T12:00:52-04:00
 lastmod: 2026-06-13T12:00:52-04:00
 draft: false
-tags: ["the", "unshackled", "truth", "hosting", "for"]
+tags: ["unshackled", "truth", "hosting", "one", "person"]
 categories: ["AI Tools"]
 ShowToc: true
 TocOpen: false

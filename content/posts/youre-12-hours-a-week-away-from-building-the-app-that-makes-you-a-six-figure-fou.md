@@ -4,7 +4,7 @@ description: "Automate small business workflows without coding — save hours we
 date: 2026-05-28T12:00:39-04:00
 lastmod: 2026-05-28T12:00:39-04:00
 draft: false
-tags: ["youre", "hours", "week", "away", "from"]
+tags: ["re", "12", "hours", "week", "away"]
 categories: ["AI Tools"]
 ShowToc: true
 TocOpen: false

@@ -4,7 +4,7 @@ description: "Jasper AI for product descriptions review—does it actually save 
 date: 2026-05-30T12:00:34-04:00
 lastmod: 2026-05-30T12:00:34-04:00
 draft: false
-tags: ["jasper", "for", "product", "descriptions", "review"]
+tags: ["jasper ai", "jasper", "product", "descriptions", "solo"]
 categories: ["AI Tools"]
 ShowToc: true
 TocOpen: false

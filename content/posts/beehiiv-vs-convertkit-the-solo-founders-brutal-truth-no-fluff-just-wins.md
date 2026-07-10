@@ -4,7 +4,7 @@ description: "Beehiiv vs ConvertKit: The Solo Founder's Brutal Truth (No Fluff, 
 date: 2026-06-11T12:00:41-04:00
 lastmod: 2026-06-11T12:00:41-04:00
 draft: false
-tags: ["beehiiv", "convertkit", "the", "solo", "founders"]
+tags: ["beehiiv", "convertkit", "solo", "founder", "s"]
 categories: ["AI Tools"]
 ShowToc: true
 TocOpen: false

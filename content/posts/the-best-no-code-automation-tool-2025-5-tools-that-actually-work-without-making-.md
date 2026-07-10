@@ -4,7 +4,7 @@ description: "Save 20 hours/week with the best no code automation tool 2025 — 
 date: 2026-06-16T12:00:46-04:00
 lastmod: 2026-06-16T12:00:46-04:00
 draft: false
-tags: ["the", "best", "code", "automation", "tool"]
+tags: ["automation", "2025", "5", "actually", "work"]
 categories: ["AI Tools"]
 ShowToc: true
 TocOpen: false

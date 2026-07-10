@@ -4,7 +4,7 @@ description: "I've spent $12K+ on Make.com over 2 years. Here's whether Make.com
 date: 2026-03-31T12:01:20-04:00
 lastmod: 2026-05-11T00:00:00-04:00
 draft: false
-tags: ["are", "makecom", "pricing", "plans", "worth"]
+tags: ["make.com", "make", "com", "pricing", "plans"]
 categories: ["AI Tools"]
 ShowToc: true
 TocOpen: false

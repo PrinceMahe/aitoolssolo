@@ -4,7 +4,7 @@ description: "Is Descript’s 2025 pricing worth it? Field report: 3 cases where
 date: 2026-06-23T12:00:36-04:00
 lastmod: 2026-06-23T12:00:36-04:00
 draft: false
-tags: ["why", "descript", "pricing", "2025", "bait"]
+tags: ["descript", "pricing", "2025", "bait", "switch"]
 categories: ["AI Tools"]
 ShowToc: true
 TocOpen: false

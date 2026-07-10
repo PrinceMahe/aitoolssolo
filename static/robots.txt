@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# Standard crawler guidance. (The upstream "content signals" file is served
+# separately and does NOT replace this — keep this one clean for SEO.)
+Sitemap: https://www.aitoolssolo.com/sitemap.xml

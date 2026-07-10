@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "AI Tools Solo — Smart AI Tools for Solopreneurs"
 theme = "PaperMod"
 paginate = 10
+# Force a single canonical host (www) so link equity isn't split between
+# aitoolssolo.com and www.aitoolssolo.com. Pair with the 301 in static/_redirects.
+linkCanonical = true
 
 [params]
   env = "production"
@@ -17,6 +20,9 @@ paginate = 10
   ShowToc = true
   TocOpen = false
   comments = false
+  # Surface 3 related posts at the bottom of every article -> more internal
+  # links, longer sessions, and faster discovery/indexing of deep pages.
+  related = true
 
   [params.homeInfoParams]
     Title = "🚀 AI Tools for Solopreneurs"
@@ -72,3 +78,18 @@ paginate = 10
     name = "Search"
     url = "/search/"
     weight = 40
+
+# Related-content matching so .Site.RegularPages.Related returns real suggestions.
+[related]
+  includeNewer = false
+  threshold = 60
+  toLower = false
+  [[related.indices]]
+    name = "tags"
+    weight = 80
+  [[related.indices]]
+    name = "keywords"
+    weight = 30
+  [[related.indices]]
+    name = "date"
+    weight = 10

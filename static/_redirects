@@ -1,0 +1,4 @@
+# Netlify redirect: send the non-www host to www with a 301 so Google
+# treats www.aitoolssolo.com as the single canonical domain.
+https://aitoolssolo.com/* https://www.aitoolssolo.com/:splat 301!
+http://aitoolssolo.com/* https://www.aitoolssolo.com/:splat 301!

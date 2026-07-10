@@ -4,7 +4,7 @@ description: "Stop wasting money on expensive LLM APIs. Learn how to crawl any w
 date: 2026-07-04T16:20:00-04:00
 lastmod: 2026-07-04T16:20:00-04:00
 draft: false
-tags: ["apify", "ollama", "scraping", "local-llm", "automation"]
+tags: ["analyze", "any", "web", "page", "locally"]
 categories: ["AI Tools", "Automation"]
 ShowToc: true
 TocOpen: false

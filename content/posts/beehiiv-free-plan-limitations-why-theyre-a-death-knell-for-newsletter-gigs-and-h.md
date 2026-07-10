@@ -4,7 +4,7 @@ description: "Beehiiv’s free plan isn’t free. Here’s how its limits will k
 date: 2026-05-26T12:00:43-04:00
 lastmod: 2026-05-26T12:00:43-04:00
 draft: false
-tags: ["beehiiv", "free", "plan", "limitations", "why"]
+tags: ["beehiiv", "free", "plan", "limitations", "they"]
 categories: ["AI Tools"]
 ShowToc: true
 TocOpen: false

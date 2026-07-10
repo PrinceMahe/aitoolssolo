@@ -4,7 +4,7 @@ description: "Descript vs Riverside for podcast editing — a solo builder's hon
 date: 2026-03-25T04:32:37-04:00
 lastmod: 2026-05-11T00:00:00-04:00
 draft: false
-tags: ["descript", "riverside", "podcast-editing", "ai-tools", "content-creation"]
+tags: ["descript", "riverside", "podcast", "editing", "builder"]
 categories: ["AI Tools"]
 ShowToc: true
 TocOpen: false

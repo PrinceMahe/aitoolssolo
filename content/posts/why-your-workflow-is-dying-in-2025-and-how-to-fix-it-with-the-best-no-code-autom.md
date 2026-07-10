@@ -4,7 +4,7 @@ description: "No-code automation tools are killing productivity in 2025 — here
 date: 2026-06-16T12:01:19-04:00
 lastmod: 2026-06-16T12:01:19-04:00
 draft: false
-tags: ["why", "your", "workflow", "dying", "2025"]
+tags: ["workflow", "dying", "2025", "fix", "automation"]
 categories: ["AI Tools"]
 ShowToc: true
 TocOpen: false

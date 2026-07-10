@@ -1,0 +1,24 @@
+{{/* Show up to 3 posts that share the most tags with the current one.
+     Implemented with a manual tag-intersection (not Hugo's .Related, which is
+     unreliable with custom taxonomies) so it always renders when tags overlap. */}}
+{{ $tags := .Params.tags | default slice }}
+{{ $candidates := where .Site.RegularPages "RelPermalink" "!=" .RelPermalink }}
+{{ $scored := slice }}
+{{ range $candidates }}
+  {{ $shared := intersect $tags (.Params.tags | default slice) }}
+  {{ if gt (len $shared) 0 }}
+    {{ $scored = $scored | append (dict "p" . "n" (len $shared)) }}
+  {{ end }}
+{{ end }}
+{{ $scored = sort $scored "n" "desc" }}
+{{ $top := first 3 $scored }}
+{{ if gt (len $top) 0 }}
+<section class="related-posts">
+  <h2 class="related-title">Related reads</h2>
+  <ul class="related-list">
+    {{ range $top }}
+    <li><a href="{{ .p.RelPermalink }}">{{ .p.Title }}</a></li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}

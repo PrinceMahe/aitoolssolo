@@ -4,7 +4,7 @@ description: "Make.com vs n8n self hosted: Which automates your solopreneur work
 date: 2026-06-04T12:00:40-04:00
 lastmod: 2026-06-04T12:00:40-04:00
 draft: false
-tags: ["makecom", "n8n", "self", "hosted", "which"]
+tags: ["make.com", "make", "com", "n8n", "self"]
 categories: ["AI Tools"]
 ShowToc: true
 TocOpen: false

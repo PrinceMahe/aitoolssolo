@@ -4,7 +4,7 @@ description: "Comparing Beehiiv and Substack for solopreneurs: revenue models, f
 date: 2026-05-11T10:35:16-04:00
 lastmod: 2026-05-11T00:00:00-04:00
 draft: false
-tags: ["newsletter", "beehiiv", "substack", "paid newsletters", "monetization", "solopreneur"]
+tags: ["beehiiv", "substack", "which", "paid", "newsletter"]
 categories: ["AI Tools", "Automation"]
 ShowToc: true
 TocOpen: false

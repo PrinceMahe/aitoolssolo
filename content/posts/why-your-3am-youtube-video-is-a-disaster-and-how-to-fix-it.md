@@ -4,7 +4,7 @@ description: "Solopreneurs: Cut 10 hours/week from video editing with AI tools a
 date: 2026-06-02T12:00:49-04:00
 lastmod: 2026-06-02T12:00:49-04:00
 draft: false
-tags: ["why", "your", "3am", "youtube", "video"]
+tags: ["3am", "youtube", "video", "disaster", "fix"]
 categories: ["AI Tools"]
 ShowToc: true
 TocOpen: false
