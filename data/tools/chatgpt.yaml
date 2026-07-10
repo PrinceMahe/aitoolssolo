@@ -1,20 +1,19 @@
 slug: chatgpt
-name: ChatGPT
-category: writing
-summary: The default conversational AI for drafting, brainstorming, coding, and everyday solopreneur tasks.
-pricing: Freemium — free tier; Plus $20/mo
+name: "ChatGPT"
+category: productivity
+summary: "OpenAI's conversational AI for writing, coding, and research."
+pricing: "Freemium / $20 mo"
 affiliate: ""
-rating: 4.8
-tags: [chatbot, writing, coding, research]
+rating: 4.7
+tags: [productivity, chat, research]
 features:
-  - Chat, voice, and image input in one place
-  - Custom GPTs for repeatable workflows
-  - File upload and data analysis
+  - GPT-4o
+  - Vision
+  - Voice
 best_for:
-  - Solopreneurs who wear every hat
-  - Writers and indie hackers
+  - Everyone
 pros:
-  - Versatile across almost any task
-  - Huge free tier
+  - Versatile
+  - Fast
 cons:
-  - Generic output needs editing for brand voice
+  - Hallucinations

@@ -1,29 +1,66 @@
 {{- with site.Params.homeInfoParams }}
 <article class="first-entry home-info">
-    <header class="entry-header">
-        <h1>{{ .Title | markdownify }}</h1>
-    </header>
-    <div class="entry-content">
-        {{ .Content | markdownify }}
+  <header class="entry-header">
+    <h1>{{ .Title | markdownify }}</h1>
+  </header>
+  <div class="entry-content">
+    {{ .Content | markdownify }}
+  </div>
+
+  {{/* TAIAF-style hero search */}}
+  <div class="hero-search">
+    <p class="hero-tagline">There's an AI for that. Find it.</p>
+    <form action="/search/" method="get" class="hero-search-form" role="search">
+      <input type="search" name="q" placeholder="What do you want to do? e.g. write a blog post, edit a video, build a website…" aria-label="Search AI tools" />
+      <button type="submit">Search</button>
+    </form>
+  </div>
+
+  {{/* Use-case chips — the "AI for X" core */}}
+  {{- $tags := slice -}}
+  {{- range site.Data.tools }}{{ range .tags }}{{ $tags = $tags | append . }}{{ end }}{{ end -}}
+  {{- $tags = uniq $tags | first 24 }}
+  <section class="home-usecases">
+    <h2>AI for…</h2>
+    <div class="usecase-chips">
+      {{- range $tags }}
+      <a class="chip" href="/use-cases/{{ . }}/">AI for {{ . | humanize | title }}</a>
+      {{- end }}
+      <a class="chip chip-more" href="/use-cases/">All use cases →</a>
     </div>
-    <p class="home-start-here">
-        <a href="/pages/best-ai-tools-for-solopreneurs/">👉 Start here: The best AI tools for solopreneurs in 2026 (full stack + reviews)</a>
-    </p>
-    <footer class="entry-footer">
-        {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
-    </footer>
+  </section>
 </article>
 
+{{/* Top-rated tools grid */}}
+{{- $top := sort (slice) "rating" "desc" -}}
+{{- $tools := slice -}}
+{{- range site.Data.tools }}{{ $tools = $tools | append . }}{{ end -}}
+{{- $tools = sort $tools "rating" "desc" | first 12 }}
+<section class="home-tools">
+  <h2 class="home-tools-title">Top-rated tools</h2>
+  <div class="tool-grid">
+    {{- range $tools }}
+    <article class="tool-card">
+      <h3><a href="/tools/{{ .slug }}/">{{ .name }}</a></h3>
+      <span class="tool-rating">★ {{ .rating }}/5</span>
+      <p>{{ .summary }}</p>
+      <p class="tool-pricing">{{ .pricing }}</p>
+    </article>
+    {{- end }}
+  </div>
+  <p class="home-tools-more"><a href="/tools/">Browse all tools →</a></p>
+</section>
+
 {{- /* Recent posts grid so new content is one click from the homepage */ -}}
-{{- $recent := where site.RegularPages "Section" "posts" | first 6 -}}
+{{- $recent := where site.RegularPages "Section" "posts" | first 4 -}}
 {{- if $recent -}}
 <section class="home-recent">
-    <h2 class="home-recent-title">Latest deep dives</h2>
-    <ul class="home-recent-list">
-        {{- range $recent -}}
-        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-        {{- end -}}
-    </ul>
+  <h2 class="home-recent-title">Latest deep dives</h2>
+  <ul class="home-recent-list">
+    {{- range $recent -}}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{- end -}}
+  </ul>
 </section>
 {{- end -}}
 {{- end -}}

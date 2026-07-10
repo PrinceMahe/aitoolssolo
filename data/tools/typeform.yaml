@@ -1,0 +1,17 @@
+slug: typeform
+name: "Typeform"
+category: automation
+summary: "Conversational forms with logic and integrations."
+pricing: "Freemium / $25 mo"
+affiliate: ""
+rating: 4.3
+tags: [automation, forms, surveys]
+features:
+  - Logic jumps
+  - Integrations
+best_for:
+  - Marketers
+pros:
+  - Engaging
+cons:
+  - Pricey

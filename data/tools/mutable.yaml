@@ -1,0 +1,17 @@
+slug: mutable
+name: "Mutable.ai"
+category: coding
+summary: "AI autobuild for Python notebooks and code."
+pricing: "Freemium"
+affiliate: ""
+rating: 3.7
+tags: [coding, python, agent]
+features:
+  - Auto build
+  - Notebooks
+best_for:
+  - Data sci
+pros:
+  - Notebook AI
+cons:
+  - Early

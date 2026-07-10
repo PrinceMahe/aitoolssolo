@@ -1,11 +1,11 @@
 ---
-title: "Notion (AI)"
-description: "Docs, notes, and projects in one workspace, with AI that writes, summarizes, and searches."
+title: "Notion"
+description: "All-in-one docs, wikis, and databases with AI."
 type: "tool"
 slug: "notion"
 tool: "notion"
 draft: false
 ---
-# Notion (AI)
+# Notion
 
-Docs, notes, and projects in one workspace, with AI that writes, summarizes, and searches.
+All-in-one docs, wikis, and databases with AI.

@@ -1,0 +1,17 @@
+slug: getimg
+name: "getimg.ai"
+category: image
+summary: "Image models, inpainting, and custom model training."
+pricing: "Freemium / $12 mo"
+affiliate: ""
+rating: 4.1
+tags: [image, editing, models]
+features:
+  - Inpaint
+  - DreamBooth
+best_for:
+  - Creators
+pros:
+  - Flexible
+cons:
+  - Credits

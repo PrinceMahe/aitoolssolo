@@ -1,0 +1,17 @@
+slug: hiveage
+name: "Hiveage"
+category: business
+summary: "Online invoicing and billing for small biz."
+pricing: "$7-39 mo"
+affiliate: ""
+rating: 3.8
+tags: [business, invoicing, billing]
+features:
+  - Invoices
+  - Billing
+best_for:
+  - SMB
+pros:
+  - Simple
+cons:
+  - Dated

@@ -1,18 +1,19 @@
 slug: zapier
-name: Zapier
+name: "Zapier"
 category: automation
-summary: The largest no-code automation hub — connect 7,000+ apps with clicks, no code.
-pricing: Freemium — free tier; Starter $19.99/mo
+summary: "Connect 6,000+ apps with no-code automated workflows."
+pricing: "Freemium / $20 mo"
 affiliate: ""
 rating: 4.5
-tags: [automation, no-code, workflows, integrations]
+tags: [automation, workflow, nocode]
 features:
-  - 7,000+ app integrations
-  - Multi-step Zaps
-  - AI-powered builders
+  - 6k+ apps
+  - Multi-step
+  - AI
 best_for:
-  - Solopreneurs automating busywork
+  - Solopreneurs
+  - Teams
 pros:
-  - Massive integration library
+  - Huge app library
 cons:
-  - Costs climb with tasks
+  - Cost at scale

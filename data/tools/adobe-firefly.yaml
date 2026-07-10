@@ -1,0 +1,17 @@
+slug: adobe-firefly
+name: "Adobe Firefly"
+category: image
+summary: "Adobe's commercial-safe generative image and video models."
+pricing: "Free / sub"
+affiliate: ""
+rating: 4.4
+tags: [image, design, commercial]
+features:
+  - Generative fill
+  - Text effects
+best_for:
+  - Designers
+pros:
+  - Commercial-safe
+cons:
+  - Ecosystem lock-in

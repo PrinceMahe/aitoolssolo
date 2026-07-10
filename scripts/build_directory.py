@@ -115,12 +115,37 @@ def main():
                 )
                 pair_n += 1
 
-    # Section indexes so /tools/, /categories/, /alternatives/ render & sitemap
+    # Use cases ("There's an AI for X") — the TAIAF core: tag-driven hubs.
+    # Each tag becomes /use-cases/<tag>/ listing every tool carrying it.
+    tags = {}
+    for slug, t in tools.items():
+        for tag in (t.get("tags") or []):
+            tags.setdefault(tag, []).append(slug)
+    for tag, slugs in sorted(tags.items()):
+        title = f"AI for {tag.title()}"
+        desc = (f"The best AI tools for {tag.replace('-', ' ')} — curated for "
+                f"solopreneurs. Compare features, pricing, and ratings in one place.")
+        uc_fm = (
+            f'---\n'
+            f'title: "{title}"\n'
+            f'description: "{desc}"\n'
+            f'type: "usecase"\n'
+            f'slug: "{tag}"\n'
+            f'draft: false\n'
+            f'---\n'
+        )
+        write(
+            os.path.join(OUT, "use-cases", f"{tag}.md"),
+            uc_fm + f"# {title}\n\n{desc}\n",
+        )
+
+    # Section indexes so /tools/, /categories/, /alternatives/, /use-cases/ render & sitemap
     for sect, title in [
         ("tools", "AI Tools"),
         ("categories", "Tool Categories"),
         ("alternatives", "Alternatives"),
         ("comparisons", "Comparisons"),
+        ("use-cases", "Use Cases"),
     ]:
         idx = os.path.join(OUT, sect, "_index.md")
         write(
@@ -129,7 +154,8 @@ def main():
         )
 
     print(f"\nDone. {len(tools)} tools, {len(cats)} categories, "
-          f"{len(tools)} alternatives pages, {pair_n} comparison pages.")
+          f"{len(tools)} alternatives pages, {pair_n} comparison pages, "
+          f"{len(tags)} use-case pages.")
 
 
 if __name__ == "__main__":

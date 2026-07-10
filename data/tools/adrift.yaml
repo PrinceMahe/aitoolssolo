@@ -1,0 +1,17 @@
+slug: adrift
+name: "Adobe Podcast"
+category: video
+summary: "AI audio cleaning and remote podcast recording."
+pricing: "Freemium"
+affiliate: ""
+rating: 4.3
+tags: [video, audio, podcast]
+features:
+  - Enhance Speech
+  - Studio
+best_for:
+  - Podcasters
+pros:
+  - Speech clean
+cons:
+  - Adobe acct

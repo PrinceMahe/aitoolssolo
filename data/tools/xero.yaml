@@ -1,0 +1,17 @@
+slug: xero
+name: "Xero"
+category: business
+summary: "Cloud accounting for small business."
+pricing: "$13-70 mo"
+affiliate: ""
+rating: 4.1
+tags: [business, accounting, finance]
+features:
+  - Bank rec
+  - Invoicing
+best_for:
+  - SMB
+pros:
+  - Solid
+cons:
+  - Learning curve

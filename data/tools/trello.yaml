@@ -1,0 +1,17 @@
+slug: trello
+name: "Trello"
+category: business
+summary: "Kanban boards with Butler automation."
+pricing: "Freemium / $5 mo"
+affiliate: ""
+rating: 4.2
+tags: [business, pm, kanban]
+features:
+  - Boards
+  - Butler
+best_for:
+  - Teams
+pros:
+  - Easy
+cons:
+  - Simple only

@@ -1,0 +1,17 @@
+slug: listnr
+name: "Listnr"
+category: video
+summary: "AI voice generation and podcast hosting."
+pricing: "Freemium / $19 mo"
+affiliate: ""
+rating: 3.9
+tags: [video, audio, tts]
+features:
+  - Voices
+  - Hosting
+best_for:
+  - Creators
+pros:
+  - Variety
+cons:
+  - Quality varies

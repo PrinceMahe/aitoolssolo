@@ -1,0 +1,17 @@
+slug: krisp
+name: "Krisp"
+category: video
+summary: "AI noise cancellation for calls and recordings."
+pricing: "Freemium / $8 mo"
+affiliate: ""
+rating: 4.4
+tags: [video, audio, calls]
+features:
+  - Noise cancel
+  - Transcribe
+best_for:
+  - Remote workers
+pros:
+  - Crisp audio
+cons:
+  - Call-only

@@ -1,6 +1,6 @@
 ---
 title: "ChatGPT"
-description: "The default conversational AI for drafting, brainstorming, coding, and everyday solopreneur tasks."
+description: "OpenAI's conversational AI for writing, coding, and research."
 type: "tool"
 slug: "chatgpt"
 tool: "chatgpt"
@@ -8,4 +8,4 @@ draft: false
 ---
 # ChatGPT
 
-The default conversational AI for drafting, brainstorming, coding, and everyday solopreneur tasks.
+OpenAI's conversational AI for writing, coding, and research.

@@ -1,0 +1,16 @@
+slug: codeparrot
+name: "CodeParrot"
+category: coding
+summary: "AI UI components from descriptions."
+pricing: "Freemium"
+affiliate: ""
+rating: 3.8
+tags: [coding, ui, components]
+features:
+  - Component gen
+best_for:
+  - Frontend
+pros:
+  - Components
+cons:
+  - Narrow

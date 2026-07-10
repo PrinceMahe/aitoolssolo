@@ -1,0 +1,18 @@
+slug: stripe
+name: "Stripe"
+category: business
+summary: "Payments and billing infrastructure for the internet."
+pricing: "Per txn"
+affiliate: ""
+rating: 4.6
+tags: [business, payments, api]
+features:
+  - Payments
+  - Billing
+  - Radar
+best_for:
+  - Devs
+pros:
+  - Industry std
+cons:
+  - Dev needed

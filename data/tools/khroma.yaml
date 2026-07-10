@@ -1,0 +1,17 @@
+slug: khroma
+name: "Khroma"
+category: image
+summary: "AI color palette generator trained on your tastes."
+pricing: "Free"
+affiliate: ""
+rating: 4.0
+tags: [image, color, branding]
+features:
+  - Palette ML
+  - Search
+best_for:
+  - Designers
+pros:
+  - Fun
+cons:
+  - Palette only

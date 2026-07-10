@@ -1,0 +1,17 @@
+slug: you-com
+name: "You.com"
+category: productivity
+summary: "AI search assistant with custom agents."
+pricing: "Freemium"
+affiliate: ""
+rating: 4.1
+tags: [productivity, search, chat]
+features:
+  - Agents
+  - Search
+best_for:
+  - Researchers
+pros:
+  - Agentic
+cons:
+  - Smaller

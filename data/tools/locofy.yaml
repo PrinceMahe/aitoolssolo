@@ -1,0 +1,16 @@
+slug: locofy
+name: "Locofy"
+category: coding
+summary: "Design-to-code for React and React Native."
+pricing: "Freemium"
+affiliate: ""
+rating: 3.7
+tags: [coding, design, react]
+features:
+  - Figma to code
+best_for:
+  - Designers
+pros:
+  - D2C
+cons:
+  - Limited

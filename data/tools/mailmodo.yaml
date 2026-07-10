@@ -1,0 +1,17 @@
+slug: mailmodo
+name: "Mailmodo"
+category: marketing
+summary: "Interactive AMP email marketing."
+pricing: "$39-599 mo"
+affiliate: ""
+rating: 3.9
+tags: [marketing, email, automation]
+features:
+  - AMP email
+  - Automation
+best_for:
+  - Marketers
+pros:
+  - Interactive
+cons:
+  - Deliverability

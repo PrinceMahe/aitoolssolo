@@ -1,6 +1,6 @@
 ---
 title: "Descript"
-description: "Edit video and podcasts by editing text — transcribe, cut, and clone voice instantly."
+description: "Transcript-based audio/video editing with overdub."
 type: "tool"
 slug: "descript"
 tool: "descript"
@@ -8,4 +8,4 @@ draft: false
 ---
 # Descript
 
-Edit video and podcasts by editing text — transcribe, cut, and clone voice instantly.
+Transcript-based audio/video editing with overdub.

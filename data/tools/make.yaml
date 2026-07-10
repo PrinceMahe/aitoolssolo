@@ -1,18 +1,18 @@
 slug: make
-name: Make
+name: "Make"
 category: automation
-summary: Visual automation builder with branching scenarios for complex no-code workflows.
-pricing: Freemium — free tier; Core $9/mo
-affiliate: "https://www.make.com/en/register?pc=aitoolssolo"
+summary: "Visual no-code automation with branching scenarios."
+pricing: "Freemium / $9 mo"
+affiliate: ""
 rating: 4.4
-tags: [automation, no-code, workflows]
+tags: [automation, workflow, visual]
 features:
-  - Visual scenario builder
-  - Branching logic
-  - Rich app catalog
+  - Visual builder
+  - Scenarios
 best_for:
-  - Builders wanting control
+  - Ops
+  - Agencies
 pros:
-  - Powerful visual logic
+  - Powerful visual
 cons:
-  - Steeper learning curve
+  - Steeper learning

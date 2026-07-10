@@ -25,8 +25,8 @@ linkCanonical = true
   related = true
 
   [params.homeInfoParams]
-    Title = "🚀 AI Tools for Solopreneurs"
-    Content = "Real reviews, honest comparisons, and automation workflows for one-person businesses. No fluff, no filler — just tools that actually work."
+    Title = "🚀 There's an AI for that — for Solopreneurs"
+    Content = "A directory of the best AI tools, organized by what you actually want to do. Search a task, find the tool, compare the options. No fluff."
 
   [[params.socialIcons]]
     name = "twitter"
@@ -78,6 +78,11 @@ linkCanonical = true
     name = "Search"
     url = "/search/"
     weight = 40
+  [[menu.main]]
+    identifier = "usecases"
+    name = "Use Cases"
+    url = "/use-cases/"
+    weight = 50
 
 # Related-content matching so .Site.RegularPages.Related returns real suggestions.
 [related]

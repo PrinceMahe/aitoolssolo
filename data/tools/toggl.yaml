@@ -1,0 +1,17 @@
+slug: toggl
+name: "Toggl"
+category: business
+summary: "Simple time tracking with AI insights."
+pricing: "Freemium / $10 mo"
+affiliate: ""
+rating: 4.3
+tags: [business, time, tracking]
+features:
+  - One-click
+  - Reports
+best_for:
+  - Teams
+pros:
+  - Easy track
+cons:
+  - No billing

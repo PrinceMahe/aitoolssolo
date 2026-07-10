@@ -1,0 +1,17 @@
+slug: mutiny
+name: "Mutiny"
+category: marketing
+summary: "AI website personalization for B2B."
+pricing: "Custom"
+affiliate: ""
+rating: 3.9
+tags: [marketing, personalization, b2b]
+features:
+  - Personalize
+  - No-code
+best_for:
+  - B2B
+pros:
+  - CRO
+cons:
+  - Enterprise

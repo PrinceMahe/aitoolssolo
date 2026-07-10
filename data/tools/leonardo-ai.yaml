@@ -1,0 +1,19 @@
+slug: leonardo-ai
+name: "Leonardo.Ai"
+category: image
+summary: "Game-asset and concept art generation with fine control."
+pricing: "Freemium / $10 mo"
+affiliate: ""
+rating: 4.3
+tags: [image, art, gaming]
+features:
+  - Image gen
+  - Training
+  - Canvas
+best_for:
+  - Game devs
+  - Artists
+pros:
+  - Asset control
+cons:
+  - Credit limits

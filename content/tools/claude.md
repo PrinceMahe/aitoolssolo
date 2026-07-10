@@ -1,6 +1,6 @@
 ---
 title: "Claude"
-description: "An AI assistant prized for long-context writing, careful reasoning, and clean, natural prose."
+description: "Anthropic's helpful, harmless AI for long-form reasoning."
 type: "tool"
 slug: "claude"
 tool: "claude"
@@ -8,4 +8,4 @@ draft: false
 ---
 # Claude
 
-An AI assistant prized for long-context writing, careful reasoning, and clean, natural prose.
+Anthropic's helpful, harmless AI for long-form reasoning.

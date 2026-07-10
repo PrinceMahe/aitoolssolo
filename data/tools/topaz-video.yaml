@@ -1,0 +1,17 @@
+slug: topaz-video
+name: "Topaz Video AI"
+category: video
+summary: "AI upscaling and denoise for video footage."
+pricing: "$299"
+affiliate: ""
+rating: 4.3
+tags: [video, upscale, enhance]
+features:
+  - Upscale
+  - Deinterlace
+best_for:
+  - Filmmakers
+pros:
+  - Quality lift
+cons:
+  - Pricey

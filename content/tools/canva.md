@@ -1,11 +1,11 @@
 ---
-title: "Canva (Magic Studio)"
-description: "Design platform with AI Magic Studio for layouts, resizing, and on-brand visuals in minutes."
+title: "Canva"
+description: "Drag-and-drop design with Magic Studio AI for solo creators."
 type: "tool"
 slug: "canva"
 tool: "canva"
 draft: false
 ---
-# Canva (Magic Studio)
+# Canva
 
-Design platform with AI Magic Studio for layouts, resizing, and on-brand visuals in minutes.
+Drag-and-drop design with Magic Studio AI for solo creators.

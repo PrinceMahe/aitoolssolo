@@ -1,0 +1,17 @@
+slug: zoho-books
+name: "Zoho Books"
+category: business
+summary: "Accounting inside the Zoho suite."
+pricing: "$0-60 mo"
+affiliate: ""
+rating: 4.1
+tags: [business, accounting, suite]
+features:
+  - Books
+  - Suite
+best_for:
+  - SMB
+pros:
+  - Suite
+cons:
+  - Zoho lock-in

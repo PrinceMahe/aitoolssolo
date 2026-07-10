@@ -1,6 +1,6 @@
 ---
 title: "ElevenLabs"
-description: "Realistic AI voice synthesis for narration, dubbing, and audio content at scale."
+description: "Best-in-class AI voice cloning and text-to-speech."
 type: "tool"
 slug: "elevenlabs"
 tool: "elevenlabs"
@@ -8,4 +8,4 @@ draft: false
 ---
 # ElevenLabs
 
-Realistic AI voice synthesis for narration, dubbing, and audio content at scale.
+Best-in-class AI voice cloning and text-to-speech.

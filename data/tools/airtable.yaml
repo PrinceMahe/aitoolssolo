@@ -1,0 +1,19 @@
+slug: airtable
+name: "Airtable"
+category: automation
+summary: "Spreadsheet-database hybrid with automations."
+pricing: "Freemium / $20 mo"
+affiliate: ""
+rating: 4.4
+tags: [automation, database, nocode]
+features:
+  - Bases
+  - Automations
+  - Interfaces
+best_for:
+  - Teams
+  - Ops
+pros:
+  - Flexible data
+cons:
+  - Pricey scale

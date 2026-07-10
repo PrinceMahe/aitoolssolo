@@ -1,0 +1,109 @@
+/* TAIAF-style directory UI: hero search, use-case chips, tool grid cards */
+
+/* ---- Hero search ---- */
+.hero-search {
+  margin: 1.5rem 0 1rem;
+  text-align: center;
+}
+.hero-tagline {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: .6rem;
+}
+.hero-search-form {
+  display: flex;
+  gap: .5rem;
+  max-width: 640px;
+  margin: 0 auto;
+}
+.hero-search-form input[type="search"] {
+  flex: 1;
+  padding: .8rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  font-size: 1rem;
+  background: var(--entry);
+  color: var(--content);
+}
+.hero-search-form input[type="search"]:focus {
+  outline: 2px solid var(--primary);
+  border-color: var(--primary);
+}
+.hero-search-form button {
+  padding: .8rem 1.4rem;
+  border: none;
+  border-radius: 10px;
+  background: var(--primary);
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+.hero-search-form button:hover { opacity: .9; }
+
+/* ---- Use-case chips ---- */
+.home-usecases { margin: 2rem 0; }
+.home-usecases h2,
+.home-tools-title,
+.home-recent-title { font-size: 1.3rem; margin-bottom: .8rem; }
+.usecase-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+}
+.chip {
+  display: inline-block;
+  padding: .45rem .9rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--entry);
+  color: var(--content);
+  font-size: .9rem;
+  text-decoration: none;
+  transition: all .15s ease;
+}
+.chip:hover { border-color: var(--primary); color: var(--primary); transform: translateY(-1px); }
+.chip-more { font-weight: 600; border-style: dashed; }
+
+/* ---- Tool grid (cards) ---- */
+.tool-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+.tool-card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem;
+  background: var(--entry);
+  display: flex;
+  flex-direction: column;
+  gap: .4rem;
+}
+.tool-card h3 { margin: 0; font-size: 1.05rem; }
+.tool-card h3 a { color: var(--primary); text-decoration: none; }
+.tool-card p { margin: 0; font-size: .9rem; color: var(--content); opacity: .9; }
+.tool-rating { color: #f5a623; font-weight: 600; font-size: .85rem; }
+.tool-pricing { font-size: .8rem; opacity: .7; }
+
+.home-tools-more,
+.alt-note { margin-top: 1rem; }
+.alt-note a, .home-tools-more a { color: var(--primary); font-weight: 600; }
+
+/* Make category/comparison/usecase listing pages use the grid too */
+.category-tools .tool-grid,
+.comparison-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+}
+.comparison-card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem;
+  background: var(--entry);
+}
+.comparison-card h2 a { color: var(--primary); text-decoration: none; }
+.comparison-card .rating { color: #f5a623; font-weight: 600; }
+.comparison-card .pros { color: #2e7d32; }
+.comparison-card .cons { color: #c62828; }

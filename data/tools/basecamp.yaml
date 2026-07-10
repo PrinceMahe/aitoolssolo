@@ -1,0 +1,18 @@
+slug: basecamp
+name: "Basecamp"
+category: business
+summary: "Simple all-in-one project and team suite."
+pricing: "$15/user mo"
+affiliate: ""
+rating: 4.0
+tags: [business, pm, team]
+features:
+  - Message
+  - Tasks
+  - Docs
+best_for:
+  - SMB
+pros:
+  - Opinionated
+cons:
+  - Small feel

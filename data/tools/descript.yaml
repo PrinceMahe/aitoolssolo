@@ -1,18 +1,19 @@
 slug: descript
-name: Descript
+name: "Descript"
 category: video
-summary: Edit video and podcasts by editing text — transcribe, cut, and clone voice instantly.
-pricing: Freemium — free tier; Pro $12/mo
-affiliate: "https://www.descript.com/?lmref=aitoolssolo"
-rating: 4.4
-tags: [video, audio, podcast, editing]
+summary: "Transcript-based audio/video editing with overdub."
+pricing: "Freemium / $12 mo"
+affiliate: ""
+rating: 4.5
+tags: [video, audio, editing]
 features:
-  - Transcript-based editing
-  - Overdub voice cloning
-  - Filler-word removal
+  - Transcript edit
+  - Overdub
+  - Filler
 best_for:
-  - Podcasters and YouTubers solo
+  - Podcasters
+  - YT
 pros:
-  - Edit audio like a doc
+  - Edit by text
 cons:
-  - Heavy projects need the desktop app
+  - Corpus training

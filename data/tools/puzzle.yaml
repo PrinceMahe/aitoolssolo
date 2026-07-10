@@ -1,0 +1,17 @@
+slug: puzzle
+name: "Puzzle"
+category: business
+summary: "AI bookkeeping that categorizes transactions."
+pricing: "$19-99 mo"
+affiliate: ""
+rating: 3.9
+tags: [business, accounting, ai]
+features:
+  - Auto-categorize
+  - Insights
+best_for:
+  - Startups
+pros:
+  - AI books
+cons:
+  - Newer

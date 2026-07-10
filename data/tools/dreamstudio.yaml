@@ -1,0 +1,18 @@
+slug: dreamstudio
+name: "DreamStudio"
+category: image
+summary: "Official Stable Diffusion XL hosted UI."
+pricing: "Free / API"
+affiliate: ""
+rating: 4.0
+tags: [image, open, api]
+features:
+  - SDXL
+  - Params
+best_for:
+  - Dev
+  - Artists
+pros:
+  - SDXL quality
+cons:
+  - UI plain

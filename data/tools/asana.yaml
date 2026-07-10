@@ -1,0 +1,17 @@
+slug: asana
+name: "Asana"
+category: business
+summary: "Work management with timelines and automations."
+pricing: "Freemium / $11 mo"
+affiliate: ""
+rating: 4.1
+tags: [business, pm, workflow]
+features:
+  - Tasks
+  - Timeline
+best_for:
+  - Teams
+pros:
+  - Flexible
+cons:
+  - Overkill small

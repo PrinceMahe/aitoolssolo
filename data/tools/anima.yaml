@@ -1,0 +1,16 @@
+slug: anima
+name: "Anima"
+category: coding
+summary: "Figma to code (React, Vue, HTML)."
+pricing: "Freemium / $"
+affiliate: ""
+rating: 3.7
+tags: [coding, design, figma]
+features:
+  - Figma to code
+best_for:
+  - Designers
+pros:
+  - D2C
+cons:
+  - Flaky

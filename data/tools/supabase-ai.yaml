@@ -1,0 +1,17 @@
+slug: supabase-ai
+name: "Supabase AI"
+category: coding
+summary: "AI SQL and schema help inside Supabase."
+pricing: "Free / plan"
+affiliate: ""
+rating: 3.9
+tags: [coding, sql, database]
+features:
+  - SQL gen
+  - Schema
+best_for:
+  - Devs
+pros:
+  - DB-native
+cons:
+  - Supabase only

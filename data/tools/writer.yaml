@@ -1,0 +1,17 @@
+slug: writer
+name: "Writer"
+category: writing
+summary: "AI writing platform for enterprise brand consistency."
+pricing: "Custom"
+affiliate: ""
+rating: 4.1
+tags: [writing, enterprise, brand]
+features:
+  - Brand voice
+  - Guardrails
+best_for:
+  - Enterprise
+pros:
+  - Compliant
+cons:
+  - Setup heavy

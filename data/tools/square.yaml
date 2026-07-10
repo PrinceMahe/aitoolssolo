@@ -1,0 +1,17 @@
+slug: square
+name: "Square"
+category: business
+summary: "Point-of-sale and payments for small business."
+pricing: "Per txn"
+affiliate: ""
+rating: 4.3
+tags: [business, payments, pos]
+features:
+  - POS
+  - Invoices
+best_for:
+  - Retail
+pros:
+  - Easy POS
+cons:
+  - Fees

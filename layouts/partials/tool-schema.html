@@ -36,4 +36,7 @@
     }}
   <script type="application/ld+json">{{ $obj | jsonify | safeJS }}</script>
   {{- end }}
+{{- else if eq .Type "usecase" }}
+  {{- $obj := dict "@context" "https://schema.org" "@type" "CollectionPage" "name" .Title "description" .Description }}
+  <script type="application/ld+json">{{ $obj | jsonify | safeJS }}</script>
 {{- end }}

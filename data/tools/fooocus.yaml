@@ -1,0 +1,17 @@
+slug: fooocus
+name: "Fooocus"
+category: image
+summary: "Minimalist Stable Diffusion UX for beginners."
+pricing: "Free (local)"
+affiliate: ""
+rating: 4.2
+tags: [image, local, open]
+features:
+  - One-click
+  - Local run
+best_for:
+  - Hobbyists
+pros:
+  - Simple
+cons:
+  - Local only

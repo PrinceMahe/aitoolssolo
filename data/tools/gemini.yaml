@@ -1,0 +1,17 @@
+slug: gemini
+name: "Google Gemini"
+category: productivity
+summary: "Google's multimodal AI across Workspace apps."
+pricing: "Freemium / $20 mo"
+affiliate: ""
+rating: 4.4
+tags: [productivity, chat, research]
+features:
+  - Multimodal
+  - Workspace
+best_for:
+  - Google users
+pros:
+  - Workspace-native
+cons:
+  - Bias concerns

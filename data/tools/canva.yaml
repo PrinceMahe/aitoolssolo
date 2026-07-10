@@ -1,18 +1,20 @@
 slug: canva
-name: Canva (Magic Studio)
+name: "Canva"
 category: image
-summary: Design platform with AI Magic Studio for layouts, resizing, and on-brand visuals in minutes.
-pricing: Freemium — free tier; Pro $15/mo
+summary: "Drag-and-drop design with Magic Studio AI for solo creators."
+pricing: "Freemium / $15 mo"
 affiliate: ""
 rating: 4.6
-tags: [design, image, branding]
+tags: [image, design, templates]
 features:
-  - AI resize and magic edit
-  - Huge template library
-  - Brand Kit
+  - Templates
+  - Magic Design
+  - Brand kit
 best_for:
-  - Non-designers shipping branded assets
+  - Everyone
+  - Solopreneurs
 pros:
-  - Fast and approachable
+  - Easy
+  - Vast library
 cons:
-  - Output can look templated
+  - Generic output

@@ -1,12 +1,12 @@
 ---
-title: "Canva (Magic Studio) vs Ideogram"
-description: "Canva (Magic Studio) vs Ideogram: compare pricing, features, ratings, and best use cases to pick the right tool for your one-person business."
+title: "Canva vs Ideogram"
+description: "Canva vs Ideogram: compare pricing, features, ratings, and best use cases to pick the right tool for your one-person business."
 type: "comparison"
 slug: "canva-vs-ideogram"
 tool_a: "canva"
 tool_b: "ideogram"
 draft: false
 ---
-# Canva (Magic Studio) vs Ideogram
+# Canva vs Ideogram
 
-Canva (Magic Studio) vs Ideogram: compare pricing, features, ratings, and best use cases to pick the right tool for your one-person business.
+Canva vs Ideogram: compare pricing, features, ratings, and best use cases to pick the right tool for your one-person business.

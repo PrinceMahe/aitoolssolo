@@ -1,0 +1,17 @@
+slug: phind
+name: "Phind"
+category: productivity
+summary: "AI search tuned for developers and code."
+pricing: "Freemium"
+affiliate: ""
+rating: 4.2
+tags: [productivity, code, search]
+features:
+  - Code answers
+  - Citations
+best_for:
+  - Devs
+pros:
+  - Dev-focused
+cons:
+  - Niche

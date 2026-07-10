@@ -1,0 +1,17 @@
+slug: tome
+name: "Tome"
+category: automation
+summary: "AI-generated narratives and decks from a prompt."
+pricing: "Freemium / $8 mo"
+affiliate: ""
+rating: 4.0
+tags: [automation, presentations, ai]
+features:
+  - Prompt decks
+  - Embed
+best_for:
+  - Founders
+pros:
+  - Fast decks
+cons:
+  - Generic

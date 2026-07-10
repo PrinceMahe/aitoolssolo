@@ -1,0 +1,17 @@
+slug: optimizely
+name: "Optimizely"
+category: marketing
+summary: "Experimentation and AI personalization."
+pricing: "Custom"
+affiliate: ""
+rating: 4.0
+tags: [marketing, experiment, enterprise]
+features:
+  - A/B
+  - Personalize
+best_for:
+  - Enterprise
+pros:
+  - Robust
+cons:
+  - Costly

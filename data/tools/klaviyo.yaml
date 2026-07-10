@@ -1,0 +1,17 @@
+slug: klaviyo
+name: "Klaviyo"
+category: marketing
+summary: "E-commerce email/SMS automation with AI."
+pricing: "Freemium / $"
+affiliate: ""
+rating: 4.3
+tags: [marketing, email, ecommerce]
+features:
+  - Flows
+  - Segmentation
+best_for:
+  - E-com
+pros:
+  - E-com native
+cons:
+  - E-com only

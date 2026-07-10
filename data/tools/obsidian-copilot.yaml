@@ -1,0 +1,17 @@
+slug: obsidian-copilot
+name: "Obsidian Copilot"
+category: productivity
+summary: "AI assistant inside Obsidian vaults."
+pricing: "Freemium"
+affiliate: ""
+rating: 3.9
+tags: [productivity, notes, ai]
+features:
+  - Local LLM
+  - Chat vault
+best_for:
+  - Obsidian users
+pros:
+  - Vault-native
+cons:
+  - Plugin setup

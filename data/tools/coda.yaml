@@ -1,0 +1,17 @@
+slug: coda
+name: "Coda"
+category: automation
+summary: "Doc + table hybrid with AI and automations."
+pricing: "Freemium / $10 mo"
+affiliate: ""
+rating: 4.1
+tags: [automation, docs, workspace]
+features:
+  - Docs+Tables
+  - Packs
+best_for:
+  - Teams
+pros:
+  - Flexible
+cons:
+  - Learning curve

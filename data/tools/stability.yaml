@@ -1,0 +1,20 @@
+slug: stability
+name: "Stable Diffusion"
+category: image
+summary: "Open-weight image model you can self-host or use via API."
+pricing: "Free / API"
+affiliate: ""
+rating: 4.3
+tags: [image, open, api]
+features:
+  - Open weights
+  - API
+  - ControlNet
+best_for:
+  - Dev
+  - Artists
+pros:
+  - Open
+  - Flexible
+cons:
+  - Setup needed

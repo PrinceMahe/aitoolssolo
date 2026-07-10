@@ -1,0 +1,18 @@
+slug: cal-com
+name: "Cal.com"
+category: automation
+summary: "Open-source scheduling with routing automation."
+pricing: "Freemium / $12 mo"
+affiliate: ""
+rating: 4.3
+tags: [automation, scheduling, open]
+features:
+  - Routing
+  - Integrations
+best_for:
+  - Teams
+pros:
+  - Open
+  - Flexible
+cons:
+  - Setup

@@ -1,6 +1,6 @@
 ---
 title: "Perplexity"
-description: "An AI answer engine with cited sources — research without the Google rabbit hole."
+description: "AI answer engine with cited sources and search."
 type: "tool"
 slug: "perplexity"
 tool: "perplexity"
@@ -8,4 +8,4 @@ draft: false
 ---
 # Perplexity
 
-An AI answer engine with cited sources — research without the Google rabbit hole.
+AI answer engine with cited sources and search.

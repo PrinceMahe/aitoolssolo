@@ -1,6 +1,6 @@
 ---
 title: "Make"
-description: "Visual automation builder with branching scenarios for complex no-code workflows."
+description: "Visual no-code automation with branching scenarios."
 type: "tool"
 slug: "make"
 tool: "make"
@@ -8,4 +8,4 @@ draft: false
 ---
 # Make
 
-Visual automation builder with branching scenarios for complex no-code workflows.
+Visual no-code automation with branching scenarios.

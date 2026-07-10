@@ -1,0 +1,17 @@
+slug: jira
+name: "Jira"
+category: business
+summary: "Agile project and issue tracking for dev teams."
+pricing: "Freemium / $"
+affiliate: ""
+rating: 4.1
+tags: [business, pm, dev]
+features:
+  - Agile
+  - Boards
+best_for:
+  - Teams
+pros:
+  - Dev-standard
+cons:
+  - Heavy

@@ -1,11 +1,11 @@
 ---
-title: "Notion (AI) Alternatives"
-description: "Best Notion (AI) alternatives for solopreneurs: compare features, pricing, and use cases."
+title: "Notion Alternatives"
+description: "Best Notion alternatives for solopreneurs: compare features, pricing, and use cases."
 type: "alternatives"
 slug: "notion"
 tool: "notion"
 draft: false
 ---
-# Notion (AI) Alternatives
+# Notion Alternatives
 
-Best Notion (AI) alternatives for solopreneurs: compare features, pricing, and use cases.
+Best Notion alternatives for solopreneurs: compare features, pricing, and use cases.

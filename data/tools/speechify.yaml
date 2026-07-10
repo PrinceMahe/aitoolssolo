@@ -1,0 +1,17 @@
+slug: speechify
+name: "Speechify"
+category: video
+summary: "Text-to-speech reader for docs and web."
+pricing: "Freemium / $11 mo"
+affiliate: ""
+rating: 4.0
+tags: [video, audio, tts]
+features:
+  - Listen docs
+  - Voices
+best_for:
+  - Readers
+pros:
+  - Convenient
+cons:
+  - Voices limited

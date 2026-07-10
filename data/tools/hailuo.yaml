@@ -1,0 +1,17 @@
+slug: hailuo
+name: "Hailuo AI"
+category: video
+summary: "MiniMax's text-to-video with strong motion."
+pricing: "Freemium"
+affiliate: ""
+rating: 4.1
+tags: [video, generation]
+features:
+  - Text-to-video
+  - Motion
+best_for:
+  - Creators
+pros:
+  - Strong motion
+cons:
+  - Newer

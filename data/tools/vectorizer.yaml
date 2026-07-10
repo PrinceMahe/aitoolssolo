@@ -1,0 +1,17 @@
+slug: vectorizer
+name: "Vectorizer.AI"
+category: image
+summary: "AI raster-to-vector conversion with clean edges."
+pricing: "Freemium / $10 mo"
+affiliate: ""
+rating: 4.3
+tags: [image, vector, conversion]
+features:
+  - Auto trace
+  - Format export
+best_for:
+  - Designers
+pros:
+  - Clean vectors
+cons:
+  - Niche

@@ -1,0 +1,17 @@
+slug: causal
+name: "Causal"
+category: business
+summary: "Spreadsheet alternative for models and finance."
+pricing: "$"
+affiliate: ""
+rating: 3.9
+tags: [business, finance, modeling]
+features:
+  - Models
+  - Dashboards
+best_for:
+  - Finance
+pros:
+  - Clean models
+cons:
+  - Learning

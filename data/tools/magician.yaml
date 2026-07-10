@@ -1,0 +1,17 @@
+slug: magician
+name: "Magician"
+category: image
+summary: "AI design plugins for Figma (copy + visuals)."
+pricing: "$12 mo"
+affiliate: ""
+rating: 4.0
+tags: [image, figma, ui]
+features:
+  - Figma plugins
+  - Icons
+best_for:
+  - Designers
+pros:
+  - Figma-native
+cons:
+  - Figma only

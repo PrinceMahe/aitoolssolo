@@ -1,0 +1,17 @@
+slug: browserbear
+name: "BrowserBear"
+category: automation
+summary: "No-code browser automation API (screenshots, scrape)."
+pricing: "$29 mo"
+affiliate: ""
+rating: 3.9
+tags: [automation, browser, api]
+features:
+  - API
+  - Tasks
+best_for:
+  - Devs
+pros:
+  - API simple
+cons:
+  - Niche

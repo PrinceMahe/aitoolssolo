@@ -1,0 +1,17 @@
+slug: jasper2
+name: "Jasper"
+category: marketing
+summary: "AI brand marketing platform (campaigns, art, chat)."
+pricing: "$39-99 mo"
+affiliate: ""
+rating: 4.2
+tags: [marketing, copy, brand]
+features:
+  - Brand voice
+  - Campaigns
+best_for:
+  - Marketing teams
+pros:
+  - Enterprise-ready
+cons:
+  - Pricey

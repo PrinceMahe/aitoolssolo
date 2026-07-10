@@ -1,18 +1,18 @@
 slug: notion
-name: Notion (AI)
-category: productivity
-summary: Docs, notes, and projects in one workspace, with AI that writes, summarizes, and searches.
-pricing: Freemium — free tier; Plus $10/mo
+name: "Notion"
+category: automation
+summary: "All-in-one docs, wikis, and databases with AI."
+pricing: "Freemium / $8 mo"
 affiliate: ""
-rating: 4.6
-tags: [notes, productivity, docs, research]
+rating: 4.5
+tags: [automation, notes, workspace]
 features:
-  - Databases and docs
-  - AI summarize and draft
-  - Templates
+  - Docs
+  - DB
+  - AI
 best_for:
-  - Solo founders organizing everything
+  - Everyone
 pros:
-  - One workspace to rule them all
+  - Versatile
 cons:
-  - Can get messy at scale
+  - Sync slow

@@ -1,11 +1,11 @@
 ---
-title: "Canva (Magic Studio) Alternatives"
-description: "Best Canva (Magic Studio) alternatives for solopreneurs: compare features, pricing, and use cases."
+title: "Canva Alternatives"
+description: "Best Canva alternatives for solopreneurs: compare features, pricing, and use cases."
 type: "alternatives"
 slug: "canva"
 tool: "canva"
 draft: false
 ---
-# Canva (Magic Studio) Alternatives
+# Canva Alternatives
 
-Best Canva (Magic Studio) alternatives for solopreneurs: compare features, pricing, and use cases.
+Best Canva alternatives for solopreneurs: compare features, pricing, and use cases.

@@ -8,6 +8,7 @@ Run:  python scripts/seed_tools.py
 Then: python scripts/build_directory.py && hugo --minify
 """
 import os
+from seed_wave2 import T2
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "data", "tools")
@@ -411,8 +412,16 @@ def lit(items):
 
 def main():
     existing = {f[:-5] for f in os.listdir(OUT) if f.endswith(".yaml")}
+    # Merge T + T2, T takes priority on slug collision; T2 only adds new tools.
+    seen = set()
+    rows = []
+    for row in list(T) + list(T2):
+        if row[0] in seen:
+            continue
+        seen.add(row[0])
+        rows.append(row)
     added = 0
-    for (slug, name, cat, summary, pricing, rating, tags, feat, best, pros, cons) in T:
+    for (slug, name, cat, summary, pricing, rating, tags, feat, best, pros, cons) in rows:
         # force rewrite every row so templated changes apply
         text = TEMPLATE.format(
             slug=slug, name=name, category=cat, summary=summary, pricing=pricing,
@@ -422,7 +431,7 @@ def main():
         with open(os.path.join(OUT, f"{slug}.yaml"), "w", encoding="utf-8") as f:
             f.write(text)
         added += 1
-    print(f"Wrote {added} new tool YAML files. Total in data/tools/: {len(existing)+added}")
+    print(f"Wrote {added} tool YAML files. Total in data/tools/: {len(existing)+added}")
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,17 @@
+slug: bill
+name: "BILL"
+category: business
+summary: "AP/AR automation and payments for SMB."
+pricing: "$0-45 mo"
+affiliate: ""
+rating: 3.9
+tags: [business, finance, ap]
+features:
+  - Payables
+  - Receivables
+best_for:
+  - SMB
+pros:
+  - AP/AR
+cons:
+  - Fees

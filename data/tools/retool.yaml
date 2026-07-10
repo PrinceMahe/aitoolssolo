@@ -1,0 +1,18 @@
+slug: retool
+name: "Retool"
+category: automation
+summary: "Build internal tools fast with components + code."
+pricing: "Freemium / $10 mo"
+affiliate: ""
+rating: 4.3
+tags: [automation, internal-tools, lowcode]
+features:
+  - Components
+  - DB connect
+best_for:
+  - Devs
+  - Ops
+pros:
+  - Fast internal tools
+cons:
+  - Dev leaning

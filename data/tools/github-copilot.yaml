@@ -1,0 +1,17 @@
+slug: github-copilot
+name: "GitHub Copilot"
+category: coding
+summary: "AI pair programmer inside your editor."
+pricing: "$10-19 mo"
+affiliate: ""
+rating: 4.4
+tags: [coding, pair-programmer, ide]
+features:
+  - Inline completions
+  - Chat
+best_for:
+  - Devs
+pros:
+  - Saves typing
+cons:
+  - Costly

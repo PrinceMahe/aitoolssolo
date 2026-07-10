@@ -1,18 +1,18 @@
 slug: perplexity
-name: Perplexity
+name: "Perplexity"
 category: productivity
-summary: An AI answer engine with cited sources — research without the Google rabbit hole.
-pricing: Freemium — free tier; Pro $20/mo
+summary: "AI answer engine with cited sources and search."
+pricing: "Freemium / $20 mo"
 affiliate: ""
 rating: 4.5
-tags: [research, search, productivity]
+tags: [productivity, research, search]
 features:
-  - Cited answers
-  - Focus modes per source
-  - Threaded follow-ups
+  - Citations
+  - Spaces
+  - Voice
 best_for:
-  - Fast, sourced research
+  - Researchers
 pros:
-  - Sources attached
+  - Cited answers
 cons:
-  - Less creative than chatbots
+  - Limited depth

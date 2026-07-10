@@ -1,0 +1,17 @@
+slug: workato
+name: "Workato"
+category: automation
+summary: "Enterprise iPaaS with recipe automation."
+pricing: "Custom"
+affiliate: ""
+rating: 4.2
+tags: [automation, enterprise, integration]
+features:
+  - Recipes
+  - Integrations
+best_for:
+  - Enterprise
+pros:
+  - Deep integrations
+cons:
+  - Expensive

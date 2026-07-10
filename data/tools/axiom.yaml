@@ -1,0 +1,17 @@
+slug: axiom
+name: "Axiom.ai"
+category: automation
+summary: "Browser and desktop automation without code."
+pricing: "$15 mo"
+affiliate: ""
+rating: 3.9
+tags: [automation, browser, rpa]
+features:
+  - Bot builder
+  - Scheduler
+best_for:
+  - Ops
+pros:
+  - Visual RPA
+cons:
+  - Flaky

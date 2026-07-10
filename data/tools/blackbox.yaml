@@ -1,0 +1,17 @@
+slug: blackbox
+name: "Blackbox AI"
+category: coding
+summary: "AI coding copilot with code search."
+pricing: "Freemium / $"
+affiliate: ""
+rating: 3.8
+tags: [coding, search, completion]
+features:
+  - Code search
+  - Complete
+best_for:
+  - Devs
+pros:
+  - Search
+cons:
+  - Variable

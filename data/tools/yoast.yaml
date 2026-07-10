@@ -1,0 +1,17 @@
+slug: yoast
+name: "Yoast SEO"
+category: marketing
+summary: "Popular WordPress SEO plugin with AI."
+pricing: "Freemium / $"
+affiliate: ""
+rating: 4.1
+tags: [marketing, seo, wordpress]
+features:
+  - Readability
+  - Schema
+best_for:
+  - Bloggers
+pros:
+  - Trusted
+cons:
+  - Upsells

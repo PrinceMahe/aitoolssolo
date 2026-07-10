@@ -1,20 +1,20 @@
 slug: claude
-name: Claude
-category: writing
-summary: An AI assistant prized for long-context writing, careful reasoning, and clean, natural prose.
-pricing: Freemium — free tier; Pro $20/mo
+name: "Claude"
+category: productivity
+summary: "Anthropic's helpful, harmless AI for long-form reasoning."
+pricing: "Freemium / $20 mo"
 affiliate: ""
 rating: 4.7
-tags: [chatbot, writing, research, coding]
+tags: [productivity, chat, reasoning]
 features:
-  - 200K token context window
-  - Strong long-form writing and editing
-  - Artifacts for live code/docs
+  - 200K context
+  - Artifacts
+  - Vision
 best_for:
-  - Writers and researchers
-  - Founders handling long documents
+  - Writers
+  - Devs
 pros:
-  - Excellent, natural writing quality
-  - Handles large documents
+  - Long context
+  - Thoughtful
 cons:
-  - Less third-party integration than rivals
+  - Not real-time
