@@ -1,0 +1,24 @@
+{{/* "X vs Y": render two tools side by side + internal links (mesh). */}}
+{{- $a := index .Site.Data.tools .Params.tool_a -}}
+{{- $b := index .Site.Data.tools .Params.tool_b -}}
+{{- if and $a $b }}
+<div class="comparison-grid">
+  {{- range $t := (slice $a $b) }}
+  <section class="comparison-card">
+    <h2><a href="/tools/{{ $t.slug }}/">{{ $t.name }}</a></h2>
+    <p class="rating">★ {{ $t.rating }}/5</p>
+    <p class="pricing">{{ $t.pricing }}</p>
+    <p>{{ $t.summary }}</p>
+    <h3>Best for</h3>
+    <ul>{{ range $t.best_for }}<li>{{ . }}</li>{{ end }}</ul>
+    <h3>Pros</h3>
+    <ul class="pros">{{ range $t.pros }}<li>{{ . }}</li>{{ end }}</ul>
+    <h3>Cons</h3>
+    <ul class="cons">{{ range $t.cons }}<li>{{ . }}</li>{{ end }}</ul>
+  </section>
+  {{- end }}
+</div>
+<p class="alt-note">Not sure yet? Browse all <a href="/tools/">AI tools</a> or see
+<a href="/alternatives/{{ $a.slug }}/">{{ $a.name }} alternatives</a> and
+<a href="/alternatives/{{ $b.slug }}/">{{ $b.name }} alternatives</a>.</p>
+{{- end }}

@@ -80,11 +80,47 @@ def main():
             FM.format(title=title, desc=desc, ctype="alternatives", slug=slug) + body,
         )
 
+    # Comparisons ("X vs Y" — same-category pairs; high-intent programmatic pages)
+    # Group tools by category, then emit every within-category pair once
+    # (slug order sorted so chatgpt-vs-claude == claude-vs-chatgpt).
+    by_cat = {}
+    for slug, t in tools.items():
+        by_cat.setdefault(t.get("category", ""), []).append(slug)
+    pair_n = 0
+    for cat, slugs in by_cat.items():
+        slugs = sorted(slugs)
+        for i in range(len(slugs)):
+            for j in range(i + 1, len(slugs)):
+                a, b = tools[slugs[i]], tools[slugs[j]]
+                cslug = f"{a['slug']}-vs-{b['slug']}"
+                title = f"{a['name']} vs {b['name']}"
+                desc = (f"{a['name']} vs {b['name']}: compare pricing, features, "
+                        f"ratings, and best use cases to pick the right tool for your "
+                        f"one-person business.")
+                body = f"# {title}\n\n{desc}\n"
+                comp_fm = (
+                    f'---\n'
+                    f'title: "{title}"\n'
+                    f'description: "{desc}"\n'
+                    f'type: "comparison"\n'
+                    f'slug: "{cslug}"\n'
+                    f'tool_a: "{a["slug"]}"\n'
+                    f'tool_b: "{b["slug"]}"\n'
+                    f'draft: false\n'
+                    f'---\n'
+                )
+                write(
+                    os.path.join(OUT, "comparisons", f"{cslug}.md"),
+                    comp_fm + body,
+                )
+                pair_n += 1
+
     # Section indexes so /tools/, /categories/, /alternatives/ render & sitemap
     for sect, title in [
         ("tools", "AI Tools"),
         ("categories", "Tool Categories"),
         ("alternatives", "Alternatives"),
+        ("comparisons", "Comparisons"),
     ]:
         idx = os.path.join(OUT, sect, "_index.md")
         write(
@@ -93,7 +129,7 @@ def main():
         )
 
     print(f"\nDone. {len(tools)} tools, {len(cats)} categories, "
-          f"{len(tools)} alternatives pages.")
+          f"{len(tools)} alternatives pages, {pair_n} comparison pages.")
 
 
 if __name__ == "__main__":

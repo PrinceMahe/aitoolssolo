@@ -21,4 +21,19 @@
 {{- else if eq .Type "alternatives" }}
   {{- $obj := dict "@context" "https://schema.org" "@type" "ItemList" "name" .Title "description" .Description }}
   <script type="application/ld+json">{{ $obj | jsonify | safeJS }}</script>
+{{- else if eq .Type "comparison" }}
+  {{- $a := index .Site.Data.tools .Params.tool_a }}
+  {{- $b := index .Site.Data.tools .Params.tool_b }}
+  {{- if and $a $b }}
+    {{- $obj := dict
+      "@context" "https://schema.org"
+      "@type" "CompareAction"
+      "name" .Title
+      "description" .Description
+      "object" (slice
+        (dict "@type" "SoftwareApplication" "name" $a.name)
+        (dict "@type" "SoftwareApplication" "name" $b.name))
+    }}
+  <script type="application/ld+json">{{ $obj | jsonify | safeJS }}</script>
+  {{- end }}
 {{- end }}
