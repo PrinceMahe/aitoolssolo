@@ -8,6 +8,18 @@
   <div class="post-content">
     {{ .Content | replaceRE "(?s)^<h1[^>]*>.*?</h1>\\s*" "" | safeHTML }}
     {{ partial "tool-detail.html" . }}
+    {{/* Sprint 1: tool page -> every tag landing the tool belongs to
+        (inbound link equity for both primary and long-tail tags). */}}
+    {{- $slug := .Params.tool }}
+    {{- with index site.Data.tools $slug }}
+      {{- $links := slice }}
+      {{- range .tags }}{{ with index site.Data.landing.tag_landing . }}{{ $links = $links | append . }}{{ end }}{{ end }}
+      {{- if gt (len $links) 0 }}
+      <p class="tool-landing-link">Explore more:
+      {{- range $i, $l := $links }}<a href="/landing/{{ $l }}/">Best AI tools for {{ $l | humanize | title }}</a>{{ if lt (add $i 1) (len $links) }} · {{ end }}{{ end }}
+      </p>
+      {{- end }}
+    {{- end }}
   </div>
   <footer class="post-footer">
     <ul class="post-tags">

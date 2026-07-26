@@ -1,0 +1,49 @@
+{{/* Sprint 1: outbound link-equity from a landing page. Wired into
+     layouts/landing/single.html so each hub links its siblings (same
+     primary category) + its parent category landing + popular tags.
+     Use site.Data for reliability. */}}
+{{- $kind := .Param "landing_kind" -}}
+{{- if eq $kind "tag" -}}
+  {{- $tag := strings.TrimPrefix "best-ai-tools-for-" .File.ContentBaseName -}}
+  {{- $cat := index site.Data.landing.tag_category $tag -}}
+  <section class="landing-crosslinks">
+    <h2>More AI tools by category</h2>
+    <ul class="landing-sib">
+      {{- with index site.Data.landing.cat_landing $cat }}<li><a href="/landing/{{ . }}/">{{ . | humanize | title }}</a></li>{{ end }}
+    </ul>
+    <h2>Related use cases</h2>
+    <ul class="landing-related">
+      {{- range (index site.Data.landing.tag_siblings $tag) -}}
+        {{- with index site.Data.landing.tag_landing . }}<li><a href="/landing/{{ . }}/">{{ . | humanize | title }}</a></li>{{ end -}}
+      {{- end }}
+    </ul>
+  </section>
+{{- else -}}
+  {{- $cat := .Section -}}
+  <section class="landing-crosslinks">
+    <h2>Explore by use case</h2>
+    <ul class="landing-related">
+      {{- range $t, $s := site.Data.landing.tag_landing -}}
+        {{- if eq (index site.Data.landing.tag_category $t) $cat -}}
+          <li><a href="/landing/{{ $s }}/">{{ $t | humanize | title }}</a></li>
+        {{- end -}}
+      {{- end }}
+    </ul>
+  </section>
+{{- end -}}
+<p class="landing-foot">Browse the full <a href="/tools/">AI tools directory</a>
+or all <a href="/categories/">tool categories</a>.</p>
+
+{{/* Sprint 1: global "all use-case hubs" nav on every landing page.
+     Gives every hub mutual inbound (clears the >=10 internal-link target)
+     and is a standard directory browse affordance. */}}
+<nav class="landing-all" aria-label="All use-case hubs">
+  <details>
+    <summary>All use-case hubs</summary>
+    <ul class="landing-all-list">
+      {{- range site.Data.landing.all_tag_landings }}
+      <li><a href="/landing/{{ . }}/">{{ . | humanize | title }}</a></li>
+      {{- end }}
+    </ul>
+  </details>
+</nav>

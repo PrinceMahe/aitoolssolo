@@ -1,0 +1,334 @@
+{
+  "cat_landing": {
+    "marketing": "ai-tools-for-marketing-growth",
+    "image": "ai-tools-for-image-design",
+    "video": "ai-tools-for-video-audio",
+    "writing": "ai-tools-for-writing-content",
+    "coding": "ai-tools-for-coding-build",
+    "automation": "ai-tools-for-automation-workflow",
+    "business": "ai-tools-for-business-operations",
+    "productivity": "ai-tools-for-productivity-research"
+  },
+  "tag_landing": {
+    "marketing": "best-ai-tools-for-marketing",
+    "business": "best-ai-tools-for-business",
+    "writing": "best-ai-tools-for-writing",
+    "image": "best-ai-tools-for-image",
+    "video": "best-ai-tools-for-video",
+    "automation": "best-ai-tools-for-automation",
+    "productivity": "best-ai-tools-for-productivity",
+    "coding": "best-ai-tools-for-coding",
+    "seo": "best-ai-tools-for-seo",
+    "design": "best-ai-tools-for-design",
+    "finance": "best-ai-tools-for-finance",
+    "social": "best-ai-tools-for-social",
+    "research": "best-ai-tools-for-research",
+    "agent": "best-ai-tools-for-agent",
+    "enterprise": "best-ai-tools-for-enterprise",
+    "editing": "best-ai-tools-for-editing",
+    "notes": "best-ai-tools-for-notes",
+    "audio": "best-ai-tools-for-audio",
+    "copy": "best-ai-tools-for-copy",
+    "workflow": "best-ai-tools-for-workflow",
+    "ui": "best-ai-tools-for-ui",
+    "email": "best-ai-tools-for-email",
+    "art": "best-ai-tools-for-art",
+    "pm": "best-ai-tools-for-pm",
+    "search": "best-ai-tools-for-search",
+    "edit": "best-ai-tools-for-edit",
+    "opensource": "best-ai-tools-for-opensource",
+    "crm": "best-ai-tools-for-crm",
+    "chat": "best-ai-tools-for-chat",
+    "accounting": "best-ai-tools-for-accounting"
+  },
+  "tag_category": {
+    "marketing": "marketing",
+    "business": "business",
+    "writing": "writing",
+    "image": "image",
+    "video": "video",
+    "automation": "automation",
+    "productivity": "productivity",
+    "coding": "coding",
+    "seo": "marketing",
+    "design": "marketing",
+    "finance": "business",
+    "social": "video",
+    "research": "writing",
+    "agent": "automation",
+    "enterprise": "writing",
+    "editing": "image",
+    "notes": "productivity",
+    "audio": "video",
+    "copy": "writing",
+    "workflow": "business",
+    "ui": "coding",
+    "email": "marketing",
+    "art": "image",
+    "pm": "business",
+    "search": "coding",
+    "edit": "video",
+    "opensource": "coding",
+    "crm": "business",
+    "chat": "productivity",
+    "accounting": "business"
+  },
+  "tag_siblings": {
+    "marketing": [
+      "seo",
+      "design",
+      "email"
+    ],
+    "business": [
+      "finance",
+      "workflow",
+      "pm",
+      "crm",
+      "accounting"
+    ],
+    "writing": [
+      "research",
+      "enterprise",
+      "copy"
+    ],
+    "image": [
+      "editing",
+      "art"
+    ],
+    "video": [
+      "social",
+      "audio",
+      "edit"
+    ],
+    "automation": [
+      "agent"
+    ],
+    "productivity": [
+      "notes",
+      "chat"
+    ],
+    "coding": [
+      "ui",
+      "search",
+      "opensource"
+    ],
+    "seo": [
+      "marketing",
+      "design",
+      "email"
+    ],
+    "design": [
+      "marketing",
+      "seo",
+      "email"
+    ],
+    "finance": [
+      "business",
+      "workflow",
+      "pm",
+      "crm",
+      "accounting"
+    ],
+    "social": [
+      "video",
+      "audio",
+      "edit"
+    ],
+    "research": [
+      "writing",
+      "enterprise",
+      "copy"
+    ],
+    "agent": [
+      "automation"
+    ],
+    "enterprise": [
+      "writing",
+      "research",
+      "copy"
+    ],
+    "editing": [
+      "image",
+      "art"
+    ],
+    "notes": [
+      "productivity",
+      "chat"
+    ],
+    "audio": [
+      "video",
+      "social",
+      "edit"
+    ],
+    "copy": [
+      "writing",
+      "research",
+      "enterprise"
+    ],
+    "workflow": [
+      "business",
+      "finance",
+      "pm",
+      "crm",
+      "accounting"
+    ],
+    "ui": [
+      "coding",
+      "search",
+      "opensource"
+    ],
+    "email": [
+      "marketing",
+      "seo",
+      "design"
+    ],
+    "art": [
+      "image",
+      "editing"
+    ],
+    "pm": [
+      "business",
+      "finance",
+      "workflow",
+      "crm",
+      "accounting"
+    ],
+    "search": [
+      "coding",
+      "ui",
+      "opensource"
+    ],
+    "edit": [
+      "video",
+      "social",
+      "audio"
+    ],
+    "opensource": [
+      "coding",
+      "ui",
+      "search"
+    ],
+    "crm": [
+      "business",
+      "finance",
+      "workflow",
+      "pm",
+      "accounting"
+    ],
+    "chat": [
+      "productivity",
+      "notes"
+    ],
+    "accounting": [
+      "business",
+      "finance",
+      "workflow",
+      "pm",
+      "crm"
+    ]
+  },
+  "all_cat_landings": [
+    "ai-tools-for-marketing-growth",
+    "ai-tools-for-image-design",
+    "ai-tools-for-video-audio",
+    "ai-tools-for-writing-content",
+    "ai-tools-for-coding-build",
+    "ai-tools-for-automation-workflow",
+    "ai-tools-for-business-operations",
+    "ai-tools-for-productivity-research"
+  ],
+  "all_tag_landings": [
+    "best-ai-tools-for-marketing",
+    "best-ai-tools-for-business",
+    "best-ai-tools-for-writing",
+    "best-ai-tools-for-image",
+    "best-ai-tools-for-video",
+    "best-ai-tools-for-automation",
+    "best-ai-tools-for-productivity",
+    "best-ai-tools-for-coding",
+    "best-ai-tools-for-seo",
+    "best-ai-tools-for-design",
+    "best-ai-tools-for-finance",
+    "best-ai-tools-for-social",
+    "best-ai-tools-for-research",
+    "best-ai-tools-for-agent",
+    "best-ai-tools-for-enterprise",
+    "best-ai-tools-for-editing",
+    "best-ai-tools-for-notes",
+    "best-ai-tools-for-audio",
+    "best-ai-tools-for-copy",
+    "best-ai-tools-for-workflow",
+    "best-ai-tools-for-ui",
+    "best-ai-tools-for-email",
+    "best-ai-tools-for-art",
+    "best-ai-tools-for-pm",
+    "best-ai-tools-for-search",
+    "best-ai-tools-for-edit",
+    "best-ai-tools-for-opensource",
+    "best-ai-tools-for-crm",
+    "best-ai-tools-for-chat",
+    "best-ai-tools-for-accounting"
+  ],
+  "popular_landings": [
+    "best-ai-tools-for-marketing",
+    "best-ai-tools-for-business",
+    "best-ai-tools-for-writing",
+    "best-ai-tools-for-image",
+    "best-ai-tools-for-video",
+    "best-ai-tools-for-automation",
+    "best-ai-tools-for-productivity",
+    "best-ai-tools-for-coding",
+    "best-ai-tools-for-seo",
+    "best-ai-tools-for-design",
+    "best-ai-tools-for-finance",
+    "best-ai-tools-for-social"
+  ],
+  "cat_tags": {
+    "marketing": [
+      "marketing",
+      "seo",
+      "design",
+      "email"
+    ],
+    "image": [
+      "image",
+      "editing",
+      "art"
+    ],
+    "video": [
+      "video",
+      "social",
+      "audio",
+      "edit"
+    ],
+    "writing": [
+      "writing",
+      "research",
+      "enterprise",
+      "copy"
+    ],
+    "coding": [
+      "coding",
+      "ui",
+      "search",
+      "opensource"
+    ],
+    "automation": [
+      "automation",
+      "agent"
+    ],
+    "business": [
+      "business",
+      "finance",
+      "workflow",
+      "pm",
+      "crm",
+      "accounting"
+    ],
+    "productivity": [
+      "productivity",
+      "notes",
+      "chat"
+    ]
+  }
+}

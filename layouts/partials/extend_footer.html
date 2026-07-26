@@ -1,0 +1,11 @@
+{{/* Sprint 1: footer top-category links — global inbound to category landings.
+     extend_footer.html is called by the theme footer on every page.
+     Use site.Data (global func) for reliability. */}}
+<nav class="footer-landing" aria-label="Top categories">
+  <h3>Top Categories</h3>
+  <ul class="footer-cats">
+    {{- range first 10 site.Data.landing.all_cat_landings }}
+    <li><a href="/landing/{{ . }}/">{{ . | humanize | title }}</a></li>
+    {{- end }}
+  </ul>
+</nav>

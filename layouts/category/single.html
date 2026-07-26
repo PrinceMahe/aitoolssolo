@@ -8,6 +8,18 @@
   <div class="post-content">
     {{ .Content | replaceRE "(?s)^<h1[^>]*>.*?</h1>\\s*" "" | safeHTML }}
     {{ partial "category-list.html" . }}
+    {{/* Sprint 1: link category page -> its landing hub + sibling categories */}}
+    <section class="cat-landing-link">
+      <h2>Browse this category as a curated hub</h2>
+      {{- $slug := .File.ContentBaseName }}
+      {{- with index site.Data.landing.cat_landing $slug }}
+      <p><a class="btn" href="/landing/{{ . }}/">Best AI Tools for {{ . | humanize | title }} →</a></p>
+      {{- end }}
+      <h3>Other categories</h3>
+      <ul class="landing-related">
+        {{- range $c, $s := site.Data.landing.cat_landing }}{{ if ne $c $slug }}<li><a href="/landing/{{ $s }}/">{{ $s | humanize | title }}</a></li>{{ end }}{{ end }}
+      </ul>
+    </section>
   </div>
   <footer class="post-footer">
     <ul class="post-tags">

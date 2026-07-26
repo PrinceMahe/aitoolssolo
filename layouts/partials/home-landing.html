@@ -1,0 +1,22 @@
+{{/* Sprint 1: homepage outbound to landing hubs.
+     "Browse AI by Category" (8 category landings) + "Popular Use Cases"
+     (top tag landings). Gives every landing page a homepage-at-depth-1 inbound.
+     NOTE: use site.Data (global func) — .Site.Data is empty inside home_info. */}}
+<section class="home-cats">
+  <h2>Browse AI by Category</h2>
+  <div class="cat-grid">
+    {{- range $c, $slug := site.Data.landing.cat_landing }}
+    <a class="cat-card" href="/landing/{{ $slug }}/">{{ . | humanize | title }}</a>
+    {{- end }}
+  </div>
+</section>
+
+<section class="home-popular">
+  <h2>Popular Use Cases</h2>
+  <div class="usecase-chips">
+    {{- range site.Data.landing.popular_landings }}
+    <a class="chip" href="/landing/{{ . }}/">{{ . | humanize | title }}</a>
+    {{- end }}
+    <a class="chip chip-more" href="/use-cases/">All use cases →</a>
+  </div>
+</section>

@@ -31,6 +31,7 @@
       {{- with .Site.GetPage (printf "/categories/%s/" ($.Param "landing_kind")) }}{{ end -}}
       or browse all <a href="/use-cases/">AI use cases</a>.
     </p>
+    {{ partial "landing-crosslinks.html" . }}
   </div>
 
   <footer class="post-footer">

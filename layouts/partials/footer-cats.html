@@ -1,0 +1,7 @@
+{{/* Sprint 1: footer top-category links (inbound to category landings). */}}
+<h3>Top Categories</h3>
+<ul class="footer-cats">
+  {{- range first 8 .Site.Data.landing.all_cat_landings }}
+  <li><a href="/landing/{{ . }}/">{{ . | humanize | title }}</a></li>
+  {{- end }}
+</ul>
