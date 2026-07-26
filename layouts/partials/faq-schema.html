@@ -1,0 +1,62 @@
+{{/* FAQPage structured data for posts with a "## FAQ" section using "### Q:" headings.
+     Uses [ \t] for whitespace (Hugo templates reject \s as invalid string escape). */}}
+{{- if eq .Type "posts" }}
+  {{- $raw := .RawContent | default "" | replaceRE "\r" "" }}
+  {{- $faq := "" }}
+  {{- $parts := split $raw "## FAQ" }}
+  {{- if gt (len $parts) 1 }}
+    {{- $after := index $parts 1 }}
+    {{- $cuts := findRE "^## " $after }}
+    {{- if $cuts }}
+      {{- $faq = index (split $after (index $cuts 0)) 0 }}
+    {{- else }}
+      {{- $faq = $after }}
+    {{- end }}
+    {{- /* normalize "**N. Question**" style into "### Q: Question" so one parser handles both */}}
+    {{- $faq = $faq | replaceRE "[*][*][0-9]+[.][ \t]+(.+?)[*][*]" "### Q: $1" }}
+  {{- end }}
+  {{- if $faq }}
+    {{- $blocks := split $faq "### Q:" }}
+    {{- $items := slice }}
+    {{- range after 1 $blocks }}
+      {{- $b := . | replaceRE "^[ \t]+" "" | replaceRE "[ \t]+$" "" }}
+      {{- if $b }}
+        {{- $lines := split $b "\n" }}
+        {{- $q := index $lines 0 }}
+        {{- $q = $q | replaceRE "^###[ \t]+Q:[ \t]*" "" }}
+        {{- $q = $q | replaceRE "^[ \t]+" "" }}
+        {{- $q = $q | replaceRE "[ \t]+$" "" }}
+        {{- $q = $q | plainify }}
+        {{- $ans := "" }}
+        {{- range after 1 $lines }}
+          {{- $ln := . | replaceRE "^[ \t]+" "" | replaceRE "[ \t]+$" "" | plainify }}
+          {{- if $ln }}
+            {{- if $ans }}{{ $ans = print $ans " " }}{{ end }}
+            {{- $ans = print $ans $ln }}
+          {{- end }}
+        {{- end }}
+        {{- if and $q $ans }}
+          {{- $items = $items | append (dict "name" $q "text" $ans) }}
+        {{- end }}
+      {{- end }}
+    {{- end }}
+    {{- if $items }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {{- range $i, $it := $items }}{{- if $i }}, {{ end }}{
+      "@type": "Question",
+      "name": {{ $it.name | jsonify }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ $it.text | jsonify }}
+      }
+    }{{- end }}
+  ]
+}
+</script>
+    {{- end }}
+  {{- end }}
+{{- end }}

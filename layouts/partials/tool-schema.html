@@ -15,7 +15,7 @@
     }}
   <script type="application/ld+json">{{ $obj | jsonify | safeJS }}</script>
   {{- end }}
-{{- else if eq .Type "category" }}
+{{- else if or (eq .Type "category") (eq .Type "categories") }}
   {{- $obj := dict "@context" "https://schema.org" "@type" "CollectionPage" "name" .Title "description" .Description }}
   <script type="application/ld+json">{{ $obj | jsonify | safeJS }}</script>
 {{- else if eq .Type "alternatives" }}
