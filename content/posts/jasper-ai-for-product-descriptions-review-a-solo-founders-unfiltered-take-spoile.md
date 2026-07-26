@@ -100,6 +100,20 @@ If you enjoyed this field report, you'll love my weekly newsletter. I share the 
 
 **[Join 1,000+ builders and subscribe to Zero Manual (it's free)](https://magic.beehiiv.com/v1/cc54f96d-d4de-45c1-ad62-368b08977ec4)**
 
+
+## Comparison Table: Jasper AI vs ChatGPT
+
+| Feature | Jasper AI | ChatGPT |
+|---|---|---|
+| Pricing | From $39/mo (Creator) | $20/mo (Plus) |
+| Free plan | 7-day trial only | Free tier available |
+| Best for | High-volume on-brand copy | Flexible general use |
+| Platform | Web, browser extension | Web, mobile, API |
+| API | Yes (business tier) | Yes (paid tiers) |
+| Ease of use | Templated, fast | Prompt-driven |
+| Integrations | Browser, Make.com, Shopify | Zapier, many via API |
+| Overall score | 8.5/10 | 8.0/10 |
+
 ## FAQ
 
 ### Q: Is Jasper good for product descriptions?

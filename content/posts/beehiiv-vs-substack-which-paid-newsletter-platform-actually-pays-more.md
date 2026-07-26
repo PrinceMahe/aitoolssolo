@@ -131,6 +131,20 @@ Don't forget the basics either – a fast, reliable website is essential for cap
 
 Ultimately, the best platform is the one that fits *your* needs and helps you achieve *your* goals.  I hope this detailed comparison helps you make an informed decision!
 
+
+## Comparison Table: Beehiiv vs Substack
+
+| Feature | Beehiiv | Substack |
+|---|---|---|
+| Pricing | From $39/mo | 10% of paid rev |
+| Free plan | 2,500 subs, branded | Unlimited free |
+| Best for | Growth + ad revenue | Simplest paid launch |
+| Platform | Web | Web |
+| API | Limited | Limited |
+| Ease of use | More setup, more power | Near-zero setup |
+| Integrations | Boosts, ad network | Discovery network |
+| Overall score | 8.7/10 | 8.0/10 |
+
 ## FAQ
 
 ### Q: Do writers actually earn more on Beehiiv or Substack?

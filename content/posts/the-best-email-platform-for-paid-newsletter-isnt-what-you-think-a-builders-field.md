@@ -139,6 +139,20 @@ I use AI in my newsletter pipeline. But not how most people think.
 
 ---
 
+
+## Comparison Table: Beehiiv vs ConvertKit
+
+| Feature | Beehiiv | ConvertKit |
+|---|---|---|
+| Pricing | From $39/mo Scale | From $29/mo |
+| Free plan | 2,500 subs | 10k subs free |
+| Best for | Paid newsletters + ads | Selling products |
+| Platform | Web | Web |
+| API | Limited | Yes |
+| Ease of use | Referrals + site built-in | Sequences focused |
+| Integrations | Stripe, ad network | Commerce, tips |
+| Overall score | 8.7/10 | 8.5/10 |
+
 ## FAQ: Best Email Platform for Paid Newsletters
 
 **1. Why is Beehiiv better than Substack for a paid newsletter?**

@@ -96,6 +96,20 @@ However, if you're on a very tight budget or only need to record occasional epis
 
 You can check it out here: [https://riverside.fm/?via=aitoolssolo](https://riverside.fm/?via=aitoolssolo)
 
+
+## Comparison Table: Riverside.fm vs Descript
+
+| Feature | Riverside.fm | Descript |
+|---|---|---|
+| Pricing | From $15/mo | From $12/mo |
+| Free plan | Limited recording | Limited transcription |
+| Best for | Crisp remote interviews | Editing by transcript |
+| Platform | Browser, desktop apps | Mac, Windows, Web |
+| API | No public API | Limited |
+| Ease of use | Guest link, no install | Visual canvas |
+| Integrations | Descript, editors | Premiere, Final Cut |
+| Overall score | 8.4/10 | 8.6/10 |
+
 ## FAQ
 
 ### Q: Is Riverside.fm worth it after 100 episodes?

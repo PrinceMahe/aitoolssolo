@@ -181,6 +181,20 @@ If you enjoyed this field report, you'll love my weekly newsletter. I share the 
 
 **[Join 1,000+ builders and subscribe to Zero Manual (it's free)](https://magic.beehiiv.com/v1/cc54f96d-d4de-45c1-ad62-368b08977ec4)**
 
+
+## Comparison Table: Beehiiv vs ConvertKit
+
+| Feature | Beehiiv | ConvertKit |
+|---|---|---|
+| Pricing | From $39/mo (Scale) | From $29/mo |
+| Free plan | 2,500 subs, branded | Up to 10k subs |
+| Best for | Newsletter growth + ads | Funnels + products |
+| Platform | Web | Web |
+| API | Limited | Yes |
+| Ease of use | Built-in site + referrals | Sequences focused |
+| Integrations | Ad network, Stripe | Commerce, tips |
+| Overall score | 8.7/10 | 8.5/10 |
+
 ## FAQ
 
 ### Q: Which is better for a solo founder, Beehiiv or ConvertKit?

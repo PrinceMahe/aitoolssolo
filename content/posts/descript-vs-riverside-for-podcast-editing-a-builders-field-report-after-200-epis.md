@@ -135,6 +135,20 @@ Could you do it all in one tool? Sure. Riverside is trying to be that tool. Desc
 
 Stop looking for the perfect single tool. Start building a pipeline that lets you ship.
 
+
+## Comparison Table: Descript vs Riverside
+
+| Feature | Descript | Riverside |
+|---|---|---|
+| Pricing | From $12/mo | From $15/mo |
+| Free plan | Limited | Limited |
+| Best for | Transcript editing | Local remote recording |
+| Platform | Mac, Windows, Web | Browser, desktop |
+| API | Limited | No public API |
+| Ease of use | Cut text to cut video | Guests join via link |
+| Integrations | NLE round-trip | Descript, exports |
+| Overall score | 8.6/10 | 8.4/10 |
+
 ## FAQ
 
 ### Q: What is the difference between Descript and Riverside?

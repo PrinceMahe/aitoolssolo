@@ -114,6 +114,20 @@ If you enjoyed this field report, you'll love my weekly newsletter. I share the 
 
 **[Join 1,000+ builders and subscribe to Zero Manual (it's free)](https://magic.beehiiv.com/v1/cc54f96d-d4de-45c1-ad62-368b08977ec4)**
 
+
+## Comparison Table: Descript vs Riverside
+
+| Feature | Descript | Riverside |
+|---|---|---|
+| Pricing | From $12/mo Creator | From $15/mo |
+| Free plan | Limited transcription | Limited recording |
+| Best for | Text-based editing | Remote capture |
+| Platform | Mac, Windows, Web | Browser, desktop |
+| API | Limited | No public API |
+| Ease of use | Edit by transcript | Record by link |
+| Integrations | NLE round-trip | Clips, Descript |
+| Overall score | 8.6/10 | 8.4/10 |
+
 ## FAQ
 
 ### Q: Is Descript pricing a bait-and-switch?

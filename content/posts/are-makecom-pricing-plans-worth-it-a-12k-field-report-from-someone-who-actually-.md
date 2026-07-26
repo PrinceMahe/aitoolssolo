@@ -124,6 +124,20 @@ If you enjoyed this field report, you'll love my weekly newsletter. I share the 
 
 **[Join 1,000+ builders and subscribe to Zero Manual (it's free)](https://magic.beehiiv.com/v1/cc54f96d-d4de-45c1-ad62-368b08977ec4)**
 
+
+## Comparison Table: Make.com vs Zapier
+
+| Feature | Make.com | Zapier |
+|---|---|---|
+| Pricing | From $9/mo Core | From $19.99/mo |
+| Free plan | 2 scenarios, 1k ops | 1,000 tasks/mo |
+| Best for | High-volume logic | Simple triggers |
+| Platform | Web | Web, mobile |
+| API | HTTP + webhooks | Yes |
+| Ease of use | Canvas, steeper start | Linear, easy |
+| Integrations | 1,000+ apps | 6,000+ apps |
+| Overall score | 9.0/10 | 8.2/10 |
+
 ## FAQ
 
 ### Q: Is Make.com worth the price for a solo operator?

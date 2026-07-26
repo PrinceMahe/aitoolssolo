@@ -118,6 +118,20 @@ If you enjoyed this field report, you'll love my weekly newsletter. I share the 
 
 **[Join 1,000+ builders and subscribe to Zero Manual (it's free)](https://magic.beehiiv.com/v1/cc54f96d-d4de-45c1-ad62-368b08977ec4)**
 
+
+## Comparison Table: Make.com vs n8n
+
+| Feature | Make.com | n8n |
+|---|---|---|
+| Pricing | From $9/mo hosted | Free self-hosted |
+| Free plan | 2 scenarios | Unlimited self-hosted |
+| Best for | Hosted visual builder | Code-friendly control |
+| Platform | Cloud | Self-hosted / cloud |
+| API | HTTP + webhooks | Full REST API |
+| Ease of use | Friendly canvas | Node editor, busier |
+| Integrations | 1,000+ apps | Extensible nodes |
+| Overall score | 9.0/10 | 8.7/10 |
+
 ## FAQ
 
 ### Q: Make.com or n8n: which reduces workflow fatigue more?

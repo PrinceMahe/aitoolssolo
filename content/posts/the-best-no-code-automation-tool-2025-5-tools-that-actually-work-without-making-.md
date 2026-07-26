@@ -127,6 +127,20 @@ If you enjoyed this field report, you'll love my weekly newsletter. I share the 
 
 **[Join 1,000+ builders and subscribe to Zero Manual (it's free)](https://magic.beehiiv.com/v1/cc54f96d-d4de-45c1-ad62-368b08977ec4)**
 
+
+## Comparison Table: Make.com vs Zapier
+
+| Feature | Make.com | Zapier |
+|---|---|---|
+| Pricing | From $9/mo | From $19.99/mo |
+| Free plan | 2 scenarios | 1,000 tasks/mo |
+| Best for | Complex scenarios | Simple zaps |
+| Platform | Web | Web, mobile |
+| API | HTTP + webhooks | Yes |
+| Ease of use | Visual, steeper start | Gentle start |
+| Integrations | 1,000+ apps | 6,000+ apps |
+| Overall score | 9.0/10 | 8.2/10 |
+
 ## FAQ
 
 ### Q: What are the 5 best no-code automation tools?

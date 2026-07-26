@@ -95,6 +95,20 @@ If you enjoyed this field report, you'll love my weekly newsletter. I share the 
 
 **[Join 1,000+ builders and subscribe to Zero Manual (it's free)](https://magic.beehiiv.com/v1/cc54f96d-d4de-45c1-ad62-368b08977ec4)**
 
+
+## Comparison Table: Beehiiv vs Substack
+
+| Feature | Beehiiv | Substack |
+|---|---|---|
+| Pricing | Free; Scale $39/mo | Free; 10% paid |
+| Free plan | 2,500 subs, no domain | Unlimited, no domain fee |
+| Best for | Growth-focused newsletters | Quick paid launch |
+| Platform | Web | Web |
+| API | Limited | Limited |
+| Ease of use | Pro features behind paywall | Simpler free tier |
+| Integrations | Ad network (paid) | Basic |
+| Overall score | 8.7/10 | 8.0/10 |
+
 ## FAQ
 
 ### Q: What does Beehiiv's free plan actually include?

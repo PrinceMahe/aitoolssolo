@@ -136,6 +136,20 @@ If you enjoyed this field report, you'll love my weekly newsletter. I share the 
 
 **[Join 1,000+ builders and subscribe to Zero Manual (it's free)](https://magic.beehiiv.com/v1/cc54f96d-d4de-45c1-ad62-368b08977ec4)**
 
+
+## Comparison Table: Descript vs Riverside
+
+| Feature | Descript | Riverside |
+|---|---|---|
+| Pricing | From $12/mo (Creator) | From $15/mo |
+| Free plan | Limited transcription | Limited recording |
+| Best for | Text-based video editing | High-quality remote capture |
+| Platform | Mac, Windows, Web | Browser, desktop apps |
+| API | Limited | No public API |
+| Ease of use | Edit by deleting words | Record-first workflow |
+| Integrations | Premiere, Final Cut | Editing suite, clips |
+| Overall score | 8.6/10 | 8.3/10 |
+
 ## FAQ
 
 ### Q: Is Descript good for YouTube editing?
