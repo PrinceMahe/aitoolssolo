@@ -6,8 +6,8 @@
     "status_counts": {
       "200": 4394
     },
-    "unexpected_noindex": 0,
-    "expected_noindex_missing": 3,
+    "unexpected_noindex": 1,
+    "expected_noindex_missing": 0,
     "canon_mismatch": 0,
     "dup_titles": 336,
     "dup_descs": 319,
@@ -23,12 +23,10 @@
     "multi_h1": 0,
     "zero_h1": 0
   },
-  "unexpected_noindex": [],
-  "expected_noindex_missing": [
-    "https://www.aitoolssolo.com/categories/comparisons/",
-    "https://www.aitoolssolo.com/comparisons/",
-    "https://www.aitoolssolo.com/use-cases/"
+  "unexpected_noindex": [
+    "https://www.aitoolssolo.com/categories/"
   ],
+  "expected_noindex_missing": [],
   "canon_mismatch": [],
   "dup_titles": {
     "AI Tools Solo — Smart AI Tools for Solopreneurs": 2,
