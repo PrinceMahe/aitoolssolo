@@ -1,0 +1,43 @@
+{{ define "main" }}
+<article class="post-single">
+  <header class="post-header">
+    {{ partial "breadcrumbs.html" . }}
+    <h1 class="post-title entry-hint-parent">{{ .Title }}</h1>
+    {{- if .Description }}<div class="post-description">{{ .Description }}</div>{{ end }}
+  </header>
+
+  <div class="post-content">
+    {{ .Content | replaceRE "(?s)^<h1[^>]*>.*?</h1>\\s*" "" | safeHTML }}
+
+    {{- $slugs := .Param "landing_tools" }}
+    {{- $tools := slice }}
+    {{- range $slugs }}{{ with index $.Site.Data.tools . }}{{ $tools = $tools | append . }}{{ end }}{{ end }}
+
+    <div class="landing-grid">
+      {{- range $t := $tools }}
+      <section class="landing-card">
+        <h2><a href="/tools/{{ $t.slug }}/">{{ $t.name }}</a></h2>
+        <p class="rating">★ {{ $t.rating }}/5</p>
+        <p class="pricing">{{ $t.pricing }}</p>
+        <p>{{ $t.summary }}</p>
+        {{- with $t.best_for }}<p class="best-for"><strong>Best for:</strong> {{ delimit . ", " }}</p>{{ end }}
+        <p class="card-cta"><a href="/tools/{{ $t.slug }}/">Read review →</a></p>
+      </section>
+      {{- end }}
+    </div>
+
+    <p class="landing-foot">
+      Explore the full <a href="/tools/">AI tools directory</a>
+      {{- with .Site.GetPage (printf "/categories/%s/" ($.Param "landing_kind")) }}{{ end -}}
+      or browse all <a href="/use-cases/">AI use cases</a>.
+    </p>
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="/tools/">All tools →</a></li>
+      <li><a href="/categories/">All categories →</a></li>
+    </ul>
+  </footer>
+</article>
+{{ end }}
