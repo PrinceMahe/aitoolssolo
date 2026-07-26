@@ -1,5 +1,5 @@
 ---
-title: "Are Make.com Pricing Plans Worth It? A $12K Field Report From Someone Who Actually Automates"
+title: "Is Make.com Worth It? Pricing After a $12K Spend (2026)"
 description: "I've spent $12K+ on Make.com over 2 years. Here's whether Make.com pricing plans worth it for solopreneurs running real automation stacks."
 date: 2026-03-31T12:01:20-04:00
 lastmod: 2026-05-11T00:00:00-04:00

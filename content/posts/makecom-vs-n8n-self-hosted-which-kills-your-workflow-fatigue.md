@@ -1,5 +1,5 @@
 ---
-title: "Make.com vs n8n Self Hosted: Which Kills Your Workflow Fatigue?"
+title: "Make.com vs n8n: Which Kills Workflow Fatigue? (2026)"
 description: "Make.com vs n8n self hosted: Which automates your solopreneur workflow faster? Field report with actionable takeaways."
 date: 2026-06-04T12:00:40-04:00
 lastmod: 2026-06-04T12:00:40-04:00

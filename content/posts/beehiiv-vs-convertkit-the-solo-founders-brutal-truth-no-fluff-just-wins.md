@@ -1,5 +1,5 @@
 ---
-title: "Beehiiv vs ConvertKit: The Solo Founder's Brutal Truth (No Fluff, Just Wins)"
+title: "Beehiiv vs ConvertKit: Which Is Better for Solopreneurs?"
 description: "Beehiiv vs ConvertKit: The Solo Founder's Brutal Truth (No Fluff, Just Wins)"
 date: 2026-06-11T12:00:41-04:00
 lastmod: 2026-06-11T12:00:41-04:00

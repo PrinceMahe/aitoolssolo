@@ -1,5 +1,5 @@
 ---
-title: "Beehiiv vs Substack: Which Paid Newsletter Platform Actually Pays More"
+title: "Beehiiv vs Substack: Which Pays Creators More in 2026?"
 description: "Comparing Beehiiv and Substack for solopreneurs: revenue models, features, growth tools, and which platform will maximize your earnings."
 date: 2026-05-11T10:35:16-04:00
 lastmod: 2026-05-11T00:00:00-04:00

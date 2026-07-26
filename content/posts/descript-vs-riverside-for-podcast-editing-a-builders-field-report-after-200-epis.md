@@ -1,5 +1,5 @@
 ---
-title: "Descript vs Riverside for Podcast Editing: A Builder's Field Report After 200+ Episodes"
+title: "Descript vs Riverside: Best for Podcast Editing? (2026)"
 description: "Descript vs Riverside for podcast editing — a solo builder's honest breakdown of workflows, AI features, and which tool actually saves you time."
 date: 2026-03-25T04:32:37-04:00
 lastmod: 2026-05-11T00:00:00-04:00

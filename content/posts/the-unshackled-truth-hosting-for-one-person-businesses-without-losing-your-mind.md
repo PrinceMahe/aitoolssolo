@@ -1,5 +1,5 @@
 ---
-title: "The Unshackled Truth: Hosting for One-Person Businesses Without Losing Your Mind"
+title: "Best Web Hosting for a One-Person Business (2026)"
 description: "Skip the fluff. Here's the real talk on hosting your one-person business — no nonsense, just the cheapest options that work."
 date: 2026-06-13T12:00:52-04:00
 lastmod: 2026-06-13T12:00:52-04:00

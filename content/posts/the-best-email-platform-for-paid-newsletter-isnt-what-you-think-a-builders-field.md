@@ -1,5 +1,5 @@
 ---
-title: "The Best Email Platform for Paid Newsletter Isn't What You Think — A Builder's Field Report"
+title: "Best Email Platform for Paid Newsletters in 2026"
 description: "I tested every major paid newsletter platform so you don't have to. Here's what actually works for solo builders shipping content in 2025."
 date: 2026-03-28T12:01:16-04:00
 lastmod: 2026-05-11T00:00:00-04:00

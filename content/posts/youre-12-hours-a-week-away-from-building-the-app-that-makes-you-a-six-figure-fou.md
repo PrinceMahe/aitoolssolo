@@ -1,5 +1,5 @@
 ---
-title: "You’re 12 Hours a Week Away from Building the App That Makes You a Six-Figure Founder. Here’s How to Automate Small Business Workflows Without Coding"
+title: "Build a Six-Figure App by Automating Workflows (No Code)"
 description: "Automate small business workflows without coding — save hours weekly with no-code tools that actually work"
 date: 2026-05-28T12:00:39-04:00
 lastmod: 2026-05-28T12:00:39-04:00

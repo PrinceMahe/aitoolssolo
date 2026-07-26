@@ -1,5 +1,5 @@
 ---
-title: "Descript Review for YouTube Creators: I Edit 12 Videos a Month With It. Here's What Nobody Tells You."
+title: "Descript Review: Editing 12 YouTube Videos a Month (2026)"
 description: "Honest descript review for youtube creators from a solo builder who edits 12+ videos/month. What works, what doesn't, and the workflows that actually save time."
 date: 2026-04-04T12:03:15-04:00
 lastmod: 2026-05-11T00:00:00-04:00

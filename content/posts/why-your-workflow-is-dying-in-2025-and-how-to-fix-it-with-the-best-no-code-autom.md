@@ -1,5 +1,5 @@
 ---
-title: "Why Your Workflow Is Dying in 2025 — And How to Fix It with the Best No-Code Automation Tool"
+title: "Your Workflow Is Dying in 2025: Fix It With Automation"
 description: "No-code automation tools are killing productivity in 2025 — here’s how to pick the right one."
 date: 2026-06-16T12:01:19-04:00
 lastmod: 2026-06-16T12:01:19-04:00

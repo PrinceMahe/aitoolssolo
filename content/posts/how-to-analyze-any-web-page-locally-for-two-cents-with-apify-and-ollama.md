@@ -1,5 +1,5 @@
 ---
-title: "How to Analyze Any Web Page Locally for $0.02 Using Apify and Ollama"
+title: "Analyze Any Web Page Locally for $0.02 (Apify + Ollama)"
 description: "Stop wasting money on expensive LLM APIs. Learn how to crawl any website with Apify and analyze pages locally on your own GPU for just two cents."
 date: 2026-07-04T16:20:00-04:00
 lastmod: 2026-07-04T16:20:00-04:00

@@ -1,5 +1,5 @@
 ---
-title: "Beehiiv Free Plan Limitations: Why They’re a Death Knell for Newsletter Gigs (And How to Escape Them)"
+title: "Beehiiv Free Plan Limits: What They Don't Tell You (2026)"
 description: "Beehiiv’s free plan isn’t free. Here’s how its limits will kill your newsletter—and how to escape them."
 date: 2026-05-26T12:00:43-04:00
 lastmod: 2026-05-26T12:00:43-04:00

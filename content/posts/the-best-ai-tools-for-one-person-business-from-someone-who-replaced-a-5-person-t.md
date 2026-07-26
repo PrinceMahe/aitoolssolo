@@ -1,5 +1,5 @@
 ---
-title: "The Best AI Tools for One Person Business (From Someone Who Replaced a 5-Person Team With Agents)"
+title: "Best AI Tools for Running a One-Person Business (2026)"
 description: "I run a 3-agent AI business solo. Here are the best AI tools for one person business ops that actually survive past week one."
 date: 2026-04-02T12:03:17-04:00
 lastmod: 2026-05-11T00:00:00-04:00
