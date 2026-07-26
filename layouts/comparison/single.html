@@ -6,7 +6,7 @@
     {{- if .Description }}<div class="post-description">{{ .Description }}</div>{{ end }}
   </header>
   <div class="post-content">
-    {{ .Content }}
+    {{ .Content | replaceRE "(?s)^<h1[^>]*>.*?</h1>\\s*" "" | safeHTML }}
     {{ partial "comparison.html" . }}
   </div>
   <footer class="post-footer">

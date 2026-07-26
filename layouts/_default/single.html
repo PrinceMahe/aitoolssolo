@@ -37,8 +37,8 @@
   {{- if .Content }}
   <div class="post-content">
     {{- if not (.Param "disableAnchoredHeadings") }}
-    {{- partial "anchored_headings.html" .Content -}}
-    {{- else }}{{ .Content }}{{ end }}
+    {{- partial "anchored_headings.html" (.Content | replaceRE "(?s)^<h1[^>]*>.*?</h1>\\s*" "") -}}
+    {{- else }}{{ .Content | replaceRE "(?s)^<h1[^>]*>.*?</h1>\\s*" "" | safeHTML }}{{ end }}
   </div>
   {{- end }}
 
