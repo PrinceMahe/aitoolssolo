@@ -4,8 +4,15 @@
 {{- /* SEO robots: noindex thin auto-generated layers (comparisons, use-cases, tag archives) but keep crawlable (follow) */}}
 {{- $noindex := false }}
 {{- if eq .Type "comparison" }}{{ $noindex = true }}{{- end }}
+{{- if eq .Type "comparisons" }}{{ $noindex = true }}{{- end }}
 {{- if eq .Type "usecase" }}{{ $noindex = true }}{{- end }}
+{{- if eq .Type "usecases" }}{{ $noindex = true }}{{- end }}
 {{- if eq .Type "tags" }}{{ $noindex = true }}{{- end }}
+{{- if eq .Kind "taxonomy" }}{{ $noindex = true }}{{- end }}
+{{- if hasPrefix .RelPermalink "/comparisons/" }}{{ $noindex = true }}{{- end }}
+{{- if hasPrefix .RelPermalink "/use-cases/" }}{{ $noindex = true }}{{- end }}
+{{- if hasPrefix .RelPermalink "/tags/" }}{{ $noindex = true }}{{- end }}
+{{- if eq .RelPermalink "/categories/comparisons/" }}{{ $noindex = true }}{{- end }}
 {{- if $noindex }}
 <meta name="robots" content="noindex,follow">
 {{- else if hugo.IsProduction | or (eq site.Params.env "production") | and (ne .Params.robotsNoIndex true) }}
