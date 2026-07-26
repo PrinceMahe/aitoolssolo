@@ -81,16 +81,13 @@ This workflow lets me focus on high-value tasks like client strategy and busines
 
 ### FAQ  
 
-### Q: What are the best AI tools for a one-person content agency?  
-Jasper for premium content, Copy.ai for quick outputs, and Beehiiv for email management are my top picks. Try free tools like ChatGPT first to see what works.  
+### Q: What are the best AI tools for a one-person content agency?
 
-### Q: How can I find clients as a solopreneur?  
-Use LinkedIn to pitch your services, offer free templates in exchange for testimonials, and post case studies on your website. Check out our post on [AI Tools for Solopreneur Marketing](https://aitoolssolo.com/ai-tools-for-solopreneur-marketing) for more ideas.  
+For a solo content agency, Jasper produces premium drafts, Copy.ai handles quick social and ad variants, and Beehiiv manages client newsletters end to end. Make.com or n8n ties intake, drafts, and delivery into one pipeline so you touch each job once. Start free, then pay only for the tool that removes your clearest bottleneck. The stack is leverage, not a status symbol, so keep it lean and ruthless about unused subscriptions.### Q: How can I find clients as a solopreneur?
 
-### Q: What are the challenges of using AI in content creation?  
-AI outputs need editing, and some clients are wary of AI-generated work. Always disclose its use and keep refining your process.  
+Use LinkedIn to pitch specific outcomes, not generic services, and share short case studies that show the result you delivered. Offer a free template or audit in exchange for a testimonial, which builds social proof fast. Warm referrals from past clients beat cold outreach every time, so ask for introductions the moment a project lands well. Consistent, useful posting compounds into a steady inbound pipeline within a few months.### Q: What are the challenges of using AI in content creation?
 
-### Q: How do I price my content services?  
+AI drafts need real editing, because raw output reads generic and can drift from the client's voice. Some clients are wary of machine-generated work, so disclose its use and keep a human final pass. The bigger risk is over-reliance: letting the model make claims you have not verified. Set a rule that every fact and promise is checked before delivery, and your AI-assisted work will stay both fast and trustworthy.### Q: How do I price my content services?  
 Start with hourly rates or monthly retainers. Once you�ve built a portfolio, you can sell pre-written content templates.  
 
 ---
