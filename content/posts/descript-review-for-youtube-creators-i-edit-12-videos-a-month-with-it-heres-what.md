@@ -135,3 +135,29 @@ Because it's the fastest path from "raw footage" to "published video" — and th
 If you enjoyed this field report, you'll love my weekly newsletter. I share the exact AI workflows, agent prompts, and automation stacks I'm using to scale my solo business.
 
 **[Join 1,000+ builders and subscribe to Zero Manual (it's free)](https://magic.beehiiv.com/v1/cc54f96d-d4de-45c1-ad62-368b08977ec4)**
+
+## FAQ
+
+### Q: Is Descript good for YouTube editing?
+
+Yes, especially for talking-head and tutorial videos. Its text-based editing lets you cut by deleting words, which is far faster than timeline trimming for narration-heavy content. I edit 12 videos a month this way. It is less ideal for heavy visual effects, but for speech-led footage it changes the economics of publishing.
+
+### Q: What does Descript cost for regular creators?
+
+Plans start around $12 a month for Creator with annual billing; higher tiers add collaboration and stock. For 12 videos a month, Creator is enough. The time saved easily outweighs the subscription for anyone publishing weekly. Think of it as buying back editing hours, which is the most expensive resource a creator has.
+
+### Q: Can Descript remove filler words automatically?
+
+Yes. Its filler-word removal deletes ums and ahs across the whole transcript in one click, then you review. It is one of the highest-leverage features for clean speech without manual cutting. Run it before your first real edit and your recordings instantly sound tighter, which keeps viewers watching longer through the video.
+
+### Q: Does Descript handle multitrack and remote recordings?
+
+It handles multitrack studio sound and has a separate Record feature for remote guests, with separate tracks and transcription. For podcast-style or interview videos it is strong. Heavy color or motion design still needs a traditional NLE. Use Descript for the edit, then round-trip to an NLE only when visuals demand it.
+
+### Q: How accurate is Descript's transcription?
+
+Very accurate for clean audio, usually editable with few corrections. Noisy or accented audio needs more cleanup. Correct the transcript and the video follows, which inverts the normal editing pain. Good microphone input pays for itself here, because accurate text means fewer frustrating correction passes later.
+
+### Q: Should a YouTube beginner use Descript or a traditional editor?
+
+Beginners who mainly talk to camera should start with Descript. It hides the timeline and teaches editing through text, lowering the barrier to publishing. Move to Premiere or DaVinci only when you need effects Descript cannot do. Starting simple is how you actually ship, instead of drowning in a complex timeline.

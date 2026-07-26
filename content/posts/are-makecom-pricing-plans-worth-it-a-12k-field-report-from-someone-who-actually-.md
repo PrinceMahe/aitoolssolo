@@ -123,3 +123,29 @@ Stop comparing pricing tiers in a vacuum. Map your workflows, estimate your real
 If you enjoyed this field report, you'll love my weekly newsletter. I share the exact AI workflows, agent prompts, and automation stacks I'm using to scale my solo business.
 
 **[Join 1,000+ builders and subscribe to Zero Manual (it's free)](https://magic.beehiiv.com/v1/cc54f96d-d4de-45c1-ad62-368b08977ec4)**
+
+## FAQ
+
+### Q: Is Make.com worth the price for a solo operator?
+
+If you are automating more than three repetitive workflows a month, yes. The Core plan starts around $9 per month billed annually and covers most solo use; I personally spent roughly $12K across client work because the scenarios scaled. The free tier is too limited to judge it properly. Price only stings if you never actually activate the automations you build.
+
+### Q: What does $12K in Make.com spend actually buy?
+
+That figure is cumulative client billing over two years, not a single invoice. It covered thousands of scenario runs: CRM syncs, invoice triggers, AI summarization, and cross-app routing. Per individual account, most solopreneurs stay comfortably under $30 a month. The $12K reflects the volume of work delivered to clients, not personal tool cost.
+
+### Q: Which Make.com plan should a beginner start with?
+
+Start on the free plan to learn the editor, then move to Core at $9 a month the moment you need more than two active scenarios or longer operation history. Pro at $16 adds auto-repair and multiple teams. Most one-person businesses never need Enterprise. Upgrade based on a real limit you have hit, not fear.
+
+### Q: Can Make.com replace a virtual assistant?
+
+Partially. It replaces the repetitive 80 percent: data entry, follow-ups, file routing, and status updates. It does not replace judgment calls, client conversations, or exception handling. Treat it as a tireless junior ops hire that never sleeps, not a strategist. The human still owns decisions; Make handles the busywork around them.
+
+### Q: Is Make.com harder to learn than Zapier?
+
+Yes, at first. Make uses a visual scenario canvas with branching, routers, and filters, which is more powerful but steeper than Zapier's linear steps. Once past the first week, the canvas saves hours. Zapier is faster to start; Make is cheaper and more capable at scale. The learning curve pays back quickly if you automate often.
+
+### Q: Does Make.com work with AI tools like ChatGPT?
+
+Yes. Make has an HTTP module and OpenAI or Anthropic integrations, so you can pipe data into a model, parse the response, and route it onward. Common patterns include summarizing tickets, drafting replies, classifying leads, and generating alt text. This AI-plus-routing combo is where the majority of my client automations now live and deliver the most value.

@@ -113,3 +113,29 @@ But if you’re a podcaster with a limited budget and no time for manual transcr
 If you enjoyed this field report, you'll love my weekly newsletter. I share the exact AI workflows, agent prompts, and automation stacks I'm using to scale my solo business.
 
 **[Join 1,000+ builders and subscribe to Zero Manual (it's free)](https://magic.beehiiv.com/v1/cc54f96d-d4de-45c1-ad62-368b08977ec4)**
+
+## FAQ
+
+### Q: Is Descript pricing a bait-and-switch?
+
+Not exactly, but the free tier over-promises and paid tiers add up if you want full features such as higher exports, collaboration, and stock. Indie creators feel the gap because the free plan is a teaser, not a usable long-term home. The product is good; the packaging oversells the free experience noticeably.
+
+### Q: What does Descript actually cost?
+
+Around $12 a month Creator up to about $24 a month Pro with annual billing; teams higher. For one creator editing regularly, Creator is the realistic floor. The free label misleads those who only discover limits after they are invested. Read the tier table before relying on it for client or paid work.
+
+### Q: Where do creators get surprised?
+
+Export limits, watermark or length caps, and advanced features locked behind paid tiers. If you built a workflow on free, you hit a wall exactly when you need to ship. The surprise is timing, not malice: the free plan is designed to onboard you, then ask for payment at the moment of real need.
+
+### Q: Is Descript still worth paying for?
+
+Yes for text-based video and podcast editing; the time saved dwarfs the subscription for weekly creators. The complaint is packaging, not product. Pay for the tier that matches your export and collaboration needs from day one, and the price stops feeling like a trap you wandered into unprepared.
+
+### Q: How do you avoid the pricing trap?
+
+Start on the tier you will actually use, not free. Calculate monthly cost against hours saved; for regular publishing it is positive. Treat free as a trial, and commit to paid before it blocks a deadline. Deciding honestly up front removes the feeling of being switched, because you chose the plan with open eyes.
+
+### Q: Are there cheaper Descript alternatives?
+
+For pure audio, some editors are cheaper; for text-based video editing, Descript leads and rivals cost similar. The real saving is using the right tier, not fleeing the product. Avoid switching cost by choosing honestly up front, because migrating workflows and relearning a tool costs more than the modest tier difference.

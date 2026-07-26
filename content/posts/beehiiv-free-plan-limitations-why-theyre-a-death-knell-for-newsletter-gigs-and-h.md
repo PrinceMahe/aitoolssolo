@@ -94,3 +94,29 @@ If you’re trying to grow a real newsletter, Beehiiv’s free plan is a disaste
 If you enjoyed this field report, you'll love my weekly newsletter. I share the exact AI workflows, agent prompts, and automation stacks I'm using to scale my solo business.
 
 **[Join 1,000+ builders and subscribe to Zero Manual (it's free)](https://magic.beehiiv.com/v1/cc54f96d-d4de-45c1-ad62-368b08977ec4)**
+
+## FAQ
+
+### Q: What does Beehiiv's free plan actually include?
+
+You get unlimited sends to up to 2,500 subscribers, a built-in website, and a referral program. What it excludes hurts: no custom domains on free, limited automations, and Beehiiv branding on every email. For a paid-newsletter gig, the branding and missing domain are genuine dealbreakers that undercut the professional image paying readers expect.
+
+### Q: Why is the free plan a problem for paid newsletters?
+
+Paid subscribers expect a professional sender. Free-plan emails carry Beehiiv's footer and you cannot use your own domain, which hurts deliverability trust and makes the product look unpaid. You also cannot gate premium content cleanly without a paid plan. The gap between free and credible is exactly what paid readers notice first.
+
+### Q: Can you run a paid newsletter on Beehiiv free?
+
+Technically the free tier allows subscriptions, but monetization features such as premium tiers, Stripe gating, and the ad network require Scale at $39 a month or higher. Running paid on free means manually handling payments outside the platform, which defeats the purpose and creates a confusing experience for the people you are asking to pay.
+
+### Q: How do you escape Beehiiv's free-plan limits?
+
+Upgrade to Scale at $39 a month for a custom domain, ad network access, and premium subscriptions, or migrate to a platform that grants a domain sooner. If revenue is under $100 a month, stay free but treat it strictly as a testing ground, not a business. The upgrade is the moment you start looking professional.
+
+### Q: Does Beehiiv free throttle deliverability?
+
+No hard throttle, but shared-domain reputation and missing authentication on free can land emails in spam. A custom domain with SPF and DKIM, available on paid tiers, is the single biggest deliverability unlock. Free senders share more risk with every other free user, which quietly hurts inbox placement over time.
+
+### Q: Is Beehiiv free good for a starter newsletter?
+
+Yes for learning and building an audience up to 2,500 subs. It is the best free newsletter tool for growth features like referrals. Just do not pitch it as a paid product until you upgrade, or subscribers will notice the branding immediately. Use free to prove the concept, then convert when revenue appears.

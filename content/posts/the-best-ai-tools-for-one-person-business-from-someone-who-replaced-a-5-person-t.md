@@ -154,3 +154,29 @@ That's the whole game.
 If you enjoyed this field report, you'll love my weekly newsletter. I share the exact AI workflows, agent prompts, and automation stacks I'm using to scale my solo business.
 
 **[Join 1,000+ builders and subscribe to Zero Manual (it's free)](https://magic.beehiiv.com/v1/cc54f96d-d4de-45c1-ad62-368b08977ec4)**
+
+## FAQ
+
+### Q: Which AI tools replace a 5-person team?
+
+Writing with Jasper or ChatGPT, automation with Make.com or n8n, customer triage with an AI inbox plus rules, design with Canva or Midjourney, and reporting with sheets plus AI. No single tool replaces people; the combination removes the repetitive 80 percent of a small ops team. The stack is the substitute, not any one app.
+
+### Q: Can one person really run what five did?
+
+For execution and ops, largely yes. The founder still owns strategy, relationships, and judgment. AI absorbs draft, route, schedule, and report. The limit is decisions, not throughput, once the stack is in place. The five-person team did a lot of coordinating; one person plus AI removes the coordination overhead.
+
+### Q: What is the first hire-replacement to automate?
+
+Inbox and task routing. Auto-classify, draft replies, and file work so you touch each item once. This alone recovers several hours a week and is the highest-leverage first step for a solo founder. It also reduces the mental load of a full queue, which is where burnout usually starts for one-person businesses.
+
+### Q: Do these tools need coding?
+
+Mostly no. Make.com, Beehiiv, and Jasper are visual or templated. Ollama is optional for private bulk work and needs light setup. A non-coder can assemble the stack; coding only unlocks advanced tweaks. The barrier is configuring workflows, not writing software, so most founders can self-serve the whole thing.
+
+### Q: How much does the full stack cost?
+
+Typically under $150 a month for a solo business using several tools. That is a fraction of one part-time hire and returns far more than the price in reclaimed time, provided you actually run the workflows. Spend on the stack only after each tool has earned its place by removing a real, repeated task.
+
+### Q: What should I automate first as a solo founder?
+
+Pick the task you do weekly that you dread. Build one scenario for it, confirm it saves time for a month, then expand. Stack wins come from sequential small automations, not one big build. Momentum matters more than ambition; a running simple workflow beats a perfect one still in planning.

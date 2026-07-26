@@ -117,3 +117,29 @@ Neither is perfect. But one of them will save you hours of work — and that’s
 If you enjoyed this field report, you'll love my weekly newsletter. I share the exact AI workflows, agent prompts, and automation stacks I'm using to scale my solo business.
 
 **[Join 1,000+ builders and subscribe to Zero Manual (it's free)](https://magic.beehiiv.com/v1/cc54f96d-d4de-45c1-ad62-368b08977ec4)**
+
+## FAQ
+
+### Q: Make.com or n8n: which reduces workflow fatigue more?
+
+Make if you want a hosted visual builder with zero ops. n8n if you want full control and can run a server. Make removes hosting fatigue; n8n removes vendor and cost fatigue once self-hosted. The fatigue you feel should decide which, because both can remove the manual work either way.
+
+### Q: Is self-hosting n8n worth the effort?
+
+For one person handling sensitive data or high volume, yes. It is free open source and you own the infrastructure. The cost is server upkeep, a five-dollar VPS handles a lot. If you hate ops, Make's hosting is the easier trade, buying peace of mind instead of spending weekends on a control panel.
+
+### Q: Which is more powerful?
+
+n8n is more flexible with code nodes and custom nodes; Make is more polished for non-coders. Both handle complex branching. n8n wins on extensibility; Make wins on UX and onboarding speed. Power matters only if you hit a ceiling, and most solos hit the UX ceiling before the capability one.
+
+### Q: How do costs compare long term?
+
+Make is per-operation subscription; n8n is free self-hosted plus server cost. At high volume n8n is cheaper. At low volume Make's flat fee is simpler. The crossover depends on your operation count and tolerance for server management, so model a year of your actual usage before deciding.
+
+### Q: Can n8n match Make's ease?
+
+Not quite out of the box; its node-based editor is powerful but busier. Templates and AI assist close the gap. Make is still the gentler daily driver for non-technical solos who just want the workflow to run. Ease is a real product feature, not a weakness to dismiss when you are time-poor.
+
+### Q: Which should I start with?
+
+Start with Make to learn automation fast and validate need. If volume or privacy push costs up, migrate the heavy scenarios to self-hosted n8n. Many run both: Make for quick wins, n8n for the core engine. Starting hosted lets you learn before taking on infrastructure responsibility.

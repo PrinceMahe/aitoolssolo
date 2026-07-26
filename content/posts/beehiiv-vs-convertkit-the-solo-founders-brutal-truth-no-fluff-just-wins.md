@@ -180,3 +180,29 @@ ConvertKit is a dead end for integrations. If you want to connect your newslette
 If you enjoyed this field report, you'll love my weekly newsletter. I share the exact AI workflows, agent prompts, and automation stacks I'm using to scale my solo business.
 
 **[Join 1,000+ builders and subscribe to Zero Manual (it's free)](https://magic.beehiiv.com/v1/cc54f96d-d4de-45c1-ad62-368b08977ec4)**
+
+## FAQ
+
+### Q: Which is better for a solo founder, Beehiiv or ConvertKit?
+
+Beehiiv wins for newsletter-native growth through referrals, a built-in site, and an ad network. ConvertKit, now Kit, wins for creator funnels, sequences, and selling digital products. If you publish a newsletter and want subscribers, pick Beehiiv. If you sell courses or paid communities, pick Kit. Match the tool to the outcome.
+
+### Q: Is ConvertKit better for selling products?
+
+Yes. Kit's strength is automated sequences, triggers, and commerce such as tips, paid newsletters, and downloads. Beehiiv is catching up on subscriptions but its DNA is the newsletter, not the funnel. Product sellers feel the gap fast when they try to run a launch or drip a course inside Beehiiv.
+
+### Q: Which has better deliverability?
+
+Both are strong. Kit has years of sender reputation; Beehiiv runs on dedicated infrastructure with good inbox rates. Neither will save you from bad content or a burned domain. The bigger factor is your own domain setup, which both support on paid tiers. Deliverability is mostly your responsibility, not the platform's.
+
+### Q: How do prices compare for a solo founder?
+
+Beehiiv Scale is $39 a month; Kit starts free to 10K subs then paid tiers around $29 a month plus for automations. At low volume Kit is cheaper; at growth stage Beehiiv's ad network can offset its cost. Compare the total at your expected subscriber count, not the headline entry price alone.
+
+### Q: Can you migrate from one to the other?
+
+Yes, both import CSV subscribers and most metadata. Sequences and tags need manual rebuild. Do it before a big launch, and warm your new domain by re-confirming subscribers to protect deliverability. A clean migration is mostly tedious, not risky, as long as you communicate the move clearly to your list.
+
+### Q: Which should a new solopreneur pick today?
+
+If your goal is to grow a newsletter audience and maybe monetize via ads or premium, Beehiiv. If your goal is to build a funnel that sells a product, Kit. Most solo founders starting out should pick based on the primary outcome they are optimizing for, not on a feature checklist they will never use.

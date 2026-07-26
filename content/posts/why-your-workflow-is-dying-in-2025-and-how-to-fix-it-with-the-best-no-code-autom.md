@@ -149,3 +149,29 @@ Don’t get trapped in the middle of the pack. Pick a tool that fits your workfl
 If you enjoyed this field report, you'll love my weekly newsletter. I share the exact AI workflows, agent prompts, and automation stacks I'm using to scale my solo business.
 
 **[Join 1,000+ builders and subscribe to Zero Manual (it's free)](https://magic.beehiiv.com/v1/cc54f96d-d4de-45c1-ad62-368b08977ec4)**
+
+## FAQ
+
+### Q: Why are workflows breaking in 2025?
+
+Tool sprawl, manual handoffs, and brittle copy-paste steps collapse under volume. As work grows, unautomated processes that worked at small scale become the bottleneck. The workflow is not dying from one cause but from accumulated manual friction that nobody owned. The cracks widen exactly when you can least afford them.
+
+### Q: How do no-code tools fix dying workflows?
+
+They replace manual handoffs with scenarios: trigger, transform, route, notify. Once built, the path runs without you. The fix is not a new app but removing the human middle-step that breaks under load. No-code turns a fragile relay of people into a dependable pipeline that executes the same way every single time.
+
+### Q: Which no-code tool should I use?
+
+Make.com or Zapier for general automation, n8n if self-hosting, Bardeen for browser tasks. Match the tool to your hardest recurring process. Most solos need one general tool; add others only for specific gaps. The right tool is the one that fits the process, not the one with the longest feature list you will never touch.
+
+### Q: Where do workflows usually break first?
+
+At handoffs: someone forgets to copy, a form sits unread, a status is never updated. Automate the handoff and most dying-workflow complaints disappear, because the break is almost always the transition between steps. People are the weakest link at the seams, so seal the seams with an automated pass instead.
+
+### Q: How do I start fixing my workflow?
+
+List the process you repeat weekly, map its steps, and automate the first handoff. Ship that one scenario, run it a month, then extend. Small sequential fixes outperform one ambitious rebuild that never ships. The first automated handoff proves the pattern and builds the confidence to tackle the next weak seam.
+
+### Q: Is automation worth the setup time?
+
+Yes when the task repeats. A scenario that saves 30 minutes weekly pays back its build cost within weeks and then compounds. The mistake is automating once and forgetting; the win is automating the recurring, not the rare. Treat setup as an investment that pays a dividend of reclaimed time forever after.

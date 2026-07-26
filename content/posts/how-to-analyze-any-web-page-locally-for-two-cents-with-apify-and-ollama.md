@@ -198,3 +198,29 @@ If you're running this setup on a consumer workstation, keep these optimizations
 This setup takes less than an hour to implement, saves thousands in API fees, and keeps your crawled data entirely private. 
 
 *What are you building with local LLMs? Let me know in the comments!*
+
+## FAQ
+
+### Q: How do you analyze a web page locally for $0.02?
+
+Use Apify to fetch and structure the page, often under a cent per run on pay-per-use, then pipe the text into a local Ollama model for summarization or extraction. Because the model runs on your machine, inference is free after hardware, so cost is almost all scraping. One page costs pennies, not dollars.
+
+### Q: Is local analysis with Ollama private?
+
+Yes. The page text never leaves your machine for the LLM step, since Ollama runs locally. Only the fetch, via Apify, touches the network. This is ideal for sensitive or high-volume analysis you would not send to a cloud API. Privacy is the headline benefit, especially when processing customer or competitor data at scale.
+
+### Q: Do I need a powerful computer for Ollama?
+
+A modern laptop runs 7B to 13B models fine for summarization and extraction; 8GB RAM is the practical floor, 16GB comfortable. Larger models are sharper but slower. For web analysis, a small local model is usually enough, so you do not need a workstation to get started with private, low-cost page processing.
+
+### Q: What can go wrong with Apify fetches?
+
+Sites with heavy JavaScript or bot protection may need a real browser actor or proxies, adding cost. Respect robots.txt and rate limits. Structure the output early so you parse once and query many times. The main failure modes are blocked requests and messy HTML, both solvable with the right actor and pacing.
+
+### Q: When is this better than a cloud API?
+
+When you analyze many pages, need privacy, or want predictable low cost. A cloud LLM charges per token every call; local inference is free after setup. For one-off small jobs, a cloud API is simpler. For ongoing monitoring, research, or lead enrichment, the local approach wins on both cost and control.
+
+### Q: What is the simplest first project?
+
+Fetch a competitor's pricing page with Apify, summarize features and prices with Ollama, and save to a note. That single pattern extends to monitoring, research, and lead enrichment at near-zero marginal cost. Start with one page type, prove the value, then generalize the script across your actual recurring questions.

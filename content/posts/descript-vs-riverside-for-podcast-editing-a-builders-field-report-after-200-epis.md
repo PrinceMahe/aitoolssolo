@@ -134,3 +134,29 @@ Could you do it all in one tool? Sure. Riverside is trying to be that tool. Desc
 **For serious solo podcasters doing 2+ episodes/week:** Use both. Riverside records, Descript edits. Automate everything downstream. Your bottleneck should be the conversation itself — not the 6 hours of post-production that follows it.
 
 Stop looking for the perfect single tool. Start building a pipeline that lets you ship.
+
+## FAQ
+
+### Q: What is the difference between Descript and Riverside?
+
+Riverside records high-quality remote audio and video locally, then produces. Descript edits by transcript and also records. Riverside is best at capture; Descript is best at editing. Many creators record in Riverside and edit in Descript. They solve different halves of the pipeline rather than competing head to head.
+
+### Q: Which gives better remote recording quality?
+
+Riverside records each participant locally and uploads, so quality is unaffected by connection drops. Descript records too but its strength is post-production. For guest interviews over distance, Riverside's local capture is the safer choice. You hear the difference most when a guest's Wi-Fi is weak but their local file is clean.
+
+### Q: Can Descript replace Riverside?
+
+For solo or simple two-person records, yes. For frequent remote guests on shaky connections, Riverside's local capture prevents the artifacting Descript can inherit. Use both: Riverside to capture, Descript to edit. This combination handled more than 200 of my episodes with minimal post-production time and consistent, reliable audio quality.
+
+### Q: Which is easier for a podcast editor?
+
+Descript, because editing is cutting text. Riverside's editor is simpler but less powerful. If your bottleneck is editing speed, Descript. If it is recording reliability, Riverside. Most workflow friction lives at the capture stage, so solve that first, then make editing painless with Descript afterward.
+
+### Q: How do costs compare after 200 episodes?
+
+Both are subscription-based around $15 to $20 a month for serious use. After 200 episodes the deciding factor is workflow fit, not price. Recording in Riverside and editing in Descript is a common combined cost under $40 a month, which is trivial against the value of a consistent publish schedule.
+
+### Q: What is the best setup for a solo podcaster?
+
+Record in Riverside for clean remote audio, transcribe and edit in Descript, then publish. This combo handled 200 plus of my episodes with minimal post-production time and consistent quality. The split lets each tool do what it does best instead of forcing one to cover both weakly.

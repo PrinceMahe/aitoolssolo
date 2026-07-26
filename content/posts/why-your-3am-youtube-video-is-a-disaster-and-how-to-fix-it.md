@@ -81,3 +81,29 @@ If you’re still using Adobe Premiere, stop. You’re not a video editor. You�
 If you enjoyed this field report, you'll love my weekly newsletter. I share the exact AI workflows, agent prompts, and automation stacks I'm using to scale my solo business.
 
 **[Join 1,000+ builders and subscribe to Zero Manual (it's free)](https://magic.beehiiv.com/v1/cc54f96d-d4de-45c1-ad62-368b08977ec4)**
+
+## FAQ
+
+### Q: Why do 3AM YouTube videos flop?
+
+Late-night uploads ship unedited, mistitled, and mistimed. You skip thumbnails, skip the hook, and miss peak audience hours. The video is not bad because of the hour; it is bad because the hour removes the craft that earns views. Fatigue trades quality for speed, and the algorithm notices the missing craft immediately.
+
+### Q: What fixes a weak YouTube upload?
+
+Strong hook in the first five seconds, a clear thumbnail, a keyword title, and a publish time when your audience is awake. None require talent, only process. Most flops are process failures, not content failures. A short pre-publish checklist would have saved most of the videos creators call disasters after the fact.
+
+### Q: How important is the thumbnail?
+
+Critical. The thumbnail and title are the ad for the video; the content is the product. A vague thumbnail loses the click even with good content. Spend real time on a readable, high-contrast thumbnail before publishing. The click is won or lost in the feed, long before the viewer judges your actual footage or teaching.
+
+### Q: Should I delete bad videos?
+
+Not usually. Improve the title, thumbnail, and description; re-check search terms. Deleting loses watch time and backlinks. Refresh metadata first; only remove if the content is off-brand or wrong. Most underperformers are fixable with packaging, and the existing watch history still teaches YouTube who to show it to.
+
+### Q: What is the simplest upload checklist?
+
+Hook, thumbnail, title with the keyword, description with a link, and a publish time matched to your audience. Run it every time and consistency beats inspiration. The 3AM disaster is just a missing checklist combined with fatigue. Externalize the discipline so a tired you still ships a competent video without thinking.
+
+### Q: How do I find my best publish time?
+
+YouTube Analytics shows when your viewers are online; schedule to that window. Test two slots for a month and compare watch time. Timing is personal to your audience, so use your own data, not a generic chart. The right hour puts the video in front of awake, willing viewers instead of a sleeping feed.

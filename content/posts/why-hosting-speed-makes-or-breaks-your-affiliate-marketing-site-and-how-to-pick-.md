@@ -95,3 +95,29 @@ Don’t waste time debating “unlimited bandwidth” or “cheap hosting.” Bu
 If you enjoyed this field report, you'll love my weekly newsletter. I share the exact AI workflows, agent prompts, and automation stacks I'm using to scale my solo business.
 
 **[Join 1,000+ builders and subscribe to Zero Manual (it's free)](https://magic.beehiiv.com/v1/cc54f96d-d4de-45c1-ad62-368b08977ec4)**
+
+## FAQ
+
+### Q: Why does hosting speed affect affiliate revenue?
+
+Speed drives bounce rate, rankings, and trust. A slow affiliate site loses clicks before visitors read your recommendation, and Google demotes slow pages. For a site whose only job is to convert, every second is money left on the table. Speed is the silent salesperson working every visit, and a slow one loses the room.
+
+### Q: How much speed do I need for affiliate sites?
+
+Aim for sub-two-second load and green Core Web Vitals. You do not need perfection, but a site that feels instant keeps readers through to your links. Caching and a fast host get most of the way there. The threshold is not a trophy; it is the point where visitors stop abandoning before the call to action.
+
+### Q: Which hosting is best for affiliate marketing?
+
+A business-tier host with caching, a CDN, and good uptime. The brand matters less than the headroom. Avoid the cheapest shared plans; affiliate revenue depends on the site being fast and never down during promos. When a merchant runs a sale, your link is only as good as the host serving it.
+
+### Q: Does speed really change rankings?
+
+Yes, as a confirmed minor ranking factor, but its bigger impact is indirect: faster pages retain visitors, earn more engagement, and convert better, which all feed rankings. Speed is both a direct and indirect win, so ignoring it costs you twice, once in position and once in the clicks you already earned.
+
+### Q: How do I fix a slow affiliate site?
+
+Move to a faster host, enable caching and a CDN, compress images, and cut heavy scripts. Measure before and after with Core Web Vitals. Most gains come from host plus caching, not micro-optimizations. The fix is usually foundational, not clever, so start with the server before chasing front-end tweaks.
+
+### Q: Is expensive hosting required for affiliate success?
+
+No, but adequate hosting is. A $5 to $15 a month business tier beats the $2 bottom tier decisively. Spend the minimum that keeps the site fast and up; that is a direct investment in conversion, not overhead. The host is infrastructure for your income, so underfunding it directly taxes your commissions.

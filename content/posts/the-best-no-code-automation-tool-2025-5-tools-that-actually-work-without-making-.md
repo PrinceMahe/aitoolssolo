@@ -126,3 +126,29 @@ Now go build that automation stack — and don’t forget to thank me later.
 If you enjoyed this field report, you'll love my weekly newsletter. I share the exact AI workflows, agent prompts, and automation stacks I'm using to scale my solo business.
 
 **[Join 1,000+ builders and subscribe to Zero Manual (it's free)](https://magic.beehiiv.com/v1/cc54f96d-d4de-45c1-ad62-368b08977ec4)**
+
+## FAQ
+
+### Q: What are the 5 best no-code automation tools?
+
+Make.com and n8n for scenarios, Zapier for simple zaps, Bardeen for browser tasks, and Relay.app for human-in-the-loop workflows. Each fits a different need; the best is the one matching your complexity and coding comfort. The list matters less than picking the single tool that fits your hardest real process.
+
+### Q: Which no-code tool is best for beginners?
+
+Zapier. Its linear step builder is the gentlest onramp and has the widest app list. You trade power and price for ease. Start here if you have never automated anything and need one quick win this week. Once confident, graduate to Make or n8n for the logic Zapier makes painful at scale.
+
+### Q: Which is best for complex logic?
+
+Make.com or n8n. Both handle branching, loops, and error paths that Zapier makes painful. Make is hosted and friendly; n8n is free self-hosted and code-friendly. Pick by ops tolerance. The moment your workflow has real conditions and forks, these two leave linear builders behind completely.
+
+### Q: Which tool is best for browser tasks?
+
+Bardeen or similar browser automators excel at scraping and form-filling on sites without APIs. Use them for repetitive web clicks Zapier cannot reach. Keep them for front-end tasks, not backend data flows. They shine exactly where there is no clean integration to hook into, filling the gap neatly.
+
+### Q: Is no-code automation reliable enough for business?
+
+Yes for well-designed scenarios with error handling and monitoring. The failures come from untested edge cases, not the tools. Build, test with real data, and alert on failures before trusting revenue workflows. Reliability is a design property you create, not a guarantee the platform hands you for free.
+
+### Q: How do I choose without overloading?
+
+Match the tool to your hardest real workflow, not a feature list. Most solos need one general automation tool, Make or Zapier, and maybe a browser one. More than three becomes maintenance debt that quietly eats the time the tools were supposed to give you back in the first place.

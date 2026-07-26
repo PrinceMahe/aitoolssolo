@@ -130,3 +130,29 @@ No matter which platform you choose, remember that building a successful paid ne
 Don't forget the basics either – a fast, reliable website is essential for capturing those leads. I personally use [Hostinger](https://www.hostinger.com/ca?REFERRALCODE=ZT3PRINCEOCI) for my website hosting – it’s affordable and performs well.
 
 Ultimately, the best platform is the one that fits *your* needs and helps you achieve *your* goals.  I hope this detailed comparison helps you make an informed decision!
+
+## FAQ
+
+### Q: Do writers actually earn more on Beehiiv or Substack?
+
+It depends on the model. Substack takes 10 percent of paid revenue with no platform fee; Beehiiv charges a flat subscription but runs a roughly four times higher-paying ad network and lets you keep more at scale. High-volume ad-driven newsletters earn more on Beehiiv, while small paid lists look similar on both.
+
+### Q: What are the real fee differences?
+
+Substack takes 10 percent of paid subscriptions plus Stripe fees. Beehiiv charges a monthly plan, Scale at $39 plus, plus Stripe fees, but no revenue cut. Past about $400 a month in paid revenue, Beehiiv's flat fee clearly beats Substack's 10 percent. The crossover is earlier than most writers expect.
+
+### Q: Which pays creators more via ads?
+
+Beehiiv's Boosts and ad network pay substantially more per thousand reads than Substack's relatively thin program. If ad revenue is your path, Beehiiv historically pays creators more per reader. Substack's strength is simplicity and its existing discovery network, not raw ad rates for independent writers.
+
+### Q: Can you move paid subscribers between them?
+
+Yes, via CSV export and re-import, but payment migration is manual and you must re-collect card details through Stripe on the new platform. Communicate the move clearly to avoid churn, and offer a grace period. The subscribers belong to you, but the billing relationship must be rebuilt from scratch.
+
+### Q: Which is easier for a beginner?
+
+Substack is near-zero setup and instant publish. Beehiiv needs more configuration but gives you a real website, referrals, and growth tools. Beginners wanting zero friction pick Substack; those building a brand pick Beehiiv. Ease is a short-term win; ecosystem is a long-term one.
+
+### Q: Which should I choose for a paid newsletter in 2026?
+
+If you want the simplest paid launch, Substack. If you plan to grow through referrals and ads and keep more revenue long term, Beehiiv. The crossover point is roughly a few hundred paid subscribers, after which Beehiiv's economics and growth tools pull clearly ahead for serious operators.

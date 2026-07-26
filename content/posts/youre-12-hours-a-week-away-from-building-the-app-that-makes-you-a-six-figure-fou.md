@@ -91,3 +91,29 @@ Your time is worth more than the cost of these tools. Donâ€™t waste it on the â€
 If you enjoyed this field report, you'll love my weekly newsletter. I share the exact AI workflows, agent prompts, and automation stacks I'm using to scale my solo business.
 
 **[Join 1,000+ builders and subscribe to Zero Manual (it's free)](https://magic.beehiiv.com/v1/cc54f96d-d4de-45c1-ad62-368b08977ec4)**
+
+## FAQ
+
+### Q: Can you really build a six-figure app without coding?
+
+Many have, using no-code builders plus AI for logic and content. The 12 hours a week is consistent building time, not a one-off sprint. The app still needs a real problem, users, and iteration; tools remove code, not effort. The outcome rewards those who ship and listen, not those who dream and delay the build.
+
+### Q: What stack builds an app without code?
+
+A no-code frontend such as Flutterflow, Bubble, or Glide, an automation layer with Make.com or n8n, and AI with ChatGPT or Ollama for logic. Wire them with APIs. The stack is mature; the hard part is scope and shipping, not the technology. The tools are ready; most people stall on deciding what to cut.
+
+### Q: How many hours does it really take?
+
+Consistently 12 focused hours a week for several months to reach a paid product. Sporadic effort stalls. The number is a discipline claim: steady weekly blocks beat occasional marathons for solo founders. Progress compounds only when the hours are regular, because momentum is what carries a project past the awkward middle.
+
+### Q: Do you need AI to build the app?
+
+No, but AI speeds drafting copy, logic, and support, and can power features. It is leverage, not a requirement. Many six-figure no-code apps predate current AI; AI just lowers the content and iteration cost. Use it where it removes work, but do not let the shiny model distract from shipping the actual product to real users.
+
+### Q: What kills these app projects?
+
+Scope creep and never shipping. Build the smallest useful version, get one user, iterate. The 12-hours discipline fails when founders keep redesigning instead of releasing. Ship, then improve with real feedback. The graveyard is full of perfect plans; the winners are rough versions that reached users and got better through use.
+
+### Q: Is this realistic for a total beginner?
+
+Yes with a clear problem and weekly commitment. Start smaller than you imagine: one workflow, one user. The six-figure outcome is the tail of many who shipped and iterated, not a guarantee of the first attempt. Beginners win by finishing something small and real, then scaling what the market actually pulls from them.

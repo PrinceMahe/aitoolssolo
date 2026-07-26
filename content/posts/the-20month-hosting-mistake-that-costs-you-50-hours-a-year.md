@@ -192,3 +192,29 @@ The only question is: Will you be on the 2019 team or the 2025 team?
 If you enjoyed this field report, you'll love my weekly newsletter. I share the exact AI workflows, agent prompts, and automation stacks I'm using to scale my solo business.
 
 **[Join 1,000+ builders and subscribe to Zero Manual (it's free)](https://magic.beehiiv.com/v1/cc54f96d-d4de-45c1-ad62-368b08977ec4)**
+
+## FAQ
+
+### Q: What is the $20/month hosting mistake?
+
+Paying for a weak shared host to save a few dollars, then losing 50 hours a year to slow builds, downtime, and support dead-ends. The false economy shows up as your time, not the invoice. A slightly better host pays you back in reclaimed hours. Cheap becomes expensive the moment your attention is the cost.
+
+### Q: How does bad hosting cost 50 hours a year?
+
+Slow servers extend every deploy and test cycle, outages force rebuilds and support chats, and missing features force manual workarounds. Across a year of small frictions, that quietly adds up to weeks of lost productivity. None of it appears on the bill, which is exactly why the mistake hides in plain sight.
+
+### Q: Which hosting avoids this for solopreneurs?
+
+A host with fast CPU, built-in caching, free SSL, and real support, such as a business-tier shared plan. The point is not a brand but enough headroom that deployments and sites feel instant, not fragile. Pick on measured speed and support responsiveness, because those are what steal your hours when they are bad.
+
+### Q: Is cheap hosting ever the right call?
+
+For a static brochure site or a test project, yes. For a revenue site, newsletter, or automation backend, no. Match hosting cost to how much income depends on the site being fast and up. A brochure can tolerate slow; a business cannot afford the hidden hourly tax it extracts from you.
+
+### Q: How do I know my host is costing me time?
+
+Track deploy times, downtime incidents, and support tickets for a month. If you dread pushing changes or waiting on the server, the host is the tax. That signal matters more than the monthly price, because the price is fixed while the lost time compounds silently across every project you ship.
+
+### Q: What should I migrate to first?
+
+Before migrating, measure. If deploys are slow or uptime slips, move to a business-tier host with a one-click migration. Migrate during a quiet week and keep DNS TTL low to minimize cutover risk. Action beats analysis; a clean move this month ends the tax you are paying every week.

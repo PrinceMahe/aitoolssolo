@@ -111,3 +111,29 @@ One caveat worth flagging from a second round of testing: Make.com’s **email s
 If you enjoyed this field report, you'll love my weekly newsletter. I share the exact AI workflows, agent prompts, and automation stacks I'm using to scale my solo business.
 
 **[Join 1,000+ builders and subscribe to Zero Manual (it's free)](https://magic.beehiiv.com/v1/cc54f96d-d4de-45c1-ad62-368b08977ec4)**
+
+## FAQ
+
+### Q: Is Make.com worth it for automation?
+
+For anyone running more than a few recurring workflows, yes. Its visual scenario builder handles branching and error handling that linear tools choke on, and the per-operation pricing is cheap at solo scale. It is not worth it if you only need one simple trigger that a native integration already covers for free.
+
+### Q: Make.com vs Zapier: which is better value?
+
+Make is cheaper per task and more powerful for complex logic; Zapier is easier and has more app connectors. Solo founders automating real processes usually save money on Make. Zapier wins for quick simple zaps and niche apps. The value question is really about complexity, not the monthly sticker price.
+
+### Q: What is the learning curve?
+
+Steeper than Zapier for the first week, then faster overall because the canvas shows logic visually. Expect a few hours to ship your first real scenario. After that, patterns repeat and speed compounds. The early friction is the price of power you will use for years, not a one-time tax.
+
+### Q: Can non-coders use Make.com?
+
+Yes. It is visual, not code, though basic logic helps. Templates and the community cover common cases. If you can describe a workflow as steps and conditions, you can build it in Make without writing code. The barrier is thinking in steps, not programming syntax or DevOps knowledge.
+
+### Q: Does Make.com integrate with AI?
+
+Directly via HTTP and model modules, so you can call OpenAI, Anthropic, or a local Ollama endpoint inside a scenario. This is the modern core use: fetch data, summarize or classify with AI, route the result. The AI step turns Make from a router into a genuinely intelligent processor of your business events.
+
+### Q: When should I not use Make.com?
+
+If you need a single trivial automation, a native integration, or a no-code app with deeper built-in logic. Also avoid it if your team refuses to learn the canvas; unused power is wasted spend. Make earns its keep only when you actually build and run non-trivial scenarios on a regular basis.

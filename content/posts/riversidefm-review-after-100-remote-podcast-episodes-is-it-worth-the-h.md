@@ -95,3 +95,29 @@ However, if you're on a very tight budget or only need to record occasional epis
 **I wholeheartedly recommend Riverside.fm.** It's transformed my podcasting workflow and allowed me to focus on creating great content, not fighting with technical issues.  
 
 You can check it out here: [https://riverside.fm/?via=aitoolssolo](https://riverside.fm/?via=aitoolssolo)
+
+## FAQ
+
+### Q: Is Riverside.fm worth it after 100 episodes?
+
+For remote interview podcasts, yes. Local recording keeps audio crisp even when a guest's connection drops, and the automatic separate tracks and transcripts save real post-production time. For solo studio audio it is overkill. The value shows most when your guests are unpredictable and your time is limited.
+
+### Q: What does Riverside cost?
+
+Plans start around $15 a month for serious use, higher tiers add more hours and features. After 100 episodes the value is the reliability and the editing suite, which together cut production hours per show. That reclaimed time is the actual product you are paying for, not just the recording button.
+
+### Q: Does Riverside replace an editor?
+
+Partly. Its text-based editor and clips speed up cuts and social snippets, but it is not a full DAW. You still want Descript or your NLE for fine edits. Think of it as capture plus light post, not a replacement. The editor's job shrinks but does not vanish entirely with Riverside alone.
+
+### Q: How good is Riverside's video?
+
+Strong. It records up to 4K locally per participant, so video stays sharp regardless of network. For video podcasts and YouTube clips this is the main reason creators choose it over Zoom-style tools that degrade with connection quality. The local file is the secret behind the clean final output.
+
+### Q: Can guests join without installing anything?
+
+Guests join via browser link, no account needed, which removes friction and no-shows. This alone is worth it for interview shows where you do not control the guest's setup. The lower the barrier to a good recording, the more likely the episode actually happens on schedule and sounds professional.
+
+### Q: Should a beginner podcaster use Riverside?
+
+If you interview guests remotely, yes, from episode one, because it protects quality as you grow. If you record solo locally, a simpler tool is fine until you add remote guests. Starting with Riverside means your early episodes already sound like the shows you admire, which helps retention.
