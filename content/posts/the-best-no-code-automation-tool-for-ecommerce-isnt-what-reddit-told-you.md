@@ -146,7 +146,8 @@ You can't prevent it entirely (APIs change!), but you can monitor them. Treat yo
 Yes, and you should. Use AI for **content reformatting**—taking a customer review and turning it into a social media snippet, or taking a product description and creating an ad variant. Don't use it to generate the core data, but use it to reshape that data for different channels.
 
 **6. Does the speed of my hosting affect my automations?**
-Indirectly, yes. If your site is slow, your conversion rate drops, and there’s less data for your automations to work with. If you're using WooCommerce, ensure you're on a fast host like **[Hostinger](https://www.hostinger.com/aitoolssolo)** (use code `aitoolssolo`) to keep your storefront snappy while your backend automations run in the background.
+
+Indirectly, yes. A slow storefront lowers conversion, which means fewer orders and less event data for your workflows to act on, so automations have less to do. On WooCommerce especially, a fast host keeps the storefront responsive while background automations run. The host does not speed up Make.com or Zapier itself, but it protects the traffic that feeds them.
 
 ---
 
