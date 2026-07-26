@@ -1,0 +1,36 @@
+{{- /* twitter:card — large image when available, else branded default */}}
+{{- $img := "" }}
+{{- if .Params.cover.image }}
+  {{- if (ne $.Params.cover.relative true) }}
+    {{- $img = (.Params.cover.image | absURL) }}
+  {{- else }}
+    {{- $img = (path.Join .RelPermalink .Params.cover.image ) | absURL }}
+  {{- end }}
+{{- else if (and site.Params.images (index site.Params.images 0)) }}
+  {{- $img = (index site.Params.images 0 | absURL) }}
+{{- else }}
+  {{- $img = "https://www.aitoolssolo.com/og-default.png" }}
+{{- end }}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ $img }}">
+
+{{- with or .Title site.Title site.Params.title | plainify }}
+  <meta name="twitter:title" content="{{ . }}">
+{{- end }}
+
+{{- with or .Description .Summary site.Params.description | plainify | htmlUnescape }}
+  <meta name="twitter:description" content="{{ trim . "\n\r\t" }}">
+{{- end }}
+
+{{- $twitterSite := "" }}
+{{- with site.Params.social }}
+  {{- if reflect.IsMap . }}
+    {{- with .twitter }}
+      {{- $content := . }}
+      {{- if not (strings.HasPrefix . "@") }}
+        {{- $content = printf "@%v" . }}
+      {{- end }}
+      <meta name="twitter:site" content="{{ $content }}">
+    {{- end }}
+  {{- end }}
+{{- end }}
