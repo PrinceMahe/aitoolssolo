@@ -14,6 +14,8 @@
     {{- end }}
     {{- /* normalize "**N. Question**" style into "### Q: Question" so one parser handles both */}}
     {{- $faq = $faq | replaceRE "[*][*][0-9]+[.][ \t]+(.+?)[*][*]" "### Q: $1" }}
+    {{- /* bound FAQ at first horizontal rule (---) so trailing CTAs are not swallowed */}}
+    {{- $faq = index (split $faq "\n---\n") 0 }}
   {{- end }}
   {{- if $faq }}
     {{- $blocks := split $faq "### Q:" }}
@@ -30,6 +32,8 @@
         {{- $ans := "" }}
         {{- range after 1 $lines }}
           {{- $ln := . | replaceRE "^[ \t]+" "" | replaceRE "[ \t]+$" "" | plainify }}
+          {{- /* stop answer at any heading (## or ###) — protects trailing sections like Final Thoughts */}}
+          {{- if or (hasPrefix . "## ") (hasPrefix . "### ") }}{{ break }}{{ end }}
           {{- if $ln }}
             {{- if $ans }}{{ $ans = print $ans " " }}{{ end }}
             {{- $ans = print $ans $ln }}

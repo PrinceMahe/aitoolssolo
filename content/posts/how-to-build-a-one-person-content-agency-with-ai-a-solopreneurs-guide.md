@@ -79,24 +79,28 @@ Let me walk you through a typical week:
 
 This workflow lets me focus on high-value tasks like client strategy and business growth.  
 
-### FAQ  
+### FAQ
 
 ### Q: What are the best AI tools for a one-person content agency?
 
-For a solo content agency, Jasper produces premium drafts, Copy.ai handles quick social and ad variants, and Beehiiv manages client newsletters end to end. Make.com or n8n ties intake, drafts, and delivery into one pipeline so you touch each job once. Start free, then pay only for the tool that removes your clearest bottleneck. The stack is leverage, not a status symbol, so keep it lean and ruthless about unused subscriptions.### Q: How can I find clients as a solopreneur?
+For a solo content agency, Jasper produces premium drafts, Copy.ai handles quick social and ad variants, and Beehiiv manages client newsletters end to end. Make.com or n8n ties intake, drafts, and delivery into one pipeline so you touch each job once. Start free, then pay only for the tool that removes your clearest bottleneck. The stack is leverage, not a status symbol, so keep it lean and ruthless about unused subscriptions.
 
-Use LinkedIn to pitch specific outcomes, not generic services, and share short case studies that show the result you delivered. Offer a free template or audit in exchange for a testimonial, which builds social proof fast. Warm referrals from past clients beat cold outreach every time, so ask for introductions the moment a project lands well. Consistent, useful posting compounds into a steady inbound pipeline within a few months.### Q: What are the challenges of using AI in content creation?
+### Q: How can I find clients as a solopreneur?
 
-AI drafts need real editing, because raw output reads generic and can drift from the client's voice. Some clients are wary of machine-generated work, so disclose its use and keep a human final pass. The bigger risk is over-reliance: letting the model make claims you have not verified. Set a rule that every fact and promise is checked before delivery, and your AI-assisted work will stay both fast and trustworthy.### Q: How do I price my content services?  
-Start with hourly rates or monthly retainers. Once you�ve built a portfolio, you can sell pre-written content templates.  
+Use LinkedIn to pitch specific outcomes, not generic services, and share short case studies that show the result you delivered. Offer a free template or audit in exchange for a testimonial, which builds social proof fast. Warm referrals from past clients beat cold outreach every time, so ask for introductions the moment a project lands well. Consistent, useful posting compounds into a steady inbound pipeline within a few months.
 
----
+### Q: What are the challenges of using AI in content creation?
 
-**Internal links**:  
-- [AI Tools for Solopreneur Marketing](https://aitoolssolo.com/ai-tools-for-solopreneur-marketing)  
-- [How to Automate Your Business with AI](https://aitoolssolo.com/how-to-automate-your-business-with-ai)  
+AI drafts need real editing, because raw output reads generic and can drift from the client's voice. Some clients are wary of machine-generated work, so disclose its use and keep a human final pass. The bigger risk is over-reliance: letting the model make claims you have not verified. Set a rule that every fact and promise is checked before delivery, and your AI-assisted work will stay both fast and trustworthy.
 
-**Affiliate links**:  
-- [Make.com for no-code automation](https://www.make.com/en/register?pc=aitoolssolo)  
-- [Beehiiv for email newsletters](https://www.beehiiv.com/?via=Prince-Maheshwari)  
-- [Hostinger for reliable hosting](https://www.hostinger.com/ca?REFERRALCODE=ZT3PRINCEOCI)
+### Q: How do I price my content services?
+
+Start with hourly rates or monthly retainers, then move to productized packages once you have proof of results. Monthly retainers suit agencies because they smooth cash flow and let you batch AI-assisted production. Raise prices as testimonials accumulate, and stop trading time for money by selling templates and workshops. The pricing lever matters more than the tool stack for agency profitability.
+
+### Q: Can one person really run a content agency?
+
+Yes, if you automate the repetitive 80 percent: drafts, client updates, scheduling, and reporting. You still own strategy, relationships, and final quality. AI plus Make.com handles the busywork, so one person can serve several clients at once. The limit is your judgment and capacity to sell, not your ability to produce the actual work at volume.
+
+### Q: What should I automate first in an agency?
+
+Start with client onboarding: a Make.com scenario that sends the welcome email, creates the folder, and sets the calendar. That single flow removes the most repetitive coordination and feels professional immediately. Next, automate reporting and repurposing. Automate the task you dread weekly first; the momentum makes the rest of the pipeline easier to build.
