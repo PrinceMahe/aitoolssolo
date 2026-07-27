@@ -8,6 +8,9 @@ tags: ["hostinger", "bluehost", "beginners", "builder", "s"]
 categories: ["AI Tools"]
 ShowToc: true
 TocOpen: false
+bucket_a:
+  - "/comparisons/freshbooks-vs-square/"
+
 ---
 
 Stop reading comparison posts written by people who've never actually migrated a site at 2 AM.

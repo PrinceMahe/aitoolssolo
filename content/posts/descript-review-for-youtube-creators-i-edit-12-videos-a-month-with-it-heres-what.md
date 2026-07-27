@@ -8,6 +8,9 @@ tags: ["descript", "youtube", "creators", "i", "edit"]
 categories: ["AI Tools"]
 ShowToc: true
 TocOpen: false
+bucket_a:
+  - "/comparisons/luma-dream-vs-submagic/"
+
 ---
 
 You're spending 6 hours editing a 15-minute YouTube video. You're scrubbing timelines, cutting "umms," syncing B-roll, and exporting at 2 AM. You searched "descript review for youtube creators" because you're wondering if there's a faster way.

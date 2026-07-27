@@ -8,6 +8,10 @@ categories: ["AI Tools", "Automation"]
 ShowToc: true  
 TocOpen: false  
 
+bucket_a:
+  - "/comparisons/claude-vs-jenni/"
+  - "/comparisons/chatgpt-vs-clickup/"
+
 ---
 
 Building a one-person content agency with AI sounds like a dream for solopreneurs who want to scale their services without hiring a team. I�ve been there�juggling client projects, brainstorming content ideas, and editing copy for hours on end. Then I discovered AI tools that transformed my workflow. Today, I make $5,000+ a month running my own content agency, all while working 20 hours a week. Here�s how I did it, and why AI is the game-changer for a one-person content agency.  

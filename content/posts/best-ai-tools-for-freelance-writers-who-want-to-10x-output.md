@@ -7,6 +7,10 @@ tags: ["freelance", "writers", "who", "want", "10x"]
 categories: ["AI Tools", "Automation"]
 ShowToc: true
 TocOpen: false
+bucket_a:
+  - "/comparisons/claude-vs-jenni/"
+  - "/comparisons/bonsai-vs-indy/"
+
 ---
 
 # Best AI Tools for Freelance Writers Who Want to 10x Output

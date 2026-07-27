@@ -8,6 +8,10 @@ tags: ["jasper ai", "jasper", "chatgpt", "blog", "writing"]
 categories: ["AI Tools", "Comparisons"]
 ShowToc: true
 TocOpen: true
+bucket_a:
+  - "/comparisons/claude-vs-jenni/"
+  - "/comparisons/chatgpt-vs-clickup/"
+
 ---
 
 **Last updated: May 2026** | Tested across 200+ blog posts on both platforms.

@@ -8,6 +8,9 @@ tags: ["email", "platform", "paid", "newsletter", "isn"]
 categories: ["AI Tools"]
 ShowToc: true
 TocOpen: false
+bucket_a:
+  - "/comparisons/bonsai-vs-indy/"
+
 ---
 
 You're not here because you want to "start a newsletter." You're here because you've got expertise people will pay for, and you need a platform that won't eat your margins, break at 5,000 subscribers, or require a computer science degree to connect to your payment stack.

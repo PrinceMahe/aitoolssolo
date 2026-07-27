@@ -50,6 +50,23 @@ linkCanonical = true
     minMatchCharLength = 0
     keys = ["title", "permalink", "summary", "content"]
 
+# Page 1 Push: Bucket A comparison slugs (GSC positions 8-15) allowed to be
+# indexable despite the site-wide /comparisons/ noindex rule. These already
+# rank and receive concentrated internal-link equity from posts.
+[params.bucketA]
+  list = [
+    "mem-vs-memair",
+    "claude-vs-jenni",
+    "bonsai-vs-indy",
+    "expensify-vs-float",
+    "chatgpt-vs-clickup",
+    "canva-vs-vectorizer",
+    "luma-vs-playground",
+    "freshbooks-vs-square",
+    "luma-dream-vs-submagic",
+    "browserbear-vs-relay",
+  ]
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 

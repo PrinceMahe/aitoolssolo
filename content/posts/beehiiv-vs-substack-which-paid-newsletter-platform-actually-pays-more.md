@@ -8,6 +8,9 @@ tags: ["beehiiv", "substack", "which", "paid", "newsletter"]
 categories: ["AI Tools", "Automation"]
 ShowToc: true
 TocOpen: false
+bucket_a:
+  - "/comparisons/bonsai-vs-indy/"
+
 ---
 
 ## Beehiiv vs Substack: Which Paid Newsletter Platform Actually Pays More

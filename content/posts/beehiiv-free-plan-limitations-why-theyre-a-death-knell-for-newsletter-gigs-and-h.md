@@ -8,6 +8,9 @@ tags: ["beehiiv", "free", "plan", "limitations", "they"]
 categories: ["AI Tools"]
 ShowToc: true
 TocOpen: false
+bucket_a:
+  - "/comparisons/bonsai-vs-indy/"
+
 ---
 
 You’re halfway through building your newsletter, and then it hits you—Beehiiv’s free plan only lets you send 500 emails a month. That’s not a limitation, that’s a trap. Let me show you how to outmaneuver it.

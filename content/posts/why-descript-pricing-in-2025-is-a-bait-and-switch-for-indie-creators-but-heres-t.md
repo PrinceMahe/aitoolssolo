@@ -8,6 +8,9 @@ tags: ["descript", "pricing", "2025", "bait", "switch"]
 categories: ["AI Tools"]
 ShowToc: true
 TocOpen: false
+bucket_a:
+  - "/comparisons/luma-dream-vs-submagic/"
+
 ---
 
 Your video editing budget just got a reality check. In 2025, Descript’s pricing model is a masterclass in psychological manipulation. They’ll show you a $99/month starter plan. Then bury the fine print: that’s for *one user*, and you can’t use it for more than 3 hours of video *per month*. By the time you realize you’re being charged for the same task in three separate steps, it’s too late. You’ve already sunk hours into a tool that will cost you more in time than it saves.

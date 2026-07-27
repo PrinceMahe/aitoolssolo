@@ -8,6 +8,10 @@ tags: ["writing", "affiliate", "content", "practical", "guide"]
 categories: ["AI Tools"]
 ShowToc: true
 TocOpen: false
+bucket_a:
+  - "/comparisons/claude-vs-jenni/"
+  - "/comparisons/canva-vs-vectorizer/"
+
 ---
 
 Let me save you the hundred hours I already spent.

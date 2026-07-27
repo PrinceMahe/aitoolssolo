@@ -8,6 +8,9 @@ tags: ["analyze", "any", "web", "page", "locally"]
 categories: ["AI Tools", "Automation"]
 ShowToc: true
 TocOpen: false
+bucket_a:
+  - "/comparisons/browserbear-vs-relay/"
+
 ---
 
 If you’ve ever tried to build an automated web scraping and content analysis pipeline, you know the billing shock that follows. Crawling 1,000 pages and feeding them into OpenAI's GPT-4o or Claude 3.5 Sonnet to extract key data can easily cost you $50 to $100. Doing this daily or at scale quickly turns a neat side project into a financial black hole.

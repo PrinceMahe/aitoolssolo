@@ -8,6 +8,11 @@ tags: ["one", "person", "business", "someone", "who"]
 categories: ["AI Tools"]
 ShowToc: true
 TocOpen: false
+bucket_a:
+  - "/comparisons/claude-vs-jenni/"
+  - "/comparisons/expensify-vs-float/"
+  - "/comparisons/freshbooks-vs-square/"
+
 ---
 
 Last Tuesday at 2 AM, while I was asleep, my AI agent pipeline scraped trending topics, drafted three tweets, ran them through an editorial filter, and queued the winner for my approval by morning. No VA. No social media manager. No $4K/month agency retainer.

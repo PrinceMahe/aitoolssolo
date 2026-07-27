@@ -8,6 +8,9 @@ tags: ["beehiiv", "convertkit", "solo", "founder", "s"]
 categories: ["AI Tools"]
 ShowToc: true
 TocOpen: false
+bucket_a:
+  - "/comparisons/bonsai-vs-indy/"
+
 ---
 
 **TL;DR:** Beehiiv wins for speed, simplicity, and growth-focused features. ConvertKit is a relic unless you're managing 100K+ subs with 10+ team members. If you’re a solo founder, skip the “comparison” and pick Beehiiv. Done.

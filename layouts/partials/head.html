@@ -13,6 +13,12 @@
 {{- if hasPrefix .RelPermalink "/use-cases/" }}{{ $noindex = true }}{{- end }}
 {{- if hasPrefix .RelPermalink "/tags/" }}{{ $noindex = true }}{{- end }}
 {{- if eq .RelPermalink "/categories/comparisons/" }}{{ $noindex = true }}{{- end }}
+{{- /* Page 1 Push: Bucket A comparison pages (GSC pos 8-15) are the exception —
+        they already rank, so allow them to be indexable to capture the equity
+        we push via internal links. Defined in site config: params.bucketA.list. */}}
+{{- if $noindex }}
+  {{- with .File }}{{ $slug := .ContentBaseName }}{{ if in site.Params.bucketA.list $slug }}{{ $noindex = false }}{{ end }}{{ end }}
+{{- end }}
 {{- if $noindex }}
 <meta name="robots" content="noindex,follow">
 {{- else if hugo.IsProduction | or (eq site.Params.env "production") | and (ne .Params.robotsNoIndex true) }}

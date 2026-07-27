@@ -65,6 +65,9 @@
   {{- if .Param "related" }}
   {{- partial "related.html" . }}
   {{- end }}
+
+  {{/* Page 1 Push: concentrate internal-link equity on Bucket A (pos 8-15) pages */}}
+  {{- partial "bucket-a-links.html" . }}
 </article>
 
 {{- end }}{{/* end main */}}

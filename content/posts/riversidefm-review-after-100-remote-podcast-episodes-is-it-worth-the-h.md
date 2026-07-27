@@ -8,6 +8,9 @@ tags: ["riverside", "fm", "after", "100", "remote"]
 categories: ["AI Tools", "Automation"]
 ShowToc: true
 TocOpen: false
+bucket_a:
+  - "/comparisons/luma-dream-vs-submagic/"
+
 ---
 
 ## Riverside.fm Review After 100+ Remote Podcast Episodes: Is It Worth the Hype?

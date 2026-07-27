@@ -1,5 +1,18 @@
-
-
+---
+title: "Best AI Tools for Solopreneurs in 2026 (The Actual Stack That Ships)"
+description: "A practical AI stack for one-person businesses — what to actually run daily, not a longest-list."
+date: 2026-06-01T12:00:00-04:00
+lastmod: 2026-07-27T00:00:00-04:00
+draft: false
+tags: ["ai tools", "solopreneurs", "2026"]
+categories: ["AI Tools"]
+ShowToc: true
+TocOpen: false
+bucket_a:
+  - "/comparisons/claude-vs-jenni/"
+  - "/comparisons/chatgpt-vs-clickup/"
+  - "/comparisons/luma-vs-playground/"
+---
 
 ## Comparison Table: Jasper AI vs ChatGPT
 

@@ -8,6 +8,9 @@ tags: ["make.com", "make", "com", "pricing", "plans"]
 categories: ["AI Tools"]
 ShowToc: true
 TocOpen: false
+bucket_a:
+  - "/comparisons/expensify-vs-float/"
+
 ---
 
 You're staring at Make.com's pricing page. Free, Core, Pro, Teams, Enterprise. The operations math doesn't add up. You're trying to figure out if 10,000 ops/month is enough or if you'll blow through that in a week. And every "review" you find is written by someone who built one Zap alternative and called it a day.

@@ -1,0 +1,22 @@
+{{/* Page 1 Push: concentrate internal-link equity on Bucket A pages
+     (GSC positions 8-15) per the 2026-07-27 ranking strategy.
+     Each post declares `bucket_a: [/comparisons/x/, /comparisons/y/]` in
+     front matter; this renders a contextual "Compare these tools" module
+     at the end of the post. Pages ranking 50+ get NO boost (deliberately
+     under-linked) to conserve PageRank for the near-page-one set. */}}
+{{- $links := .Params.bucket_a | default slice -}}
+{{- if gt (len $links) 0 -}}
+<section class="bucket-a-links">
+  <h2>Compare these tools</h2>
+  <ul class="bucket-a-list">
+    {{- range $links -}}
+      {{- with $.Site.GetPage . -}}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{- else -}}
+        {{/* fallback: raw path if page not resolved */}}
+        <li><a href="{{ . }}">{{ . }}</a></li>
+      {{- end -}}
+    {{- end -}}
+  </ul>
+</section>
+{{- end -}}

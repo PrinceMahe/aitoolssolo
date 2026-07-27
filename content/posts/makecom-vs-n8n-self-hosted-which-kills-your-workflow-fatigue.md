@@ -8,6 +8,9 @@ tags: ["make.com", "make", "com", "n8n", "self"]
 categories: ["AI Tools"]
 ShowToc: true
 TocOpen: false
+bucket_a:
+  - "/comparisons/chatgpt-vs-clickup/"
+
 ---
 
 You’re a solopreneur. You’re juggling 15 hats. You’ve tried Zapier, IFTTT, and Microsoft Power Automate. They’re either too clunky, too expensive, or too limited. Now you’re staring at two options: **Make.com** (the no-code automation platform that’s 2024’s “hey, I just automated my life” tool) and **n8n self-hosted** (the open-source alternative that promises freedom but demands technical grit).  

@@ -9,6 +9,9 @@ categories: ["AI Tools"]
 ShowToc: true
 TocOpen: false
 ---
+bucket_a:
+  - "/comparisons/chatgpt-vs-clickup/"
+  - "/comparisons/claude-vs-jenni/"
 
 Your time is the only non-renewable resource you have. If you’re manually approving invoices, scheduling social posts, or fielding duplicate client emails, you’re wasting 12+ hours weekly on tasks that could be automated. The good news? You don’t need a developer or a $10,000 budget to fix this. Let’s break down the *exact* workflows I automated last month using no-code tools that actually work — not the “solutions” that end with “you’ll regret it.”
 
