@@ -167,3 +167,8 @@ Start free or with ChatGPT Plus at $20. Upgrade to Jasper only if volume and voi
 ### Q: What is the smartest affiliate workflow?
 
 Brief the model with your verdict and sources, generate the draft, insert real screenshots and a personal recommendation, then add the disclosure. Publish, measure clicks, and refine the angle using what converts. Treat each post as a small experiment; the workflow compounds as you learn which framings actually earn the click.
+
+## Related reads
+
+- [Jasper vs ChatGPT for blog writing](('/posts/jasper-ai-vs-chatgpt-for-blog-writing/',))
+- [Claude vs Jenni](('/comparisons/claude-vs-jenni/',))

@@ -10,3 +10,8 @@ draft: false
 # FreshBooks vs Square
 
 FreshBooks vs Square: compare pricing, features, ratings, and best use cases to pick the right tool for your one-person business.
+
+## Related reads
+
+- [Expensify vs Float](('/comparisons/expensify-vs-float/',))
+- [Bonsai vs Indy](('/comparisons/bonsai-vs-indy/',))
