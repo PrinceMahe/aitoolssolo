@@ -17,7 +17,7 @@ import os, re, glob, datetime, json
 
 ROOT = r'C:\Users\prin-win\aitoolssolo'
 CONTENT = os.path.join(ROOT, 'content')
-REPORT = os.path.join(ROOT, 'reports', 'freshness-queue.md')
+REPORT = r'D:\Local Cloud\Obsidian\01 - Projects\AIT Solo\reports\freshness-queue.md'
 NOW = datetime.datetime.now()
 
 SUSPECT_AFFILIATE_HOSTS = [
