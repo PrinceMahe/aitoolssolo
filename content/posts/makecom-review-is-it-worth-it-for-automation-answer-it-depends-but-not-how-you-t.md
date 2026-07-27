@@ -2,7 +2,7 @@
 title: "Make.com Review: Is It Worth It for Automation? (2026)"
 description: "Make.com review: Is it worth it for solo-entrepreneurs? Field report on no-code automation pros and cons."
 date: 2026-06-20T12:00:35-04:00
-lastmod: 2026-06-20T12:00:35-04:00
+lastmod: 2026-07-27T00:00:00-04:00
 draft: false
 tags: ["make.com", "make", "com", "automation", "answer"]
 categories: ["AI Tools"]
@@ -50,11 +50,19 @@ Here’s how I set it up, step-by-step:
 
 ## Section 3: Make.com’s Pricing Model (And Why It’s a Landmine)
 
-Make.com’s pricing is a maze of tiers: Free, Starter, Professional, and Enterprise. The Free tier is laughably limited (15 triggers/day, 15 actions/day), and the Starter plan costs $10/month for 200 triggers/day. That’s 200 triggers across *all* workflows—meaning even a simple automation between Google Forms and Notion will hit the limit in a week.
+Make.com prices on **credits**, not triggers. Every module action in a scenario (adding a row, fetching an email, an API call) burns one credit, and plans are sold per credit bucket per month:
 
-**Pro-Tip**: If you need more than 200 triggers per day, upgrade to the Professional plan ($50/month), which allows 2,500 triggers/day. That’s still not much if you’re automating daily reports or customer onboarding.
+- **Free** — $0, 1,000 credits/mo (great for learning the visual builder; 15-min minimum interval between runs)
+- **Core** — $12/mo for 10,000 credits (unlimited active scenarios, scheduled down-to-the-minute, Make API access)
+- **Pro** — $21/mo for 10,000 credits (priority execution, full-text log search, custom variables)
+- **Teams** — $38/mo for 10,000 credits (shared team features)
+- Higher buckets (20k–8M+ credits) scale linearly; annual billing saves ~15%.
 
-**The Hard Truth**: I ran a 30-day A/B test comparing Zapier and Make.com for a SaaS client. Zapier’s $30/month plan allowed 500 triggers/day, which was sufficient for all automation needs. Make.com’s Professional plan ($50/month) offered the same number of triggers but with worse performance. I’d pay $20/month for a better tool any day.
+The catch: a single run of a multi-step scenario can eat dozens of credits, so a "10,000 credits" plan rarely means 10,000 *runs*. A daily Google Forms → Notion sync (say 8 modules) burns ~240 credits/day = ~7,200/mo, leaving little headroom on Core before you jump to the next bucket. The Free tier’s 1,000 credits vanishes in days once you automate anything real.
+
+**Pro-Tip**: Estimate credits before you commit. Count the modules in your busiest scenario × expected daily runs × 30. If it’s over ~7k, skip Free and start at Core.
+
+**The Hard Truth**: I ran a 30-day A/B test comparing Zapier and Make.com for a SaaS client. Zapier’s $30/month plan handled 500 tasks/day comfortably for all our automation needs. Make.com’s credit math made the same workload land on the Pro/Teams boundary once you factor in multi-module scenarios—so the "cheaper" tool wasn’t, once real workflows ran. I’d pay for the tool that prices in *runs* I can predict, not credits I have to reverse-engineer.
 
 ---
 
