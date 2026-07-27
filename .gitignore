@@ -5,3 +5,8 @@ resources/
 
 # auto-publish runtime log
 scripts/publish.log
+.venv-ga4/
+.ga4_manage_token.json
+.gsc_token.json
+ga4_sa.json
+ga4_client_secret.json
