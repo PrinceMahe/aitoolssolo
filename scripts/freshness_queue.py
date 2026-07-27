@@ -1,102 +1,139 @@
 #!/usr/bin/env python3
+"""Freshness Queue generator for AIT Solo.
+
+Scans all content posts/tools/comparisons/use-cases and builds a weekly
+"freshness queue" of items that need review. Signals:
+
+  1. >90 days since lastmod verification
+  2. Pricing likely changed (heuristic: post mentions a $ price AND is old)
+  3. Features changed (heuristic: post older than 180 days)
+  4. New competitor may have appeared (heuristic: old comparison post)
+  5. Broken affiliate link (heuristic: link whose host is in a known-dead list)
+
+Outputs a Markdown report to reports/freshness-queue.md and a JSON sidecar.
+Run weekly (cron). No network calls; affiliate check is heuristic.
 """
-Freshness Queue generator for aitoolssolo.com (Hugo/PaperMod).
+import os, re, glob, datetime, json
 
-Scans content/posts/*.md and emits a weekly review queue based on staleness
-signals:
-  - >90 days since lastmod verification
-  - flagged vendors whose pricing/features change often (AI tools)
-  - any post whose front-matter lastmod is missing/old
+ROOT = r'C:\Users\prin-win\aitoolssolo'
+CONTENT = os.path.join(ROOT, 'content')
+REPORT = os.path.join(ROOT, 'reports', 'freshness-queue.md')
+NOW = datetime.datetime.now()
 
-Output: scripts/freshness_queue.md  (markdown, obsidian-friendly)
-
-Run weekly (cron Mondays) BEFORE the GSC KPI pull so the two line up.
-"""
-import os, re, datetime, glob
-
-ROOT = r"C:\Users\prin-win\aitoolssolo"
-POSTS = os.path.join(ROOT, "content", "posts")
-OUT = os.path.join(ROOT, "scripts", "freshness_queue.md")
-
-# Vendors whose pricing/features churn fast -> always worth a pricing re-check
-HIGH_CHURN = [
-    "make.com", "makecom", "riverside", "jasper", "chatgpt", "claude", "descript",
-    "beehiiv", "substack", "surfer", "clearscope", "midjourney", "leonardo",
-    "krea", "luma", "playground", "canva", "ahrefs", "neuronwriter", "hostinger",
-    "clickup", "notion", "miro", "whimsical", "float", "expensify", "brex",
-    "square", "quickbooks", "freshbooks", "bonsai", "indy", "vectorizer",
-    "browserbear", "relay", "memair", "mem", "stitch", "anima", "lovable",
-    "chatpdf", "elicit", "brandwell", "docracy", "legalzoom", "and co",
+SUSPECT_AFFILIATE_HOSTS = [
+    'shareasale.com', 'awin1.com', 'clkmg.com', 'getcommissionjunction.com',
+    'clickbank.net', 'partnerstack.biz',
 ]
 
-NOW = datetime.date.today()
-STALE_DAYS = 90
 
-def parse_frontmatter(text):
-    if not text.startswith("---"):
-        return {}, ""
-    parts = text.split("---", 2)
-    if len(parts) < 3:
-        return {}, ""
-    fm = parts[1]
-    body = parts[2]
-    meta = {}
-    for line in fm.splitlines():
-        m = re.match(r'^(\w+):\s*(.*)$', line)
-        if m:
-            meta[m.group(1).strip()] = m.group(2).strip().strip('"').strip("'")
-    return meta, body
+def parse_fm(path):
+    txt = open(path, encoding='utf-8').read()
+    m = re.match(r'^---\n(.*?)\n---\n', txt, re.DOTALL)
+    if not m:
+        return {}, txt
+    fm = {}
+    last_key = None
+    for line in m.group(1).splitlines():
+        if not line.strip():
+            continue
+        mm = re.match(r'^([A-Za-z0-9_]+):\s*(.*)$', line)
+        if mm:
+            last_key = mm.group(1)
+            val = mm.group(2).strip().strip('"').strip("'")
+            fm[last_key] = val
+            continue
+        if line.startswith('  -') or line.startswith('    -'):
+            if last_key:
+                cur = fm.get(last_key)
+                if isinstance(cur, str):
+                    fm[last_key] = [cur]
+                fm.setdefault(last_key, []).append(
+                    line.strip()[2:].strip().strip('"').strip("'"))
+            continue
+    return fm, txt
 
-rows = []
-for path in glob.glob(os.path.join(POSTS, "*.md")):
-    fn = os.path.basename(path)
-    text = open(path, encoding="utf-8").read()
-    meta, body = parse_frontmatter(text)
-    title = meta.get("title", fn)
-    lastmod = meta.get("lastmod") or meta.get("date", "")
+
+def days_since(date_str):
+    if not date_str:
+        return 9999
     try:
-        d = datetime.datetime.fromisoformat(lastmod).date()
+        dt = datetime.datetime.fromisoformat(date_str.replace('Z', '+00:00'))
+        if dt.tzinfo:
+            dt = dt.replace(tzinfo=None)
+        return (NOW - dt).days
     except Exception:
-        d = None
-    age = (NOW - d).days if d else 9999
+        return 9999
 
-    reasons = []
-    if age > STALE_DAYS:
-        reasons.append(f">90d since lastmod ({age}d)")
-    if d is None:
-        reasons.append("no lastmod/date")
 
-    low = (title + " " + body[:4000]).lower()
-    hits = [v for v in HIGH_CHURN if v in low]
-    if hits:
-        reasons.append("high-churn vendor(s): " + ", ".join(sorted(set(hits))[:4]))
+def main():
+    items = []
+    # Scope to human-written content only: posts/ (30 hand-written reviews) plus
+    # the 11 Bucket A comparison pages. Auto-generated tool/alternative/comparison
+    # stubs (thousands of files) are noindexed and not worth manual review.
+    scan_paths = [os.path.join(CONTENT, 'posts')]
+    for slug in [
+        'mem-vs-memair', 'claude-vs-jenni', 'bonsai-vs-indy', 'expensify-vs-float',
+        'chatgpt-vs-clickup', 'canva-vs-vectorizer', 'luma-vs-playground',
+        'freshbooks-vs-square', 'luma-dream-vs-submagic', 'browserbear-vs-relay',
+    ]:
+        p = os.path.join(CONTENT, 'comparisons', slug + '.md')
+        if os.path.exists(p):
+            scan_paths.append(p)
+    for d in scan_paths:
+        if os.path.isfile(d):
+            paths = [d]
+        else:
+            paths = glob.glob(os.path.join(d, '**', '*.md'), recursive=True)
+        for path in paths:
+            base = os.path.basename(path)
+            if base == '_index.md':
+                continue
+            fm, txt = parse_fm(path)
+            if not fm:
+                continue
+            lastmod = fm.get('lastmod') or fm.get('date')
+            title = fm.get('title') or base
+            age = days_since(lastmod)
+            unverified = (age >= 9999)
+            reasons = []
+            rel = path.replace(ROOT, '').replace('\\', '/')
+            if unverified:
+                reasons.append("never verified (no date/lastmod in front matter)")
+            elif age > 90:
+                reasons.append(f">90d since last verification ({age}d)")
+            if age > 90 and re.search(r'\$\s?\d', txt):
+                reasons.append("pricing mentioned - likely changed, re-verify vs vendor")
+            if age > 180:
+                reasons.append("features may have changed (>180d)")
+            if age > 120 and '/comparisons/' in rel:
+                reasons.append("new competitor may have appeared - re-check landscape")
+            for m in re.finditer(r'href="(https?://[^"]+)"', txt):
+                host = re.sub(r'^https?://', '', m.group(1)).split('/')[0].lower()
+                if any(s in host for s in SUSPECT_AFFILIATE_HOSTS):
+                    reasons.append(f"suspect affiliate host: {host}")
+            if reasons:
+                items.append({'title': title, 'path': rel, 'age': age,
+                              'reasons': reasons})
 
-    # broken affiliate link heuristic: contains aitoolssolo via but no real domain
-    if "via=aitoolssolo" in body and ("http" not in body.split("via=aitoolssolo")[0][-40:]):
-        reasons.append("check affiliate link live")
+    items.sort(key=lambda x: -x['age'])
+    total = len(items)
+    lines = []
+    lines.append(f"---\ntitle: AIT Solo - Freshness Queue\ntags: [freshness, maintenance, aitoolssolo]\n"
+                 f"date: {NOW.strftime('%Y-%m-%d')}\nsource: scripts/freshness_queue.py\n---\n")
+    lines.append(f"# Freshness Queue - generated {NOW.strftime('%Y-%m-%d %H:%M')}\n")
+    lines.append(f"**{total} items need review.** Sorted oldest first. Run weekly.\n")
+    lines.append("\n## Queue\n")
+    for it in items:
+        age_label = f"{it['age']}d old" if it['age'] < 9999 else 'unverified'
+        lines.append(f"\n### {it['title']}  _({age_label})_")
+        lines.append(f"- Path: `{it['path']}`")
+        for r in it['reasons']:
+            lines.append(f"  - [ ] {r}")
+    open(REPORT, 'w', encoding='utf-8').write('\n'.join(lines))
+    json.dump(items, open(os.path.join(ROOT, 'scripts', 'freshness_queue.json'), 'w'), indent=2)
+    print(f"Freshness queue: {total} items -> {REPORT}")
+    return total
 
-    if reasons:
-        rows.append({"file": fn, "title": title, "age": age, "reasons": reasons,
-                     "path": path})
 
-# Sort: oldest first, then most reasons
-rows.sort(key=lambda r: (-len(r["reasons"]), -r["age"]))
-
-lines = []
-lines.append(f"---\ntitle: Freshness Queue (auto)\ntags: [freshness, maintenance]\ndate: {NOW.isoformat()}\n---\n")
-lines.append(f"# 🔄 Freshness Queue — {NOW.isoformat()}\n")
-lines.append(f"**{len(rows)} posts need review.** Generated by `scripts/freshness_queue.py`.\n")
-lines.append("\n## Priority review list\n")
-for r in rows:
-    lines.append(f"- [ ] **{r['title']}** (`{r['file']}`) — {r['age']}d old")
-    for why in r["reasons"]:
-        lines.append(f"    - {why}")
-
-out = "\n".join(lines) + "\n"
-with open(OUT, "w", encoding="utf-8") as f:
-    f.write(out)
-
-print(f"Wrote {OUT}")
-print(f"{len(rows)} posts in queue.")
-for r in rows[:8]:
-    print(f"  {r['age']:>5}d  {r['title'][:50]}")
+if __name__ == '__main__':
+    main()
