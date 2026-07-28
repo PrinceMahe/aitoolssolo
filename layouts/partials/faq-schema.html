@@ -1,6 +1,6 @@
 {{/* FAQPage structured data for posts with a "## FAQ" section using "### Q:" headings.
      Uses [ \t] for whitespace (Hugo templates reject \s as invalid string escape). */}}
-{{- if eq .Type "posts" }}
+{{- if or (eq .Type "posts") (eq .Type "comparison") }}
   {{- $raw := .RawContent | default "" | replaceRE "\r" "" }}
   {{- $faq := "" }}
   {{- $parts := split $raw "## FAQ" }}

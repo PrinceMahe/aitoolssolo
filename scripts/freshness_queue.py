@@ -27,8 +27,12 @@ SUSPECT_AFFILIATE_HOSTS = [
 
 
 def parse_fm(path):
-    txt = open(path, encoding='utf-8').read()
-    m = re.match(r'^---\n(.*?)\n---\n', txt, re.DOTALL)
+    raw = open(path, 'rb').read()
+    try:
+        txt = raw.decode('utf-8')
+    except UnicodeDecodeError:
+        txt = raw.decode('cp1252', errors='replace')
+    m = re.match(r'^---\r?\n(.*?)\r?\n---\r?\n', txt, re.DOTALL)
     if not m:
         return {}, txt
     fm = {}
