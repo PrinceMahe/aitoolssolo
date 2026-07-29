@@ -34,16 +34,34 @@ export async function onRequest(context: { request: Request }): Promise<Response
     });
     const html = await pageRes.text();
 
-    // 2. Extract ytInitialPlayerResponse from HTML
+    // 2. Extract ytInitialPlayerResponse from HTML using brace counting
     let playerResponse: any = null;
 
-    // Try ytInitialPlayerResponse — use [\s\S] to match across newlines
-    const playerMatch = html.match(/ytInitialPlayerResponse\s*=\s*({[\s\S]+?});\s*\n/);
-    if (playerMatch) {
-      try {
-        playerResponse = JSON.parse(playerMatch[1]);
-      } catch {
-        // fall through
+    const playerVar = 'ytInitialPlayerResponse = ';
+    const startIdx = html.indexOf(playerVar);
+    if (startIdx !== -1) {
+      const jsonStart = startIdx + playerVar.length;
+      let depth = 0;
+      let endIdx = jsonStart;
+
+      for (let i = jsonStart; i < html.length; i++) {
+        const ch = html[i];
+        if (ch === '{') depth++;
+        else if (ch === '}') {
+          depth--;
+          if (depth === 0) {
+            endIdx = i + 1;
+            break;
+          }
+        }
+      }
+
+      if (depth === 0) {
+        try {
+          playerResponse = JSON.parse(html.substring(jsonStart, endIdx));
+        } catch {
+          // fall through
+        }
       }
     }
 
