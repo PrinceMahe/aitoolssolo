@@ -9,4 +9,6 @@ scripts/publish.log
 .ga4_manage_token.json
 .gsc_token.json
 ga4_sa.json
-ga4_client_secret.json
+.ga4_client_secret.json
+node_modules/
+package-lock.json

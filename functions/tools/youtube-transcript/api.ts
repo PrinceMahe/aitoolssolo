@@ -2,13 +2,7 @@ interface TranscriptSegment {
   text: string;
   start: number;
   duration: number;
-}
-
-interface CaptionTrack {
-  baseUrl: string;
-  languageCode: string;
-  name?: { simpleText?: string };
-  kind?: string;
+  lang: string;
 }
 
 export async function onRequest(context: { request: Request }): Promise<Response> {
@@ -24,122 +18,30 @@ export async function onRequest(context: { request: Request }): Promise<Response
   }
 
   try {
-    // 1. Fetch YouTube video page — capture cookies for the transcript request
-    const pageRes = await fetch(`https://www.youtube.com/watch?v=${videoId}`, {
-      headers: {
-        'User-Agent':
-          'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-        'Accept-Language': 'en-US,en;q=0.9',
-      },
-    });
-    const html = await pageRes.text();
+    // Try InnerTube API first (Android client — works from CF edge)
+    let segments = await fetchViaInnerTube(videoId, lang);
 
-    // Extract cookies from the response to forward to timedtext API
-    const cookies: string[] = [];
-    pageRes.headers.forEach((value: string, key: string) => {
-      if (key.toLowerCase() === 'set-cookie') {
-        cookies.push(value.split(';')[0]);
-      }
-    });
-    const cookieStr = cookies.join('; ');
-
-    // 2. Extract ytInitialPlayerResponse from HTML using brace counting
-    let playerResponse: any = null;
-
-    const playerVar = 'ytInitialPlayerResponse = ';
-    const startIdx = html.indexOf(playerVar);
-    if (startIdx !== -1) {
-      const jsonStart = startIdx + playerVar.length;
-      let depth = 0;
-      let endIdx = jsonStart;
-
-      for (let i = jsonStart; i < html.length; i++) {
-        const ch = html[i];
-        if (ch === '{') depth++;
-        else if (ch === '}') {
-          depth--;
-          if (depth === 0) {
-            endIdx = i + 1;
-            break;
-          }
-        }
-      }
-
-      if (depth === 0) {
-        try {
-          playerResponse = JSON.parse(html.substring(jsonStart, endIdx));
-        } catch {
-          // fall through
-        }
-      }
+    // Fallback: parse from web page HTML
+    if (!segments || segments.length === 0) {
+      segments = await fetchViaWebPage(videoId, lang);
     }
 
-    // Fallback: try ytInitialData
-    if (!playerResponse?.captions?.playerCaptionsTracklistRenderer) {
-      const dataMatch = html.match(/ytInitialData\s*=\s*({[\s\S]+?});\s*\n/);
-      if (dataMatch) {
-        try {
-          const data = JSON.parse(dataMatch[1]);
-          const engagementPanels = data?.engagementPanels ?? [];
-          for (const panel of engagementPanels) {
-            const panelRenderer = panel?.engagementPanelSectionListRenderer;
-            if (panelRenderer?.content?.structuredDescriptionContent?.items) {
-              for (const item of panelRenderer.content.structuredDescriptionContent.items) {
-                const video = item?.videoDescriptionHeaderRenderer;
-                if (video?.captions?.captionTracks?.length) {
-                  playerResponse = { captions: { playerCaptionsTracklistRenderer: { captionTracks: video.captions.captionTracks } } };
-                  break;
-                }
-              }
-            }
-          }
-        } catch {
-          // fall through
-        }
-      }
-    }
-
-    // 3. Extract caption tracks
-    const captionTracks: CaptionTrack[] | undefined =
-      playerResponse?.captions?.playerCaptionsTracklistRenderer?.captionTracks;
-
-    if (!captionTracks || captionTracks.length === 0) {
+    if (!segments || segments.length === 0) {
       return new Response(JSON.stringify({ error: 'No captions available for this video' }), {
         status: 404,
         headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' },
       });
     }
 
-    // 4. Find best matching track — prefer requested language, then auto-generated, then first
-    let track = captionTracks.find((t: CaptionTrack) => t.languageCode === lang);
-    if (!track) track = captionTracks.find((t: CaptionTrack) => t.languageCode?.startsWith(lang.split('-')[0]));
-    if (!track) track = captionTracks[0];
-
-    // 5. Fix YouTube's escaped unicode in URL (\u0026 -> &)
-    let transcriptUrl = track.baseUrl;
-    transcriptUrl = transcriptUrl.replace(/\\u0026/g, '&');
-
-    // Include cookies from the page fetch — timedtext API requires them
-    const transcriptRes = await fetch(transcriptUrl, {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-        'Accept-Language': 'en-US,en;q=0.9',
-        'Referer': `https://www.youtube.com/watch?v=${videoId}`,
-        ...(cookieStr ? { 'Cookie': cookieStr } : {}),
-      },
-    });
-    const transcriptXml = await transcriptRes.text();
-
-    // 6. Parse XML to segments
-    const segments = parseTranscriptXml(transcriptXml);
-
-    // 7. Return as JSON
     return new Response(
       JSON.stringify({
         videoId,
-        language: track.languageCode,
-        languageName: track.name?.simpleText || track.languageCode,
-        segments,
+        language: segments[0].lang || lang,
+        segments: segments.map((s) => ({
+          text: s.text,
+          start: s.start,
+          duration: s.duration,
+        })),
         totalSegments: segments.length,
       }),
       {
@@ -151,10 +53,10 @@ export async function onRequest(context: { request: Request }): Promise<Response
         },
       }
     );
-  } catch (err) {
+  } catch (err: any) {
     return new Response(
       JSON.stringify({
-        error: err instanceof Error ? err.message : 'Unknown error fetching transcript',
+        error: err?.message || 'Unknown error fetching transcript',
       }),
       {
         status: 500,
@@ -164,38 +66,215 @@ export async function onRequest(context: { request: Request }): Promise<Response
   }
 }
 
-function parseTranscriptXml(xml: string): TranscriptSegment[] {
-  const segments: TranscriptSegment[] = [];
+/**
+ * Fetch transcript via InnerTube API (Android client context)
+ * This is the preferred method — YouTube's own apps use this endpoint.
+ */
+async function fetchViaInnerTube(videoId: string, lang: string): Promise<TranscriptSegment[] | null> {
+  try {
+    const resp = await fetch('https://www.youtube.com/youtubei/v1/player?prettyPrint=false', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'User-Agent': 'com.google.android.youtube/20.10.38 (Linux; U; Android 14)',
+      },
+      body: JSON.stringify({
+        context: {
+          client: {
+            clientName: 'ANDROID',
+            clientVersion: '20.10.38',
+          },
+        },
+        videoId,
+      }),
+    });
 
-  // Match <text start="..." dur="...">content</text>
-  const regex = /<text\s+start="([\d.]+)"(?:\s+dur="([\d.]+)")?\s*>([\s\S]*?)<\/text>/g;
+    if (!resp.ok) return null;
+
+    const data: any = await resp.json();
+    const captionTracks: any[] | undefined =
+      data?.captions?.playerCaptionsTracklistRenderer?.captionTracks;
+
+    if (!captionTracks || captionTracks.length === 0) return null;
+
+    // Select best track
+    let track = captionTracks.find((t) => t.languageCode === lang);
+    if (!track) track = captionTracks.find((t) => t.languageCode?.startsWith(lang.split('-')[0]));
+    if (!track) track = captionTracks[0];
+
+    const trackLang = track.languageCode;
+    let transcriptUrl = track.baseUrl;
+    // Fix YouTube's escaped unicode in URL
+    transcriptUrl = transcriptUrl.replace(/\\u0026/g, '&');
+
+    // Fetch the transcript
+    const transcriptRes = await fetch(transcriptUrl, {
+      headers: {
+        'User-Agent': 'com.google.android.youtube/20.10.38 (Linux; U; Android 14)',
+        'Accept-Language': 'en-US,en;q=0.9',
+      },
+    });
+
+    if (!transcriptRes.ok) return null;
+    const xml = await transcriptRes.text();
+    if (!xml || xml.trim().length === 0) return null;
+
+    return parseTranscriptXml(xml, trackLang);
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Fallback: fetch transcript by scraping the web page HTML
+ */
+async function fetchViaWebPage(videoId: string, lang: string): Promise<TranscriptSegment[] | null> {
+  try {
+    const pageRes = await fetch(`https://www.youtube.com/watch?v=${videoId}`, {
+      headers: {
+        'User-Agent':
+          'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept-Language': 'en-US,en;q=0.9',
+      },
+    });
+
+    const html = await pageRes.text();
+
+    // Extract ytInitialPlayerResponse via brace counting
+    const playerResponse = parseInlineJson(html, 'ytInitialPlayerResponse');
+    if (!playerResponse) return null;
+
+    const captionTracks: any[] | undefined =
+      playerResponse?.captions?.playerCaptionsTracklistRenderer?.captionTracks;
+
+    if (!captionTracks || captionTracks.length === 0) return null;
+
+    let track = captionTracks.find((t) => t.languageCode === lang);
+    if (!track) track = captionTracks.find((t) => t.languageCode?.startsWith(lang.split('-')[0]));
+    if (!track) track = captionTracks[0];
+
+    const trackLang = track.languageCode;
+    let transcriptUrl = track.baseUrl;
+    transcriptUrl = transcriptUrl.replace(/\\u0026/g, '&');
+
+    // Collect cookies from the page response
+    const cookies: string[] = [];
+    pageRes.headers.forEach((value: string, key: string) => {
+      if (key.toLowerCase() === 'set-cookie') {
+        cookies.push(value.split(';')[0]);
+      }
+    });
+
+    const transcriptRes = await fetch(transcriptUrl, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+        'Accept-Language': 'en-US,en;q=0.9',
+        'Referer': `https://www.youtube.com/watch?v=${videoId}`,
+        ...(cookies.length > 0 ? { 'Cookie': cookies.join('; ') } : {}),
+      },
+    });
+
+    if (!transcriptRes.ok) return null;
+    const xml = await transcriptRes.text();
+    if (!xml || xml.trim().length === 0) return null;
+
+    return parseTranscriptXml(xml, trackLang);
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Parse transcript XML. Supports both:
+ * - srv3 format: <p t="ms" d="ms"><s>word</s></p>
+ * - classic format: <text start="s" dur="s">content</text>
+ */
+function parseTranscriptXml(xml: string, lang: string): TranscriptSegment[] {
+  const results: TranscriptSegment[] = [];
+
+  // Try srv3 format first
+  const pRegex = /<p\s+t="(\d+)"\s+d="(\d+)"[^>]*>([\s\S]*?)<\/p>/g;
   let match;
-
-  while ((match = regex.exec(xml)) !== null) {
-    const start = parseFloat(match[1]);
-    const duration = match[2] ? parseFloat(match[2]) : 0;
-    let text = match[3]
-      .replace(/&amp;/g, '&')
-      .replace(/&lt;/g, '<')
-      .replace(/&gt;/g, '>')
-      .replace(/&quot;/g, '"')
-      .replace(/&#39;/g, "'")
-      .replace(/<[^>]*>/g, '') // strip any remaining XML tags
-      .replace(/\s+/g, ' ')
-      .trim();
-
+  while ((match = pRegex.exec(xml)) !== null) {
+    const startMs = parseInt(match[1], 10);
+    const durMs = parseInt(match[2], 10);
+    const inner = match[3];
+    let text = '';
+    const sRegex = /<s[^>]*>([^<]*)<\/s>/g;
+    let sMatch;
+    while ((sMatch = sRegex.exec(inner)) !== null) {
+      text += sMatch[1];
+    }
+    if (!text) {
+      text = inner.replace(/<[^>]+>/g, '');
+    }
+    text = decodeEntities(text).trim();
     if (text) {
-      segments.push({ text, start, duration });
+      results.push({
+        text,
+        duration: durMs / 1000,
+        start: startMs / 1000,
+        lang,
+      });
     }
   }
 
-  return segments;
+  if (results.length > 0) return results;
+
+  // Fall back to classic format: <text start="s" dur="s">content</text>
+  const classicRegex = /<text start="([^"]*)" dur="([^"]*)">([^<]*)<\/text>/g;
+  while ((match = classicRegex.exec(xml)) !== null) {
+    let text = decodeEntities(match[3]).trim();
+    if (text) {
+      results.push({
+        text,
+        start: parseFloat(match[1]),
+        duration: parseFloat(match[2]),
+        lang,
+      });
+    }
+  }
+
+  return results;
 }
 
-function formatTimestamp(seconds: number): string {
-  const h = Math.floor(seconds / 3600);
-  const m = Math.floor((seconds % 3600) / 60);
-  const s = Math.floor(seconds % 60);
-  if (h > 0) return `${h}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
-  return `${m}:${String(s).padStart(2, '0')}`;
+/**
+ * Extract a JSON object assigned to a global variable in inline script tags
+ */
+function parseInlineJson(html: string, globalName: string): any {
+  const startToken = `var ${globalName} = `;
+  const startIndex = html.indexOf(startToken);
+  if (startIndex === -1) return null;
+
+  const jsonStart = startIndex + startToken.length;
+  let depth = 0;
+  for (let i = jsonStart; i < html.length; i++) {
+    if (html[i] === '{') depth++;
+    else if (html[i] === '}') {
+      depth--;
+      if (depth === 0) {
+        try {
+          return JSON.parse(html.slice(jsonStart, i + 1));
+        } catch {
+          return null;
+        }
+      }
+    }
+  }
+  return null;
+}
+
+/**
+ * Decode common HTML entities
+ */
+function decodeEntities(text: string): string {
+  return text
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&apos;/g, "'")
+    .replace(/&#x([0-9a-fA-F]+);/g, (_, hex) => String.fromCodePoint(parseInt(hex, 16)))
+    .replace(/&#(\d+);/g, (_, dec) => String.fromCodePoint(parseInt(dec, 10)));
 }

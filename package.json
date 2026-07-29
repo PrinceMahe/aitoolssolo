@@ -5,5 +5,24 @@
   "description": "AI Tools Solo — directory of AI tools with 'There's an AI for that' use-case pages.",
   "engines": {
     "hugo": "extended_0.158.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrinceMahe/aitoolssolo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/PrinceMahe/aitoolssolo/issues"
+  },
+  "homepage": "https://github.com/PrinceMahe/aitoolssolo#readme",
+  "dependencies": {
+    "youtube-transcript": "^1.3.1"
   }
 }
