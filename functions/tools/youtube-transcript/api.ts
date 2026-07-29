@@ -2,7 +2,6 @@ interface TranscriptSegment {
   text: string;
   start: number;
   duration: number;
-  lang: string;
 }
 
 export async function onRequest(context: { request: Request }): Promise<Response> {
@@ -18,31 +17,38 @@ export async function onRequest(context: { request: Request }): Promise<Response
   }
 
   try {
-    // Try InnerTube API first (Android client — works from CF edge)
-    let segments = await fetchViaInnerTube(videoId, lang);
-
-    // Fallback: parse from web page HTML
-    if (!segments || segments.length === 0) {
-      segments = await fetchViaWebPage(videoId, lang);
-    }
-
-    if (!segments || segments.length === 0) {
+    // Try InnerTube Android API to get caption tracks
+    const tracks = await getCaptionTracks(videoId);
+    if (!tracks || tracks.length === 0) {
       return new Response(JSON.stringify({ error: 'No captions available for this video' }), {
         status: 404,
         headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' },
       });
     }
 
+    // Select best track
+    let track = tracks.find((t: any) => t.languageCode === lang);
+    if (!track) track = tracks.find((t: any) => t.languageCode?.startsWith(lang.split('-')[0]));
+    if (!track) track = tracks[0];
+
+    let transcriptUrl = track.baseUrl;
+    // YouTube's JSON may have \\u0026 instead of &
+    transcriptUrl = transcriptUrl.replace(/\\u0026/g, '&');
+
+    // Try to fetch the transcript via YouTube's timedtext API
+    const segments = await tryFetchTranscript(transcriptUrl, videoId);
+
+    // Even if segments are empty, return track info + the download URL
+    // so the browser can retry directly
     return new Response(
       JSON.stringify({
         videoId,
-        language: segments[0].lang || lang,
-        segments: segments.map((s) => ({
-          text: s.text,
-          start: s.start,
-          duration: s.duration,
-        })),
-        totalSegments: segments.length,
+        language: track.languageCode,
+        languageName: track.name?.simpleText || track.languageCode,
+        segments: segments || [],
+        totalSegments: segments?.length || 0,
+        // Include the raw timedtext URL so the browser can retry
+        _timedtextUrl: transcriptUrl,
       }),
       {
         status: 200,
@@ -67,10 +73,9 @@ export async function onRequest(context: { request: Request }): Promise<Response
 }
 
 /**
- * Fetch transcript via InnerTube API (Android client context)
- * This is the preferred method — YouTube's own apps use this endpoint.
+ * Get caption tracks via InnerTube Android API (works from CF edge)
  */
-async function fetchViaInnerTube(videoId: string, lang: string): Promise<TranscriptSegment[] | null> {
+async function getCaptionTracks(videoId: string): Promise<any[] | null> {
   try {
     const resp = await fetch('https://www.youtube.com/youtubei/v1/player?prettyPrint=false', {
       method: 'POST',
@@ -79,120 +84,45 @@ async function fetchViaInnerTube(videoId: string, lang: string): Promise<Transcr
         'User-Agent': 'com.google.android.youtube/20.10.38 (Linux; U; Android 14)',
       },
       body: JSON.stringify({
-        context: {
-          client: {
-            clientName: 'ANDROID',
-            clientVersion: '20.10.38',
-          },
-        },
+        context: { client: { clientName: 'ANDROID', clientVersion: '20.10.38' } },
         videoId,
       }),
     });
-
     if (!resp.ok) return null;
-
     const data: any = await resp.json();
-    const captionTracks: any[] | undefined =
-      data?.captions?.playerCaptionsTracklistRenderer?.captionTracks;
+    return data?.captions?.playerCaptionsTracklistRenderer?.captionTracks || null;
+  } catch {
+    return null;
+  }
+}
 
-    if (!captionTracks || captionTracks.length === 0) return null;
-
-    // Select best track
-    let track = captionTracks.find((t) => t.languageCode === lang);
-    if (!track) track = captionTracks.find((t) => t.languageCode?.startsWith(lang.split('-')[0]));
-    if (!track) track = captionTracks[0];
-
-    const trackLang = track.languageCode;
-    let transcriptUrl = track.baseUrl;
-    // Fix YouTube's escaped unicode in URL
-    transcriptUrl = transcriptUrl.replace(/\\u0026/g, '&');
-
-    // Fetch the transcript
-    const transcriptRes = await fetch(transcriptUrl, {
+/**
+ * Try to fetch transcript from YouTube's timedtext endpoint
+ */
+async function tryFetchTranscript(url: string, videoId: string): Promise<TranscriptSegment[] | null> {
+  try {
+    const resp = await fetch(url, {
       headers: {
         'User-Agent': 'com.google.android.youtube/20.10.38 (Linux; U; Android 14)',
         'Accept-Language': 'en-US,en;q=0.9',
       },
     });
-
-    if (!transcriptRes.ok) return null;
-    const xml = await transcriptRes.text();
-    if (!xml || xml.trim().length === 0) return null;
-
-    return parseTranscriptXml(xml, trackLang);
+    if (!resp.ok) return null;
+    const xml = await resp.text();
+    if (!xml || xml.trim().length < 20) return null;
+    return parseTranscriptXml(xml);
   } catch {
     return null;
   }
 }
 
 /**
- * Fallback: fetch transcript by scraping the web page HTML
+ * Parse transcript XML (srv3 + classic formats)
  */
-async function fetchViaWebPage(videoId: string, lang: string): Promise<TranscriptSegment[] | null> {
-  try {
-    const pageRes = await fetch(`https://www.youtube.com/watch?v=${videoId}`, {
-      headers: {
-        'User-Agent':
-          'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-        'Accept-Language': 'en-US,en;q=0.9',
-      },
-    });
-
-    const html = await pageRes.text();
-
-    // Extract ytInitialPlayerResponse via brace counting
-    const playerResponse = parseInlineJson(html, 'ytInitialPlayerResponse');
-    if (!playerResponse) return null;
-
-    const captionTracks: any[] | undefined =
-      playerResponse?.captions?.playerCaptionsTracklistRenderer?.captionTracks;
-
-    if (!captionTracks || captionTracks.length === 0) return null;
-
-    let track = captionTracks.find((t) => t.languageCode === lang);
-    if (!track) track = captionTracks.find((t) => t.languageCode?.startsWith(lang.split('-')[0]));
-    if (!track) track = captionTracks[0];
-
-    const trackLang = track.languageCode;
-    let transcriptUrl = track.baseUrl;
-    transcriptUrl = transcriptUrl.replace(/\\u0026/g, '&');
-
-    // Collect cookies from the page response
-    const cookies: string[] = [];
-    pageRes.headers.forEach((value: string, key: string) => {
-      if (key.toLowerCase() === 'set-cookie') {
-        cookies.push(value.split(';')[0]);
-      }
-    });
-
-    const transcriptRes = await fetch(transcriptUrl, {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-        'Accept-Language': 'en-US,en;q=0.9',
-        'Referer': `https://www.youtube.com/watch?v=${videoId}`,
-        ...(cookies.length > 0 ? { 'Cookie': cookies.join('; ') } : {}),
-      },
-    });
-
-    if (!transcriptRes.ok) return null;
-    const xml = await transcriptRes.text();
-    if (!xml || xml.trim().length === 0) return null;
-
-    return parseTranscriptXml(xml, trackLang);
-  } catch {
-    return null;
-  }
-}
-
-/**
- * Parse transcript XML. Supports both:
- * - srv3 format: <p t="ms" d="ms"><s>word</s></p>
- * - classic format: <text start="s" dur="s">content</text>
- */
-function parseTranscriptXml(xml: string, lang: string): TranscriptSegment[] {
+function parseTranscriptXml(xml: string): TranscriptSegment[] {
   const results: TranscriptSegment[] = [];
 
-  // Try srv3 format first
+  // Try srv3 format: <p t="ms" d="ms"><s>word</s></p>
   const pRegex = /<p\s+t="(\d+)"\s+d="(\d+)"[^>]*>([\s\S]*?)<\/p>/g;
   let match;
   while ((match = pRegex.exec(xml)) !== null) {
@@ -202,79 +132,28 @@ function parseTranscriptXml(xml: string, lang: string): TranscriptSegment[] {
     let text = '';
     const sRegex = /<s[^>]*>([^<]*)<\/s>/g;
     let sMatch;
-    while ((sMatch = sRegex.exec(inner)) !== null) {
-      text += sMatch[1];
-    }
-    if (!text) {
-      text = inner.replace(/<[^>]+>/g, '');
-    }
+    while ((sMatch = sRegex.exec(inner)) !== null) text += sMatch[1];
+    if (!text) text = inner.replace(/<[^>]+>/g, '');
     text = decodeEntities(text).trim();
-    if (text) {
-      results.push({
-        text,
-        duration: durMs / 1000,
-        start: startMs / 1000,
-        lang,
-      });
-    }
+    if (text) results.push({ text, duration: durMs / 1000, start: startMs / 1000 });
   }
 
   if (results.length > 0) return results;
 
-  // Fall back to classic format: <text start="s" dur="s">content</text>
+  // Classic format: <text start="s" dur="s">content</text>
   const classicRegex = /<text start="([^"]*)" dur="([^"]*)">([^<]*)<\/text>/g;
   while ((match = classicRegex.exec(xml)) !== null) {
     let text = decodeEntities(match[3]).trim();
-    if (text) {
-      results.push({
-        text,
-        start: parseFloat(match[1]),
-        duration: parseFloat(match[2]),
-        lang,
-      });
-    }
+    if (text) results.push({ text, start: parseFloat(match[1]), duration: parseFloat(match[2]) });
   }
 
   return results;
 }
 
-/**
- * Extract a JSON object assigned to a global variable in inline script tags
- */
-function parseInlineJson(html: string, globalName: string): any {
-  const startToken = `var ${globalName} = `;
-  const startIndex = html.indexOf(startToken);
-  if (startIndex === -1) return null;
-
-  const jsonStart = startIndex + startToken.length;
-  let depth = 0;
-  for (let i = jsonStart; i < html.length; i++) {
-    if (html[i] === '{') depth++;
-    else if (html[i] === '}') {
-      depth--;
-      if (depth === 0) {
-        try {
-          return JSON.parse(html.slice(jsonStart, i + 1));
-        } catch {
-          return null;
-        }
-      }
-    }
-  }
-  return null;
-}
-
-/**
- * Decode common HTML entities
- */
 function decodeEntities(text: string): string {
   return text
-    .replace(/&amp;/g, '&')
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'")
-    .replace(/&apos;/g, "'")
-    .replace(/&#x([0-9a-fA-F]+);/g, (_, hex) => String.fromCodePoint(parseInt(hex, 16)))
-    .replace(/&#(\d+);/g, (_, dec) => String.fromCodePoint(parseInt(dec, 10)));
+    .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&apos;/g, "'")
+    .replace(/&#x([0-9a-fA-F]+);/g, (_, hex: string) => String.fromCodePoint(parseInt(hex, 16)))
+    .replace(/&#(\d+);/g, (_, dec: string) => String.fromCodePoint(parseInt(dec, 10)));
 }

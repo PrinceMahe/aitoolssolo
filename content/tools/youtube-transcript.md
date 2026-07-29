@@ -296,6 +296,29 @@ async function fetchTranscript() {
     `;
     metadata.classList.add('show');
 
+    // If segments came back empty, try browser-side fetch from timedtext URL
+    if (data.segments.length === 0 && data._timedtextUrl) {
+      loading.textContent = '⏳ Fetching transcript (browser fallback)...';
+      loading.classList.add('show');
+      try {
+        const fallbackRes = await fetch(data._timedtextUrl);
+        const fallbackXml = await fallbackRes.text();
+        const parsed = parseTimedtextXml(fallbackXml);
+        if (parsed.length > 0) {
+          lastSegments = parseTimedtextXml(fallbackXml, data.language);
+          metadata.innerHTML = `
+            <strong>Video:</strong> ${videoId}
+            · <strong>Language:</strong> ${data.languageName || data.language}
+            · <strong>${lastSegments.length}</strong> segments
+          `;
+          data.segments = lastSegments;
+        }
+      } catch (e) {
+        // Fallback failed too, show the CF response
+      }
+      loading.classList.remove('show');
+    }
+
     // Render segments
     container.innerHTML = data.segments.map((seg, i) => {
       const ts = formatTime(seg.start);
@@ -328,6 +351,42 @@ function escapeHtml(text) {
   const d = document.createElement('div');
   d.textContent = text;
   return d.innerHTML;
+}
+
+// Browser-side XML parser for timedtext fallback
+function parseTimedtextXml(xml, lang) {
+  const segments = [];
+  const parser = new DOMParser();
+  const doc = parser.parseFromString(xml, 'text/xml');
+  const texts = doc.querySelectorAll('text');
+  texts.forEach(el => {
+    const text = decodeXmlEntities(el.textContent).trim();
+    if (text) {
+      segments.push({
+        text,
+        start: parseFloat(el.getAttribute('start')) || 0,
+        duration: parseFloat(el.getAttribute('dur')) || 0,
+      });
+    }
+  });
+  if (segments.length > 0) return segments;
+  // Try srv3 format
+  const pEls = doc.querySelectorAll('p');
+  pEls.forEach(p => {
+    const t = p.getAttribute('t');
+    const d = p.getAttribute('d');
+    const text = p.textContent.trim();
+    if (text && t) {
+      segments.push({ text, start: parseInt(t) / 1000, duration: d ? parseInt(d) / 1000 : 0 });
+    }
+  });
+  return segments;
+}
+
+function decodeXmlEntities(text) {
+  const d = document.createElement('div');
+  d.innerHTML = text;
+  return d.textContent || d.innerText || '';
 }
 
 function showToast(msg) {
