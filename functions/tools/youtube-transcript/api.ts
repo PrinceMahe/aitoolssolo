@@ -24,7 +24,7 @@ export async function onRequest(context: { request: Request }): Promise<Response
   }
 
   try {
-    // 1. Fetch YouTube video page
+    // 1. Fetch YouTube video page — capture cookies for the transcript request
     const pageRes = await fetch(`https://www.youtube.com/watch?v=${videoId}`, {
       headers: {
         'User-Agent':
@@ -33,6 +33,15 @@ export async function onRequest(context: { request: Request }): Promise<Response
       },
     });
     const html = await pageRes.text();
+
+    // Extract cookies from the response to forward to timedtext API
+    const cookies: string[] = [];
+    pageRes.headers.forEach((value: string, key: string) => {
+      if (key.toLowerCase() === 'set-cookie') {
+        cookies.push(value.split(';')[0]);
+      }
+    });
+    const cookieStr = cookies.join('; ');
 
     // 2. Extract ytInitialPlayerResponse from HTML using brace counting
     let playerResponse: any = null;
@@ -106,9 +115,19 @@ export async function onRequest(context: { request: Request }): Promise<Response
     if (!track) track = captionTracks.find((t: CaptionTrack) => t.languageCode?.startsWith(lang.split('-')[0]));
     if (!track) track = captionTracks[0];
 
-    // 5. Fetch the transcript XML
-    const transcriptUrl = track.baseUrl;
-    const transcriptRes = await fetch(transcriptUrl);
+    // 5. Fix YouTube's escaped unicode in URL (\u0026 -> &)
+    let transcriptUrl = track.baseUrl;
+    transcriptUrl = transcriptUrl.replace(/\\u0026/g, '&');
+
+    // Include cookies from the page fetch — timedtext API requires them
+    const transcriptRes = await fetch(transcriptUrl, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+        'Accept-Language': 'en-US,en;q=0.9',
+        'Referer': `https://www.youtube.com/watch?v=${videoId}`,
+        ...(cookieStr ? { 'Cookie': cookieStr } : {}),
+      },
+    });
     const transcriptXml = await transcriptRes.text();
 
     // 6. Parse XML to segments
