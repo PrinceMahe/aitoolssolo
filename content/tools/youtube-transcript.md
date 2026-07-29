@@ -3,6 +3,7 @@ title: "YouTube Transcript — Get Any Video Transcript Free"
 description: "Free YouTube transcript extractor. Paste any YouTube video link and get the full transcript with timestamps. Copy, export as TXT/SRT/Markdown."
 type: "tool"
 slug: "youtube-transcript"
+tool: "youtube-transcript"
 draft: false
 ---
 

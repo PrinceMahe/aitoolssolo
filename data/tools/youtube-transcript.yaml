@@ -1,0 +1,24 @@
+slug: youtube-transcript
+name: "YouTube Transcript Extractor"
+category: productivity
+summary: "Free tool to extract transcripts from any YouTube video with timestamps. Copy, export SRT, Markdown, or TXT."
+pricing: "Free"
+affiliate: ""
+rating: 4.5
+tags: [youtube, transcript, video, captions]
+features:
+  - Timestamped transcripts
+  - Copy with or without timestamps
+  - Export SRT, Markdown, TXT
+  - Works on any video with captions
+best_for:
+  - Researchers
+  - Content creators
+  - Students
+pros:
+  - Free and fast
+  - Multiple export formats
+  - No sign-up required
+cons:
+  - Requires video to have captions enabled
+  - ASR captions may have errors
