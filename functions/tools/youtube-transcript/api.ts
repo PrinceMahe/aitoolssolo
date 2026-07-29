@@ -37,8 +37,8 @@ export async function onRequest(context: { request: Request }): Promise<Response
     // 2. Extract ytInitialPlayerResponse from HTML
     let playerResponse: any = null;
 
-    // Try ytInitialPlayerResponse first
-    const playerMatch = html.match(/ytInitialPlayerResponse\s*=\s*({.+?});\s*\n/);
+    // Try ytInitialPlayerResponse — use [\s\S] to match across newlines
+    const playerMatch = html.match(/ytInitialPlayerResponse\s*=\s*({[\s\S]+?});\s*\n/);
     if (playerMatch) {
       try {
         playerResponse = JSON.parse(playerMatch[1]);
@@ -47,18 +47,23 @@ export async function onRequest(context: { request: Request }): Promise<Response
       }
     }
 
-    // If not found, try ytInitialData
+    // Fallback: try ytInitialData
     if (!playerResponse?.captions?.playerCaptionsTracklistRenderer) {
-      const dataMatch = html.match(/ytInitialData\s*=\s*({.+?});\s*\n/);
+      const dataMatch = html.match(/ytInitialData\s*=\s*({[\s\S]+?});\s*\n/);
       if (dataMatch) {
         try {
           const data = JSON.parse(dataMatch[1]);
-          const sections =
-            data?.contents?.twoColumnWatchNextResults?.results?.results?.contents ?? [];
-          for (const section of sections) {
-            const item = section?.itemSectionRenderer?.contents?.[0];
-            if (item?.videoSecondaryInfoRenderer) {
-              // captions are typically in playerResponse, not secondaryInfo
+          const engagementPanels = data?.engagementPanels ?? [];
+          for (const panel of engagementPanels) {
+            const panelRenderer = panel?.engagementPanelSectionListRenderer;
+            if (panelRenderer?.content?.structuredDescriptionContent?.items) {
+              for (const item of panelRenderer.content.structuredDescriptionContent.items) {
+                const video = item?.videoDescriptionHeaderRenderer;
+                if (video?.captions?.captionTracks?.length) {
+                  playerResponse = { captions: { playerCaptionsTracklistRenderer: { captionTracks: video.captions.captionTracks } } };
+                  break;
+                }
+              }
             }
           }
         } catch {
