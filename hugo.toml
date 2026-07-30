@@ -65,6 +65,8 @@ linkCanonical = true
     "freshbooks-vs-square",
     "luma-dream-vs-submagic",
     "browserbear-vs-relay",
+    "krea-vs-vectorizer",
+    "clearscope-vs-writer",
   ]
 
 [outputs]

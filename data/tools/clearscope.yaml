@@ -1,18 +1,24 @@
 slug: clearscope
 name: "Clearscope"
 category: writing
-summary: "Enterprise content optimization for SEO teams."
-pricing: "~$170 mo"
+summary: "AI-powered SEO content optimization and keyword research platform."
+pricing: "From $170/mo"
 affiliate: ""
 rating: 4.3
-tags: [writing, seo, enterprise]
+tags: [writing, seo, content, optimization]
 features:
-  - Term recommendations
-  - Reports
+  - Content grading
+  - Keyword recommendations
+  - Topic clusters
+  - Competitor gap analysis
 best_for:
-  - Enterprise
+  - SEO content creators
+  - Content marketers
   - Agencies
 pros:
-  - Best-in-class SEO
+  - Best-in-class SEO content optimization
+  - Actionable keyword coverage scores
+  - Topic cluster recommendations
 cons:
-  - Expensive
+  - Expensive for solo operators
+  - No content generation — research only

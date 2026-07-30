@@ -31,8 +31,12 @@
       "name" .Title
       "description" .Description
       "object" (slice
-        (dict "@type" "SoftwareApplication" "name" $a.name)
-        (dict "@type" "SoftwareApplication" "name" $b.name))
+        (dict "@type" "SoftwareApplication" "name" $a.name
+          "aggregateRating" (dict "@type" "AggregateRating" "ratingValue" (printf "%v" $a.rating) "ratingCount" "1")
+          "offers" (dict "@type" "Offer" "price" "0" "priceCurrency" "USD"))
+        (dict "@type" "SoftwareApplication" "name" $b.name
+          "aggregateRating" (dict "@type" "AggregateRating" "ratingValue" (printf "%v" $b.rating) "ratingCount" "1")
+          "offers" (dict "@type" "Offer" "price" "0" "priceCurrency" "USD")))
     }}
   <script type="application/ld+json">{{ $obj | jsonify | safeJS }}</script>
   {{- end }}
