@@ -1,14 +1,15 @@
-public/
-resources/
-.hugo_build.lock
-.DS_Store
 
 # auto-publish runtime log
-scripts/publish.log
-.venv-ga4/
-.ga4_manage_token.json
-.gsc_token.json
-ga4_sa.json
+.DS_Store
 .ga4_client_secret.json
+.ga4_manage_token.json
+.ga4_user_token.json
+.gsc_token.json
+.hugo_build.lock
+.venv-ga4/
+ga4_sa.json
 node_modules/
 package-lock.json
+public/
+resources/
+scripts/publish.log
