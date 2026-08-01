@@ -1,6 +1,6 @@
 ---
 title: "Best AI Writing Tool for Affiliate Content (2026)"
-description: "A practical guide to the best AI writing tools for affiliate content — tested across hundreds of articles and ranked by real conversion performance."
+description: "A practical guide to the best AI writing tools for affiliate marketing — tested across hundreds of articles and ranked by real conversion performance."
 date: 2026-03-24T12:01:33-04:00
 lastmod: 2026-05-11T00:00:00-04:00
 draft: false
