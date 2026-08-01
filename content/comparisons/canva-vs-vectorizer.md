@@ -42,7 +42,7 @@ I ran 20 real-world raster images through Canva's Magic Studio and Vectorizer.AI
 
 ## Canva Magic Studio: Vectorization as a Feature
 
-Canva's AI vectorizer lives inside Magic Studio — alongside magic resize, background remover, and brand kit. There's no standalone Canva vectorizer product or landing page (the dedicated `/features/ai-vectorizer/` URL returns 404); vectorization is a Magic Studio feature you access from within the editor. You upload a PNG, it converts to SVG, and you open the result in Canva's editor to tweak colors, rearrange elements, or add text. For occasional vectorization where you also want to edit the vector (add text, change colors, resize), this workflow is seamless. Output quality is good but not best-in-class — complex logos with gradients sometimes produce jagged vector paths, and you're limited to SVG export (no AI/EPS).
+Canva's AI vectorizer lives inside Magic Studio — alongside magic resize, background remover, and brand kit. Unlike dedicated tools, there's no standalone Canva vectorizer product (the feature lives at [canva.com/features/vectorizer/](https://www.canva.com/features/vectorizer/), not its own site). You upload a PNG, it converts to SVG, and you open the result in Canva's editor to tweak colors, rearrange elements, or add text. For occasional vectorization where you also want to edit the vector (add text, change colors, resize), this workflow is seamless. Output quality is good but not best-in-class — complex logos with gradients sometimes produce jagged vector paths, and you're limited to SVG export (no AI/EPS).
 
 **Pros:**
 - Full design suite in the same app — vectorize → edit → export in one flow
