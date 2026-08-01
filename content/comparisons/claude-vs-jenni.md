@@ -1,8 +1,8 @@
 ---
-title: "Claude vs Jenni — Which Wins for Long-Form Writing? (2026)"
-description: "Claude vs Jenni: head-to-head on pricing, features, and use cases so you can pick the right AI writing tool for long-form drafts, research, and coding."
+title: "Jenni vs Claude AI — Which AI Writing Tool Wins? (2026)"
+description: "Stuck between Jenni and Claude AI? Compare pricing, features, and use cases to pick the best AI writing assistant for your workflow."
 date: 2026-03-18T12:00:00-04:00
-lastmod: 2026-07-28T00:00:00-04:00
+lastmod: 2026-08-01T00:00:00-04:00
 type: "comparison"
 slug: "claude-vs-jenni"
 tool_a: "claude"

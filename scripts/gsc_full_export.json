@@ -1,0 +1,5059 @@
+{
+  "start": "2026-07-01",
+  "end": "2026-07-29",
+  "total_query_page_rows": 617,
+  "distinct_queries": 561,
+  "total_clicks": 2,
+  "total_impressions": 2222,
+  "queries": [
+    {
+      "query": "\"aider chat\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 1.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/aider-vs-lovable/",
+      "pages_count": 1
+    },
+    {
+      "query": "\"aider.chat\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 2.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/aider-vs-lovable/",
+      "pages_count": 1
+    },
+    {
+      "query": "\"adobe podcast\" -\"express\" -\"express\" -\"premiere\" -\"spark\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0.0,
+      "position": 2.4,
+      "top_page": "https://www.aitoolssolo.com/use-cases/podcast/",
+      "pages_count": 1
+    },
+    {
+      "query": "verb gpt",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 3.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/chatgpt-vs-verbix/",
+      "pages_count": 1
+    },
+    {
+      "query": "doola ai",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 4.0,
+      "top_page": "https://www.aitoolssolo.com/tools/doola/",
+      "pages_count": 1
+    },
+    {
+      "query": "oneblog vs jasper ai",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 4.5,
+      "top_page": "https://www.aitoolssolo.com/posts/jasper-ai-vs-chatgpt-for-blog-writing/",
+      "pages_count": 1
+    },
+    {
+      "query": "\"mailmodo\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 5.0,
+      "top_page": "https://www.aitoolssolo.com/landing/ai-tools-for-marketing-growth/",
+      "pages_count": 2
+    },
+    {
+      "query": "comparaison des fonctionnalit\u00e9s : firefly vs nightcafe",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 5.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/adobe-firefly-vs-nightcafe/",
+      "pages_count": 1
+    },
+    {
+      "query": "daily.ai vs beehiiv for a hands-off newsletter \u2014 which needs less work from me?",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 5.0,
+      "top_page": "https://www.aitoolssolo.com/posts/beehiiv-vs-substack-which-paid-newsletter-platform-actually-pays-more/",
+      "pages_count": 1
+    },
+    {
+      "query": "\"windsurf\" \"ai\" \"codeium\" \"ide\" \"coding\" -\"jacket\" -\"kite\" -\"ski\" -\"skiing\" -\"surf\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 5.5,
+      "top_page": "https://www.aitoolssolo.com/landing/ai-tools-for-coding-build/",
+      "pages_count": 2
+    },
+    {
+      "query": "claude vs jenni",
+      "clicks": 1,
+      "impressions": 12,
+      "ctr": 8.33,
+      "position": 5.7,
+      "top_page": "https://www.aitoolssolo.com/comparisons/claude-vs-jenni/",
+      "pages_count": 1
+    },
+    {
+      "query": "\"ai for seo\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0.0,
+      "position": 5.8,
+      "top_page": "https://www.aitoolssolo.com/use-cases/seo/",
+      "pages_count": 1
+    },
+    {
+      "query": "based on reviews bonsai vs. indy",
+      "clicks": 0,
+      "impressions": 17,
+      "ctr": 0.0,
+      "position": 5.9,
+      "top_page": "https://www.aitoolssolo.com/comparisons/bonsai-vs-indy/",
+      "pages_count": 1
+    },
+    {
+      "query": "\"chatgpt vs claude\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 6.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/chatgpt-vs-claude/",
+      "pages_count": 1
+    },
+    {
+      "query": "claude fathom",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 6.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/claude-vs-fathom/",
+      "pages_count": 1
+    },
+    {
+      "query": "codeium vs devin",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 6.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/codeium-vs-devin/",
+      "pages_count": 1
+    },
+    {
+      "query": "firefly bg remover",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 6.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/adobe-firefly-vs-removebg/",
+      "pages_count": 1
+    },
+    {
+      "query": "wave vs ramp",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 6.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/ramp-vs-wave/",
+      "pages_count": 1
+    },
+    {
+      "query": "best auto publishing ai writers for affiliate sites?",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 6.5,
+      "top_page": "https://www.aitoolssolo.com/posts/the-best-ai-writing-tool-for-affiliate-content-a-practical-guide-for-2025/",
+      "pages_count": 1
+    },
+    {
+      "query": "\"luma dream machine\" \"4.2\" \"ratings\"",
+      "clicks": 0,
+      "impressions": 22,
+      "ctr": 0.0,
+      "position": 6.6,
+      "top_page": "https://www.aitoolssolo.com/comparisons/luma-vs-playground/",
+      "pages_count": 3
+    },
+    {
+      "query": "jenni vs claude",
+      "clicks": 0,
+      "impressions": 41,
+      "ctr": 0.0,
+      "position": 6.7,
+      "top_page": "https://www.aitoolssolo.com/comparisons/claude-vs-jenni/",
+      "pages_count": 1
+    },
+    {
+      "query": "\"writesonic\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 7.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/claude-vs-writesonic/",
+      "pages_count": 1
+    },
+    {
+      "query": "gemini mem",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 7.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/gemini-vs-mem/",
+      "pages_count": 1
+    },
+    {
+      "query": "topaz vs firefly",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0.0,
+      "position": 7.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/firefly-vs-topaz/",
+      "pages_count": 2
+    },
+    {
+      "query": "copilot rewind",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 7.2,
+      "top_page": "https://www.aitoolssolo.com/comparisons/obsidian-copilot-vs-rewind/",
+      "pages_count": 1
+    },
+    {
+      "query": "claude vs jenni ai",
+      "clicks": 0,
+      "impressions": 19,
+      "ctr": 0.0,
+      "position": 7.3,
+      "top_page": "https://www.aitoolssolo.com/comparisons/claude-vs-jenni/",
+      "pages_count": 1
+    },
+    {
+      "query": "krea ai vectorizer",
+      "clicks": 0,
+      "impressions": 31,
+      "ctr": 0.0,
+      "position": 7.3,
+      "top_page": "https://www.aitoolssolo.com/comparisons/krea-vs-vectorizer/",
+      "pages_count": 1
+    },
+    {
+      "query": "krea vectorizer",
+      "clicks": 0,
+      "impressions": 19,
+      "ctr": 0.0,
+      "position": 7.4,
+      "top_page": "https://www.aitoolssolo.com/comparisons/krea-vs-vectorizer/",
+      "pages_count": 1
+    },
+    {
+      "query": "obsidian copilot alternative",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 7.5,
+      "top_page": "https://www.aitoolssolo.com/alternatives/obsidian-copilot/",
+      "pages_count": 1
+    },
+    {
+      "query": "solo sms",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 7.7,
+      "top_page": "https://www.aitoolssolo.com/use-cases/sms/",
+      "pages_count": 1
+    },
+    {
+      "query": "memair",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0.0,
+      "position": 7.8,
+      "top_page": "https://www.aitoolssolo.com/comparisons/mem-vs-memair/",
+      "pages_count": 3
+    },
+    {
+      "query": "clearscope ai writing tool official website",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0.0,
+      "position": 7.9,
+      "top_page": "https://www.aitoolssolo.com/comparisons/clearscope-vs-writer/",
+      "pages_count": 2
+    },
+    {
+      "query": "compare whimsical vs clickup",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 8.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/clickup-vs-whimsical/",
+      "pages_count": 1
+    },
+    {
+      "query": "miro vs obsidian",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 8.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/miro-vs-obsidian-copilot/",
+      "pages_count": 1
+    },
+    {
+      "query": "jenni ai vs claude",
+      "clicks": 0,
+      "impressions": 24,
+      "ctr": 0.0,
+      "position": 8.2,
+      "top_page": "https://www.aitoolssolo.com/comparisons/claude-vs-jenni/",
+      "pages_count": 1
+    },
+    {
+      "query": "\"adcreative.ai\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 8.3,
+      "top_page": "https://www.aitoolssolo.com/landing/ai-tools-for-marketing-growth/",
+      "pages_count": 1
+    },
+    {
+      "query": "cal tome",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 8.5,
+      "top_page": "https://www.aitoolssolo.com/comparisons/cal-com-vs-tome/",
+      "pages_count": 1
+    },
+    {
+      "query": "claude ai vs jenni ai",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0.0,
+      "position": 8.6,
+      "top_page": "https://www.aitoolssolo.com/comparisons/claude-vs-jenni/",
+      "pages_count": 1
+    },
+    {
+      "query": "\"adcreative.a i\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 9.0,
+      "top_page": "https://www.aitoolssolo.com/landing/ai-tools-for-marketing-growth/",
+      "pages_count": 1
+    },
+    {
+      "query": "\"all in one seo\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 9.0,
+      "top_page": "https://www.aitoolssolo.com/use-cases/research/",
+      "pages_count": 1
+    },
+    {
+      "query": "\"writesonic\" -\"career\" -\"event\" -\"hiring\" -\"job\" -\"press\" -\"release\" -\"webinar\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 9.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/claude-vs-writesonic/",
+      "pages_count": 1
+    },
+    {
+      "query": "adobe podcast vs riverside",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 9.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/adrift-vs-riverside/",
+      "pages_count": 1
+    },
+    {
+      "query": "anima engine free alternative",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 9.0,
+      "top_page": "https://www.aitoolssolo.com/alternatives/anima/",
+      "pages_count": 1
+    },
+    {
+      "query": "recraft ai vs canva vs yuptees",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 9.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/canva-vs-recraft/",
+      "pages_count": 1
+    },
+    {
+      "query": "riverside vs descript for editing and repurposing content?",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 9.0,
+      "top_page": "https://www.aitoolssolo.com/posts/descript-vs-riverside-for-podcast-editing-a-builders-field-report-after-200-epis/",
+      "pages_count": 1
+    },
+    {
+      "query": "stripe float",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 9.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/float-vs-stripe/",
+      "pages_count": 1
+    },
+    {
+      "query": "is make.com legit",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0.0,
+      "position": 9.2,
+      "top_page": "https://www.aitoolssolo.com/posts/makecom-review-is-it-worth-it-the-no-code-automation-scam-you-need-to-avoid/",
+      "pages_count": 1
+    },
+    {
+      "query": "which is better: bonsai vs. indy",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": 0.0,
+      "position": 9.5,
+      "top_page": "https://www.aitoolssolo.com/comparisons/bonsai-vs-indy/",
+      "pages_count": 1
+    },
+    {
+      "query": "compare chatgpt vs clickup",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 9.8,
+      "top_page": "https://www.aitoolssolo.com/comparisons/chatgpt-vs-clickup/",
+      "pages_count": 1
+    },
+    {
+      "query": "canva ai vectorizer",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0.0,
+      "position": 9.9,
+      "top_page": "https://www.aitoolssolo.com/comparisons/canva-vs-vectorizer/",
+      "pages_count": 1
+    },
+    {
+      "query": "\"adobe firefly\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 10.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/firefly-vs-midjourney/",
+      "pages_count": 1
+    },
+    {
+      "query": "\"krea\" -site:reddit.com -site:twitter.com -site:x.com -site:wykop.pl -site:tripadvisor.com -site:youtube.com -site:yelp.com -site:booking.com -site:facebook.com -site:instagram.com -site:tiktok.com",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 10.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/krea-vs-midjourney/",
+      "pages_count": 1
+    },
+    {
+      "query": "\"luma dream machine\" \"4.5\" \"ratings\"",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0.0,
+      "position": 10.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/luma-vs-playground/",
+      "pages_count": 2
+    },
+    {
+      "query": "bradwell.ai free email domain",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 10.0,
+      "top_page": "https://www.aitoolssolo.com/tools/brandwell/",
+      "pages_count": 1
+    },
+    {
+      "query": "descript vs filmora",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 10.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/descript-vs-wondershare-filmora/",
+      "pages_count": 1
+    },
+    {
+      "query": "evaluate the video editing company descript on youtube automation",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 10.0,
+      "top_page": "https://www.aitoolssolo.com/posts/descript-review-for-youtube-creators-i-edit-12-videos-a-month-with-it-heres-what/",
+      "pages_count": 1
+    },
+    {
+      "query": "float vs ramp",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 10.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/float-vs-ramp/",
+      "pages_count": 1
+    },
+    {
+      "query": "gemini consensus",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 10.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/consensus-vs-gemini/",
+      "pages_count": 1
+    },
+    {
+      "query": "gemini rewind",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 10.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/gemini-vs-rewind/",
+      "pages_count": 1
+    },
+    {
+      "query": "ramp vs float",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 10.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/float-vs-ramp/",
+      "pages_count": 1
+    },
+    {
+      "query": "vergleiche chatgpt mit hubspot ai content writer, jasper und copy.ai f\u00fcr blog-artikel und long-form-content. du musst ein ranking von beste bis schlechteste erstellen.",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 10.0,
+      "top_page": "https://www.aitoolssolo.com/posts/jasper-ai-vs-chatgpt-for-blog-writing/",
+      "pages_count": 1
+    },
+    {
+      "query": "evaluate the fintech company freshbooks on square ai",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 10.2,
+      "top_page": "https://www.aitoolssolo.com/comparisons/freshbooks-vs-square/",
+      "pages_count": 1
+    },
+    {
+      "query": "comparaison des tarifs de firefly et nightcafe",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0.0,
+      "position": 10.3,
+      "top_page": "https://www.aitoolssolo.com/comparisons/adobe-firefly-vs-nightcafe/",
+      "pages_count": 1
+    },
+    {
+      "query": "stripe indy",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 10.5,
+      "top_page": "https://www.aitoolssolo.com/comparisons/indy-vs-stripe/",
+      "pages_count": 1
+    },
+    {
+      "query": "\"luma dream machine\" \"4.3\" \"ratings\"",
+      "clicks": 0,
+      "impressions": 37,
+      "ctr": 0.0,
+      "position": 10.8,
+      "top_page": "https://www.aitoolssolo.com/comparisons/luma-dream-vs-submagic/",
+      "pages_count": 3
+    },
+    {
+      "query": "compare fireflies vs clickup",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 11.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/clickup-vs-fireflies/",
+      "pages_count": 1
+    },
+    {
+      "query": "indy stripe",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 11.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/indy-vs-stripe/",
+      "pages_count": 1
+    },
+    {
+      "query": "is make.com safe",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 11.0,
+      "top_page": "https://www.aitoolssolo.com/posts/makecom-review-is-it-worth-it-the-no-code-automation-scam-you-need-to-avoid/",
+      "pages_count": 1
+    },
+    {
+      "query": "pricing comparison of firefly vs nightcafe",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 11.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/adobe-firefly-vs-nightcafe/",
+      "pages_count": 1
+    },
+    {
+      "query": "tactiq claude",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 11.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/claude-vs-tactiq/",
+      "pages_count": 1
+    },
+    {
+      "query": "whimsical claude",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 11.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/claude-vs-whimsical/",
+      "pages_count": 1
+    },
+    {
+      "query": "best ai tools for affiliate marketing 2025",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0.0,
+      "position": 12.0,
+      "top_page": "https://www.aitoolssolo.com/posts/the-best-ai-writing-tool-for-affiliate-content-a-practical-guide-for-2025/",
+      "pages_count": 1
+    },
+    {
+      "query": "brex clone",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 12.0,
+      "top_page": "https://www.aitoolssolo.com/alternatives/brex/",
+      "pages_count": 1
+    },
+    {
+      "query": "affiliate marketing ai tools 2025",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 12.5,
+      "top_page": "https://www.aitoolssolo.com/posts/the-best-ai-writing-tool-for-affiliate-content-a-practical-guide-for-2025/",
+      "pages_count": 1
+    },
+    {
+      "query": "instantly vs brevo",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 12.5,
+      "top_page": "https://www.aitoolssolo.com/comparisons/brevo-vs-instantly/",
+      "pages_count": 1
+    },
+    {
+      "query": "browserbear",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0.0,
+      "position": 12.8,
+      "top_page": "https://www.aitoolssolo.com/comparisons/browserbear-vs-relay/",
+      "pages_count": 2
+    },
+    {
+      "query": "riverside vs veed",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 12.8,
+      "top_page": "https://www.aitoolssolo.com/comparisons/riverside-vs-veed/",
+      "pages_count": 1
+    },
+    {
+      "query": "poe ai vs claude",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 13.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/claude-vs-poe/",
+      "pages_count": 1
+    },
+    {
+      "query": "riverside vs filmora",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 13.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/riverside-vs-wondershare-filmora/",
+      "pages_count": 1
+    },
+    {
+      "query": "\"content at scale\"",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0.0,
+      "position": 13.3,
+      "top_page": "https://www.aitoolssolo.com/landing/ai-tools-for-writing-content/",
+      "pages_count": 1
+    },
+    {
+      "query": "expensify vs float",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0.0,
+      "position": 13.4,
+      "top_page": "https://www.aitoolssolo.com/comparisons/expensify-vs-float/",
+      "pages_count": 1
+    },
+    {
+      "query": "float vs expensify",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0.0,
+      "position": 13.9,
+      "top_page": "https://www.aitoolssolo.com/comparisons/expensify-vs-float/",
+      "pages_count": 1
+    },
+    {
+      "query": "doola vs legalzoom",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 14.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/doola-vs-legalzoom/",
+      "pages_count": 1
+    },
+    {
+      "query": "obsidian vs miro",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 14.7,
+      "top_page": "https://www.aitoolssolo.com/comparisons/miro-vs-obsidian-copilot/",
+      "pages_count": 1
+    },
+    {
+      "query": "ai playground writing",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 15.0,
+      "top_page": "https://www.aitoolssolo.com/tools/playground/",
+      "pages_count": 1
+    },
+    {
+      "query": "claude fathoming",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 15.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/claude-vs-fathom/",
+      "pages_count": 1
+    },
+    {
+      "query": "mercury editor competitors",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 15.0,
+      "top_page": "https://www.aitoolssolo.com/alternatives/mercury/",
+      "pages_count": 1
+    },
+    {
+      "query": "ai tools adobe",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 15.5,
+      "top_page": "https://www.aitoolssolo.com/use-cases/adobe/",
+      "pages_count": 1
+    },
+    {
+      "query": "is jasper ai better than chatgpt?",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 16.0,
+      "top_page": "https://www.aitoolssolo.com/posts/jasper-ai-vs-chatgpt-for-blog-writing/",
+      "pages_count": 1
+    },
+    {
+      "query": "upmetrics vs liveplan",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 16.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/liveplan-vs-upmetrics/",
+      "pages_count": 1
+    },
+    {
+      "query": "capcut vs riverside",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 17.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/capcut-vs-riverside/",
+      "pages_count": 1
+    },
+    {
+      "query": "quillbot writer",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 17.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/ai-writer-vs-quillbot/",
+      "pages_count": 1
+    },
+    {
+      "query": "consensus gemini",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 18.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/consensus-vs-gemini/",
+      "pages_count": 1
+    },
+    {
+      "query": "jasper ai vs chat gpt",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 18.0,
+      "top_page": "https://www.aitoolssolo.com/posts/jasper-ai-vs-chatgpt-for-blog-writing/",
+      "pages_count": 1
+    },
+    {
+      "query": "elevenlabs captions",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 18.3,
+      "top_page": "https://www.aitoolssolo.com/comparisons/captions-vs-elevenlabs/",
+      "pages_count": 1
+    },
+    {
+      "query": "canva vectorizer",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 19.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/canva-vs-vectorizer/",
+      "pages_count": 1
+    },
+    {
+      "query": "clickup gemini",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 19.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/clickup-vs-gemini/",
+      "pages_count": 1
+    },
+    {
+      "query": "elicit vs scite",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 19.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/elicit-vs-scite/",
+      "pages_count": 1
+    },
+    {
+      "query": "canva vector ai",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 19.5,
+      "top_page": "https://www.aitoolssolo.com/comparisons/canva-vs-vectorizer/",
+      "pages_count": 1
+    },
+    {
+      "query": "jira quickbooks",
+      "clicks": 0,
+      "impressions": 18,
+      "ctr": 0.0,
+      "position": 20.4,
+      "top_page": "https://www.aitoolssolo.com/comparisons/jira-vs-quickbooks/",
+      "pages_count": 1
+    },
+    {
+      "query": "firefly remove bg",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 21.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/adobe-firefly-vs-removebg/",
+      "pages_count": 1
+    },
+    {
+      "query": "jasper blog writing",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 22.8,
+      "top_page": "https://www.aitoolssolo.com/posts/jasper-ai-review-for-blog-writing-a-solo-builders-guide-to-avoiding-ai-fluff-and/",
+      "pages_count": 1
+    },
+    {
+      "query": "adobe firefly remove background",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 23.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/adobe-firefly-vs-removebg/",
+      "pages_count": 1
+    },
+    {
+      "query": "ai content creation for solopreneurs",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 23.0,
+      "top_page": "https://www.aitoolssolo.com/posts/how-to-build-a-one-person-content-agency-with-ai-a-solopreneurs-guide/",
+      "pages_count": 1
+    },
+    {
+      "query": "and xero",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 23.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/and-co-vs-xero/",
+      "pages_count": 1
+    },
+    {
+      "query": "bg remove firefly",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 23.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/adobe-firefly-vs-removebg/",
+      "pages_count": 2
+    },
+    {
+      "query": "jasper product",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 23.0,
+      "top_page": "https://www.aitoolssolo.com/posts/jasper-ai-for-product-descriptions-review-a-solo-founders-unfiltered-take-spoile/",
+      "pages_count": 1
+    },
+    {
+      "query": "makecom",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0.0,
+      "position": 23.9,
+      "top_page": "https://www.aitoolssolo.com/posts/makecom-review-is-it-worth-it-the-no-code-automation-scam-you-need-to-avoid/",
+      "pages_count": 1
+    },
+    {
+      "query": "liveplan vs upmetrics",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0.0,
+      "position": 24.2,
+      "top_page": "https://www.aitoolssolo.com/comparisons/liveplan-vs-upmetrics/",
+      "pages_count": 1
+    },
+    {
+      "query": "mailmodo vs mailchimp",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 24.5,
+      "top_page": "https://www.aitoolssolo.com/comparisons/mailchimp-vs-mailmodo/",
+      "pages_count": 1
+    },
+    {
+      "query": "obsidian copilot claude",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 24.5,
+      "top_page": "https://www.aitoolssolo.com/comparisons/claude-vs-obsidian-copilot/",
+      "pages_count": 1
+    },
+    {
+      "query": "ahrefs bar",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 25.2,
+      "top_page": "https://www.aitoolssolo.com/comparisons/ahrefs-vs-growthbar/",
+      "pages_count": 1
+    },
+    {
+      "query": "fooocus vs midjourney",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 25.5,
+      "top_page": "https://www.aitoolssolo.com/comparisons/fooocus-vs-midjourney/",
+      "pages_count": 1
+    },
+    {
+      "query": "float vs brex",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": 0.0,
+      "position": 25.6,
+      "top_page": "https://www.aitoolssolo.com/comparisons/brex-vs-float/",
+      "pages_count": 1
+    },
+    {
+      "query": "wireframing ai",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 27.0,
+      "top_page": "https://www.aitoolssolo.com/use-cases/wireframe/",
+      "pages_count": 1
+    },
+    {
+      "query": "zoho or basecamp",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 27.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/basecamp-vs-zoho-books/",
+      "pages_count": 1
+    },
+    {
+      "query": "whimsical notion",
+      "clicks": 0,
+      "impressions": 21,
+      "ctr": 0.0,
+      "position": 27.8,
+      "top_page": "https://www.aitoolssolo.com/comparisons/notion-vs-whimsical/",
+      "pages_count": 1
+    },
+    {
+      "query": "copilot and obsidian",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 28.0,
+      "top_page": "https://www.aitoolssolo.com/alternatives/obsidian-copilot/",
+      "pages_count": 1
+    },
+    {
+      "query": "harvest stripe",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 28.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/harvest-vs-stripe/",
+      "pages_count": 1
+    },
+    {
+      "query": "xero float",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 28.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/float-vs-xero/",
+      "pages_count": 1
+    },
+    {
+      "query": "notion whimsical",
+      "clicks": 0,
+      "impressions": 14,
+      "ctr": 0.0,
+      "position": 28.2,
+      "top_page": "https://www.aitoolssolo.com/comparisons/notion-vs-whimsical/",
+      "pages_count": 1
+    },
+    {
+      "query": "elevenlabs vs veed",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 28.3,
+      "top_page": "https://www.aitoolssolo.com/comparisons/elevenlabs-vs-veed/",
+      "pages_count": 1
+    },
+    {
+      "query": "riverside.fm cost",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 29.0,
+      "top_page": "https://www.aitoolssolo.com/posts/riversidefm-review-after-100-remote-podcast-episodes-is-it-worth-the-h/",
+      "pages_count": 1
+    },
+    {
+      "query": "wave vs square point of sale",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 29.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/square-vs-wave/",
+      "pages_count": 1
+    },
+    {
+      "query": "ahrefs vs neuronwriter",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0.0,
+      "position": 29.1,
+      "top_page": "https://www.aitoolssolo.com/comparisons/ahrefs-vs-neuronwriter/",
+      "pages_count": 1
+    },
+    {
+      "query": "chatgpt rewind",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 29.5,
+      "top_page": "https://www.aitoolssolo.com/comparisons/chatgpt-vs-rewind/",
+      "pages_count": 1
+    },
+    {
+      "query": "float xero",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0.0,
+      "position": 30.2,
+      "top_page": "https://www.aitoolssolo.com/comparisons/float-vs-xero/",
+      "pages_count": 1
+    },
+    {
+      "query": "make.com reviews",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0.0,
+      "position": 30.3,
+      "top_page": "https://www.aitoolssolo.com/posts/makecom-review-is-it-worth-it-for-automation-answer-it-depends-but-not-how-you-t/",
+      "pages_count": 2
+    },
+    {
+      "query": "firefly vs nightcafe",
+      "clicks": 0,
+      "impressions": 14,
+      "ctr": 0.0,
+      "position": 30.4,
+      "top_page": "https://www.aitoolssolo.com/comparisons/adobe-firefly-vs-nightcafe/",
+      "pages_count": 2
+    },
+    {
+      "query": "firefly vs dalle",
+      "clicks": 0,
+      "impressions": 19,
+      "ctr": 0.0,
+      "position": 30.9,
+      "top_page": "https://www.aitoolssolo.com/comparisons/adobe-firefly-vs-dalle/",
+      "pages_count": 1
+    },
+    {
+      "query": "airops vs jasper blog writing comparison",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 31.0,
+      "top_page": "https://www.aitoolssolo.com/posts/jasper-ai-vs-chatgpt-for-blog-writing/",
+      "pages_count": 1
+    },
+    {
+      "query": "notion dify",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 31.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/dify-vs-notion/",
+      "pages_count": 1
+    },
+    {
+      "query": "riverside.fm dub magic episode to other languages",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 31.0,
+      "top_page": "https://www.aitoolssolo.com/posts/riversidefm-review-after-100-remote-podcast-episodes-is-it-worth-the-h/",
+      "pages_count": 1
+    },
+    {
+      "query": "float vs ramp comparison",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 31.5,
+      "top_page": "https://www.aitoolssolo.com/comparisons/float-vs-ramp/",
+      "pages_count": 1
+    },
+    {
+      "query": "online ahrefs",
+      "clicks": 0,
+      "impressions": 17,
+      "ctr": 0.0,
+      "position": 31.5,
+      "top_page": "https://www.aitoolssolo.com/tools/ahrefs/",
+      "pages_count": 1
+    },
+    {
+      "query": "chat gpt rewind",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 32.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/chatgpt-vs-rewind/",
+      "pages_count": 1
+    },
+    {
+      "query": "raycast obsidian plugin",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 32.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/obsidian-copilot-vs-raycast/",
+      "pages_count": 1
+    },
+    {
+      "query": "retool vs n8n",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 32.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/n8n-vs-retool/",
+      "pages_count": 1
+    },
+    {
+      "query": "riverside vs opus clip",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 32.5,
+      "top_page": "https://www.aitoolssolo.com/comparisons/opus-clip-vs-riverside/",
+      "pages_count": 1
+    },
+    {
+      "query": "script for ahrefs",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 33.0,
+      "top_page": "https://www.aitoolssolo.com/tools/ahrefs/",
+      "pages_count": 1
+    },
+    {
+      "query": "ai reasoning tools",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 34.0,
+      "top_page": "https://www.aitoolssolo.com/use-cases/reasoning/",
+      "pages_count": 1
+    },
+    {
+      "query": "make.com ek\u015fi",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 34.0,
+      "top_page": "https://www.aitoolssolo.com/posts/makecom-review-is-it-worth-it-for-automation-answer-it-depends-but-not-how-you-t/",
+      "pages_count": 1
+    },
+    {
+      "query": "notion ai character",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 34.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/character-vs-notion/",
+      "pages_count": 2
+    },
+    {
+      "query": "is riverside good",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 35.0,
+      "top_page": "https://www.aitoolssolo.com/posts/riversidefm-review-after-100-remote-podcast-episodes-is-it-worth-the-h/",
+      "pages_count": 1
+    },
+    {
+      "query": "riverside vs capcut",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 35.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/capcut-vs-riverside/",
+      "pages_count": 1
+    },
+    {
+      "query": "ai-powered snippets",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 36.0,
+      "top_page": "https://www.aitoolssolo.com/use-cases/snippets/",
+      "pages_count": 1
+    },
+    {
+      "query": "claude vs phind",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 36.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/claude-vs-phind/",
+      "pages_count": 1
+    },
+    {
+      "query": "one person business ai tools",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 36.0,
+      "top_page": "https://www.aitoolssolo.com/posts/the-best-ai-tools-for-one-person-business-from-someone-who-replaced-a-5-person-t/",
+      "pages_count": 1
+    },
+    {
+      "query": "reflect vs mem",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 36.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/mem-vs-reflect/",
+      "pages_count": 1
+    },
+    {
+      "query": "riverside fm black friday",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 36.0,
+      "top_page": "https://www.aitoolssolo.com/posts/riversidefm-review-after-100-remote-podcast-episodes-is-it-worth-the-h/",
+      "pages_count": 1
+    },
+    {
+      "query": "is riverside fm safe",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 36.3,
+      "top_page": "https://www.aitoolssolo.com/posts/riversidefm-review-after-100-remote-podcast-episodes-is-it-worth-the-h/",
+      "pages_count": 1
+    },
+    {
+      "query": "make.com price",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 36.5,
+      "top_page": "https://www.aitoolssolo.com/posts/are-makecom-pricing-plans-worth-it-a-12k-field-report-from-someone-who-actually-/",
+      "pages_count": 1
+    },
+    {
+      "query": "airtable vs typeform",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 37.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/airtable-vs-typeform/",
+      "pages_count": 1
+    },
+    {
+      "query": "calendly typeform",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 37.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/calendly-vs-typeform/",
+      "pages_count": 1
+    },
+    {
+      "query": "elicit",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 37.0,
+      "top_page": "https://www.aitoolssolo.com/tools/elicit/",
+      "pages_count": 1
+    },
+    {
+      "query": "make .com pricing",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 37.0,
+      "top_page": "https://www.aitoolssolo.com/posts/are-makecom-pricing-plans-worth-it-a-12k-field-report-from-someone-who-actually-/",
+      "pages_count": 1
+    },
+    {
+      "query": "riverside captions",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 37.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/captions-vs-riverside/",
+      "pages_count": 1
+    },
+    {
+      "query": "stripe atlas vs legalzoom",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 37.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/legalzoom-vs-stripe/",
+      "pages_count": 1
+    },
+    {
+      "query": "ink writer",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 37.5,
+      "top_page": "https://www.aitoolssolo.com/comparisons/ink-vs-writer/",
+      "pages_count": 1
+    },
+    {
+      "query": "quillbot ai writer",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 37.5,
+      "top_page": "https://www.aitoolssolo.com/comparisons/ai-writer-vs-quillbot/",
+      "pages_count": 1
+    },
+    {
+      "query": "consensus vs chatgpt",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 38.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/chatgpt-vs-consensus/",
+      "pages_count": 1
+    },
+    {
+      "query": "is riverside.fm safe",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 38.0,
+      "top_page": "https://www.aitoolssolo.com/posts/riversidefm-review-after-100-remote-podcast-episodes-is-it-worth-the-h/",
+      "pages_count": 1
+    },
+    {
+      "query": "lz books vs quickbooks",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 38.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/legalzoom-vs-quickbooks/",
+      "pages_count": 1
+    },
+    {
+      "query": "miro vs mermaid",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 38.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/memair-vs-miro/",
+      "pages_count": 1
+    },
+    {
+      "query": "riverside podcast review",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 38.0,
+      "top_page": "https://www.aitoolssolo.com/posts/riversidefm-review-after-100-remote-podcast-episodes-is-it-worth-the-h/",
+      "pages_count": 1
+    },
+    {
+      "query": "riversidefm reviews",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 38.0,
+      "top_page": "https://www.aitoolssolo.com/posts/riversidefm-review-after-100-remote-podcast-episodes-is-it-worth-the-h/",
+      "pages_count": 1
+    },
+    {
+      "query": "substack or beehiiv",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 38.0,
+      "top_page": "https://www.aitoolssolo.com/posts/beehiiv-vs-substack-which-paid-newsletter-platform-actually-pays-more/",
+      "pages_count": 1
+    },
+    {
+      "query": "topaz remove background",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 38.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/remove-bg-vs-topaz/",
+      "pages_count": 1
+    },
+    {
+      "query": "jasper ai vs chatgpt",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 38.5,
+      "top_page": "https://www.aitoolssolo.com/posts/jasper-ai-vs-chatgpt-for-blog-writing/",
+      "pages_count": 1
+    },
+    {
+      "query": "jasper ai blog",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0.0,
+      "position": 38.7,
+      "top_page": "https://www.aitoolssolo.com/posts/jasper-ai-review-for-blog-writing-why-youre-wasting-10-hours-a-week-on-marketing/",
+      "pages_count": 2
+    },
+    {
+      "query": "make.com pricing",
+      "clicks": 0,
+      "impressions": 17,
+      "ctr": 0.0,
+      "position": 38.8,
+      "top_page": "https://www.aitoolssolo.com/posts/are-makecom-pricing-plans-worth-it-a-12k-field-report-from-someone-who-actually-/",
+      "pages_count": 1
+    },
+    {
+      "query": "ai zolo review",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 39.0,
+      "top_page": "https://www.aitoolssolo.com/use-cases/review/",
+      "pages_count": 1
+    },
+    {
+      "query": "novelai vs sudowrite",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 39.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/novelai-vs-sudowrite/",
+      "pages_count": 1
+    },
+    {
+      "query": "submagic vs opus clip",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 39.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/opusclip-vs-submagic/",
+      "pages_count": 1
+    },
+    {
+      "query": "semrush vs neuronwriter",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 39.3,
+      "top_page": "https://www.aitoolssolo.com/comparisons/neuronwriter-vs-semrush/",
+      "pages_count": 1
+    },
+    {
+      "query": "fliki vs pictory",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 40.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/fliki-vs-pictory/",
+      "pages_count": 1
+    },
+    {
+      "query": "monday calendly",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 40.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/calendly-vs-monday/",
+      "pages_count": 1
+    },
+    {
+      "query": "docracy",
+      "clicks": 0,
+      "impressions": 15,
+      "ctr": 0.0,
+      "position": 40.1,
+      "top_page": "https://www.aitoolssolo.com/comparisons/and-co-vs-docracy/",
+      "pages_count": 5
+    },
+    {
+      "query": "typeform monday.com integration",
+      "clicks": 0,
+      "impressions": 24,
+      "ctr": 0.0,
+      "position": 40.5,
+      "top_page": "https://www.aitoolssolo.com/comparisons/monday-vs-typeform/",
+      "pages_count": 1
+    },
+    {
+      "query": "aizolo review",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 41.0,
+      "top_page": "https://www.aitoolssolo.com/use-cases/review/",
+      "pages_count": 1
+    },
+    {
+      "query": "cashflowai",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 41.0,
+      "top_page": "https://www.aitoolssolo.com/use-cases/cashflow/",
+      "pages_count": 1
+    },
+    {
+      "query": "claude vs obsidian",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 41.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/claude-vs-obsidian-copilot/",
+      "pages_count": 1
+    },
+    {
+      "query": "growthbar vs semrush",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 41.3,
+      "top_page": "https://www.aitoolssolo.com/comparisons/growthbar-vs-semrush/",
+      "pages_count": 1
+    },
+    {
+      "query": "typeform to monday.com",
+      "clicks": 0,
+      "impressions": 32,
+      "ctr": 0.0,
+      "position": 41.3,
+      "top_page": "https://www.aitoolssolo.com/comparisons/monday-vs-typeform/",
+      "pages_count": 1
+    },
+    {
+      "query": "descript or riverside",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 41.5,
+      "top_page": "https://www.aitoolssolo.com/posts/descript-vs-riverside-for-podcast-editing-a-builders-field-report-after-200-epis/",
+      "pages_count": 1
+    },
+    {
+      "query": "capgemini consensus",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 42.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/consensus-vs-gemini/",
+      "pages_count": 1
+    },
+    {
+      "query": "fooocus alternative",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 42.0,
+      "top_page": "https://www.aitoolssolo.com/alternatives/fooocus/",
+      "pages_count": 1
+    },
+    {
+      "query": "how much does riverside.fm cost",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 42.0,
+      "top_page": "https://www.aitoolssolo.com/posts/riversidefm-review-after-100-remote-podcast-episodes-is-it-worth-the-h/",
+      "pages_count": 1
+    },
+    {
+      "query": "postwise competitors",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 42.0,
+      "top_page": "https://www.aitoolssolo.com/alternatives/postwise/",
+      "pages_count": 1
+    },
+    {
+      "query": "sudowrite vs novelai",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 42.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/novelai-vs-sudowrite/",
+      "pages_count": 1
+    },
+    {
+      "query": "firefly background remover",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 43.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/adobe-firefly-vs-removebg/",
+      "pages_count": 1
+    },
+    {
+      "query": "is riverside fm good",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 43.0,
+      "top_page": "https://www.aitoolssolo.com/posts/riversidefm-review-after-100-remote-podcast-episodes-is-it-worth-the-h/",
+      "pages_count": 1
+    },
+    {
+      "query": "remove bg clipdrop",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 43.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/clipdrop-vs-removebg/",
+      "pages_count": 1
+    },
+    {
+      "query": "stripe vs ramp",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 43.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/ramp-vs-stripe/",
+      "pages_count": 1
+    },
+    {
+      "query": "wave vs square",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 43.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/square-vs-wave/",
+      "pages_count": 1
+    },
+    {
+      "query": "quickbooks vs puzzle",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 43.5,
+      "top_page": "https://www.aitoolssolo.com/comparisons/puzzle-vs-quickbooks/",
+      "pages_count": 1
+    },
+    {
+      "query": "brex vs bill",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 44.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/bill-vs-brex/",
+      "pages_count": 1
+    },
+    {
+      "query": "ideogram vs krea",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 44.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/ideogram-vs-krea/",
+      "pages_count": 1
+    },
+    {
+      "query": "opus clip vs submagic",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 44.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/opus-clip-vs-submagic/",
+      "pages_count": 1
+    },
+    {
+      "query": "postwise alternatives",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 44.0,
+      "top_page": "https://www.aitoolssolo.com/alternatives/postwise/",
+      "pages_count": 1
+    },
+    {
+      "query": "replit agent 4 vs claude code",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 44.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/claudecode-vs-replit/",
+      "pages_count": 1
+    },
+    {
+      "query": "riverside fm vs descript",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 44.0,
+      "top_page": "https://www.aitoolssolo.com/posts/descript-vs-riverside-for-podcast-editing-a-builders-field-report-after-200-epis/",
+      "pages_count": 1
+    },
+    {
+      "query": "riverside.fm vs zoom",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 44.5,
+      "top_page": "https://www.aitoolssolo.com/posts/riversidefm-review-after-100-remote-podcast-episodes-is-it-worth-the-h/",
+      "pages_count": 1
+    },
+    {
+      "query": "ahrefs tollbar",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 45.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/ahrefs-vs-growthbar/",
+      "pages_count": 1
+    },
+    {
+      "query": "captions vs capcut",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 45.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/capcut-vs-captions/",
+      "pages_count": 1
+    },
+    {
+      "query": "claude vs sudowrite",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 45.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/claude-vs-sudowrite/",
+      "pages_count": 1
+    },
+    {
+      "query": "coda vs monday",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 45.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/coda-vs-monday/",
+      "pages_count": 1
+    },
+    {
+      "query": "figma ai",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 45.0,
+      "top_page": "https://www.aitoolssolo.com/use-cases/figma/",
+      "pages_count": 1
+    },
+    {
+      "query": "freshbooks asana integration",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 45.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/asana-vs-freshbooks/",
+      "pages_count": 1
+    },
+    {
+      "query": "how much is riverside.fm",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 45.0,
+      "top_page": "https://www.aitoolssolo.com/posts/riversidefm-review-after-100-remote-podcast-episodes-is-it-worth-the-h/",
+      "pages_count": 1
+    },
+    {
+      "query": "make.com trustpilot",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 45.0,
+      "top_page": "https://www.aitoolssolo.com/posts/makecom-review-is-it-worth-it-the-no-code-automation-scam-you-need-to-avoid/",
+      "pages_count": 1
+    },
+    {
+      "query": "riverside fm vs zoom",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 45.0,
+      "top_page": "https://www.aitoolssolo.com/posts/riversidefm-review-after-100-remote-podcast-episodes-is-it-worth-the-h/",
+      "pages_count": 1
+    },
+    {
+      "query": "solo tool",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 45.0,
+      "top_page": "https://www.aitoolssolo.com/",
+      "pages_count": 1
+    },
+    {
+      "query": "toggle asana",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 45.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/asana-vs-toggl/",
+      "pages_count": 1
+    },
+    {
+      "query": "brandwell alternative",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0.0,
+      "position": 45.1,
+      "top_page": "https://www.aitoolssolo.com/alternatives/brandwell/",
+      "pages_count": 2
+    },
+    {
+      "query": "make.com review",
+      "clicks": 0,
+      "impressions": 22,
+      "ctr": 0.0,
+      "position": 45.4,
+      "top_page": "https://www.aitoolssolo.com/posts/makecom-review-is-it-worth-it-for-automation-answer-it-depends-but-not-how-you-t/",
+      "pages_count": 2
+    },
+    {
+      "query": "firefly vs stable diffusion",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0.0,
+      "position": 45.5,
+      "top_page": "https://www.aitoolssolo.com/comparisons/firefly-vs-stablediffusion/",
+      "pages_count": 2
+    },
+    {
+      "query": "ramp vs stripe",
+      "clicks": 0,
+      "impressions": 14,
+      "ctr": 0.0,
+      "position": 45.6,
+      "top_page": "https://www.aitoolssolo.com/comparisons/ramp-vs-stripe/",
+      "pages_count": 1
+    },
+    {
+      "query": "airtable calendly integration",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 46.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/airtable-vs-calendly/",
+      "pages_count": 1
+    },
+    {
+      "query": "canvas.krea.edu.in",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 46.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/canva-vs-krea/",
+      "pages_count": 1
+    },
+    {
+      "query": "fireflies clickup integration",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 46.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/clickup-vs-fireflies/",
+      "pages_count": 1
+    },
+    {
+      "query": "how many guests can record on riverside.fm",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 46.0,
+      "top_page": "https://www.aitoolssolo.com/posts/riversidefm-review-after-100-remote-podcast-episodes-is-it-worth-the-h/",
+      "pages_count": 1
+    },
+    {
+      "query": "make com pricing",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0.0,
+      "position": 46.0,
+      "top_page": "https://www.aitoolssolo.com/posts/are-makecom-pricing-plans-worth-it-a-12k-field-report-from-someone-who-actually-/",
+      "pages_count": 1
+    },
+    {
+      "query": "mercury stripe",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 46.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/mercury-vs-stripe/",
+      "pages_count": 1
+    },
+    {
+      "query": "notion superhuman",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0.0,
+      "position": 46.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/notion-vs-superhuman/",
+      "pages_count": 2
+    },
+    {
+      "query": "poe vs claude",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 46.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/claude-vs-poe/",
+      "pages_count": 1
+    },
+    {
+      "query": "square vs wave",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 46.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/square-vs-wave/",
+      "pages_count": 1
+    },
+    {
+      "query": "sudowrite vs chatgpt",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 46.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/chatgpt-vs-sudowrite/",
+      "pages_count": 1
+    },
+    {
+      "query": "zoho books ai",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 46.0,
+      "top_page": "https://www.aitoolssolo.com/tools/zoho-books/",
+      "pages_count": 1
+    },
+    {
+      "query": "clickup vs miro",
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": 0.0,
+      "position": 46.5,
+      "top_page": "https://www.aitoolssolo.com/comparisons/clickup-vs-miro/",
+      "pages_count": 1
+    },
+    {
+      "query": "cline vs claude code",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 46.7,
+      "top_page": "https://www.aitoolssolo.com/comparisons/claudecode-vs-cline/",
+      "pages_count": 1
+    },
+    {
+      "query": "neuronwriter vs semrush",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 47.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/neuronwriter-vs-semrush/",
+      "pages_count": 1
+    },
+    {
+      "query": "obsidian vs todoist",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 47.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/obsidian-copilot-vs-todoist-ai/",
+      "pages_count": 1
+    },
+    {
+      "query": "sudowrite vs claude",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 47.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/claude-vs-sudowrite/",
+      "pages_count": 1
+    },
+    {
+      "query": "veed captions mod apk",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 47.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/captions-vs-veed/",
+      "pages_count": 1
+    },
+    {
+      "query": "freshbooks vs square",
+      "clicks": 0,
+      "impressions": 16,
+      "ctr": 0.0,
+      "position": 47.1,
+      "top_page": "https://www.aitoolssolo.com/comparisons/freshbooks-vs-square/",
+      "pages_count": 1
+    },
+    {
+      "query": "frase vs jasper",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 47.3,
+      "top_page": "https://www.aitoolssolo.com/comparisons/frase-vs-jasper-ai/",
+      "pages_count": 2
+    },
+    {
+      "query": "jasper.ai blog",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 47.5,
+      "top_page": "https://www.aitoolssolo.com/posts/jasper-ai-review-for-blog-writing-a-solo-builders-guide-to-avoiding-ai-fluff-and/",
+      "pages_count": 2
+    },
+    {
+      "query": "picdrop vs lightroom web",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 47.5,
+      "top_page": "https://www.aitoolssolo.com/comparisons/clipdrop-vs-photoroom/",
+      "pages_count": 1
+    },
+    {
+      "query": "puzzle vs quickbooks",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 47.5,
+      "top_page": "https://www.aitoolssolo.com/comparisons/puzzle-vs-quickbooks/",
+      "pages_count": 1
+    },
+    {
+      "query": "neuronwriter vs ahrefs",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 47.7,
+      "top_page": "https://www.aitoolssolo.com/comparisons/ahrefs-vs-neuronwriter/",
+      "pages_count": 1
+    },
+    {
+      "query": "ahrefs growth",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 48.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/ahrefs-vs-growthbar/",
+      "pages_count": 1
+    },
+    {
+      "query": "difference between cline and claude",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 48.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/claudecode-vs-cline/",
+      "pages_count": 1
+    },
+    {
+      "query": "freshbooks square",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 48.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/freshbooks-vs-square/",
+      "pages_count": 1
+    },
+    {
+      "query": "poe ai character",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 48.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/character-vs-poe/",
+      "pages_count": 1
+    },
+    {
+      "query": "riverside vs descript",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 48.0,
+      "top_page": "https://www.aitoolssolo.com/posts/descript-vs-riverside-for-podcast-editing-a-builders-field-report-after-200-epis/",
+      "pages_count": 1
+    },
+    {
+      "query": "what is make . com",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 48.0,
+      "top_page": "https://www.aitoolssolo.com/posts/makecom-review-is-it-worth-it-for-automation-answer-it-depends-but-not-how-you-t/",
+      "pages_count": 1
+    },
+    {
+      "query": "ai conversion",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 49.0,
+      "top_page": "https://www.aitoolssolo.com/use-cases/conversion/",
+      "pages_count": 1
+    },
+    {
+      "query": "artful repurpose",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 49.0,
+      "top_page": "https://www.aitoolssolo.com/use-cases/repurpose/",
+      "pages_count": 1
+    },
+    {
+      "query": "basecamp harvest integration",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 49.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/basecamp-vs-harvest/",
+      "pages_count": 1
+    },
+    {
+      "query": "captions vs submagic",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 49.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/captions-vs-submagic/",
+      "pages_count": 1
+    },
+    {
+      "query": "clickup vs reclaim",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 49.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/clickup-vs-reclaim/",
+      "pages_count": 1
+    },
+    {
+      "query": "jasper ai blog writing",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 49.0,
+      "top_page": "https://www.aitoolssolo.com/posts/jasper-ai-review-for-blog-writing-a-solo-builders-guide-to-avoiding-ai-fluff-and/",
+      "pages_count": 2
+    },
+    {
+      "query": "krea vs midjourney",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 49.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/krea-vs-midjourney/",
+      "pages_count": 1
+    },
+    {
+      "query": "notion typeform",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 49.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/notion-vs-typeform/",
+      "pages_count": 1
+    },
+    {
+      "query": "riverside vs adobe premier",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 49.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/adrift-vs-riverside/",
+      "pages_count": 1
+    },
+    {
+      "query": "riverside.fm reviews",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 49.0,
+      "top_page": "https://www.aitoolssolo.com/posts/riversidefm-review-after-100-remote-podcast-episodes-is-it-worth-the-h/",
+      "pages_count": 1
+    },
+    {
+      "query": "riverside.fm vs socialize",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 49.0,
+      "top_page": "https://www.aitoolssolo.com/posts/riversidefm-review-after-100-remote-podcast-episodes-is-it-worth-the-h/",
+      "pages_count": 1
+    },
+    {
+      "query": "what is riverside fm",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 49.0,
+      "top_page": "https://www.aitoolssolo.com/posts/riversidefm-review-after-100-remote-podcast-episodes-is-it-worth-the-h/",
+      "pages_count": 1
+    },
+    {
+      "query": "clickup to chat gpt",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0.0,
+      "position": 49.3,
+      "top_page": "https://www.aitoolssolo.com/comparisons/chatgpt-vs-clickup/",
+      "pages_count": 1
+    },
+    {
+      "query": "riverside fm review",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 49.5,
+      "top_page": "https://www.aitoolssolo.com/posts/riversidefm-review-after-100-remote-podcast-episodes-is-it-worth-the-h/",
+      "pages_count": 1
+    },
+    {
+      "query": "zimmwriter and surfer seo",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0.0,
+      "position": 49.6,
+      "top_page": "https://www.aitoolssolo.com/comparisons/surfer-seo-vs-writer/",
+      "pages_count": 1
+    },
+    {
+      "query": "bardeen vs make",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 50.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/bardeen-vs-make/",
+      "pages_count": 1
+    },
+    {
+      "query": "codeium vs windsurf",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 50.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/codeium-vs-windsurf/",
+      "pages_count": 1
+    },
+    {
+      "query": "fliki vs heygen",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 50.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/fliki-vs-heygen/",
+      "pages_count": 1
+    },
+    {
+      "query": "heygen vs fliki",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 50.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/fliki-vs-heygen/",
+      "pages_count": 1
+    },
+    {
+      "query": "jasper ai writing",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 50.0,
+      "top_page": "https://www.aitoolssolo.com/posts/the-best-ai-writing-tool-for-solopreneurs-why-jasper-ai-is-the-one-youll-actuall/",
+      "pages_count": 1
+    },
+    {
+      "query": "leonardo ai vs midjourney price",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 50.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/leonardo-ai-vs-midjourney/",
+      "pages_count": 1
+    },
+    {
+      "query": "miro / whimsical",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 50.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/miro-vs-whimsical/",
+      "pages_count": 1
+    },
+    {
+      "query": "obsidian and copilot",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 50.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/obsidian-copilot-vs-you-com/",
+      "pages_count": 1
+    },
+    {
+      "query": "paid newsletter subscription service",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 50.0,
+      "top_page": "https://www.aitoolssolo.com/posts/the-best-email-platform-for-paid-newsletter-isnt-what-you-think-a-builders-field/",
+      "pages_count": 1
+    },
+    {
+      "query": "pipedream vs ifttt",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 50.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/ifttt-vs-pipedream/",
+      "pages_count": 1
+    },
+    {
+      "query": "riverside fm reviews",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0.0,
+      "position": 50.0,
+      "top_page": "https://www.aitoolssolo.com/posts/riversidefm-review-after-100-remote-podcast-episodes-is-it-worth-the-h/",
+      "pages_count": 1
+    },
+    {
+      "query": "adobe firefly vs midjourney",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0.0,
+      "position": 50.3,
+      "top_page": "https://www.aitoolssolo.com/comparisons/firefly-vs-midjourney/",
+      "pages_count": 1
+    },
+    {
+      "query": "dall e vs firefly",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 50.3,
+      "top_page": "https://www.aitoolssolo.com/comparisons/adobe-firefly-vs-dalle/",
+      "pages_count": 1
+    },
+    {
+      "query": "freshbooks classic asana integration",
+      "clicks": 0,
+      "impressions": 35,
+      "ctr": 0.0,
+      "position": 50.4,
+      "top_page": "https://www.aitoolssolo.com/comparisons/asana-vs-freshbooks/",
+      "pages_count": 1
+    },
+    {
+      "query": "jasper blog",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 50.5,
+      "top_page": "https://www.aitoolssolo.com/posts/jasper-ai-review-for-blog-writing-a-solo-builders-guide-to-avoiding-ai-fluff-and/",
+      "pages_count": 2
+    },
+    {
+      "query": "opus clip vs riverside",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 50.5,
+      "top_page": "https://www.aitoolssolo.com/comparisons/opus-clip-vs-riverside/",
+      "pages_count": 1
+    },
+    {
+      "query": "riverside.fm review",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 50.5,
+      "top_page": "https://www.aitoolssolo.com/posts/riversidefm-review-after-100-remote-podcast-episodes-is-it-worth-the-h/",
+      "pages_count": 1
+    },
+    {
+      "query": "descript vs riverside",
+      "clicks": 0,
+      "impressions": 40,
+      "ctr": 0.0,
+      "position": 50.7,
+      "top_page": "https://www.aitoolssolo.com/posts/descript-vs-riverside-for-podcast-editing-a-builders-field-report-after-200-epis/",
+      "pages_count": 1
+    },
+    {
+      "query": "blackbox ai vs github copilot",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 51.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/blackbox-vs-github-copilot/",
+      "pages_count": 1
+    },
+    {
+      "query": "brex vs bill.com",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0.0,
+      "position": 51.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/bill-vs-brex/",
+      "pages_count": 1
+    },
+    {
+      "query": "ocoya alternatives",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 51.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/ocoya-vs-smartlead/",
+      "pages_count": 1
+    },
+    {
+      "query": "postwise alternative",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 51.0,
+      "top_page": "https://www.aitoolssolo.com/alternatives/postwise/",
+      "pages_count": 1
+    },
+    {
+      "query": "riverside.fm vs descript",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0.0,
+      "position": 51.0,
+      "top_page": "https://www.aitoolssolo.com/posts/descript-vs-riverside-for-podcast-editing-a-builders-field-report-after-200-epis/",
+      "pages_count": 1
+    },
+    {
+      "query": "surferseo vs writesonic",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 51.5,
+      "top_page": "https://www.aitoolssolo.com/comparisons/surfer-seo-vs-writesonic/",
+      "pages_count": 1
+    },
+    {
+      "query": "stripe asana integration",
+      "clicks": 0,
+      "impressions": 25,
+      "ctr": 0.0,
+      "position": 51.9,
+      "top_page": "https://www.aitoolssolo.com/comparisons/asana-vs-stripe/",
+      "pages_count": 1
+    },
+    {
+      "query": "beehiiv vs convertkit",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 52.0,
+      "top_page": "https://www.aitoolssolo.com/posts/beehiiv-vs-convertkit-the-solo-founders-brutal-truth-no-fluff-just-wins/",
+      "pages_count": 1
+    },
+    {
+      "query": "firefly vs midjourney",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 52.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/firefly-vs-midjourney/",
+      "pages_count": 1
+    },
+    {
+      "query": "rivereditor",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 52.0,
+      "top_page": "https://www.aitoolssolo.com/tools/riverside/",
+      "pages_count": 1
+    },
+    {
+      "query": "zo computer vs make.com",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 52.3,
+      "top_page": "https://www.aitoolssolo.com/posts/makecom-review-is-it-worth-it-for-automation-answer-it-depends-but-not-how-you-t/",
+      "pages_count": 1
+    },
+    {
+      "query": "elevenlabs vs adobe",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 53.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/adrift-vs-elevenlabs/",
+      "pages_count": 1
+    },
+    {
+      "query": "growthbar alternatives",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 53.0,
+      "top_page": "https://www.aitoolssolo.com/alternatives/growthbar/",
+      "pages_count": 1
+    },
+    {
+      "query": "is make com free",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 53.0,
+      "top_page": "https://www.aitoolssolo.com/posts/are-makecom-pricing-plans-worth-it-a-12k-field-report-from-someone-who-actually-/",
+      "pages_count": 1
+    },
+    {
+      "query": "make com free plan",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 53.0,
+      "top_page": "https://www.aitoolssolo.com/posts/are-makecom-pricing-plans-worth-it-a-12k-field-report-from-someone-who-actually-/",
+      "pages_count": 1
+    },
+    {
+      "query": "opus clip vs capcut",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 53.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/capcut-vs-opusclip/",
+      "pages_count": 1
+    },
+    {
+      "query": "ramp vs quickbooks",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 53.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/quickbooks-vs-ramp/",
+      "pages_count": 1
+    },
+    {
+      "query": "surfer seo vs copy ai",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 53.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/copyai-vs-surfer-seo/",
+      "pages_count": 1
+    },
+    {
+      "query": "why is hostingbydesign billing me 2 months early",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 53.0,
+      "top_page": "https://www.aitoolssolo.com/posts/the-20month-hosting-mistake-that-costs-you-50-hours-a-year/",
+      "pages_count": 1
+    },
+    {
+      "query": "beehive vs substack",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0.0,
+      "position": 53.2,
+      "top_page": "https://www.aitoolssolo.com/posts/beehiiv-vs-substack-which-paid-newsletter-platform-actually-pays-more/",
+      "pages_count": 1
+    },
+    {
+      "query": "ai tools for solopreneurs",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0.0,
+      "position": 53.3,
+      "top_page": "https://www.aitoolssolo.com/",
+      "pages_count": 3
+    },
+    {
+      "query": "anyword vs jasper",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 54.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/anyword-vs-jasper/",
+      "pages_count": 1
+    },
+    {
+      "query": "bardeen vs zapier",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 54.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/bardeen-vs-zapier/",
+      "pages_count": 1
+    },
+    {
+      "query": "beehiiv vs substack newsletter platform comparison 2025",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 54.0,
+      "top_page": "https://www.aitoolssolo.com/posts/beehiiv-vs-substack-which-paid-newsletter-platform-actually-pays-more/",
+      "pages_count": 1
+    },
+    {
+      "query": "riverside.fm industry",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 54.0,
+      "top_page": "https://www.aitoolssolo.com/posts/riversidefm-review-after-100-remote-podcast-episodes-is-it-worth-the-h/",
+      "pages_count": 1
+    },
+    {
+      "query": "windsurf vs codeium",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 54.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/codeium-vs-windsurf/",
+      "pages_count": 1
+    },
+    {
+      "query": "chatgpt tools solo consultants independent professionals business applications",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 54.3,
+      "top_page": "https://www.aitoolssolo.com/posts/the-best-ai-tools-for-one-person-business-from-someone-who-replaced-a-5-person-t/",
+      "pages_count": 1
+    },
+    {
+      "query": "make.com vs n8n self-hosted",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0.0,
+      "position": 54.9,
+      "top_page": "https://www.aitoolssolo.com/posts/makecom-vs-n8n-self-hosted-which-kills-your-workflow-fatigue/",
+      "pages_count": 1
+    },
+    {
+      "query": "frase ai writer",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 55.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/ai-writer-vs-frase/",
+      "pages_count": 1
+    },
+    {
+      "query": "riverside.fm target audience",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 55.0,
+      "top_page": "https://www.aitoolssolo.com/posts/riversidefm-review-after-100-remote-podcast-episodes-is-it-worth-the-h/",
+      "pages_count": 1
+    },
+    {
+      "query": "square vs quickbooks",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 55.3,
+      "top_page": "https://www.aitoolssolo.com/comparisons/quickbooks-vs-square/",
+      "pages_count": 1
+    },
+    {
+      "query": "stitch vs airflow",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 55.7,
+      "top_page": "https://www.aitoolssolo.com/comparisons/float-vs-stitch/",
+      "pages_count": 1
+    },
+    {
+      "query": "beehiiv vs substack newsletter platform comparison features pricing 2025",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 56.0,
+      "top_page": "https://www.aitoolssolo.com/posts/beehiiv-vs-substack-which-paid-newsletter-platform-actually-pays-more/",
+      "pages_count": 1
+    },
+    {
+      "query": "bonsai vs freshbooks for freelancers",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 56.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/bonsai-vs-freshbooks/",
+      "pages_count": 1
+    },
+    {
+      "query": "frase vs clearscope",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 56.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/clearscope-vs-frase/",
+      "pages_count": 1
+    },
+    {
+      "query": "jasper writing ai",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 56.0,
+      "top_page": "https://www.aitoolssolo.com/posts/the-best-ai-writing-tool-for-solopreneurs-why-jasper-ai-is-the-one-youll-actuall/",
+      "pages_count": 1
+    },
+    {
+      "query": "make reviews",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 56.0,
+      "top_page": "https://www.aitoolssolo.com/posts/makecom-review-is-it-worth-it-the-no-code-automation-scam-you-need-to-avoid/",
+      "pages_count": 1
+    },
+    {
+      "query": "n8n vs workato",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 56.5,
+      "top_page": "https://www.aitoolssolo.com/comparisons/n8n-vs-workato/",
+      "pages_count": 1
+    },
+    {
+      "query": "ai admin replacement tool",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 57.0,
+      "top_page": "https://www.aitoolssolo.com/posts/the-best-ai-tools-for-one-person-business-from-someone-who-replaced-a-5-person-t/",
+      "pages_count": 1
+    },
+    {
+      "query": "leonardo vs midjourney",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 57.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/leonardo-ai-vs-midjourney/",
+      "pages_count": 1
+    },
+    {
+      "query": "miro vs clickup",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 57.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/clickup-vs-miro/",
+      "pages_count": 1
+    },
+    {
+      "query": "square vs intuit",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 57.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/quickbooks-vs-square/",
+      "pages_count": 1
+    },
+    {
+      "query": "trello vs zoho",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 57.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/trello-vs-zoho-books/",
+      "pages_count": 1
+    },
+    {
+      "query": "marketmuse vs clearscope",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 57.3,
+      "top_page": "https://www.aitoolssolo.com/comparisons/clearscope-vs-marketmuse/",
+      "pages_count": 1
+    },
+    {
+      "query": "quickbooks vs square",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0.0,
+      "position": 57.3,
+      "top_page": "https://www.aitoolssolo.com/comparisons/quickbooks-vs-square/",
+      "pages_count": 1
+    },
+    {
+      "query": "leonardo ai vs midjourney",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0.0,
+      "position": 57.6,
+      "top_page": "https://www.aitoolssolo.com/comparisons/leonardo-ai-vs-midjourney/",
+      "pages_count": 1
+    },
+    {
+      "query": "https://vizard.ai/",
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 100.0,
+      "position": 58.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/pika-vs-vizard/",
+      "pages_count": 1
+    },
+    {
+      "query": "copy ai vs writesonic",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 58.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/copyai-vs-writesonic/",
+      "pages_count": 1
+    },
+    {
+      "query": "dify vs n8n",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 58.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/dify-vs-n8n/",
+      "pages_count": 1
+    },
+    {
+      "query": "make ai pricing",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 58.0,
+      "top_page": "https://www.aitoolssolo.com/posts/are-makecom-pricing-plans-worth-it-a-12k-field-report-from-someone-who-actually-/",
+      "pages_count": 1
+    },
+    {
+      "query": "opusclip captions",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 58.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/captions-vs-opusclip/",
+      "pages_count": 1
+    },
+    {
+      "query": "photoroom remove",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 58.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/photoroom-vs-removebg/",
+      "pages_count": 1
+    },
+    {
+      "query": "brex vs stripe",
+      "clicks": 0,
+      "impressions": 16,
+      "ctr": 0.0,
+      "position": 58.1,
+      "top_page": "https://www.aitoolssolo.com/comparisons/brex-vs-stripe/",
+      "pages_count": 1
+    },
+    {
+      "query": "anima ai alternative",
+      "clicks": 0,
+      "impressions": 14,
+      "ctr": 0.0,
+      "position": 58.2,
+      "top_page": "https://www.aitoolssolo.com/alternatives/anima/",
+      "pages_count": 1
+    },
+    {
+      "query": "beehiiv vs substack",
+      "clicks": 0,
+      "impressions": 25,
+      "ctr": 0.0,
+      "position": 58.7,
+      "top_page": "https://www.aitoolssolo.com/posts/beehiiv-vs-substack-which-paid-newsletter-platform-actually-pays-more/",
+      "pages_count": 1
+    },
+    {
+      "query": "substack vs beehiiv",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0.0,
+      "position": 58.7,
+      "top_page": "https://www.aitoolssolo.com/posts/beehiiv-vs-substack-which-paid-newsletter-platform-actually-pays-more/",
+      "pages_count": 1
+    },
+    {
+      "query": "ai powered snippet",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 59.0,
+      "top_page": "https://www.aitoolssolo.com/use-cases/snippets/",
+      "pages_count": 1
+    },
+    {
+      "query": "copy ai free forever",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 59.0,
+      "top_page": "https://www.aitoolssolo.com/use-cases/copy/",
+      "pages_count": 1
+    },
+    {
+      "query": "expensify vs brex",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 59.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/brex-vs-expensify/",
+      "pages_count": 1
+    },
+    {
+      "query": "frase vs copy ai",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 59.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/copy-ai-vs-frase/",
+      "pages_count": 1
+    },
+    {
+      "query": "jasper ai writer",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 59.0,
+      "top_page": "https://www.aitoolssolo.com/posts/the-best-ai-writing-tool-for-solopreneurs-why-jasper-ai-is-the-one-youll-actuall/",
+      "pages_count": 1
+    },
+    {
+      "query": "n8n vs gumloop",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 59.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/gumloop-vs-n8n/",
+      "pages_count": 1
+    },
+    {
+      "query": "outranking ai",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 59.0,
+      "top_page": "https://www.aitoolssolo.com/tools/outranking/",
+      "pages_count": 1
+    },
+    {
+      "query": "tray vs workato",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 59.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/tray-vs-workato/",
+      "pages_count": 1
+    },
+    {
+      "query": "workflow 2025",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 59.0,
+      "top_page": "https://www.aitoolssolo.com/posts/why-your-workflow-is-dying-in-2025-and-how-to-fix-it-with-the-best-no-code-autom/",
+      "pages_count": 1
+    },
+    {
+      "query": "yoast semrush",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 59.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/semrush-vs-yoast/",
+      "pages_count": 1
+    },
+    {
+      "query": "make com pricing plans",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 59.3,
+      "top_page": "https://www.aitoolssolo.com/posts/are-makecom-pricing-plans-worth-it-a-12k-field-report-from-someone-who-actually-/",
+      "pages_count": 1
+    },
+    {
+      "query": "n8n vs dify",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 59.3,
+      "top_page": "https://www.aitoolssolo.com/comparisons/dify-vs-n8n/",
+      "pages_count": 1
+    },
+    {
+      "query": "bonsai vs quickbooks",
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": 0.0,
+      "position": 59.4,
+      "top_page": "https://www.aitoolssolo.com/comparisons/bonsai-vs-quickbooks/",
+      "pages_count": 1
+    },
+    {
+      "query": "calude vs cline",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 59.5,
+      "top_page": "https://www.aitoolssolo.com/comparisons/claudecode-vs-cline/",
+      "pages_count": 1
+    },
+    {
+      "query": "pipedream vs n8n",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 59.5,
+      "top_page": "https://www.aitoolssolo.com/comparisons/n8n-vs-pipedream/",
+      "pages_count": 1
+    },
+    {
+      "query": "what is make com",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 59.5,
+      "top_page": "https://www.aitoolssolo.com/posts/makecom-review-is-it-worth-it-for-automation-answer-it-depends-but-not-how-you-t/",
+      "pages_count": 2
+    },
+    {
+      "query": "writesonic vs surferseo",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 59.5,
+      "top_page": "https://www.aitoolssolo.com/comparisons/surfer-seo-vs-writesonic/",
+      "pages_count": 1
+    },
+    {
+      "query": "elicit ai",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0.0,
+      "position": 59.6,
+      "top_page": "https://www.aitoolssolo.com/tools/elicit/",
+      "pages_count": 1
+    },
+    {
+      "query": "ai writer rytr",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 60.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/ai-writer-vs-rytr/",
+      "pages_count": 1
+    },
+    {
+      "query": "cash flow ai tool",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 60.0,
+      "top_page": "https://www.aitoolssolo.com/use-cases/cashflow/",
+      "pages_count": 1
+    },
+    {
+      "query": "claude vs cline",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 60.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/claudecode-vs-cline/",
+      "pages_count": 1
+    },
+    {
+      "query": "jasper vs frase",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 60.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/frase-vs-jasper/",
+      "pages_count": 1
+    },
+    {
+      "query": "miro vs whimsical",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 60.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/miro-vs-whimsical/",
+      "pages_count": 1
+    },
+    {
+      "query": "recraft vectorizer",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 60.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/recraft-vs-vectorizer/",
+      "pages_count": 1
+    },
+    {
+      "query": "surfer seo vs neuronwriter",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 60.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/neuronwriter-vs-surferseo/",
+      "pages_count": 1
+    },
+    {
+      "query": "what is make.com",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0.0,
+      "position": 60.0,
+      "top_page": "https://www.aitoolssolo.com/posts/makecom-review-is-it-worth-it-for-automation-answer-it-depends-but-not-how-you-t/",
+      "pages_count": 2
+    },
+    {
+      "query": "verbix.ai",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 60.2,
+      "top_page": "https://www.aitoolssolo.com/comparisons/verb-vs-verbix/",
+      "pages_count": 2
+    },
+    {
+      "query": "clearscope vs frase",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 60.5,
+      "top_page": "https://www.aitoolssolo.com/comparisons/clearscope-vs-frase/",
+      "pages_count": 1
+    },
+    {
+      "query": "dalle vs stable diffusion",
+      "clicks": 0,
+      "impressions": 15,
+      "ctr": 0.0,
+      "position": 60.5,
+      "top_page": "https://www.aitoolssolo.com/comparisons/dalle-vs-stablediffusion/",
+      "pages_count": 1
+    },
+    {
+      "query": "make com reviews",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 60.5,
+      "top_page": "https://www.aitoolssolo.com/posts/makecom-review-is-it-worth-it-for-automation-answer-it-depends-but-not-how-you-t/",
+      "pages_count": 1
+    },
+    {
+      "query": "motion vs clickup",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 60.7,
+      "top_page": "https://www.aitoolssolo.com/comparisons/clickup-vs-motion/",
+      "pages_count": 1
+    },
+    {
+      "query": "expensify vs wave",
+      "clicks": 0,
+      "impressions": 16,
+      "ctr": 0.0,
+      "position": 60.9,
+      "top_page": "https://www.aitoolssolo.com/comparisons/expensify-vs-wave/",
+      "pages_count": 1
+    },
+    {
+      "query": "clickup vs taskade",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 61.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/clickup-vs-taskade/",
+      "pages_count": 1
+    },
+    {
+      "query": "kajabi riverside.fm",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 61.0,
+      "top_page": "https://www.aitoolssolo.com/posts/riversidefm-review-after-100-remote-podcast-episodes-is-it-worth-the-h/",
+      "pages_count": 1
+    },
+    {
+      "query": "midjourney vs leonardo.ai",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 61.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/leonardo-ai-vs-midjourney/",
+      "pages_count": 1
+    },
+    {
+      "query": "surfer ai writer",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 61.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/ai-writer-vs-surfer-seo/",
+      "pages_count": 1
+    },
+    {
+      "query": "taplio vs hypefury",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 61.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/hypefury-vs-taplio/",
+      "pages_count": 1
+    },
+    {
+      "query": "wave vs expensify",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 61.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/expensify-vs-wave/",
+      "pages_count": 1
+    },
+    {
+      "query": "clearscope vs marketmuse",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0.0,
+      "position": 61.7,
+      "top_page": "https://www.aitoolssolo.com/comparisons/clearscope-vs-marketmuse/",
+      "pages_count": 1
+    },
+    {
+      "query": "tray.io vs workato",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 61.7,
+      "top_page": "https://www.aitoolssolo.com/comparisons/tray-vs-workato/",
+      "pages_count": 1
+    },
+    {
+      "query": "make pricing plans",
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": 0.0,
+      "position": 61.8,
+      "top_page": "https://www.aitoolssolo.com/posts/are-makecom-pricing-plans-worth-it-a-12k-field-report-from-someone-who-actually-/",
+      "pages_count": 1
+    },
+    {
+      "query": "ai readable",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 62.0,
+      "top_page": "https://www.aitoolssolo.com/use-cases/readability/",
+      "pages_count": 1
+    },
+    {
+      "query": "clipdrop remove bg",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 62.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/clipdrop-vs-removebg/",
+      "pages_count": 1
+    },
+    {
+      "query": "devin vs cursor",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 62.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/cursor-vs-devin/",
+      "pages_count": 1
+    },
+    {
+      "query": "jasper ai script writer",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 62.0,
+      "top_page": "https://www.aitoolssolo.com/posts/the-best-ai-writing-tool-for-solopreneurs-why-jasper-ai-is-the-one-youll-actuall/",
+      "pages_count": 1
+    },
+    {
+      "query": "mercury vs ramp",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 62.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/mercury-vs-ramp/",
+      "pages_count": 1
+    },
+    {
+      "query": "solo content marketing",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 62.0,
+      "top_page": "https://www.aitoolssolo.com/posts/how-to-build-a-one-person-content-agency-with-ai-a-solopreneurs-guide/",
+      "pages_count": 1
+    },
+    {
+      "query": "notion mail vs superhuman",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0.0,
+      "position": 62.1,
+      "top_page": "https://www.aitoolssolo.com/comparisons/notion-vs-superhuman/",
+      "pages_count": 2
+    },
+    {
+      "query": "ai wireframe generator",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 62.2,
+      "top_page": "https://www.aitoolssolo.com/use-cases/wireframe/",
+      "pages_count": 1
+    },
+    {
+      "query": "ai assistant for one-person business",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 62.3,
+      "top_page": "https://www.aitoolssolo.com/posts/the-best-ai-tools-for-one-person-business-from-someone-who-replaced-a-5-person-t/",
+      "pages_count": 1
+    },
+    {
+      "query": "semrush and yoast",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 62.3,
+      "top_page": "https://www.aitoolssolo.com/comparisons/semrush-vs-yoast/",
+      "pages_count": 1
+    },
+    {
+      "query": "agility writer vs surfer ai",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 63.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/ai-writer-vs-surfer-seo/",
+      "pages_count": 2
+    },
+    {
+      "query": "creative ai for enterprises",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 63.0,
+      "top_page": "https://www.aitoolssolo.com/use-cases/enterprise/",
+      "pages_count": 1
+    },
+    {
+      "query": "retool airtable",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 63.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/airtable-vs-retool/",
+      "pages_count": 1
+    },
+    {
+      "query": "stable diffusion vs dalle",
+      "clicks": 0,
+      "impressions": 23,
+      "ctr": 0.0,
+      "position": 63.4,
+      "top_page": "https://www.aitoolssolo.com/comparisons/dalle-vs-stablediffusion/",
+      "pages_count": 1
+    },
+    {
+      "query": "ai writing tool with free trial affiliate link",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 64.0,
+      "top_page": "https://www.aitoolssolo.com/posts/the-best-ai-writing-tool-for-affiliate-content-a-practical-guide-for-2025/",
+      "pages_count": 1
+    },
+    {
+      "query": "dall-e 3 et adobe firefly",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 64.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/adobe-firefly-vs-dalle/",
+      "pages_count": 1
+    },
+    {
+      "query": "expensify vs xero",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 64.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/expensify-vs-xero/",
+      "pages_count": 1
+    },
+    {
+      "query": "gumloop vs zapier",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 64.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/gumloop-vs-zapier/",
+      "pages_count": 1
+    },
+    {
+      "query": "locofy lightning vs anima for high fidelity ui conversion",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 64.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/anima-vs-locofy/",
+      "pages_count": 1
+    },
+    {
+      "query": "make pricing",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 64.0,
+      "top_page": "https://www.aitoolssolo.com/posts/are-makecom-pricing-plans-worth-it-a-12k-field-report-from-someone-who-actually-/",
+      "pages_count": 1
+    },
+    {
+      "query": "se ranking vs jasper vs chatgpt",
+      "clicks": 0,
+      "impressions": 33,
+      "ctr": 0.0,
+      "position": 64.0,
+      "top_page": "https://www.aitoolssolo.com/posts/jasper-ai-vs-chatgpt-for-blog-writing/",
+      "pages_count": 1
+    },
+    {
+      "query": "solo builder",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 64.0,
+      "top_page": "https://www.aitoolssolo.com/tags/builders/",
+      "pages_count": 1
+    },
+    {
+      "query": "whimsical vs miro",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0.0,
+      "position": 64.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/miro-vs-whimsical/",
+      "pages_count": 1
+    },
+    {
+      "query": "yoast seo vs semrush",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 64.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/semrush-vs-yoast/",
+      "pages_count": 1
+    },
+    {
+      "query": "striim vs stitch",
+      "clicks": 0,
+      "impressions": 17,
+      "ctr": 0.0,
+      "position": 64.1,
+      "top_page": "https://www.aitoolssolo.com/comparisons/stitch-vs-stripe/",
+      "pages_count": 1
+    },
+    {
+      "query": "superhuman vs notion mail",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0.0,
+      "position": 64.2,
+      "top_page": "https://www.aitoolssolo.com/comparisons/notion-vs-superhuman/",
+      "pages_count": 2
+    },
+    {
+      "query": "ai cash flow",
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": 0.0,
+      "position": 64.6,
+      "top_page": "https://www.aitoolssolo.com/use-cases/cashflow/",
+      "pages_count": 1
+    },
+    {
+      "query": "claude code vs cline",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 65.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/claudecode-vs-cline/",
+      "pages_count": 1
+    },
+    {
+      "query": "instantly.ai vs smartlead.ai",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 65.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/instantly-vs-smartlead/",
+      "pages_count": 1
+    },
+    {
+      "query": "beehiiv vs substack newsletter platform comparison 2026",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 65.3,
+      "top_page": "https://www.aitoolssolo.com/posts/beehiiv-vs-substack-which-paid-newsletter-platform-actually-pays-more/",
+      "pages_count": 1
+    },
+    {
+      "query": "retool vs airtable",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0.0,
+      "position": 65.6,
+      "top_page": "https://www.aitoolssolo.com/comparisons/airtable-vs-retool/",
+      "pages_count": 1
+    },
+    {
+      "query": "postviz",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 65.8,
+      "top_page": "https://www.aitoolssolo.com/comparisons/postiz-vs-postwise/",
+      "pages_count": 1
+    },
+    {
+      "query": "ai wireframe",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 66.0,
+      "top_page": "https://www.aitoolssolo.com/use-cases/wireframe/",
+      "pages_count": 1
+    },
+    {
+      "query": "devin vs claude code",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 66.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/claudecode-vs-devin/",
+      "pages_count": 1
+    },
+    {
+      "query": "murf alternatives",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 66.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/murf-vs-synthesia/",
+      "pages_count": 1
+    },
+    {
+      "query": "neuronwriter vs clearscope",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 66.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/ai-writer-vs-clearscope/",
+      "pages_count": 1
+    },
+    {
+      "query": "workato vs tray io",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 66.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/tray-vs-workato/",
+      "pages_count": 1
+    },
+    {
+      "query": "yoast vs semrush",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0.0,
+      "position": 66.2,
+      "top_page": "https://www.aitoolssolo.com/comparisons/semrush-vs-yoast/",
+      "pages_count": 1
+    },
+    {
+      "query": "semrush yoast",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 66.3,
+      "top_page": "https://www.aitoolssolo.com/comparisons/semrush-vs-yoast/",
+      "pages_count": 1
+    },
+    {
+      "query": "yoast and semrush",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 66.7,
+      "top_page": "https://www.aitoolssolo.com/comparisons/semrush-vs-yoast/",
+      "pages_count": 1
+    },
+    {
+      "query": "airtable vs retool",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 67.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/airtable-vs-retool/",
+      "pages_count": 1
+    },
+    {
+      "query": "avi the man who was poe",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 67.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/mem-vs-poe/",
+      "pages_count": 1
+    },
+    {
+      "query": "chatgpt tools solo consultants independent professionals productivity",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 67.0,
+      "top_page": "https://www.aitoolssolo.com/posts/the-best-ai-tools-for-one-person-business-from-someone-who-replaced-a-5-person-t/",
+      "pages_count": 1
+    },
+    {
+      "query": "descript video editing review",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 67.0,
+      "top_page": "https://www.aitoolssolo.com/posts/descript-review-for-youtube-creators-i-edit-12-videos-a-month-with-it-heres-what/",
+      "pages_count": 1
+    },
+    {
+      "query": "free ai roleplay models",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 67.0,
+      "top_page": "https://www.aitoolssolo.com/use-cases/roleplay/",
+      "pages_count": 1
+    },
+    {
+      "query": "instantly ai vs smartlead",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 67.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/instantly-vs-smartlead/",
+      "pages_count": 1
+    },
+    {
+      "query": "midjourney vs leonardo ai",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 67.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/leonardo-ai-vs-midjourney/",
+      "pages_count": 1
+    },
+    {
+      "query": "wireframe ai",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 67.3,
+      "top_page": "https://www.aitoolssolo.com/use-cases/wireframe/",
+      "pages_count": 1
+    },
+    {
+      "query": "rank math vs semrush",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 67.5,
+      "top_page": "https://www.aitoolssolo.com/comparisons/rankmath-vs-semrush/",
+      "pages_count": 1
+    },
+    {
+      "query": "quickbooks pos vs square",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0.0,
+      "position": 67.6,
+      "top_page": "https://www.aitoolssolo.com/comparisons/quickbooks-vs-square/",
+      "pages_count": 1
+    },
+    {
+      "query": "adobe firefly alternatives",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 68.0,
+      "top_page": "https://www.aitoolssolo.com/alternatives/firefly/",
+      "pages_count": 1
+    },
+    {
+      "query": "ai copy free",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 68.0,
+      "top_page": "https://www.aitoolssolo.com/use-cases/copy/",
+      "pages_count": 1
+    },
+    {
+      "query": "ai tracking",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 68.0,
+      "top_page": "https://www.aitoolssolo.com/use-cases/tracking/",
+      "pages_count": 1
+    },
+    {
+      "query": "bolt new vs windsurf vs emergent",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 68.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/bolt-vs-windsurf/",
+      "pages_count": 1
+    },
+    {
+      "query": "devin vs copilot",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 68.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/copilot-vs-devin/",
+      "pages_count": 1
+    },
+    {
+      "query": "ramp vs mercury",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 68.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/mercury-vs-ramp/",
+      "pages_count": 1
+    },
+    {
+      "query": "semrush vs yoast",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0.0,
+      "position": 68.4,
+      "top_page": "https://www.aitoolssolo.com/comparisons/semrush-vs-yoast/",
+      "pages_count": 1
+    },
+    {
+      "query": "best ai tools for solo marketers",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 68.5,
+      "top_page": "https://www.aitoolssolo.com/",
+      "pages_count": 2
+    },
+    {
+      "query": "instantly ai vs smartlead ai",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 68.5,
+      "top_page": "https://www.aitoolssolo.com/comparisons/instantly-vs-smartlead/",
+      "pages_count": 1
+    },
+    {
+      "query": "brex competitors",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 68.7,
+      "top_page": "https://www.aitoolssolo.com/comparisons/brex-vs-ramp/",
+      "pages_count": 1
+    },
+    {
+      "query": "ai writer jasper",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 69.0,
+      "top_page": "https://www.aitoolssolo.com/posts/the-best-ai-writing-tool-for-solopreneurs-why-jasper-ai-is-the-one-youll-actuall/",
+      "pages_count": 1
+    },
+    {
+      "query": "clearscope vs surfer",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 69.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/clearscope-vs-surfer-seo/",
+      "pages_count": 1
+    },
+    {
+      "query": "clipdrop by stability ai",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 69.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/clipdrop-vs-stability/",
+      "pages_count": 1
+    },
+    {
+      "query": "free copy ai",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 69.0,
+      "top_page": "https://www.aitoolssolo.com/use-cases/copy/",
+      "pages_count": 1
+    },
+    {
+      "query": "freshbooks vs harvest",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 69.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/freshbooks-vs-harvest/",
+      "pages_count": 1
+    },
+    {
+      "query": "ink editor",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 69.0,
+      "top_page": "https://www.aitoolssolo.com/alternatives/ink-editor/",
+      "pages_count": 2
+    },
+    {
+      "query": "krea ai vs leonardo ai",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 69.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/krea-vs-leonardo/",
+      "pages_count": 1
+    },
+    {
+      "query": "make.com valuation",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 69.0,
+      "top_page": "https://www.aitoolssolo.com/posts/are-makecom-pricing-plans-worth-it-a-12k-field-report-from-someone-who-actually-/",
+      "pages_count": 1
+    },
+    {
+      "query": "riverside ai",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 69.0,
+      "top_page": "https://www.aitoolssolo.com/tools/riverside/",
+      "pages_count": 1
+    },
+    {
+      "query": "surferseo vs clearscope",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 69.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/clearscope-vs-surfer-seo/",
+      "pages_count": 1
+    },
+    {
+      "query": "zapier vs workato",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 69.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/workato-vs-zapier/",
+      "pages_count": 1
+    },
+    {
+      "query": "gumloop vs n8n",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 69.5,
+      "top_page": "https://www.aitoolssolo.com/comparisons/gumloop-vs-n8n/",
+      "pages_count": 1
+    },
+    {
+      "query": "ai tools for enterprise",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 70.0,
+      "top_page": "https://www.aitoolssolo.com/landing/best-ai-tools-for-enterprise/",
+      "pages_count": 1
+    },
+    {
+      "query": "clearscope vs surferseo",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 70.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/clearscope-vs-surfer-seo/",
+      "pages_count": 1
+    },
+    {
+      "query": "dreamstudio stable diffusion",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 70.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/dreamstudio-vs-stability/",
+      "pages_count": 1
+    },
+    {
+      "query": "ehost vs bluehost",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 70.0,
+      "top_page": "https://www.aitoolssolo.com/posts/hostinger-vs-bluehost-for-beginners-a-builders-field-report-after-11-deployments/",
+      "pages_count": 1
+    },
+    {
+      "query": "make price",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 70.0,
+      "top_page": "https://www.aitoolssolo.com/posts/are-makecom-pricing-plans-worth-it-a-12k-field-report-from-someone-who-actually-/",
+      "pages_count": 1
+    },
+    {
+      "query": "paid newsletter platform",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 70.0,
+      "top_page": "https://www.aitoolssolo.com/posts/the-best-email-platform-for-paid-newsletter-isnt-what-you-think-a-builders-field/",
+      "pages_count": 1
+    },
+    {
+      "query": "rytr best ai writer",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 70.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/ai-writer-vs-rytr/",
+      "pages_count": 1
+    },
+    {
+      "query": "smartlead.ai vs instantly",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 70.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/instantly-vs-smartlead/",
+      "pages_count": 1
+    },
+    {
+      "query": "website wireframe ai",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 70.0,
+      "top_page": "https://www.aitoolssolo.com/use-cases/wireframe/",
+      "pages_count": 1
+    },
+    {
+      "query": "clearscope vs surfer seo",
+      "clicks": 0,
+      "impressions": 68,
+      "ctr": 0.0,
+      "position": 70.2,
+      "top_page": "https://www.aitoolssolo.com/comparisons/clearscope-vs-surfer-seo/",
+      "pages_count": 1
+    },
+    {
+      "query": "outranking vs shortly ai",
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": 0.0,
+      "position": 70.5,
+      "top_page": "https://www.aitoolssolo.com/comparisons/instantly-vs-outranking/",
+      "pages_count": 1
+    },
+    {
+      "query": "\"make.com\" pricing -site:make.com",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 71.0,
+      "top_page": "https://www.aitoolssolo.com/posts/are-makecom-pricing-plans-worth-it-a-12k-field-report-from-someone-who-actually-/",
+      "pages_count": 1
+    },
+    {
+      "query": "ai clone",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0.0,
+      "position": 71.0,
+      "top_page": "https://www.aitoolssolo.com/use-cases/clone/",
+      "pages_count": 1
+    },
+    {
+      "query": "ai development kanban",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 71.0,
+      "top_page": "https://www.aitoolssolo.com/use-cases/kanban/",
+      "pages_count": 1
+    },
+    {
+      "query": "cli tools ai",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 71.0,
+      "top_page": "https://www.aitoolssolo.com/use-cases/cli/",
+      "pages_count": 1
+    },
+    {
+      "query": "github copilot alternative",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 71.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/github-copilot-vs-tabnine/",
+      "pages_count": 1
+    },
+    {
+      "query": "jasper ai review",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0.0,
+      "position": 71.0,
+      "top_page": "https://www.aitoolssolo.com/posts/jasper-ai-review-for-blog-writing-why-youre-wasting-10-hours-a-week-on-marketing/",
+      "pages_count": 1
+    },
+    {
+      "query": "lovable free alternative",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 71.0,
+      "top_page": "https://www.aitoolssolo.com/alternatives/lovable/",
+      "pages_count": 1
+    },
+    {
+      "query": "semrush vs yoast seo",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 71.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/semrush-vs-yoast/",
+      "pages_count": 1
+    },
+    {
+      "query": "solopreneur content marketing",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 71.0,
+      "top_page": "https://www.aitoolssolo.com/posts/how-to-build-a-one-person-content-agency-with-ai-a-solopreneurs-guide/",
+      "pages_count": 1
+    },
+    {
+      "query": "what is make.com used for",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 71.2,
+      "top_page": "https://www.aitoolssolo.com/posts/makecom-review-is-it-worth-it-for-automation-answer-it-depends-but-not-how-you-t/",
+      "pages_count": 1
+    },
+    {
+      "query": "sourcegraph cody pricing plans 2025 free pro enterprise",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 71.3,
+      "top_page": "https://www.aitoolssolo.com/comparisons/claudecode-vs-sourcegraph/",
+      "pages_count": 3
+    },
+    {
+      "query": "beehive vs kit",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 72.0,
+      "top_page": "https://www.aitoolssolo.com/posts/beehiiv-vs-convertkit-the-solo-founders-brutal-truth-no-fluff-just-wins/",
+      "pages_count": 1
+    },
+    {
+      "query": "bluehost vs hostinger which is better",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 72.0,
+      "top_page": "https://www.aitoolssolo.com/posts/hostinger-vs-bluehost-for-beginners-a-builders-field-report-after-11-deployments/",
+      "pages_count": 1
+    },
+    {
+      "query": "devin ai vs cursor",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 72.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/cursor-vs-devin/",
+      "pages_count": 1
+    },
+    {
+      "query": "marketmuse vs writesonic",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 72.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/marketmuse-vs-writesonic/",
+      "pages_count": 1
+    },
+    {
+      "query": "playcut vs runway",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 72.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/capcut-vs-runway/",
+      "pages_count": 1
+    },
+    {
+      "query": "tome. io",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 72.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/tome-vs-tray/",
+      "pages_count": 1
+    },
+    {
+      "query": "squareplan",
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": 0.0,
+      "position": 72.4,
+      "top_page": "https://www.aitoolssolo.com/comparisons/liveplan-vs-square/",
+      "pages_count": 1
+    },
+    {
+      "query": "surfer seo vs clearscope",
+      "clicks": 0,
+      "impressions": 66,
+      "ctr": 0.0,
+      "position": 72.6,
+      "top_page": "https://www.aitoolssolo.com/comparisons/clearscope-vs-surfer-seo/",
+      "pages_count": 1
+    },
+    {
+      "query": "riverside.fm",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 73.0,
+      "top_page": "https://www.aitoolssolo.com/posts/riversidefm-review-after-100-remote-podcast-episodes-is-it-worth-the-h/",
+      "pages_count": 1
+    },
+    {
+      "query": "ai invoicing for freelancers",
+      "clicks": 0,
+      "impressions": 26,
+      "ctr": 0.0,
+      "position": 73.2,
+      "top_page": "https://www.aitoolssolo.com/use-cases/invoicing/",
+      "pages_count": 1
+    },
+    {
+      "query": "ai kanban software",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 73.3,
+      "top_page": "https://www.aitoolssolo.com/use-cases/kanban/",
+      "pages_count": 1
+    },
+    {
+      "query": "opusclip vs vizard",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 73.3,
+      "top_page": "https://www.aitoolssolo.com/comparisons/opus-clip-vs-vizard/",
+      "pages_count": 1
+    },
+    {
+      "query": "phind alternative",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 73.7,
+      "top_page": "https://www.aitoolssolo.com/comparisons/phind-vs-poe/",
+      "pages_count": 2
+    },
+    {
+      "query": "stitch alternatives",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0.0,
+      "position": 73.7,
+      "top_page": "https://www.aitoolssolo.com/alternatives/stitch/",
+      "pages_count": 1
+    },
+    {
+      "query": "dream studio stable diffusion",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 74.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/dreamstudio-vs-stability/",
+      "pages_count": 1
+    },
+    {
+      "query": "how much does make",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 74.0,
+      "top_page": "https://www.aitoolssolo.com/posts/are-makecom-pricing-plans-worth-it-a-12k-field-report-from-someone-who-actually-/",
+      "pages_count": 1
+    },
+    {
+      "query": "lovable ai free alternative",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0.0,
+      "position": 74.0,
+      "top_page": "https://www.aitoolssolo.com/alternatives/lovable/",
+      "pages_count": 1
+    },
+    {
+      "query": "se ranking vs writesonic",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 74.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/surfer-seo-vs-writesonic/",
+      "pages_count": 1
+    },
+    {
+      "query": "enterprise ai tools",
+      "clicks": 0,
+      "impressions": 16,
+      "ctr": 0.0,
+      "position": 74.4,
+      "top_page": "https://www.aitoolssolo.com/landing/best-ai-tools-for-enterprise/",
+      "pages_count": 1
+    },
+    {
+      "query": "best ai agent tools",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 74.5,
+      "top_page": "https://www.aitoolssolo.com/landing/best-ai-tools-for-agent/",
+      "pages_count": 1
+    },
+    {
+      "query": "ai solo",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 74.8,
+      "top_page": "https://www.aitoolssolo.com/search/",
+      "pages_count": 2
+    },
+    {
+      "query": "build wireframes with ai",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 75.0,
+      "top_page": "https://www.aitoolssolo.com/use-cases/wireframe/",
+      "pages_count": 1
+    },
+    {
+      "query": "ink a i writer",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 75.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/ai-writer-vs-ink-editor/",
+      "pages_count": 1
+    },
+    {
+      "query": "writer vs jasper",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 75.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/ai-writer-vs-jasper-ai/",
+      "pages_count": 2
+    },
+    {
+      "query": "lovable ai alternatives",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 75.3,
+      "top_page": "https://www.aitoolssolo.com/alternatives/lovable/",
+      "pages_count": 1
+    },
+    {
+      "query": "lovable ai ide alternatives",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 75.5,
+      "top_page": "https://www.aitoolssolo.com/alternatives/lovable/",
+      "pages_count": 1
+    },
+    {
+      "query": "solo ai",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 75.7,
+      "top_page": "https://www.aitoolssolo.com/",
+      "pages_count": 1
+    },
+    {
+      "query": "make pricing official 2026",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 76.0,
+      "top_page": "https://www.aitoolssolo.com/posts/are-makecom-pricing-plans-worth-it-a-12k-field-report-from-someone-who-actually-/",
+      "pages_count": 1
+    },
+    {
+      "query": "make.com pricing 2026",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 76.0,
+      "top_page": "https://www.aitoolssolo.com/posts/are-makecom-pricing-plans-worth-it-a-12k-field-report-from-someone-who-actually-/",
+      "pages_count": 1
+    },
+    {
+      "query": "photoroom remover",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 76.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/photoroom-vs-removebg/",
+      "pages_count": 1
+    },
+    {
+      "query": "solo ai free",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 76.0,
+      "top_page": "https://www.aitoolssolo.com/",
+      "pages_count": 1
+    },
+    {
+      "query": "stitch labs competitors",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 76.0,
+      "top_page": "https://www.aitoolssolo.com/alternatives/stitch/",
+      "pages_count": 1
+    },
+    {
+      "query": "stitch alternative",
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": 0.0,
+      "position": 76.3,
+      "top_page": "https://www.aitoolssolo.com/alternatives/stitch/",
+      "pages_count": 1
+    },
+    {
+      "query": "ai solopreneur newsletter",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 76.7,
+      "top_page": "https://www.aitoolssolo.com/posts/",
+      "pages_count": 3
+    },
+    {
+      "query": "ai marketing tool for solopreneurs",
+      "clicks": 0,
+      "impressions": 58,
+      "ctr": 0.0,
+      "position": 76.8,
+      "top_page": "https://www.aitoolssolo.com/use-cases/marketing/",
+      "pages_count": 4
+    },
+    {
+      "query": "solopreneur building ai tools for experts",
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": 0.0,
+      "position": 76.9,
+      "top_page": "https://www.aitoolssolo.com/about/",
+      "pages_count": 3
+    },
+    {
+      "query": "brex comparison",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 77.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/brex-vs-ramp/",
+      "pages_count": 1
+    },
+    {
+      "query": "database ai tools free",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 77.0,
+      "top_page": "https://www.aitoolssolo.com/use-cases/database/",
+      "pages_count": 1
+    },
+    {
+      "query": "opus free alternative",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 77.3,
+      "top_page": "https://www.aitoolssolo.com/alternatives/opusclip/",
+      "pages_count": 1
+    },
+    {
+      "query": "mailchimp email checker semrush",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 78.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/mailchimp-vs-semrush/",
+      "pages_count": 1
+    },
+    {
+      "query": "marketmuse vs neuronwriter",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 78.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/hyperwrite-vs-marketmuse/",
+      "pages_count": 1
+    },
+    {
+      "query": "veedora",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 78.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/veed-vs-wondershare-filmora/",
+      "pages_count": 1
+    },
+    {
+      "query": "writesonic vs marketmuse",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 78.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/marketmuse-vs-writesonic/",
+      "pages_count": 1
+    },
+    {
+      "query": "best seo tools for solopreneurs",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0.0,
+      "position": 78.8,
+      "top_page": "https://www.aitoolssolo.com/use-cases/seo/",
+      "pages_count": 1
+    },
+    {
+      "query": "alternatives to lovable ai",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 79.0,
+      "top_page": "https://www.aitoolssolo.com/alternatives/lovable/",
+      "pages_count": 1
+    },
+    {
+      "query": "drop bg",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 79.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/clipdrop-vs-remove-bg/",
+      "pages_count": 1
+    },
+    {
+      "query": "elicit alternatives",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 79.0,
+      "top_page": "https://www.aitoolssolo.com/alternatives/elicit/",
+      "pages_count": 2
+    },
+    {
+      "query": "ai audit solopreneur",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 79.5,
+      "top_page": "https://www.aitoolssolo.com/use-cases/business/",
+      "pages_count": 1
+    },
+    {
+      "query": "opus clip alternative",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 79.5,
+      "top_page": "https://www.aitoolssolo.com/alternatives/opusclip/",
+      "pages_count": 1
+    },
+    {
+      "query": "clearscope vs writesonic",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 80.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/ai-writer-vs-clearscope/",
+      "pages_count": 1
+    },
+    {
+      "query": "calendly airtable integration",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 80.2,
+      "top_page": "https://www.aitoolssolo.com/comparisons/airtable-vs-calendly/",
+      "pages_count": 1
+    },
+    {
+      "query": "ai tools for figma",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 81.0,
+      "top_page": "https://www.aitoolssolo.com/use-cases/figma/",
+      "pages_count": 1
+    },
+    {
+      "query": "frase vs marketmuse",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 81.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/frase-vs-marketmuse/",
+      "pages_count": 1
+    },
+    {
+      "query": "magician ai",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 81.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/galileo-ai-vs-magician/",
+      "pages_count": 1
+    },
+    {
+      "query": "make pricing 2026",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 81.0,
+      "top_page": "https://www.aitoolssolo.com/posts/are-makecom-pricing-plans-worth-it-a-12k-field-report-from-someone-who-actually-/",
+      "pages_count": 1
+    },
+    {
+      "query": "make.com pricing core plan",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 81.0,
+      "top_page": "https://www.aitoolssolo.com/posts/are-makecom-pricing-plans-worth-it-a-12k-field-report-from-someone-who-actually-/",
+      "pages_count": 1
+    },
+    {
+      "query": "writesonic vs clearscope",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 82.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/clearscope-vs-writesonic/",
+      "pages_count": 1
+    },
+    {
+      "query": "make vs zapier",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 83.7,
+      "top_page": "https://www.aitoolssolo.com/comparisons/make-vs-zapier/",
+      "pages_count": 1
+    },
+    {
+      "query": "cards ai",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 84.0,
+      "top_page": "https://www.aitoolssolo.com/use-cases/cards/",
+      "pages_count": 1
+    },
+    {
+      "query": "recraft vectorize",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 84.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/recraft-vs-vectorizer/",
+      "pages_count": 1
+    },
+    {
+      "query": "substack beehiiv 50m",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 84.0,
+      "top_page": "https://www.aitoolssolo.com/posts/beehiiv-vs-substack-which-paid-newsletter-platform-actually-pays-more/",
+      "pages_count": 1
+    },
+    {
+      "query": "awr vs frase",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 85.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/ai-writer-vs-frase/",
+      "pages_count": 1
+    },
+    {
+      "query": "free ai tools for automating",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 85.0,
+      "top_page": "https://www.aitoolssolo.com/landing/ai-tools-for-automation-workflow/",
+      "pages_count": 1
+    },
+    {
+      "query": "legalzoom nda vs ai",
+      "clicks": 0,
+      "impressions": 10,
+      "ctr": 0.0,
+      "position": 85.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/and-co-vs-legalzoom/",
+      "pages_count": 1
+    },
+    {
+      "query": "runway vs playcut",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 85.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/runway-vs-wisecut/",
+      "pages_count": 1
+    },
+    {
+      "query": "copy generator tool",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 85.3,
+      "top_page": "https://www.aitoolssolo.com/use-cases/copy/",
+      "pages_count": 1
+    },
+    {
+      "query": "ai seo freelancer",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 87.0,
+      "top_page": "https://www.aitoolssolo.com/use-cases/seo/",
+      "pages_count": 1
+    },
+    {
+      "query": "ai writing tools affiliate programs",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 87.0,
+      "top_page": "https://www.aitoolssolo.com/posts/the-best-ai-writing-tool-for-affiliate-content-a-practical-guide-for-2025/",
+      "pages_count": 1
+    },
+    {
+      "query": "kanban software with ai",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0.0,
+      "position": 87.9,
+      "top_page": "https://www.aitoolssolo.com/use-cases/kanban/",
+      "pages_count": 1
+    },
+    {
+      "query": "ai typography",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 88.5,
+      "top_page": "https://www.aitoolssolo.com/use-cases/typography/",
+      "pages_count": 1
+    },
+    {
+      "query": "peppertype.ai",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 89.5,
+      "top_page": "https://www.aitoolssolo.com/comparisons/ai-writer-vs-peppertype/",
+      "pages_count": 2
+    },
+    {
+      "query": "ai roleplay generator",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 90.0,
+      "top_page": "https://www.aitoolssolo.com/use-cases/roleplay/",
+      "pages_count": 1
+    },
+    {
+      "query": "recraft.ai vectorizer",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 90.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/recraft-vs-vectorizer/",
+      "pages_count": 1
+    },
+    {
+      "query": "zapier workato competitors",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 90.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/workato-vs-zapier/",
+      "pages_count": 1
+    },
+    {
+      "query": "best free ai tools for freelancers",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 90.5,
+      "top_page": "https://www.aitoolssolo.com/use-cases/freelance/",
+      "pages_count": 1
+    },
+    {
+      "query": "frase vs writerzen",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 91.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/ai-writer-vs-frase/",
+      "pages_count": 2
+    },
+    {
+      "query": "free alternatives to lovable ai",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 91.8,
+      "top_page": "https://www.aitoolssolo.com/alternatives/lovable/",
+      "pages_count": 1
+    },
+    {
+      "query": "aio freelancer",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 92.0,
+      "top_page": "https://www.aitoolssolo.com/use-cases/freelance/",
+      "pages_count": 1
+    },
+    {
+      "query": "neuronwriter vs rank ranger",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 92.5,
+      "top_page": "https://www.aitoolssolo.com/comparisons/neuronwriter-vs-rankmath/",
+      "pages_count": 1
+    },
+    {
+      "query": "best ai tools for freelancers",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 93.0,
+      "top_page": "https://www.aitoolssolo.com/use-cases/freelance/",
+      "pages_count": 1
+    },
+    {
+      "query": "ai business tools for freelancers",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0.0,
+      "position": 95.7,
+      "top_page": "https://www.aitoolssolo.com/use-cases/freelance/",
+      "pages_count": 2
+    },
+    {
+      "query": "\"clickup\"",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 96.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/claude-vs-clickup/",
+      "pages_count": 1
+    },
+    {
+      "query": "export bing ads to monday.com",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 97.0,
+      "top_page": "https://www.aitoolssolo.com/tools/brandmark/",
+      "pages_count": 1
+    },
+    {
+      "query": "neuronwriter vs seomonitor",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 97.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/neuronwriter-vs-surferseo/",
+      "pages_count": 1
+    },
+    {
+      "query": "recraft ai image vectorizer",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 98.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/recraft-vs-vectorizer/",
+      "pages_count": 1
+    },
+    {
+      "query": "sudowrite ai",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 98.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/sudowrite-vs-verbix/",
+      "pages_count": 1
+    },
+    {
+      "query": "chatgpt tools for solo consultants independent professionals",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 99.0,
+      "top_page": "https://www.aitoolssolo.com/posts/the-best-ai-tools-for-one-person-business-from-someone-who-replaced-a-5-person-t/",
+      "pages_count": 1
+    },
+    {
+      "query": "zoho books vs wave",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 99.0,
+      "top_page": "https://www.aitoolssolo.com/comparisons/wave-vs-zoho-books/",
+      "pages_count": 1
+    },
+    {
+      "query": "chatpdf alternatives",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0.0,
+      "position": 109.4,
+      "top_page": "https://www.aitoolssolo.com/alternatives/chatpdf/",
+      "pages_count": 1
+    },
+    {
+      "query": "obsidian.ai",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 133.5,
+      "top_page": "https://www.aitoolssolo.com/comparisons/chatgpt-vs-obsidian-copilot/",
+      "pages_count": 2
+    }
+  ]
+}
