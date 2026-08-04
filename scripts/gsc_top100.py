@@ -1,13 +1,7 @@
 import os, json, datetime
-from google.oauth2.credentials import Credentials
-from googleapiclient.discovery import build
+from gsc_auth_raw import get_session, SITE
 
-CRED = r'C:\Users\prin-win\aitoolssolo\.gsc_token.json'
-SCOPES = ["https://www.googleapis.com/auth/webmasters.readonly"]
-SITE = 'https://www.aitoolssolo.com/'
-
-creds = Credentials.from_authorized_user_file(CRED, SCOPES)
-svc = build('webmasters', 'v3', credentials=creds)
+svc = get_session()
 
 # GSC has 2-3 day latency; query last 28 days ending 3 days ago for breadth
 end = datetime.date.today() - datetime.timedelta(days=3)
@@ -21,7 +15,8 @@ body = {
     'rowLimit': 1000,
     'aggregation': 'byProperty',
 }
-res = svc.searchanalytics().query(siteUrl=SITE, body=body).execute()
+api = "https://searchconsole.googleapis.com/webmasters/v3/sites/" + SITE.rstrip('/') + "/searchAnalytics/query"
+res = svc.post(api, json=body).json()
 rows = res.get('rows', [])
 print(f"Raw query+page rows: {len(rows)}")
 

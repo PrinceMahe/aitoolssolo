@@ -7,15 +7,9 @@ Outputs:
 GSC API v3: rowLimit=25000, paginate with startRow.
 """
 import os, json, csv, datetime
-from google.oauth2.credentials import Credentials
-from googleapiclient.discovery import build
+from gsc_auth_raw import get_session, SITE
 
-CRED = os.path.join(os.path.dirname(__file__), '..', '.gsc_token.json')
-SCOPES = ["https://www.googleapis.com/auth/webmasters.readonly"]
-SITE = 'https://www.aitoolssolo.com/'
-
-creds = Credentials.from_authorized_user_file(CRED, SCOPES)
-svc = build('webmasters', 'v3', credentials=creds)
+svc = get_session()
 
 # Last 28 full days (gives enough volume for signal)
 end = datetime.date.today() - datetime.timedelta(days=3)
@@ -35,7 +29,8 @@ while True:
         'startRow': start_row,
         'aggregation': 'byProperty',
     }
-    res = svc.searchanalytics().query(siteUrl=SITE, body=body).execute()
+    api = "https://searchconsole.googleapis.com/webmasters/v3/sites/" + SITE.rstrip('/') + "/searchAnalytics/query"
+    res = svc.post(api, json=body).json()
     rows = res.get('rows', [])
     if not rows:
         break
