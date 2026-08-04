@@ -67,6 +67,13 @@ linkCanonical = true
     "browserbear-vs-relay",
     "krea-vs-vectorizer",
     "clearscope-vs-writer",
+    "chatgpt-vs-claude",
+    "firefly-vs-topaz",
+    "obsidian-copilot-vs-rewind",
+    "riverside-vs-veed",
+    "ramp-vs-wave",
+    "adobe-firefly-vs-nightcafe",
+    "riverside-vs-wondershare-filmora",
   ]
 
 [outputs]
