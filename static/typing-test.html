@@ -227,8 +227,15 @@
     .typing-area {
       width: 100%;
       position: relative;
-      min-height: 140px;
+      height: 180px;
+      overflow: hidden;
+      border-radius: 12px;
+      background: var(--bg-secondary);
+      border: 2px solid transparent;
+      transition: border-color 0.2s;
     }
+    .typing-area.active { border-color: var(--accent); }
+    .typing-area.completed { border-color: var(--correct); opacity: 0.6; }
     .typing-area.hidden { display: none; }
 
     .text-display {
@@ -237,16 +244,12 @@
       line-height: 2;
       color: var(--text-dim);
       padding: 24px;
-      background: var(--bg-secondary);
-      border-radius: 12px;
-      border: 2px solid transparent;
-      transition: border-color 0.2s;
+      padding-right: 60px;
       cursor: text;
       user-select: none;
       position: relative;
+      transition: transform 0.1s ease-out;
     }
-    .text-display.active { border-color: var(--accent); }
-    .text-display.completed { border-color: var(--correct); opacity: 0.6; }
 
     .char { transition: color 0.05s; }
     .char.current { color: var(--text-bright); }
@@ -452,6 +455,7 @@
       .live-stats { gap: 20px; }
       .stat-value { font-size: 1.2rem; }
       .text-display { font-size: 1rem; padding: 16px; }
+      .typing-area { height: 150px; }
       .results-wpm { font-size: 3rem; }
       .keyboard { display: none; }
       .key { width: 30px; height: 36px; font-size: 0.65rem; }
@@ -508,8 +512,9 @@
 
     <!-- Typing area -->
     <div class="typing-area" id="typingArea">
-      <div class="text-display" id="textDisplay"></div>
-      <div class="caret" id="caret"></div>
+      <div class="text-display" id="textDisplay">
+        <div class="caret" id="caret"></div>
+      </div>
       <div class="activation-overlay" id="activationOverlay">
         <div class="activation-text">Click or press Enter to start</div>
       </div>
@@ -853,6 +858,7 @@
     const $$ = (sel) => document.querySelectorAll(sel);
 
     const textDisplay = $('#textDisplay');
+    const typingArea = $('#typingArea');
     const caretEl = $('#caret');
     const activationOverlay = $('#activationOverlay');
     const progressFill = $('#progressFill');
@@ -916,10 +922,24 @@
     function positionCaret() {
       const currentChar = textDisplay.querySelector(`[data-index="${state.charIndex}"]`);
       if (!currentChar) return;
-      const displayRect = textDisplay.getBoundingClientRect();
-      const charRect = currentChar.getBoundingClientRect();
-      caretEl.style.left = (charRect.left - displayRect.left) + 'px';
-      caretEl.style.top = (charRect.top - displayRect.top) + 'px';
+
+      // Position caret relative to text-display content
+      const charTop = currentChar.offsetTop;
+      const charLeft = currentChar.offsetLeft;
+
+      caretEl.style.left = charLeft + 'px';
+      caretEl.style.top = charTop + 'px';
+
+      // Scroll text-display so the current line stays centered
+      const lineHeight = parseFloat(getComputedStyle(textDisplay).lineHeight);
+      const viewportHeight = typingArea.clientHeight;
+      const caretY = charTop + lineHeight / 2;
+
+      // Keep caret roughly centered in the visible area
+      const targetScroll = Math.max(0, caretY - viewportHeight / 2);
+
+      // Smooth scroll via transform
+      textDisplay.style.transform = `translateY(${-targetScroll}px)`;
     }
 
     // ═══════════════════════════════════════════════════════════
@@ -1079,7 +1099,7 @@
       state.isActive = true;
       state.startTime = null;
       activationOverlay.classList.add('hidden');
-      textDisplay.classList.add('active');
+      typingArea.classList.add('active');
       caretEl.classList.add('blink-off');
       positionCaret();
     }
@@ -1087,8 +1107,8 @@
     function finishTest() {
       state.isFinished = true;
       state.isActive = false;
-      textDisplay.classList.remove('active');
-      textDisplay.classList.add('completed');
+      typingArea.classList.remove('active');
+      typingArea.classList.add('completed');
       caretEl.style.display = 'none';
       showResults();
     }
@@ -1107,13 +1127,14 @@
       state.text = generateText();
 
       activationOverlay.classList.remove('hidden');
-      textDisplay.classList.remove('active', 'completed');
+      typingArea.classList.remove('active', 'completed');
       caretEl.style.display = '';
       caretEl.classList.remove('blink-off');
       resultsEl.classList.remove('visible');
       resultsEl.innerHTML = '';
 
       renderText();
+      textDisplay.style.transform = 'translateY(0)';
       positionCaret();
       updateStats();
       progressFill.style.width = '0%';
