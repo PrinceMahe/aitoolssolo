@@ -228,12 +228,14 @@
       width: 100%;
       position: relative;
       height: 180px;
-      overflow: hidden;
+      overflow-y: auto;
       border-radius: 12px;
       background: var(--bg-secondary);
       border: 2px solid transparent;
       transition: border-color 0.2s;
+      scrollbar-width: none;
     }
+    .typing-area::-webkit-scrollbar { display: none; }
     .typing-area.active { border-color: var(--accent); }
     .typing-area.completed { border-color: var(--correct); opacity: 0.6; }
     .typing-area.hidden { display: none; }
@@ -248,7 +250,6 @@
       cursor: text;
       user-select: none;
       position: relative;
-      transition: transform 0.1s ease-out;
     }
 
     .char { transition: color 0.05s; }
@@ -930,16 +931,12 @@
       caretEl.style.left = charLeft + 'px';
       caretEl.style.top = charTop + 'px';
 
-      // Scroll text-display so the current line stays centered
+      // Scroll the container so the current line stays centered
       const lineHeight = parseFloat(getComputedStyle(textDisplay).lineHeight);
       const viewportHeight = typingArea.clientHeight;
       const caretY = charTop + lineHeight / 2;
-
-      // Keep caret roughly centered in the visible area
       const targetScroll = Math.max(0, caretY - viewportHeight / 2);
-
-      // Smooth scroll via transform
-      textDisplay.style.transform = `translateY(${-targetScroll}px)`;
+      typingArea.scrollTop = targetScroll;
     }
 
     // ═══════════════════════════════════════════════════════════
@@ -1134,7 +1131,7 @@
       resultsEl.innerHTML = '';
 
       renderText();
-      textDisplay.style.transform = 'translateY(0)';
+      typingArea.scrollTop = 0;
       positionCaret();
       updateStats();
       progressFill.style.width = '0%';
