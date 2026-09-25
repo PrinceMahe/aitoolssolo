@@ -1,0 +1,1338 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Typing Test — Test Your Typing Speed | AI Tools Solo</title>
+  <meta name="description" content="Free online typing test and practice tool. Measure your WPM, accuracy, and consistency with real words. Modern, clean, and fast.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --bg: #1a1b26;
+      --bg-secondary: #24283b;
+      --bg-hover: #2f3349;
+      --text: #a9b1d6;
+      --text-dim: #565f89;
+      --text-bright: #c0caf5;
+      --accent: #7aa2f7;
+      --accent-hover: #89b4fa;
+      --correct: #9ece6a;
+      --incorrect: #f7768e;
+      --incorrect-bg: rgba(247, 118, 142, 0.15);
+      --warning: #e0af68;
+      --border: #3b4261;
+      --shadow: rgba(0, 0, 0, 0.3);
+      --caret: #c0caf5;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
+      --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+
+    [data-theme="light"] {
+      --bg: #f5f5f5;
+      --bg-secondary: #e8e8e8;
+      --bg-hover: #ddd;
+      --text: #4c4f69;
+      --text-dim: #9ca0b0;
+      --text-bright: #1e2030;
+      --accent: #1e66f5;
+      --accent-hover: #2a6ef5;
+      --correct: #40a02b;
+      --incorrect: #d20f39;
+      --incorrect-bg: rgba(210, 15, 57, 0.1);
+      --warning: #df8e1d;
+      --border: #ccd0da;
+      --shadow: rgba(0, 0, 0, 0.08);
+      --caret: #1e2030;
+    }
+
+    html { font-size: 16px; }
+    body {
+      font-family: var(--font-sans);
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    /* ─── NAVIGATION ─── */
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 32px;
+      border-bottom: 1px solid var(--border);
+      flex-shrink: 0;
+    }
+    .nav-brand {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--text-bright);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .nav-brand span { color: var(--accent); }
+    .nav-links {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+    .nav-link {
+      font-size: 0.8rem;
+      color: var(--text-dim);
+      text-decoration: none;
+      padding: 6px 12px;
+      border-radius: 6px;
+      transition: all 0.2s;
+      cursor: pointer;
+      border: none;
+      background: none;
+      font-family: var(--font-sans);
+    }
+    .nav-link:hover, .nav-link.active { color: var(--text-bright); background: var(--bg-secondary); }
+    .theme-toggle {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      border: 1px solid var(--border);
+      background: var(--bg-secondary);
+      color: var(--text);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      transition: all 0.2s;
+    }
+    .theme-toggle:hover { background: var(--bg-hover); }
+
+    /* ─── MAIN CONTAINER ─── */
+    .main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 24px 60px;
+      max-width: 900px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    /* ─── MODE SELECTOR ─── */
+    .mode-bar {
+      display: flex;
+      gap: 4px;
+      padding: 4px;
+      background: var(--bg-secondary);
+      border-radius: 10px;
+      margin-bottom: 32px;
+    }
+    .mode-btn {
+      padding: 8px 18px;
+      border: none;
+      background: none;
+      color: var(--text-dim);
+      font-family: var(--font-sans);
+      font-size: 0.85rem;
+      font-weight: 500;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+    .mode-btn:hover { color: var(--text); }
+    .mode-btn.active { background: var(--accent); color: #fff; }
+
+    /* ─── OPTIONS BAR ─── */
+    .options-bar {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      margin-bottom: 32px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .option-group {
+      display: flex;
+      gap: 2px;
+      padding: 3px;
+      background: var(--bg-secondary);
+      border-radius: 8px;
+    }
+    .option-btn {
+      padding: 6px 14px;
+      border: none;
+      background: none;
+      color: var(--text-dim);
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      font-weight: 500;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .option-btn:hover { color: var(--text); }
+    .option-btn.active { background: var(--bg-hover); color: var(--text-bright); }
+    .option-label {
+      font-size: 0.75rem;
+      color: var(--text-dim);
+      padding: 6px 0;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: 600;
+    }
+
+    /* ─── LIVE STATS BAR ─── */
+    .live-stats {
+      display: flex;
+      gap: 32px;
+      margin-bottom: 24px;
+      justify-content: center;
+    }
+    .stat-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+    }
+    .stat-value {
+      font-family: var(--font-mono);
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: var(--text-bright);
+      min-width: 60px;
+      text-align: center;
+      transition: color 0.2s;
+    }
+    .stat-value.accent { color: var(--accent); }
+    .stat-value.correct { color: var(--correct); }
+    .stat-value.wrong { color: var(--incorrect); }
+    .stat-label {
+      font-size: 0.7rem;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-weight: 600;
+    }
+
+    /* ─── TYPING AREA ─── */
+    .typing-area {
+      width: 100%;
+      position: relative;
+      min-height: 140px;
+    }
+    .typing-area.hidden { display: none; }
+
+    .text-display {
+      font-family: var(--font-mono);
+      font-size: 1.25rem;
+      line-height: 2;
+      color: var(--text-dim);
+      padding: 24px;
+      background: var(--bg-secondary);
+      border-radius: 12px;
+      border: 2px solid transparent;
+      transition: border-color 0.2s;
+      cursor: text;
+      user-select: none;
+      position: relative;
+    }
+    .text-display.active { border-color: var(--accent); }
+    .text-display.completed { border-color: var(--correct); opacity: 0.6; }
+
+    .char { transition: color 0.05s; }
+    .char.current { color: var(--text-bright); }
+    .char.correct { color: var(--correct); }
+    .char.incorrect {
+      color: var(--incorrect);
+      background: var(--incorrect-bg);
+      border-radius: 2px;
+    }
+    .char.current.incorrect {
+      color: var(--incorrect);
+      background: var(--incorrect-bg);
+    }
+    .char.untyped { color: var(--text-dim); }
+
+    .caret {
+      position: absolute;
+      width: 2.5px;
+      height: 1.4em;
+      background: var(--caret);
+      border-radius: 2px;
+      animation: blink 1s ease-in-out infinite;
+      pointer-events: none;
+      z-index: 10;
+      transition: left 0.08s ease, top 0.08s ease;
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .caret.blink-off { animation: none; opacity: 1; }
+
+    /* ─── PROGRESS BAR ─── */
+    .progress-bar {
+      width: 100%;
+      height: 4px;
+      background: var(--bg-secondary);
+      border-radius: 2px;
+      margin-top: 16px;
+      overflow: hidden;
+    }
+    .progress-fill {
+      height: 100%;
+      background: var(--accent);
+      border-radius: 2px;
+      transition: width 0.3s ease;
+      width: 0%;
+    }
+
+    /* ─── ACTIVATION OVERLAY ─── */
+    .activation-overlay {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(26, 27, 38, 0.7);
+      border-radius: 12px;
+      z-index: 20;
+      cursor: pointer;
+      transition: opacity 0.2s;
+    }
+    .activation-overlay.hidden { display: none; }
+    .activation-text {
+      font-size: 0.9rem;
+      color: var(--text-dim);
+      background: var(--bg-secondary);
+      padding: 10px 20px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+    }
+
+    /* ─── RESULTS ─── */
+    .results {
+      width: 100%;
+      display: none;
+      text-align: center;
+      animation: fadeIn 0.5s ease;
+    }
+    .results.visible { display: block; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+    .results-wpm {
+      font-size: 4rem;
+      font-weight: 800;
+      color: var(--accent);
+      line-height: 1;
+      margin-bottom: 4px;
+      font-family: var(--font-mono);
+    }
+    .results-label {
+      font-size: 0.9rem;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-weight: 600;
+      margin-bottom: 32px;
+    }
+    .results-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+    .result-card {
+      background: var(--bg-secondary);
+      padding: 20px 16px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .result-card .value {
+      font-family: var(--font-mono);
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--text-bright);
+    }
+    .result-card .label {
+      font-size: 0.7rem;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-top: 4px;
+      font-weight: 600;
+    }
+
+    /* ─── WPM CHART ─── */
+    .chart-container {
+      background: var(--bg-secondary);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 32px;
+    }
+    .chart-container h3 {
+      font-size: 0.8rem;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+    .wpm-chart {
+      width: 100%;
+      height: 120px;
+    }
+
+    /* ─── KEYBOARD ─── */
+    .keyboard {
+      background: var(--bg-secondary);
+      border-radius: 12px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      align-items: center;
+      margin-top: 32px;
+    }
+    .kb-row {
+      display: flex;
+      gap: 5px;
+    }
+    .key {
+      width: 44px;
+      height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--bg-hover);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-family: var(--font-mono);
+      font-size: 0.8rem;
+      color: var(--text-dim);
+      transition: all 0.15s;
+      font-weight: 500;
+    }
+    .key.active {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+      transform: scale(1.05);
+      box-shadow: 0 2px 8px rgba(122, 162, 247, 0.3);
+    }
+    .key.space { width: 260px; }
+
+    /* ─── FOOTER ─── */
+    .footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--text-dim);
+      font-size: 0.8rem;
+      border-top: 1px solid var(--border);
+      margin-top: auto;
+    }
+    .footer a { color: var(--accent); text-decoration: none; }
+    .footer a:hover { text-decoration: underline; }
+
+    /* ─── RESPONSIVE ─── */
+    @media (max-width: 640px) {
+      .nav { padding: 12px 16px; }
+      .main { padding: 24px 16px 40px; }
+      .mode-bar { flex-wrap: wrap; justify-content: center; }
+      .mode-btn { padding: 6px 12px; font-size: 0.78rem; }
+      .live-stats { gap: 20px; }
+      .stat-value { font-size: 1.2rem; }
+      .text-display { font-size: 1rem; padding: 16px; }
+      .results-wpm { font-size: 3rem; }
+      .keyboard { display: none; }
+      .key { width: 30px; height: 36px; font-size: 0.65rem; }
+      .key.space { width: 160px; }
+      .kb-row { gap: 3px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="nav">
+    <a href="/" class="nav-brand"><span>⚡</span> AI Tools Solo</a>
+    <div class="nav-links">
+      <a href="/tools/" class="nav-link">Tools</a>
+      <a href="/alternatives/" class="nav-link">Alternatives</a>
+      <button class="theme-toggle" id="themeToggle" title="Toggle theme">🌙</button>
+    </div>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <div class="main">
+
+    <!-- Mode selector -->
+    <div class="mode-bar" id="modeBar">
+      <button class="mode-btn active" data-mode="time">time</button>
+      <button class="mode-btn" data-mode="words">words</button>
+      <button class="mode-btn" data-mode="quote">quote</button>
+      <button class="mode-btn" data-mode="code">code</button>
+    </div>
+
+    <!-- Options bar -->
+    <div class="options-bar" id="optionsBar"></div>
+
+    <!-- Live stats -->
+    <div class="live-stats" id="liveStats">
+      <div class="stat-item">
+        <div class="stat-value accent" id="statWpm">0</div>
+        <div class="stat-label">WPM</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value" id="statTime">0</div>
+        <div class="stat-label" id="statTimeLabel">TIME</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value correct" id="statAccuracy">100</div>
+        <div class="stat-label">ACCURACY</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value" id="statErrors">0</div>
+        <div class="stat-label">ERRORS</div>
+      </div>
+    </div>
+
+    <!-- Typing area -->
+    <div class="typing-area" id="typingArea">
+      <div class="text-display" id="textDisplay"></div>
+      <div class="caret" id="caret"></div>
+      <div class="activation-overlay" id="activationOverlay">
+        <div class="activation-text">Click or press Enter to start</div>
+      </div>
+    </div>
+
+    <!-- Progress bar -->
+    <div class="progress-bar" id="progressBar">
+      <div class="progress-fill" id="progressFill"></div>
+    </div>
+
+    <!-- Results -->
+    <div class="results" id="results"></div>
+
+    <!-- Keyboard -->
+    <div class="keyboard" id="keyboard">
+      <div class="kb-row" data-row="qwerty">
+        <div class="key" data-key="`">`</div>
+        <div class="key" data-key="1">1</div>
+        <div class="key" data-key="2">2</div>
+        <div class="key" data-key="3">3</div>
+        <div class="key" data-key="4">4</div>
+        <div class="key" data-key="5">5</div>
+        <div class="key" data-key="6">6</div>
+        <div class="key" data-key="7">7</div>
+        <div class="key" data-key="8">8</div>
+        <div class="key" data-key="9">9</div>
+        <div class="key" data-key="0">0</div>
+        <div class="key" data-key="-">-</div>
+        <div class="key" data-key="=">=</div>
+        <div class="key" data-key="Backspace">⌫</div>
+      </div>
+      <div class="kb-row">
+        <div class="key" data-key="Tab" style="width:60px">Tab</div>
+        <div class="key" data-key="q">Q</div>
+        <div class="key" data-key="w">W</div>
+        <div class="key" data-key="e">E</div>
+        <div class="key" data-key="r">R</div>
+        <div class="key" data-key="t">T</div>
+        <div class="key" data-key="y">Y</div>
+        <div class="key" data-key="u">U</div>
+        <div class="key" data-key="i">I</div>
+        <div class="key" data-key="o">O</div>
+        <div class="key" data-key="p">P</div>
+        <div class="key" data-key="[">[</div>
+        <div class="key" data-key="]">]</div>
+        <div class="key" data-key="\" style="width:54px">\</div>
+      </div>
+      <div class="kb-row">
+        <div class="key" data-key="CapsLock" style="width:70px">Caps</div>
+        <div class="key" data-key="a">A</div>
+        <div class="key" data-key="s">S</div>
+        <div class="key" data-key="d">D</div>
+        <div class="key" data-key="f">F</div>
+        <div class="key" data-key="g">G</div>
+        <div class="key" data-key="h">H</div>
+        <div class="key" data-key="j">J</div>
+        <div class="key" data-key="k">K</div>
+        <div class="key" data-key="l">L</div>
+        <div class="key" data-key=";">;</div>
+        <div class="key" data-key="'">'</div>
+        <div class="key" data-key="Enter" style="width:74px">Enter</div>
+      </div>
+      <div class="kb-row">
+        <div class="key" data-key="Shift" style="width:90px">Shift</div>
+        <div class="key" data-key="z">Z</div>
+        <div class="key" data-key="x">X</div>
+        <div class="key" data-key="c">C</div>
+        <div class="key" data-key="v">V</div>
+        <div class="key" data-key="b">B</div>
+        <div class="key" data-key="n">N</div>
+        <div class="key" data-key="m">M</div>
+        <div class="key" data-key=",">,</div>
+        <div class="key" data-key=".">.</div>
+        <div class="key" data-key="/">/</div>
+        <div class="key" data-key="Shift" style="width:90px">Shift</div>
+      </div>
+      <div class="kb-row">
+        <div class="key" data-key=" " style="width:260px">Space</div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    Built by <a href="/">AI Tools Solo</a> — a free typing test with real words, not gibberish.
+  </footer>
+
+  <script>
+  (() => {
+    'use strict';
+
+    // ═══════════════════════════════════════════════════════════
+    // WORD LISTS — Real words, weighted by English frequency
+    // ═══════════════════════════════════════════════════════════
+    const COMMON_WORDS = [
+      'the','be','to','of','and','a','in','that','have','i','it','for','not','on','with',
+      'he','as','you','do','at','this','but','his','by','from','they','we','say','her','she',
+      'or','an','will','my','one','all','would','there','their','what','so','up','out','if',
+      'about','who','get','which','go','me','when','make','can','like','time','no','just',
+      'him','know','take','people','into','year','your','good','some','could','them','see',
+      'other','than','then','now','look','only','come','its','over','think','also','back',
+      'after','use','two','how','our','work','first','well','way','even','new','want',
+      'because','any','these','give','day','most','us','great','find','here','thing','many',
+      'may','still','long','much','should','man','world','life','hand','part','place','old',
+      'very','year','such','need','big','high','each','tell','does','set','three','more',
+      'run','home','big','read','small','never','each','right','start','might','show','also',
+      'around','country','help','line','turn','move','try','ask','men','own','play','land',
+      'school','close','point','city','form','off','group','real','leave','side','few','case',
+      'week','company','system','program','question','against','last','number','night','real',
+      'life','few','north','open','seem','together','next','white','children','begin','got',
+      'walk','example','ease','paper','group','always','music','those','both','mark','often',
+      'letter','until','mile','river','car','feet','care','second','enough','plain','girl',
+      'usual','young','ready','above','ever','red','list','though','feel','talk','bird','soon',
+      'body','dog','family','direct','pose','leave','song','measure','door','product','black',
+      'short','numeral','class','wind','question','happen','complete','ship','area','half',
+      'rock','order','fire','south','problem','piece','told','knew','pass','since','top',
+      'whole','king','space','heard','best','hour','better','true','during','hundred','five',
+      'remember','step','early','hold','west','ground','interest','reach','fast','verb','sing',
+      'listen','six','table','travel','less','morning','ten','simple','several','vowel','toward',
+      'war','lay','against','pattern','slow','center','love','person','money','serve','appear',
+      'road','map','rain','rule','govern','pull','cold','notice','voice','energy','hunt','probable',
+      'bed','brother','egg','ride','cell','believe','perhaps','pick','sudden','count','reason',
+      'square','moment','develop','catch','sleep','minute','weight','happen','natural','develop',
+      'mountain','cut','young','talk','soon','list','song','leave','family','body','color',
+      'wood','finish','happy','shall','strong','friend','father','able','ship','ocean',
+    ];
+
+    const MEDIUM_WORDS = [
+      'ability','absence','academy','account','achieve','acquire','address','advance','adverse',
+      'already','amazing','ancient','anxiety','anybody','applied','arrange','article','attempt',
+      'attract','average','balance','battery','bearing','because','bedroom','believe','billion',
+      'blanket','breathe','brother','cabinet','calculate','capable','capital','capture','careful',
+      'category','caution','ceiling','central','century','certain','chamber','chapter','charity',
+      'chicken','chronic','circuit','classic','cluster','coastal','collect','combine','comfort',
+      'command','comment','company','compare','compete','complex','concept','concern','conduct',
+      'confirm','connect','consist','contact','contain','content','context','control','convert',
+      'correct','council','counter','country','couple','courage','covered','created','crystal',
+      'culture','current','customs','damage','danger','dealer','debate','decade','decide',
+      'defeat','defend','define','degree','demand','depend','deploy','describe','design',
+      'desire','detail','detect','device','devote','differ','digital','display','distance',
+      'divine','donate','doubt','dozen','draft','dragon','driven','during','easily',
+      'editor','effect','effort','eighth','empire','enable','endure','energy','engage',
+      'engine','enough','ensure','entire','entity','equity','escape','estate','ethnic',
+      'evolve','exceed','except','excess','excite','exclude','exotic','expense','explain',
+      'explore','express','extend','extent','fabric','factor','failed','fairly','fallen',
+      'family','famous','farmer','father','fellow','female','fierce','figure','filter',
+      'finger','flower','follow','forbid','forced','forest','forever','forget','format',
+      'former','foster','fourth','freeze','friend','frozen','future','garden','gather',
+      'gender','genius','gentle','genuine','gifted','global','golden','govern','growth',
+      'guilty','handle','happen','hardly','having','height','hidden','honest','horror',
+      'hunger','hunter','ignore','immune','impact','import','impose','income','indeed',
+      'indoor','infant','inform','inject','injury','insert','inside','insist','insure',
+      'intend','intent','invent','invest','invite','island','itself','jacket','jungle',
+      'junior','kidney','knight','launch','lawyer','layout','leader','league','legend',
+      'lesson','letter','likely','listen','litter','little','living','locate','lovely',
+      'luxury','mainly','manage','manner','marine','marked','market','master','matter',
+      'medium','member','memory','mental','merely','merger','method','middle','mighty',
+      'minute','mirror','mobile','modern','modify','moment','mostly','mother','motion',
+      'motive','museum','mutual','myself','narrow','nation','nature','nearby','nearly',
+      'needle','normal','notice','notion','number','object','obtain','occupy','offend',
+      'office','online','oppose','option','orange','origin','outfit','output','oxygen',
+      'palace','parade','parent','partly','patrol','patron','pencil','people','period',
+      'permit','person','phrase','pillar','pillow','plenty','pocket','poetry','poison',
+      'policy','polish','portal','poster','potato','powder','prayer','prefer','pretty',
+      'prince','prison','profit','proper','proven','public','pursue','puzzle','radar',
+      'random','rather','reader','really','reason','recall','recipe','record','reduce',
+      'reform','regard','regime','region','regret','reject','relate','relief','remain',
+      'remedy','remote','remove','render','renew','repair','repeat','report','rescue',
+      'resign','resist','resort','result','retain','retire','return','reveal','review',
+      'reward','rhythm','rising','robot','rugged','rural','sacred','safety','salary',
+      'sample','saving','scheme','school','screen','script','search','season','second',
+      'secret','sector','secure','select','senior','series','server','severe','shadow',
+      'shield','should','signal','silent','silver','simple','simply','singer','single',
+      'sister','smooth','socket','softly','solely','solemn','sought','source','speech',
+      'spirit','spread','spring','square','stable','status','steady','strain','strand',
+      'stream','street','stress','strict','strike','string','stroke','strong','submit',
+      'subtle','sudden','suffer','summit','supply','surely','survey','switch','symbol',
+      'system','tackle','talent','target','temple','tenant','tender','terror','thanks',
+      'theory','thirty','though','thread','threat','thrive','throne','timber','tissue',
+      'tongue','toward','travel','treaty','tribal','trophy','tunnel','twelve','unfair',
+      'unique','united','unless','unlike','update','uphold','urgent','valley','vanish',
+      'vendor','verify','vessel','viable','victim','viewer','virgin','vision','volume',
+      'walker','warmly','wealth','weapon','weekly','weight','wholly','widely','window',
+      'winner','winter','wisdom','within','wonder','worker','worthy','writer','yellow',
+    ];
+
+    const HARD_WORDS = [
+      'abbreviation','accommodate','achievement','acknowledge','acquisition','addressing',
+      'administration','advertisement','approximate','architecture','assessment','assignment',
+      'atmosphere','authority','automobile','background','bargaining','basketball',
+      'biological','breakthrough','businessman','calculator','campaign','candidacy',
+      'carpenter','catalogue','caterpillar','championship','characteristic','charter',
+      'citizenship','collective','commentary','commission','communication','community',
+      'comparison','competitive','completely','component','comprehensive','concentration',
+      'conclusion','conference','configuration','confirmation','congressional','consequence',
+      'considerable','construction','consultant','consumer','contribution','controversial',
+      'conventional','correspondent','councilman','counselor','countryside','courthouse',
+      'cultural','curriculum','declaration','definition','deliberately','democracy',
+      'demonstrate','department','description','designer','development','dictionary',
+      'difficulty','dimensional','diplomatic','director','disability','discipline',
+      'discount','discovery','discussion','disease','dissertation','distinction',
+      'distribute','division','doctrine','documentary','dominant','dramatically',
+      'ecosystem','elaborate','elementary','emergence','emission','emphasis',
+      'employment','enrollment','entirely','enterprise','entertainment','entrepreneur',
+      'envelope','equivalent','essential','establish','evaluation','eventually',
+      'everybody','everyone','everything','evidence','examination','executive',
+      'exhibition','existence','expansion','experiment','explanation','expression',
+      'extension','extensive','fabrication','facilitate','facility','familiar',
+      'fashion','fellowship','fertilizer','festival','filesystem','fingerprint',
+      'formation','foundation','fraction','fragment','framework','franchise',
+      'frequently','frontier','fruitful','functionality','furniture','gallery',
+      'gardener','garrison','governor','gradually','grammar','guarantee',
+      'guideline','handbook','happened','hardware','headline','hesitate',
+      'historian','hospitality','hydrogen','identical','identity','ideology',
+      'ignorant','illustrate','immediate','immigrant','imperial','implicit',
+      'imported','imprison','incident','included','increase','indicate',
+      'individual','industry','informal','informed','inherent','initiate',
+      'innocent','innovative','inspired','instance','integral','intended',
+      'interact','interest','interior','internal','interval','intimate',
+      'invasion','invention','investor','involved','ironically','isolation',
+      'journalism','judiciary','keyboard','kindergarten','landlord','language',
+      'laughter','lawmaker','liberal','liberty','license','lifestyle',
+      'literary','logistics','magnetic','maintain','majority','manifest',
+      'manifestation','manipulate','manuscript','marriage','mathematical',
+      'mechanical','medieval','membrane','merchant','midnight','militant',
+      'minister','minority','moderate','momentum','monopoly','mortgage',
+      'multiply','mushroom','mutation','national','navigate','negative',
+      'negotiate','neighbor','newspaper','nominate','normally','notebook',
+      'nuclear','numerous','nutrient','obstacle','occasion','occupation',
+      'offensive','official','opponent','opposite','optimistic','ordinary',
+      'organism','organize','original','outbreak','overcome','overlook',
+      'ownership','oxygen','painting','parallel','parameter','parliament',
+      'partially','particle','patience','peaceful','peculiar','perceive',
+      'periodic','permanent','personal','persuade','petition','physical',
+      'pipeline','platform','pleasant','pleasure','plethora','pointer',
+      'politics','populate','portfolio','portrait','position','positive',
+      'possible','possibly','potential','practically','practice','precise',
+      'predict','premiere','preparation','presence','preserve','pressing',
+      'pressure','prestige','previous','principle','priority','probable',
+      'proceed','processor','produced','producer','profound','progress',
+      'prohibit','prolific','prominent','promote','promptly','properly',
+      'property','proposal','proposed','prospect','protocol','provider',
+      'province','publicly','purchase','pursuant','pursuant','qualify',
+      'quarter','questionnaire','quotient','rational','reaction','readable',
+      'reality','reasonable','receipt','recovery','reflect','regional',
+      'register','regulate','reinforce','relation','relative','relevant',
+      'reliable','religion','remember','renowned','repeated','reporter',
+      'republic','reputation','research','resident','resigned','resource',
+      'response','responsible','restrain','retailer','retrieve','reunion',
+      'revenue','revision','rigorous','romantic','ruthless','sabotage',
+      'sandwich','scenario','schedule','scholar','scratch','seasonal',
+      'secondly','security','selection','semester','sequence','sergeant',
+      'several','shepherd','shortage','shoulder','shutdown','sideways',
+      'signature','simplify','skeleton','sleeping','slightly','slippery',
+      'smallest','snapshot','software','solution','somebody','somewhat',
+      'southern','spacious','specific','spectrum','spending','spiral',
+      'squirrel','standard','standing','starting','steadily','steering',
+      'stimulus','stopping','straight','stranger','strategy','strength',
+      'stressed','strictly','striking','strongly','struggle','stunning',
+      'suburban','suddenly','suffered','suggested','summary','superior',
+      'supposed','suppress','surgical','surprise','surround','survival',
+      'survivor','suspense','symbolic','sympathy','syndrome','tactical',
+      'tendency','terminal','terrific','testimony','textbook','thankful',
+      'thirteen','thorough','thousand','thriller','together','tomorrow',
+      'touching','township','tracking','transfer','transmit','treasure',
+      'trillion','tropical','troubled','truthful','ultimate','umbrella',
+      'undergo','universe','unlikely','upcoming','updating','upstairs',
+      'vacation','validate','valuable','variable','veteran','village',
+      'violence','volatile','volcanic','warranty','weakness','whatever',
+      'whenever','wherever','wildlife','wireless','withdraw','workshop',
+      'yearbook','yourself',
+    ];
+
+    const WORD_PACKS = {
+      easy: COMMON_WORDS,
+      medium: MEDIUM_WORDS,
+      hard: HARD_WORDS,
+    };
+
+    const QUOTES = [
+      "The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle.",
+      "Innovation distinguishes between a leader and a follower. Stay hungry, stay foolish.",
+      "Your time is limited, don't waste it living someone else's life.",
+      "The best time to plant a tree was twenty years ago. The second best time is now.",
+      "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+      "In the middle of difficulty lies opportunity. Problems cannot be solved with the same mind that created them.",
+      "Life is what happens when you're busy making other plans. The purpose of our lives is to be happy.",
+      "You must be the change you wish to see in the world. Peace begins with a smile.",
+      "Everything you can imagine is real. Reality leaves a lot to the imagination.",
+      "It does not matter how slowly you go as long as you do not stop. Persistence beats resistance.",
+      "The mind is everything. What you think you become. Think different, think bigger.",
+      "Strive not to be a success, but rather to be of value. Value is created by solving real problems.",
+      "Two roads diverged in a wood, and I took the one less traveled by, and that has made all the difference.",
+      "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+      "Tell me and I forget. Teach me and I remember. Involve me and I learn. Do, then learn.",
+      "If you look at what you have in life, you will always have more. Gratitude multiplies abundance.",
+      "Believe you can and you're halfway there. Your limitation—it's only your imagination.",
+      "The future belongs to those who believe in the beauty of their dreams. Dream on.",
+      "It is during our darkest moments that we must focus to see the light. Hope is everything.",
+      "Whoever is happy will make others happy too. Happiness is not a destination, it's a way of life.",
+      "In three words I can sum up everything I've learned about life: it goes on. Every single day.",
+      "We are what we repeatedly do. Excellence, then, is not an act, but a habit. Build good habits.",
+      "The only impossible journey is the one you never begin. Start where you are, use what you have.",
+      "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+      "You gain strength, courage, and confidence by every experience in which you really stop to look fear in the face.",
+    ];
+
+    const CODE_SNIPPETS = [
+      'const fetchData = async (url) => {\n  try {\n    const response = await fetch(url);\n    const data = await response.json();\n    return data;\n  } catch (error) {\n    console.error("Failed to fetch:", error);\n  }\n};',
+      'function debounce(func, wait) {\n  let timeout;\n  return function executedFunction(...args) {\n    const later = () => {\n      clearTimeout(timeout);\n      func(...args);\n    };\n    clearTimeout(timeout);\n    timeout = setTimeout(later, wait);\n  };\n}',
+      'const map = new Map();\nmap.set("key1", "value1");\nmap.set("key2", "value2");\nfor (const [key, value] of map) {\n  console.log(`${key}: ${value}`);\n}',
+      'class EventEmitter {\n  constructor() {\n    this.events = {};\n  }\n  on(event, listener) {\n    if (!this.events[event]) this.events[event] = [];\n    this.events[event].push(listener);\n  }\n  emit(event, ...args) {\n    if (this.events[event]) {\n      this.events[event].forEach(fn => fn(...args));\n    }\n  }\n}',
+      'const pipe = (...fns) => (x) => fns.reduce((v, f) => f(v), x);\nconst compose = (...fns) => (x) => fns.reduceRight((v, f) => f(v), x);\nconst add1 = x => x + 1;\nconst mul2 = x => x * 2;\nconsole.log(pipe(add1, mul2)(5)); // 12',
+    ];
+
+    // ═══════════════════════════════════════════════════════════
+    // STATE
+    // ═══════════════════════════════════════════════════════════
+    let state = {
+      mode: 'time',
+      modeOption: 30,       // seconds for time, words for words
+      difficulty: 'medium',
+      text: '',
+      charIndex: 0,
+      typed: [],
+      errors: 0,
+      totalKeystrokes: 0,
+      correctKeystrokes: 0,
+      startTime: null,
+      isActive: false,
+      isFinished: false,
+      wpmHistory: [],
+      rawWpmHistory: [],
+    };
+
+    // ═══════════════════════════════════════════════════════════
+    // DOM REFS
+    // ═══════════════════════════════════════════════════════════
+    const $ = (sel) => document.querySelector(sel);
+    const $$ = (sel) => document.querySelectorAll(sel);
+
+    const textDisplay = $('#textDisplay');
+    const caretEl = $('#caret');
+    const activationOverlay = $('#activationOverlay');
+    const progressFill = $('#progressFill');
+    const resultsEl = $('#results');
+    const keyboard = $('#keyboard');
+
+    // ═══════════════════════════════════════════════════════════
+    // TEXT GENERATION
+    // ═══════════════════════════════════════════════════════════
+    function pickRandom(arr, n) {
+      const result = [];
+      for (let i = 0; i < n; i++) {
+        result.push(arr[Math.floor(Math.random() * arr.length)]);
+      }
+      return result;
+    }
+
+    function generateText() {
+      switch (state.mode) {
+        case 'time': {
+          const count = 150; // enough words for any time limit
+          return pickRandom(WORD_PACKS[state.difficulty], count).join(' ');
+        }
+        case 'words': {
+          const count = typeof state.modeOption === 'number' ? state.modeOption : 25;
+          return pickRandom(WORD_PACKS[state.difficulty], count).join(' ');
+        }
+        case 'quote': {
+          return QUOTES[Math.floor(Math.random() * QUOTES.length)];
+        }
+        case 'code': {
+          return CODE_SNIPPETS[Math.floor(Math.random() * CODE_SNIPPETS.length)];
+        }
+        default:
+          return pickRandom(WORD_PACKS[state.difficulty], 50).join(' ');
+      }
+    }
+
+    // ═══════════════════════════════════════════════════════════
+    // RENDER TEXT
+    // ═══════════════════════════════════════════════════════════
+    function renderText() {
+      const chars = state.text.split('');
+      let html = '';
+      for (let i = 0; i < chars.length; i++) {
+        let cls = 'char';
+        if (i < state.charIndex) {
+          cls += state.typed[i] === chars[i] ? ' correct' : ' incorrect';
+        } else if (i === state.charIndex) {
+          cls += ' current';
+        } else {
+          cls += ' untyped';
+        }
+        // Escape HTML
+        const ch = chars[i] === '<' ? '&lt;' : chars[i] === '>' ? '&gt;' : chars[i] === '&' ? '&amp;' : chars[i] === ' ' ? '&nbsp;' : chars[i] === '\n' ? '↵<br>' : chars[i];
+        html += `<span class="${cls}" data-index="${i}">${ch}</span>`;
+      }
+      textDisplay.innerHTML = html;
+    }
+
+    function positionCaret() {
+      const currentChar = textDisplay.querySelector(`[data-index="${state.charIndex}"]`);
+      if (!currentChar) return;
+      const displayRect = textDisplay.getBoundingClientRect();
+      const charRect = currentChar.getBoundingClientRect();
+      caretEl.style.left = (charRect.left - displayRect.left) + 'px';
+      caretEl.style.top = (charRect.top - displayRect.top) + 'px';
+    }
+
+    // ═══════════════════════════════════════════════════════════
+    // STATS
+    // ═══════════════════════════════════════════════════════════
+    function getElapsed() {
+      return state.startTime ? (Date.now() - state.startTime) / 1000 : 0;
+    }
+
+    function calcWpm() {
+      const elapsed = getElapsed();
+      if (elapsed < 1) return 0;
+      const words = state.correctKeystrokes / 5;
+      return Math.round((words / elapsed) * 60);
+    }
+
+    function calcRawWpm() {
+      const elapsed = getElapsed();
+      if (elapsed < 1) return 0;
+      const words = state.totalKeystrokes / 5;
+      return Math.round((words / elapsed) * 60);
+    }
+
+    function calcAccuracy() {
+      if (state.totalKeystrokes === 0) return 100;
+      return Math.round((state.correctKeystrokes / state.totalKeystrokes) * 100);
+    }
+
+    function updateStats() {
+      $('#statWpm').textContent = calcWpm();
+      const acc = calcAccuracy();
+      const accEl = $('#statAccuracy');
+      accEl.textContent = acc;
+      accEl.className = 'stat-value ' + (acc >= 95 ? 'correct' : acc >= 80 ? '' : 'wrong');
+      $('#statErrors').textContent = state.errors;
+
+      if (state.mode === 'time' && state.startTime) {
+        const remaining = Math.max(0, state.modeOption - Math.floor(getElapsed()));
+        $('#statTime').textContent = remaining;
+        $('#statTimeLabel').textContent = 'TIME';
+      } else {
+        $('#statTime').textContent = Math.floor(getElapsed());
+        $('#statTimeLabel').textContent = 'TIME';
+      }
+    }
+
+    // ═══════════════════════════════════════════════════════════
+    // PROGRESS
+    // ═══════════════════════════════════════════════════════════
+    function updateProgress() {
+      let pct;
+      if (state.mode === 'time') {
+        const elapsed = getElapsed();
+        pct = Math.min(100, (elapsed / state.modeOption) * 100);
+      } else {
+        pct = (state.charIndex / state.text.length) * 100;
+      }
+      progressFill.style.width = pct + '%';
+    }
+
+    // ═══════════════════════════════════════════════════════════
+    // KEYBOARD HIGHLIGHTING
+    // ═══════════════════════════════════════════════════════════
+    function highlightKey(key, active) {
+      const keyEl = keyboard.querySelector(`[data-key="${key}"]`);
+      if (keyEl) {
+        keyEl.classList.toggle('active', active);
+      }
+    }
+
+    // ═══════════════════════════════════════════════════════════
+    // INPUT HANDLING
+    // ═══════════════════════════════════════════════════════════
+    function handleKey(e) {
+      if (state.isFinished) return;
+
+      // Ignore modifier-only keys
+      if (['Shift','Control','Alt','Meta','CapsLock','Tab','Escape'].includes(e.key)) return;
+
+      // Activation
+      if (!state.isActive && !state.isFinished) {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          startTest();
+          return;
+        }
+        return;
+      }
+
+      // Restart with Tab
+      if (e.key === 'Tab') {
+        e.preventDefault();
+        resetTest();
+        return;
+      }
+
+      // Backspace
+      if (e.key === 'Backspace') {
+        e.preventDefault();
+        if (state.charIndex > 0) {
+          state.charIndex--;
+          renderText();
+          positionCaret();
+        }
+        return;
+      }
+
+      // Ignore other non-printable
+      if (e.key.length > 1) return;
+
+      e.preventDefault();
+
+      // Start timer on first keystroke
+      if (!state.startTime) {
+        state.startTime = Date.now();
+      }
+
+      state.totalKeystrokes++;
+      const expected = state.text[state.charIndex];
+
+      if (e.key === expected) {
+        state.correctKeystrokes++;
+        state.typed[state.charIndex] = e.key;
+      } else {
+        state.errors++;
+        state.typed[state.charIndex] = e.key; // store what was actually typed (wrong)
+      }
+
+      state.charIndex++;
+      renderText();
+      positionCaret();
+      updateStats();
+      updateProgress();
+
+      // Check completion
+      if (state.mode === 'words' || state.mode === 'quote' || state.mode === 'code') {
+        if (state.charIndex >= state.text.length) {
+          finishTest();
+        }
+      } else if (state.mode === 'time') {
+        if (getElapsed() >= state.modeOption) {
+          finishTest();
+        }
+      }
+
+      // Record WPM history
+      if (state.startTime) {
+        state.wpmHistory.push(calcWpm());
+        state.rawWpmHistory.push(calcRawWpm());
+      }
+    }
+
+    // ═══════════════════════════════════════════════════════════
+    // TEST LIFECYCLE
+    // ═══════════════════════════════════════════════════════════
+    function startTest() {
+      state.isActive = true;
+      state.startTime = null;
+      activationOverlay.classList.add('hidden');
+      textDisplay.classList.add('active');
+      caretEl.classList.add('blink-off');
+      positionCaret();
+    }
+
+    function finishTest() {
+      state.isFinished = true;
+      state.isActive = false;
+      textDisplay.classList.remove('active');
+      textDisplay.classList.add('completed');
+      caretEl.style.display = 'none';
+      showResults();
+    }
+
+    function resetTest() {
+      state.charIndex = 0;
+      state.typed = [];
+      state.errors = 0;
+      state.totalKeystrokes = 0;
+      state.correctKeystrokes = 0;
+      state.startTime = null;
+      state.isActive = false;
+      state.isFinished = false;
+      state.wpmHistory = [];
+      state.rawWpmHistory = [];
+      state.text = generateText();
+
+      activationOverlay.classList.remove('hidden');
+      textDisplay.classList.remove('active', 'completed');
+      caretEl.style.display = '';
+      caretEl.classList.remove('blink-off');
+      resultsEl.classList.remove('visible');
+      resultsEl.innerHTML = '';
+
+      renderText();
+      positionCaret();
+      updateStats();
+      progressFill.style.width = '0%';
+
+      // Deactivate all keyboard keys
+      $$('.key.active').forEach(k => k.classList.remove('active'));
+    }
+
+    // ═══════════════════════════════════════════════════════════
+    // RESULTS
+    // ═══════════════════════════════════════════════════════════
+    function showResults() {
+      const wpm = calcWpm();
+      const rawWpm = calcRawWpm();
+      const acc = calcAccuracy();
+      const elapsed = Math.round(getElapsed());
+
+      // Consistency: stdev of WPM samples
+      let consistency = 100;
+      if (state.wpmHistory.length > 2) {
+        const mean = state.wpmHistory.reduce((a, b) => a + b, 0) / state.wpmHistory.length;
+        const variance = state.wpmHistory.reduce((a, b) => a + Math.pow(b - mean, 2), 0) / state.wpmHistory.length;
+        const stdev = Math.sqrt(variance);
+        consistency = Math.max(0, Math.round(100 - (stdev / Math.max(mean, 1)) * 100));
+      }
+
+      resultsEl.innerHTML = `
+        <div class="results-wpm">${wpm}</div>
+        <div class="results-label">words per minute</div>
+        <div class="results-grid">
+          <div class="result-card">
+            <div class="value">${rawWpm}</div>
+            <div class="label">Raw WPM</div>
+          </div>
+          <div class="result-card">
+            <div class="value" style="color: ${acc >= 95 ? 'var(--correct)' : acc >= 80 ? 'var(--warning)' : 'var(--incorrect)'}">${acc}%</div>
+            <div class="label">Accuracy</div>
+          </div>
+          <div class="result-card">
+            <div class="value">${state.errors}</div>
+            <div class="label">Errors</div>
+          </div>
+          <div class="result-card">
+            <div class="value">${consistency}%</div>
+            <div class="label">Consistency</div>
+          </div>
+          <div class="result-card">
+            <div class="value">${elapsed}s</div>
+            <div class="label">Time</div>
+          </div>
+          <div class="result-card">
+            <div class="value">${state.correctKeystrokes}</div>
+            <div class="label">Characters</div>
+          </div>
+        </div>
+        <div style="margin-top:16px;font-size:0.85rem;color:var(--text-dim)">
+          Press <kbd style="background:var(--bg-hover);padding:2px 8px;border-radius:4px;border:1px solid var(--border);font-family:var(--font-mono);font-size:0.8rem">Tab</kbd> to restart
+        </div>
+      `;
+      resultsEl.classList.add('visible');
+    }
+
+    // ═══════════════════════════════════════════════════════════
+    // TIME UPDATE LOOP
+    // ═══════════════════════════════════════════════════════════
+    let timeInterval;
+    function startTimeLoop() {
+      clearInterval(timeInterval);
+      timeInterval = setInterval(() => {
+        if (state.isActive) {
+          updateStats();
+          updateProgress();
+          if (state.mode === 'time' && getElapsed() >= state.modeOption) {
+            finishTest();
+          }
+        }
+      }, 100);
+    }
+
+    // ═══════════════════════════════════════════════════════════
+    // OPTIONS BAR
+    // ═══════════════════════════════════════════════════════════
+    function renderOptions() {
+      const bar = $('#optionsBar');
+      let html = '';
+
+      switch (state.mode) {
+        case 'time':
+          html = `
+            <span class="option-label">time</span>
+            <div class="option-group">
+              ${[15, 30, 60, 120].map(s =>
+                `<button class="option-btn ${state.modeOption === s ? 'active' : ''}" data-option="${s}">${s}s</button>`
+              ).join('')}
+            </div>
+          `;
+          break;
+        case 'words':
+          html = `
+            <span class="option-label">words</span>
+            <div class="option-group">
+              ${[10, 25, 50, 100].map(w =>
+                `<button class="option-btn ${state.modeOption === w ? 'active' : ''}" data-option="${w}">${w}</button>`
+              ).join('')}
+            </div>
+          `;
+          break;
+        case 'quote':
+          html = `<span class="option-label">random quote</span>`;
+          break;
+        case 'code':
+          html = `<span class="option-label">code snippet</span>`;
+          break;
+      }
+
+      // Difficulty (for time and words modes)
+      if (state.mode === 'time' || state.mode === 'words') {
+        html += `
+          <span class="option-label" style="margin-left:12px">difficulty</span>
+          <div class="option-group">
+            ${['easy', 'medium', 'hard'].map(d =>
+              `<button class="option-btn diff-btn ${state.difficulty === d ? 'active' : ''}" data-diff="${d}">${d}</button>`
+            ).join('')}
+          </div>
+        `;
+      }
+
+      bar.innerHTML = html;
+
+      // Bind option clicks
+      bar.querySelectorAll('.option-btn:not(.diff-btn)').forEach(btn => {
+        btn.addEventListener('click', () => {
+          state.modeOption = parseInt(btn.dataset.option);
+          resetTest();
+          renderOptions();
+        });
+      });
+
+      bar.querySelectorAll('.diff-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          state.difficulty = btn.dataset.diff;
+          resetTest();
+          renderOptions();
+        });
+      });
+    }
+
+    // ═══════════════════════════════════════════════════════════
+    // MODE SWITCHING
+    // ═══════════════════════════════════════════════════════════
+    $$('.mode-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        $$('.mode-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        state.mode = btn.dataset.mode;
+
+        // Reset default options
+        switch (state.mode) {
+          case 'time': state.modeOption = 30; break;
+          case 'words': state.modeOption = 25; break;
+        }
+
+        resetTest();
+        renderOptions();
+      });
+    });
+
+    // ═══════════════════════════════════════════════════════════
+    // THEME TOGGLE
+    // ═══════════════════════════════════════════════════════════
+    const themeToggle = $('#themeToggle');
+    const savedTheme = localStorage.getItem('typing-theme') || 'dark';
+    document.documentElement.dataset.theme = savedTheme;
+    themeToggle.textContent = savedTheme === 'dark' ? '☀️' : '🌙';
+
+    themeToggle.addEventListener('click', () => {
+      const current = document.documentElement.dataset.theme;
+      const next = current === 'dark' ? 'light' : 'dark';
+      document.documentElement.dataset.theme = next;
+      localStorage.setItem('typing-theme', next);
+      themeToggle.textContent = next === 'dark' ? '☀️' : '🌙';
+    });
+
+    // ═══════════════════════════════════════════════════════════
+    // KEYBOARD CLICK (physical keyboard events)
+    // ═══════════════════════════════════════════════════════════
+    document.addEventListener('keydown', (e) => {
+      const key = e.key.toLowerCase();
+      highlightKey(key, true);
+      handleKey(e);
+    });
+    document.addEventListener('keyup', (e) => {
+      const key = e.key.toLowerCase();
+      highlightKey(key, false);
+    });
+
+    // Activation click
+    activationOverlay.addEventListener('click', () => startTest());
+    textDisplay.addEventListener('click', () => {
+      if (!state.isActive && !state.isFinished) startTest();
+    });
+
+    // ═══════════════════════════════════════════════════════════
+    // RESIZE HANDLER
+    // ═══════════════════════════════════════════════════════════
+    window.addEventListener('resize', () => {
+      if (state.isActive || state.charIndex > 0) positionCaret();
+    });
+
+    // ═══════════════════════════════════════════════════════════
+    // INIT
+    // ═══════════════════════════════════════════════════════════
+    state.text = generateText();
+    renderText();
+    renderOptions();
+    positionCaret();
+    startTimeLoop();
+
+  })();
+  </script>
+</body>
+</html>
