@@ -1,21 +1,27 @@
 slug: firefly
 name: "Adobe Firefly"
 category: image
-summary: "Adobe's commercial-safe image and video model inside Creative Cloud."
+summary: "Adobe's commercial-safe AI image and video generator with generative fill, text effects and deep Creative Cloud integration."
 pricing: "Freemium — free tier; via CC"
 affiliate: ""
 rating: 4.4
 tags: [image, design, adobe]
 features:
-  - Commercially safe training
-  - Text effects and vectors
-  - Deep Photoshop integration
+  - Text-to-image and generative fill/inpainting
+  - Text effects and AI vector recoloring
+  - Deep Photoshop and Illustrator integration
+  - AI video generation with camera control
+  - Generative credit system with a free monthly allotment
 best_for:
-  - Designers on Creative Cloud
-  - Brands
+  - Designers working inside Creative Cloud
+  - Brands needing commercially safe, licensed assets
+  - Regulated or enterprise teams concerned about IP risk
 pros:
-  - Safe for commercial
-  - Pro quality
+  - Commercially safe, largely licensed training data
+  - Deep Photoshop integration for natural, pro-grade edits
+  - Practical design features like text effects and vector recolor
+  - Reliable, mature Adobe backing and support
 cons:
-  - Locked to Adobe
-  - Credits limit
+  - Locked to the Adobe ecosystem for full value
+  - Generative credit limits gate heavy usage
+  - Outputs more restrained/less stylistic than specialist generators

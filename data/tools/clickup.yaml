@@ -1,20 +1,26 @@
 slug: clickup
 name: "ClickUp"
 category: productivity
-summary: "All-in-one project and docs with AI assistant."
-pricing: "Freemium — free tier; Pro $7/mo"
+summary: "An all-in-one workspace of tasks, docs, whiteboards, goals and automations, with a built-in AI assistant for writing and summarising project content."
+pricing: "Freemium — free tier; Unlimited from $7/user/mo (annual); Brain AI add-on"
 affiliate: ""
 rating: 4.2
-tags: [pm, productivity, docs]
+tags: [pm, productivity, docs, automations]
 features:
-  - Tasks, docs, whiteboards
-  - AI writer
-  - Automations
+  - Unified tasks, docs, whiteboards, goals, and chat on one shared data model
+  - ClickUp Brain AI assistant for writing, summarising, and status queries
+  - No-code automations for recurring status and handoff rules
+  - Highly customisable tasks with custom fields, statuses, priorities, and views
 best_for:
-  - Teams
-  - Agencies
+  - Teams and agencies running many client projects that want one consolidated workspace
+  - Teams that can invest setup time in configuring views and automations
+  - Small teams and solo users who want substantial function on the free tier
 pros:
-  - Very full-featured
-  - Free tier
+  - Exceptionally full-featured, genuinely reduces the number of tools a team runs
+  - Strong free tier with unlimited tasks and docs
+  - Built-in automations for recurring project workflow
+  - Real AI assistance grounded in your own workspace data
 cons:
-  - Overwhelming UI
+  - Interface is overwhelming and a real onboarding hurdle
+  - Setup only pays off if a team invests real time in configuration
+  - AI assistant is commonly a paid add-on on top of base seats

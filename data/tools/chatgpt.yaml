@@ -1,19 +1,27 @@
 slug: chatgpt
 name: "ChatGPT"
 category: productivity
-summary: "OpenAI's conversational AI for writing, coding, and research."
+summary: "OpenAI's all-round AI assistant for writing, coding, vision, voice and research, with a genuinely useful free tier."
 pricing: "Freemium / $20 mo"
 affiliate: ""
 rating: 4.7
 tags: [productivity, chat, research]
 features:
-  - GPT-4o
-  - Vision
-  - Voice
+  - GPT-4-class conversational model with strong reasoning
+  - Vision: reads and analyzes screenshots, photos and charts
+  - Voice conversation in desktop and mobile apps
+  - Optional live web browsing for current research
+  - Code/data analysis tools and a rich GPTs/plugin ecosystem
 best_for:
-  - Everyone
+  - Students and professionals wanting one general assistant
+  - Developers for coding support and debugging
+  - Anyone new to AI looking for an easy, capable default
 pros:
-  - Versatile
-  - Fast
+  - Broadest usable versatility of the major assistants
+  - Genuinely useful free tier
+  - Fast, intuitive, huge integrations ecosystem
+  - Strong multimodal (vision + voice) support
 cons:
-  - Hallucinations
+  - Can hallucinate; important claims still need checking
+  - Not always the deepest long-form writing quality
+  - Usage caps on free and even Plus tiers under load

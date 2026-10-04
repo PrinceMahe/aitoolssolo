@@ -1,17 +1,28 @@
 slug: yoast
 name: "Yoast SEO"
-category: marketing
-summary: "Popular WordPress SEO plugin with AI."
-pricing: "Freemium / $"
+category: seo
+summary: "The WordPress SEO plugin — on-page traffic-light scoring, readability checks, sitemaps, schema and redirects for better rankings."
+pricing: "Freemium — free plugin; Premium ~$99/yr"
 affiliate: ""
-rating: 4.1
-tags: [marketing, seo, wordpress]
+rating: 4.4
+tags: [seo, wordpress, on-page, content, sitemap]
 features:
-  - Readability
-  - Schema
+  - On-page SEO scoring for title, meta and keyphrase
+  - Readability analysis with traffic-light rating
+  - XML sitemaps and robots.txt handling
+  - Schema.org structured data output
+  - Redirect manager and internal-link suggestions (Premium)
+  - Related-keyphrase and synonym support (Premium)
 best_for:
-  - Bloggers
+  - WordPress site owners improving on-page SEO
+  - SEO managers and content teams optimizing many posts
+  - Agencies managing multiple client WordPress sites
 pros:
-  - Trusted
+  - Clear, opinionated checklist UI
+  - Bundles sitemaps, schema and redirects into one plugin
+  - Excellent documentation and ecosystem
+  - Capable free tier
 cons:
-  - Upsells
+  - WordPress only — no value on other CMSs
+  - Scores are guidance, not a ranking guarantee
+  - Not an AI assistant despite the category

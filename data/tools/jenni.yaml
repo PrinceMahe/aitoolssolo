@@ -1,21 +1,27 @@
 slug: jenni
-name: "Jenni"
+name: "Jenni AI"
 category: writing
-summary: "Autocomplete writing assistant for academic and long-form drafts."
-pricing: "Freemium — free tier; Pro $20/mo"
+summary: "AI writing assistant for essays and research papers — autocompletes prose in your voice and adds citations as it writes."
+pricing: "Freemium — free tier; Unlimited ~$20/mo"
 affiliate: ""
 rating: 4.3
-tags: [writing, research, academic]
+tags: [writing, academic, research, citation, essay]
 features:
-  - Inline autocomplete
-  - Citation insertion
-  - Journal templates
+  - AI autocompletion of essays and long-form prose
+  - Citation generation with in-text references
+  - Prompt-based macro commands for editing tasks
+  - LaTeX mode for technical writing
+  - Microsoft Word add-in
 best_for:
-  - Researchers and students
-  - Long-form writers
+  - Students writing essays and theses
+  - Academics producing cited research papers
+  - Researchers drafting long-form technical writing
 pros:
-  - Speeds drafting
-  - Citation help
+  - Adds citations at the point of writing
+  - Writes in a natural, voice-matched style
+  - Macro commands speed up repetitive editing
+  - Fits existing LaTeX and Word workflows
 cons:
-  - Academic only focus
-  - Autocomplete can drift
+  - AI-suggested citations must be verified manually
+  - Subscription costly for casual writers
+  - Not suited to creative or fiction writing

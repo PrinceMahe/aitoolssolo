@@ -1,24 +1,27 @@
 slug: krea
 name: "Krea"
 category: image
-summary: "Real-time AI canvas with upscaling, enhancement, and vector generation."
-pricing: "Freemium — free tier; Pro $8/mo"
+summary: "Real-time AI canvas — generate, upscale and enhance images live as you draw, with AI vector export built in."
+pricing: "Freemium — free tier; Pro ~$8-10/mo"
 affiliate: ""
 rating: 4.2
 tags: [image, design, ai, vector, realtime]
 features:
-  - Real-time generation
-  - Upscaler and enhancer
-  - Background removal
-  - Vector export
-best_for:
-  - AI design exploration
-  - Social creators
-  - Solo designers
-pros:
-  - Real-time AI generation
+  - Real-time generation while you draw or type
+  - Dedicated upscaler and enhancer
+  - One-click background removal
+  - AI vector export
   - Inpainting and style transfer
-  - Creative exploration
+best_for:
+  - Solo designers exploring visual concepts
+  - Social creators producing fast, on-brand visuals
+  - Creative brainstorming and moodboards
+pros:
+  - Real-time AI generation speeds visual exploration
+  - Built-in upscaling, enhancement and background removal
+  - Inpainting and style transfer for restyling output
+  - Low entry price for the capability set
 cons:
-  - Vector quality not as precise as dedicated tools
-  - Feature churn
+  - Vector output not as precise as dedicated tools
+  - Feature churn across plans can disrupt workflows
+  - Less reliable for final print or vector deliverables

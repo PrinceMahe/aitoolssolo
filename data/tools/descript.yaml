@@ -1,19 +1,28 @@
 slug: descript
 name: "Descript"
-category: video
-summary: "Transcript-based audio/video editing with overdub."
-pricing: "Freemium / $12 mo"
+category: video-editing
+summary: "Transcript-based audio/video editing with overdub for podcasters and short-video creators."
+pricing: "Freemium / $15 mo"
 affiliate: ""
 rating: 4.5
-tags: [video, audio, editing]
+tags: [video-editing, transcription, ai-tools]
 features:
-  - Transcript edit
-  - Overdub
-  - Filler
+  - Edit audio/video by editing the transcript text
+  - Overdub AI text-to-speech in a cloned voice
+  - Fast automatic transcription and word-accurate captions
+  - Screen recording and multitrack remote recording
+  - Composite scenes and direct publishing to platforms
 best_for:
-  - Podcasters
-  - YT
+  - Podcasters cutting spoken content fast
+  - Short-video creators making talking-head content
+  - Marketers and freelancers producing lots of branded video
 pros:
-  - Edit by text
+  - Transcript-first editing is far faster than a timeline editor
+  - Overdub fixes mistakes without re-recording
+  - Accurate transcription and captions for social publishing
+  - Low learning curve for spoken-content production
 cons:
-  - Corpus training
+  - Not built for precise, frame-level video editing
+  - Overdub voice cloning lives on the pricier tiers
+  - Cloud-first dependency for projects
+  - Cloned AI voice can sound robotic on complex text

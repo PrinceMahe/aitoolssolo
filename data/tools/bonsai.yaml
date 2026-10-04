@@ -1,20 +1,28 @@
 slug: bonsai
 name: "Bonsai"
 category: business
-summary: "Freelance OS: proposals, contracts, and taxes."
-pricing: "Paid — from $17/mo"
+summary: "A freelance OS that ties proposals, contracts, invoicing, time tracking, and quarterly tax estimates into one reporting suite."
+pricing: "Paid — from $17/mo (annual, single user)"
 affiliate: ""
 rating: 4.2
-tags: [freelance, business, crm]
+tags: [freelance, business, crm, contracts]
 features:
-  - Proposals
-  - Contracts + e-sign
-  - Tax estimates
+  - Interactive proposals and client-facing branded documents
+  - Contract templates with built-in e-signature and a signing audit trail
+  - Invoicing that converts tracked time into bills and reconciles against proposals
+  - Time tracking and a lightweight client CRM
+  - Quarterly tax estimates, with filing available on the paid Bonsai Tax plan
 best_for:
-  - Freelancers
-  - Agencies
+  - Full-time freelancers and consultants billing for client work
+  - Writers, designers, developers, and marketers who want one back-office home
+  - Small agencies needing shared team billing and client tracking
+  - Freelancers who dread tax season and want prepared quarterly filings
 pros:
-  - Polished suite
-  - Reliable
+  - Polished, client-facing proposal and contract experience
+  - Direct tax preparation and filing that few rivals offer
+  - Connected workflow that avoids re-entering client and amount data
+  - Broad coverage including time tracking and CRM in one subscription
 cons:
-  - Pricey
+  - Pricing climbs fast once e-signature and tax add-ons are required
+  - CRM and time tracking are thinner than dedicated specialist apps
+  - Overkill for low-volume or part-time freelancers

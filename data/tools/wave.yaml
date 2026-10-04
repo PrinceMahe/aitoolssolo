@@ -1,20 +1,27 @@
 slug: wave
 name: "Wave"
 category: business
-summary: "Free accounting and invoicing for tiny businesses."
-pricing: "Freemium — free accounting; Payments fee"
+summary: "Genuinely free double-entry accounting, invoicing, and receipt tracking for micro-businesses, with paid payment-processing and payroll add-ons."
+pricing: "Freemium — free accounting; Payments processing fee, Payroll paid"
 affiliate: ""
 rating: 4.0
-tags: [accounting, free, business]
+tags: [accounting, free, business, invoicing]
 features:
-  - Free accounting
-  - Invoicing
-  - Payments
+  - Free double-entry accounting with income/expense tracking and bank reconciliation
+  - Branded recurring invoices with sent/viewed/paid tracking and auto-charge
+  - Receipt scanning and expense categorisation via the mobile app
+  - Wave Payments for card and bank (ACH) invoice collection
+  - Wave Payroll for US customers as a separate paid add-on
 best_for:
-  - Micro-businesses
-  - Solopreneurs
+  - Micro-businesses, freelancers, and sole traders needing real books at $0
+  - Solopreneurs who invoice by bank transfer and want clean reporting
+  - New self-employed users not yet ready for a paid accounting subscription
 pros:
-  - Free core
-  - Easy
+  - Core accounting and invoicing are genuinely free with no trial timer
+  - Quick, approachable onboarding for non-accountants
+  - Usable standard reports for income, expenses, and cash flow
+  - Receipt scanning reduces manual data entry
 cons:
-  - Paid add-ons
+  - Payment processing and payroll fees sit on top of the free core
+  - No advanced inventory or deep job/project costing
+  - Payroll is a US-only paid add-on

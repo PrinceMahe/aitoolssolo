@@ -1,20 +1,29 @@
 slug: canva
 name: "Canva"
-category: image
-summary: "Drag-and-drop design with Magic Studio AI for solo creators."
-pricing: "Freemium / $15 mo"
+category: design
+summary: "Drag-and-drop design with Magic Studio AI for solo creators needing on-brand visuals fast."
+pricing: "Freemium / $13 mo"
 affiliate: ""
 rating: 4.6
-tags: [image, design, templates]
+tags: [design, templates, ai-tools]
 features:
-  - Templates
-  - Magic Design
-  - Brand kit
+  - Drag-and-drop editor with millions of templates and assets
+  - Magic Studio AI: Magic Design, Magic Write, Magic Eraser
+  - AI image generation from text prompts
+  - Brand Kit for consistent logos, colors, and fonts
+  - Real-time team collaboration and print ordering
 best_for:
-  - Everyone
-  - Solopreneurs
+  - Solo creators and marketers making social graphics fast
+  - Small businesses producing branded marketing collateral
+  - Teams that need consistent, on-brand output without design training
 pros:
-  - Easy
-  - Vast library
+  - Incredibly approachable for complete beginners
+  - Magic Studio AI accelerates design, copy, and image cleanup
+  - Huge template and asset library
+  - Brand Kit keeps output consistent across a team
+  - Genuinely useful free tier
 cons:
-  - Generic output
+  - Not a professional design tool for high-end or print work
+  - AI results can feel templated and generic
+  - Premium assets and full AI suite sit behind the Pro paywall
+  - Cloud dependency for files and projects

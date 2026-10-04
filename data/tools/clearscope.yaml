@@ -1,24 +1,27 @@
 slug: clearscope
 name: "Clearscope"
 category: writing
-summary: "AI-powered SEO content optimization and keyword research platform."
+summary: "Research-first SEO content optimization platform that scores keyword coverage and briefs articles so they rank."
 pricing: "From $170/mo"
 affiliate: ""
 rating: 4.3
 tags: [writing, seo, content, optimization]
 features:
-  - Content grading
-  - Keyword recommendations
-  - Topic clusters
-  - Competitor gap analysis
+  - Content grading score out of 100 vs top-ranking pages
+  - Keyword and missing-term recommendations for a target query
+  - Topic clusters and structured content briefs
+  - Competitor gap analysis against ranking pages
+  - Google Docs and WordPress integrations
 best_for:
-  - SEO content creators
-  - Content marketers
-  - Agencies
+  - SEO content creators and content marketers
+  - Agencies producing content that needs to rank
+  - Teams wanting a repeatable quality gate before publishing
 pros:
-  - Best-in-class SEO content optimization
-  - Actionable keyword coverage scores
-  - Topic cluster recommendations
+  - Data-backed, actionable keyword-coverage guidance
+  - Clean briefs that speed up writing and delegation
+  - Strong on search intent and competitor comparison
+  - Fits team workflows with integrations
 cons:
-  - Expensive for solo operators
-  - No content generation — research only
+  - Expensive for solo operators at $170+/month, no free tier
+  - Research and optimization only — it doesn't write content
+  - Score-chasing can encourage keyword stuffing if misused

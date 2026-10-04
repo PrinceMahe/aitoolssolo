@@ -1,17 +1,28 @@
 slug: vectorizer
-name: "Vectorizer.AI"
-category: image
-summary: "AI raster-to-vector conversion with clean edges."
-pricing: "Freemium / $10 mo"
+name: "Vectorizer"
+category: design
+summary: "AI raster-to-vector converter — turns logos, illustrations and graphics into clean, infinitely scalable, editable vector files."
+pricing: "Freemium — free allowance; paid ~$10/mo or per-credit"
 affiliate: ""
-rating: 4.3
-tags: [image, vector, conversion]
+rating: 4.5
+tags: [design, vector, raster, image, convert]
 features:
-  - Auto trace
-  - Format export
+  - AI-based raster-to-vector tracing
+  - Smoothing controls to balance detail and curve cleanliness
+  - Bulk batch conversion
+  - Editable SVG and vector export
+  - Designed to reduce auto-trace artifacts
 best_for:
-  - Designers
+  - Designers and print pros converting logos and art
+  - Laser/CNC and embroidery makers needing clean line geometry
+  - Web developers producing scalable icons
+  - Brand teams rescuing raster-only assets into vector
 pros:
-  - Clean vectors
+  - Clean shape reconstruction vs classic auto-trace
+  - Infinitely scalable, editable output
+  - Bulk processing for production batches
+  - Cost-effective vs manual hand-tracing
 cons:
-  - Niche
+  - Complex photos still need manual cleanup
+  - Not a full design tool — final edits happen elsewhere
+  - Credit-based pricing can feel costly for exploration

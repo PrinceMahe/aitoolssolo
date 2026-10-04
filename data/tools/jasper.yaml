@@ -1,20 +1,27 @@
 slug: jasper
-name: Jasper
+name: "Jasper"
 category: writing
-summary: A marketing-focused AI writer with brand voice, workflows, and team features for content at scale.
-pricing: Paid — from $39/mo (7-day trial)
+summary: "Marketing-first AI writer with brand voice training, templates and team review workflows for on-brand content at scale."
+pricing: "Paid — from $39/mo (7-day trial)"
 affiliate: "https://www.jasper.ai/?fpr=aitoolssolo"
 rating: 4.3
 tags: [writing, marketing, copywriting]
 features:
-  - Brand Voice training
-  - Marketing campaign workflows
-  - Browser extension
+  - Brand Voice training from your existing copy
+  - Marketing campaign templates (ads, email, blog, social)
+  - Chrome browser extension for inline drafting in Gmail and Docs
+  - Team review and approval workflow on paid tiers
+  - SEO/keyword integrations for on-topic article drafts
 best_for:
-  - Solopreneurs running a content brand
-  - Agencies of one
+  - Marketing teams keeping a consistent brand voice at volume
+  - Agencies managing multiple client voices
+  - Content operators producing daily on-brand output
 pros:
-  - Built for marketing teams
-  - Strong templates
+  - Brand-consistent output via trained voice profiles
+  - Guided templates cut the learning curve for non-technical marketers
+  - Genuine collaboration and review workflow for teams
+  - Marketing-tuned copy generation
 cons:
-  - Pricier than general chatbots
+  - Pricier than general chatbots at ~$39+ per month
+  - Output still needs human editing before publishing
+  - Little general-purpose utility for non-marketing writing

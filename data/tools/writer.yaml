@@ -1,17 +1,27 @@
 slug: writer
 name: "Writer"
 category: writing
-summary: "AI writing platform for enterprise brand consistency."
-pricing: "Custom"
+summary: "Enterprise AI writing with brand guardrails, data grounding, and API/app layer."
+pricing: "Freemium / Team & custom"
 affiliate: ""
 rating: 4.1
-tags: [writing, enterprise, brand]
+tags: [writing, enterprise-ai, ai-tools]
 features:
-  - Brand voice
-  - Guardrails
+  - Brand-safe writing assistant with enforced style and tone guardrails
+  - Own Palmyra LLM family plus access to frontier models via API
+  - Knowledge-grounded generation from company data to cut hallucinations
+  - Evaluation dashboards, versioning, and audit trails
+  - AI Studio to build and deploy custom AI applications
 best_for:
-  - Enterprise
+  - Enterprise teams needing brand-safe, compliant AI output
+  - Marketing, support, and legal-reviewed content teams
+  - AI teams building governed apps on a platform with API and evaluation
 pros:
-  - Compliant
+  - Brand and compliance guardrails general-purpose tools don't offer
+  - Grounded in your data to reduce hallucinations
+  - Full platform: API, app development, evaluation, versioning
+  - Built for governance, audit, and regulated industries
 cons:
-  - Setup heavy
+  - Enterprise pricing unsuitable for individuals
+  - Meaningful setup and learning curve to configure guardrails
+  - Overkill for solo writers needing quick content help

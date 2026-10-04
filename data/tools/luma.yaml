@@ -1,20 +1,28 @@
 slug: luma
-name: "Luma Dream Machine"
-category: image
-summary: "Image and video model with realistic motion and lighting."
-pricing: "Freemium — free tier; Pro $10/mo"
+name: "Luma AI"
+category: video
+summary: "AI text-to-video with Dream Machine plus photorealistic 3D reconstruction — fast, iterative generative video for creators."
+pricing: "Freemium — free tier; Pro ~$10/mo"
 affiliate: ""
-rating: 4.5
-tags: [image, video, generator]
+rating: 4.0
+tags: [video, 3d, generative, text-to-video, ai]
 features:
-  - Image-to-video
-  - Photoreal stills
-  - Keyframe control
+  - Text-to-video generation (Dream Machine)
+  - Camera and motion guidance via prompting
+  - Fast iterative variation runs
+  - 3D reconstruction from photos or video
+  - Photorealistic mesh capture for VFX and game assets
 best_for:
-  - Creators wanting motion
-  - Marketers
+  - Social media creators producing short clips
+  - Marketers prototyping campaign motion quickly
+  - 3D artists and VFX techs using photogrammetry
 pros:
-  - Impressive realism
-  - Easy
+  - Fast, iterative text-to-video workflow
+  - Easy entry for creators
+  - Powerful 3D reconstruction capability
+  - Low free-tier barrier to test quality
 cons:
-  - Queue at peak
+  - Credit consumption adds up with heavy iteration
+  - Generative video is stochastic — expect misses
+  - 3D side has a steep learning curve
+  - Not frame-accurate for storyboard-driven production

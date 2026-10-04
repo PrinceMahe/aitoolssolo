@@ -1,0 +1,55 @@
+.home-hero { font-size: 1.05rem; line-height: 1.7; max-width: 60ch; }
+.home-cta { margin: 1.4rem 0 1rem; }
+.home-cta .button {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  background: var(--tertiary);
+  color: var(--primary);
+  font-weight: 600;
+  text-decoration: none;
+}
+.home-cta .button:hover { background: var(--primary); color: var(--theme); }
+
+/* curated tool grid */
+.tool-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+  margin: 1.2rem 0 2rem;
+}
+.tool-card {
+  display: block;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  text-decoration: none;
+  color: inherit;
+  background: var(--entry);
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+.tool-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.12); transform: translateY(-2px); }
+.tool-card-head { display: flex; align-items: center; justify-content: space-between; gap: 0.6rem; }
+.tool-name { font-size: 1.05rem; font-weight: 700; }
+.tool-rating { white-space: nowrap; font-weight: 600; color: var(--accent); }
+.tool-rating small { font-weight: 400; color: var(--secondary); }
+.tool-summary { margin: 0.4rem 0 0.5rem; font-size: 0.92rem; color: var(--secondary); line-height: 1.5; }
+.tool-tags { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+.tool-tag {
+  font-size: 0.72rem;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  background: var(--tertiary);
+  color: var(--primary);
+}
+.post-header .post-title { margin-bottom: 0.4rem; }
+
+/* latest posts list */
+ul.home-posts { list-style: none; padding: 0; margin: 1.2rem 0; }
+.home-posts li { display: flex; justify-content: space-between; gap: 1rem; padding: 0.55rem 0; border-bottom: 1px dashed var(--border); }
+.home-posts a { text-decoration: none; }
+.home-posts a:hover { text-decoration: underline; }
+.home-posts time { color: var(--secondary); font-size: 0.88rem; white-space: nowrap; }
+@media (max-width: 600px) {
+  .tool-grid { grid-template-columns: 1fr; }
+}

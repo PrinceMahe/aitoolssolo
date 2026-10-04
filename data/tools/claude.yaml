@@ -1,20 +1,27 @@
 slug: claude
 name: "Claude"
 category: productivity
-summary: "Anthropic's helpful, harmless AI for long-form reasoning."
+summary: "Anthropic's AI assistant for long-form writing, careful reasoning and coding, with a huge context window and low hallucination rate."
 pricing: "Freemium / $20 mo"
 affiliate: ""
 rating: 4.7
 tags: [productivity, chat, reasoning]
 features:
-  - 200K context
-  - Artifacts
-  - Vision
+  - 200K-token context window
+  - Artifacts sidebar for editing drafts
+  - Vision: reads images and scanned pages
+  - Claude Code terminal agent and API
 best_for:
-  - Writers
-  - Devs
+  - Writers drafting and editing long pieces
+  - Developers wanting a thoughtful coding partner
+  - Researchers working with large documents
+  - Anyone tired of AI hallucinating confidently
 pros:
-  - Long context
-  - Thoughtful
+  - Long context that holds over complex work
+  - Careful, reasoned output with low hallucination risk
+  - Natural, publication-ready writing quality
+  - Strong API and coding-agent ecosystem
 cons:
-  - Not real-time
+  - Not real-time; no live web browsing by default
+  - Can be verbose and need prompts to be concise
+  - Real usage caps on paid plans for heavy users

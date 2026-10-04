@@ -1,18 +1,27 @@
 slug: make
 name: "Make"
 category: automation
-summary: "Visual no-code automation with branching scenarios."
+summary: "Visual no-code automation with branching scenarios for complex multi-app workflows."
 pricing: "Freemium / $9 mo"
 affiliate: ""
 rating: 4.4
 tags: [automation, workflow, visual]
 features:
-  - Visual builder
-  - Scenarios
+  - Visual scenario canvas with branching and routers
+  - 1,500+ app integrations plus live webhooks
+  - Built-in data stores for persistent state between runs
+  - Error handlers, retries, and full run history for observability
+  - AI model integrations for inserting LLM steps mid-flow
 best_for:
-  - Ops
-  - Agencies
+  - Operations teams orchestrating data across many systems
+  - Agencies building client automations with real branching
+  - Solo builders needing production-grade, code-free logic
 pros:
-  - Powerful visual
+  - Branching and complex logic far beyond trigger-and-action tools
+  - Fully visual editor you can read and debug at a glance
+  - Huge integration catalog plus webhooks for anything custom
+  - Solid error handling and run history for reliability
 cons:
-  - Steeper learning
+  - Steeper learning curve than simpler automation tools
+  - Operations limits on cheaper plans hit by chatty integrations
+  - Overkill for simple one-step automations

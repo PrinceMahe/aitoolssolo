@@ -1,20 +1,27 @@
 slug: ramp
 name: "Ramp"
 category: business
-summary: "Corporate cards with AI spend controls and savings."
-pricing: "Free — card program"
+summary: "US corporate cards with no card fees, automated receipt matching, and AI that flags unused subscriptions and negotiable vendor spend."
+pricing: "Free card program; paid Ramp Plus tier for finance automation"
 affiliate: ""
 rating: 4.5
-tags: [finance, cards, business]
+tags: [finance, cards, business, spend]
 features:
-  - Auto receipts
-  - Spend insights
-  - No-fee cards
+  - Unlimited no-fee corporate cards with per-employee spend limits and category controls
+  - Automatic point-of-sale receipt capture and matching
+  - AI-powered spend insights that flag unused subscriptions and negotiable vendor bills
+  - Expense coding that flows into the accounting stack
+  - Ramp Plus tier for entity management and deeper accounting automation
 best_for:
-  - Startups
-  - Finance teams
+  - US startups and growth companies wanting free spend control
+  - Finance teams that want receipts automated and reconciliation derisked
+  - Companies looking for AI-flagged, actionable savings on subscriptions and vendor spend
 pros:
-  - Saves real money
-  - Free
+  - Saves real money via AI-flagged, actionable savings recommendations
+  - Free at the core with no card fees and no software subscription
+  - Receipt capture on autopilot removes the weekly reconciliation grind
+  - Spend controls are enforced before money moves
 cons:
-  - US only
+  - Card program is US-focused
+  - Not a full accounting system; it feeds, not replaces, bookkeeping
+  - Savings only land if someone acts on the AI recommendations

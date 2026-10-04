@@ -1,20 +1,27 @@
 slug: whimsical
 name: "Whimsical"
 category: productivity
-summary: "Fast flowcharts, wireframes, and docs with AI."
-pricing: "Freemium — free tier; Pro $10/mo"
+summary: "A fast, clean visual-workspace for flowcharts, wireframes, mind maps and AI-assisted docs, built for quick product thinking and collaboration."
+pricing: "Freemium — free tier; Pro from ~$10/user/mo (annual); Org ~$20/user/mo"
 affiliate: ""
 rating: 4.4
-tags: [diagram, productivity, docs]
+tags: [diagram, productivity, docs, wireframe]
 features:
-  - Flows and wireframes
-  - AI docs
-  - Mind maps
+  - Fast flowcharting with snapping connectors and clean default styling
+  - Simple wireframe surface for quick UI and screen thinking
+  - Structured mind maps and flexible boards for planning
+  - AI-assisted docs and diagram generation from ideas or briefs
+  - Real-time collaboration with live edits and comments
 best_for:
-  - Product teams
-  - Founders
+  - Product teams that want fast, clean flowcharts, wireframes, and mind maps
+  - Founders sketching ideas and presenting polished visual thinking
+  - Remote teams collaborating live on shared diagrams
 pros:
-  - Fast and clean
-  - AI docs
+  - Fast and visually clean; outputs are presentable by default
+  - Genuinely useful AI docs that draft structured thinking
+  - Low-friction collaborative canvases, quick to start
+  - Covers flowcharts, wireframes, and mind maps in one tool
 cons:
-  - Boards limited
+  - Free tier caps active boards and items, pushing heavy users to Pro
+  - Lighter canvas than a full-featured whiteboard tool like Miro
+  - Wireframes for thinking and review, not pixel-accurate design

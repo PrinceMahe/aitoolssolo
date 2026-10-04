@@ -1,0 +1,61 @@
+{{ define "main" }}
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title entry-hint-parent">
+      {{ .Title }}
+      {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
+    </h1>
+    {{- if not (.Param "hideMeta") }}
+    <div class="post-description">{{ with .Site.Params.homeInfoParams.Content }}{{ . }}{{ else }}{{ .Description }}{{ end }}</div>
+    {{- end }}
+  </header>
+  <div class="post-content">
+    <p class="home-hero">Genuine, hands-on reviews of the AI tools that actually matter for solopreneurs. We test, compare, and score — no fluff, no auto-generated filler.</p>
+    <p class="home-cta"><a class="button" href="{{ "/tools/" | relURL }}">Browse all reviews →</a></p>
+
+    {{/* ---------- Curated: only tools with a real, full written review (long body) ---------- */}}
+    {{- $toolPages := where .Site.RegularPages "Type" "tool" }}
+    {{- $reviewed := slice }}
+    {{- range $toolPages }}
+      {{- $d := index .Site.Data.tools .Params.tool }}
+      {{- if and $d (gt $d.rating 0) (gt (len .Content) 3000) }}
+        {{- $reviewed = $reviewed | append (dict "page" . "data" $d) }}
+      {{- end }}
+    {{- end }}
+    {{- /* Sort by rating desc, then by title */}}
+    {{- $sorted := sort $reviewed "data.rating" "desc" }}
+
+    {{- if gt (len $sorted) 0 }}
+    <h2 id="featured">Featured reviews</h2>
+    <div class="tool-grid">
+      {{- range $sorted }}
+        {{- $t := .data }}
+        {{- $p := .page }}
+      <a class="tool-card" href="{{ $p.RelPermalink }}">
+        <div class="tool-card-head">
+          <span class="tool-name">{{ $t.name | default $p.Title }}</span>
+          <span class="tool-rating" title="Our rating">★ {{ lang.FormatNumber 1 $t.rating }}<small>/5</small></span>
+        </div>
+        {{- if $t.summary }}<p class="tool-summary">{{ $t.summary }}</p>{{- end }}
+        {{- if gt (len $t.tags) 0 }}<div class="tool-tags">{{ range $t.tags }}<span class="tool-tag">{{ . }}</span>{{ end }}</div>{{- end }}
+      </a>
+      {{- end }}
+    </div>
+    {{- end }}
+
+    {{/* ---------- Recent editorial posts ---------- */}}
+    {{- $posts := where .Site.RegularPages "Type" "posts" | first 8 }}
+    {{- if gt (len $posts) 0 }}
+    <h2 id="latest">Latest comparisons & guides</h2>
+    <ul class="home-posts">
+      {{- range $posts }}
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+      </li>
+      {{- end }}
+    </ul>
+    {{- end }}
+  </div>
+</article>
+{{ end }}

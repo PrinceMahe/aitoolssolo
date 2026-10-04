@@ -1,20 +1,28 @@
 slug: freshbooks
 name: "FreshBooks"
 category: business
-summary: "Invoicing and expense tracking for service businesses."
+summary: "Cloud invoicing and expense tracking for freelancers and service businesses, with built-in payments and a strong mobile app."
 pricing: "Paid — from $17/mo"
 affiliate: ""
 rating: 4.1
 tags: [invoicing, finance, business]
 features:
-  - Invoicing
-  - Time tracking
-  - Expense capture
+  - Polished branded invoicing with recurring billing
+  - Built-in online card and bank payments
+  - Automatic payment reminders
+  - Time tracking that rolls straight into invoices
+  - Receipt photo capture and mileage tracking
+  - Simple profit-and-loss and expense reporting
 best_for:
-  - Freelancers
-  - Agencies
+  - Freelancers and consultants billing by the hour or project
+  - Agencies that track time against client work
+  - Service businesses wanting simple money management
 pros:
-  - Simple billing
-  - Mobile
+  - Fast, simple invoicing from work-done to invoice-sent
+  - Excellent, well-designed mobile app
+  - Built-in payments and reminders get you paid faster
+  - Receipt OCR and mileage tracking ease tax season
 cons:
-  - Limited accounting
+  - Limited accounting depth; no full inventory
+  - Per-client pricing tiers get costly as you scale
+  - Payroll is basic and region-limited

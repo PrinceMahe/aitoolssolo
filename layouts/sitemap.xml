@@ -1,0 +1,34 @@
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  {{- /* Only emit indexable URLs: mirrors the robots logic in layouts/partials/head.html.
+          Thin auto-generated layers (comparisons except bucketA, alternatives, use-cases,
+          landing, taxonomy archives) are noindex and must NOT appear in the sitemap —
+          advertising them wastes crawl budget and dilutes equity. Bucket A comparison
+          slugs are the exception — they rank, so they're indexable and belong here. */}}
+  {{- $excludedSections := slice "comparisons" "alternatives" "use-cases" "landing" "categories" "tags" }}
+  {{- $excludedKinds := slice "taxonomy" "taxonomyTerm" "term" }}
+  {{- range .Data.Pages }}
+    {{- $skip := false }}
+    {{- /* keep the homepage; drop other list/section nodes */}}
+    {{- if not .IsHome }}
+      {{- if .IsNode }}{{ $skip = true }}{{ end }}
+    {{- end }}
+    {{- /* drop taxonomy/term archives */}}
+    {{- if in $excludedKinds .Kind }}{{ $skip = true }}{{ end }}
+    {{- /* skip excluded sections and their types */}}
+    {{- if .Section }}{{ if in $excludedSections .Section }}{{ $skip = true }}{{ end }}{{ end }}
+    {{- if .Type }}{{ if in $excludedSections .Type }}{{ $skip = true }}{{ end }}{{ end }}
+    {{- /* allow bucketA comparison slugs back in — they rank and are indexable */}}
+    {{- if $skip }}
+      {{- with .File }}{{ $slug := .ContentBaseName }}{{ if in site.Params.bucketA.list $slug }}{{ $skip = false }}{{ end }}{{ end }}
+    {{- end }}
+    {{- if not $skip }}
+  <url>
+    <loc>{{ .Permalink }}</loc>{{ if not .Lastmod.IsZero }}
+    <lastmod>{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" }}</lastmod>{{ end }}{{ with .Sitemap.ChangeFreq }}
+    <changefreq>{{ . }}</changefreq>{{ end }}{{ if ge .Sitemap.Priority 0.0 }}
+    <priority>{{ .Sitemap.Priority }}</priority>{{ end }}
+  </url>
+    {{- end }}
+  {{- end }}
+</urlset>

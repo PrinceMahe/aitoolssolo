@@ -8,6 +8,7 @@
 {{- if eq .Type "usecase" }}{{ $noindex = true }}{{- end }}
 {{- if eq .Type "usecases" }}{{ $noindex = true }}{{- end }}
 {{- if eq .Type "tags" }}{{ $noindex = true }}{{- end }}
+{{- if eq .Type "alternatives" }}{{ $noindex = true }}{{- end }}
 {{- if eq .Kind "taxonomy" }}{{ $noindex = true }}{{- end }}
 {{- if hasPrefix .RelPermalink "/comparisons/" }}{{ $noindex = true }}{{- end }}
 {{- if hasPrefix .RelPermalink "/use-cases/" }}{{ $noindex = true }}{{- end }}

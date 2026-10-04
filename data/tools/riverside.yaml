@@ -1,20 +1,27 @@
 slug: riverside
 name: "Riverside"
 category: video
-summary: "Studio-quality remote recording with AI show notes."
+summary: "Studio-quality remote recording with separate tracks and 4K video, plus AI transcripts, clips and audio cleanup."
 pricing: "Freemium — free tier; Pro $15/mo"
 affiliate: ""
 rating: 4.5
 tags: [video, podcast, record]
 features:
-  - 4K local recording
-  - AI transcripts and clips
-  - Magic Audio
+  - 4K local recording on each participant's device
+  - Separate audio and video tracks per participant
+  - Magic Audio noise/echo cleanup
+  - AI transcripts and highlight clips
+  - Text-based editing (edit transcript = edit audio)
 best_for:
-  - Podcasters
-  - Interviews
+  - Podcasters and interviewers needing reliable studio-quality recordings
+  - Video content creators recording remote interviews
+  - Remote team or client shows where recording quality reflects on you
 pros:
-  - Great audio
-  - Separate tracks
+  - Local recording means guests' bad internet doesn't ruin the take
+  - Separate tracks make editing much easier than a single mix
+  - Genuinely useful AI transcripts, clips and audio cleanup
+  - Easy for guests — no install, just a browser link
 cons:
-  - Pro for exports
+  - Free tier is limited; regular use needs Pro ~$15/mo
+  - Some advanced export options sit in paid tiers
+  - Overkill for casual callers who just need a conversation
