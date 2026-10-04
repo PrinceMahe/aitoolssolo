@@ -37,12 +37,7 @@
   <p class="tool-cta"><a class="btn" href="{{ $t.affiliate }}" rel="sponsored nofollow" target="_blank">Try {{ $t.name }} →</a></p>
   {{- end }}
 
-  {{- with $t.tags }}
-  <div class="tool-tags">
-    {{- range . }}<span class="tag">#{{ . }}</span>{{ end -}}
-  </div>
-  {{- end }}
-</section>
+  </section>
 
 <h2>More {{ $t.name }} resources</h2>
 {{- partial "alternatives.html" . }}

@@ -12,3 +12,14 @@ http://aitoolssolo.com/* https://www.aitoolssolo.com/:splat 301!
 /tools/peppertype2/* /tools/peppertype/:splat 301!
 /tools/removebg/* /tools/remove-bg/:splat 301!
 /tools/surferseo/* /tools/surfer-seo/:splat 301!
+
+# Title-duplicate tool records consolidated to canonical slug (same tool was
+# filed under two slugs): 301 the dropped slug to the kept canonical.
+/tools/adobe-firefly/* /tools/firefly/:splat 301!
+/tools/github-copilot/* /tools/copilot/:splat 301!
+/tools/ink-editor/* /tools/ink/:splat 301!
+/tools/jasper-ai/* /tools/jasper/:splat 301!
+/tools/leonardo-ai/* /tools/leonardo/:splat 301!
+/tools/ococa/* /tools/ocoya/:splat 301!
+/tools/stability/* /tools/stablediffusion/:splat 301!
+/tools/todoist-ai/* /tools/todoist/:splat 301!

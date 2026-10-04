@@ -40,8 +40,7 @@
           <span class="tool-rating" title="Our rating">★ {{ lang.FormatNumber 1 $t.rating }}<small>/5</small></span>
         </div>
         {{- if $t.summary }}<p class="tool-summary">{{ $t.summary }}</p>{{- end }}
-        {{- if gt (len $t.tags) 0 }}<div class="tool-tags">{{ range $t.tags }}<span class="tool-tag">{{ . }}</span>{{ end }}</div>{{- end }}
-      </a>
+              </a>
       {{- end }}
     </div>
     {{- end }}
