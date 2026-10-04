@@ -1,16 +1,24 @@
-{{/* "X alternatives": list OTHER tools as comparison links (internal mesh). */}}
+{{/* "X alternatives": list ONLY genuinely-comparable tools (same category),
+     ranked by rating. Answers "I'm using X — what should I use instead?"
+     instead of dumping the entire 226-tool database. */}}
 {{- $slug := .Params.tool | default .Params.slug -}}
 {{- $cur := index .Site.Data.tools $slug -}}
-{{- if $cur }}
+{{- if $cur -}}
+{{- $cat := $cur.category -}}
+{{- $alts := slice -}}
+{{- range $k, $t := .Site.Data.tools -}}
+  {{- if and (ne $t.slug $slug) (eq $t.category $cat) -}}
+    {{- $alts = $alts | append $t -}}
+  {{- end -}}
+{{- end -}}
+{{- $alts = sort $alts "rating" "desc" | first 10 }}
 <div class="alternatives-list">
-  <p>If you're considering <strong>{{ $cur.name }}</strong>, also compare these solopreneur-friendly tools:</p>
+  <p>If you're considering <strong>{{ $cur.name }}</strong>, also compare these <strong>{{ $cat | humanize }}</strong> tools:</p>
   <ul>
-  {{- range $k, $t := .Site.Data.tools }}
-    {{- if ne $t.slug $slug }}
-    <li><a href="/tools/{{ $t.slug }}/">{{ $t.name }}</a> — {{ $t.summary }}</li>
-    {{- end }}
+  {{- range $alts }}
+    <li><a href="/tools/{{ .slug }}/">{{ .name }}</a> — <span class="alt-rating">★ {{ .rating }}/5</span> · {{ .summary }}</li>
   {{- end }}
   </ul>
-  <p class="alt-note">See the full <a href="/tools/">AI tools directory</a> or browse <a href="/categories/{{ $cur.category }}/">more in this category</a>.</p>
+  <p class="alt-note">Browse all <a href="/categories/{{ $cur.category }}/">{{ $cat | humanize }}</a> tools, the full <a href="/tools/">AI tools directory</a>, or see how {{ $cur.name }} compares in the <a href="/comparisons/">comparisons library</a>.</p>
 </div>
-{{- end }}
+{{- end -}}
