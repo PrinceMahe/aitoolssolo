@@ -2,9 +2,10 @@ slug: chatgpt
 name: "ChatGPT"
 category: productivity
 summary: "OpenAI's all-round AI assistant for writing, coding, vision, voice and research, with a genuinely useful free tier."
-pricing: "Freemium / $20 mo"
+pricing:  "Freemium — $20/mo"
 affiliate: ""
 rating: 4.7
+last_verified: 2026-10-04
 tags: [productivity, chat, research]
 features:
   - GPT-4-class conversational model with strong reasoning

@@ -1,10 +1,11 @@
 slug: canva
 name: "Canva"
-category: design
+category: image
 summary: "Drag-and-drop design with Magic Studio AI for solo creators needing on-brand visuals fast."
-pricing: "Freemium / $13 mo"
+pricing:  "Freemium — $13/mo"
 affiliate: ""
 rating: 4.6
+last_verified: 2026-10-04
 tags: [design, templates, ai-tools]
 features:
   - Drag-and-drop editor with millions of templates and assets

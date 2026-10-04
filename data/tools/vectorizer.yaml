@@ -1,10 +1,11 @@
 slug: vectorizer
 name: "Vectorizer"
-category: design
+category: image
 summary: "AI raster-to-vector converter — turns logos, illustrations and graphics into clean, infinitely scalable, editable vector files."
 pricing: "Freemium — free allowance; paid ~$10/mo or per-credit"
 affiliate: ""
 rating: 4.5
+last_verified: 2026-10-04
 tags: [design, vector, raster, image, convert]
 features:
   - AI-based raster-to-vector tracing

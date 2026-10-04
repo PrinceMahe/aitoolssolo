@@ -1,10 +1,11 @@
 slug: descript
 name: "Descript"
-category: video-editing
+category: video
 summary: "Transcript-based audio/video editing with overdub for podcasters and short-video creators."
-pricing: "Freemium / $15 mo"
+pricing:  "Freemium — $15/mo"
 affiliate: ""
 rating: 4.5
+last_verified: 2026-10-04
 tags: [video-editing, transcription, ai-tools]
 features:
   - Edit audio/video by editing the transcript text

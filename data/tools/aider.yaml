@@ -5,6 +5,7 @@ summary: "Terminal pair programmer that edits your repo via git."
 pricing: "Free / open-source"
 affiliate: ""
 rating: 4.5
+last_verified: 2026-10-04
 tags: [coding, cli, opensource]
 features:
   - Repo edits via chat

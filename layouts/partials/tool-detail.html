@@ -30,6 +30,9 @@
 
   <p class="tool-pricing"><strong>Pricing:</strong> {{ $t.pricing }}</p>
 
+  {{- /* AIToolsSolo Score — transparent composite methodology */}}
+  {{- partial "score.html" . }}
+
   {{- if $t.affiliate }}
   <p class="tool-cta"><a class="btn" href="{{ $t.affiliate }}" rel="sponsored nofollow" target="_blank">Try {{ $t.name }} →</a></p>
   {{- end }}

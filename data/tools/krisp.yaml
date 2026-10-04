@@ -2,9 +2,10 @@ slug: krisp
 name: "Krisp"
 category: video
 summary: "AI noise cancellation for calls and recordings."
-pricing: "Freemium / $8 mo"
+pricing:  "Freemium — $8/mo"
 affiliate: ""
 rating: 4.4
+last_verified: 2026-10-04
 tags: [video, audio, calls]
 features:
   - Noise cancel

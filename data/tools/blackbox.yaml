@@ -2,9 +2,10 @@ slug: blackbox
 name: "Blackbox AI"
 category: coding
 summary: "AI coding copilot with code search."
-pricing: "Freemium / $"
+pricing: "Freemium — free tier; paid plans"
 affiliate: ""
 rating: 3.8
+last_verified: 2026-10-04
 tags: [coding, search, completion]
 features:
   - Code search

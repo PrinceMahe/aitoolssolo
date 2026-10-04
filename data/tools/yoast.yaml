@@ -1,10 +1,11 @@
 slug: yoast
 name: "Yoast SEO"
-category: seo
+category: marketing
 summary: "The WordPress SEO plugin — on-page traffic-light scoring, readability checks, sitemaps, schema and redirects for better rankings."
 pricing: "Freemium — free plugin; Premium ~$99/yr"
 affiliate: ""
 rating: 4.4
+last_verified: 2026-10-04
 tags: [seo, wordpress, on-page, content, sitemap]
 features:
   - On-page SEO scoring for title, meta and keyphrase

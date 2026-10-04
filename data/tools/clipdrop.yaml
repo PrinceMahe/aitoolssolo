@@ -2,9 +2,10 @@ slug: clipdrop
 name: "Clipdrop"
 category: image
 summary: "Image cleanup, upscaling, and relight toolkit by Stability."
-pricing: "Freemium / $9 mo"
+pricing:  "Freemium — $9/mo"
 affiliate: ""
 rating: 4.1
+last_verified: 2026-10-04
 tags: [image, editing, upscale]
 features:
   - Uncrop

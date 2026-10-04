@@ -2,9 +2,10 @@ slug: retool
 name: "Retool"
 category: automation
 summary: "Build internal tools fast with components + code."
-pricing: "Freemium / $10 mo"
+pricing:  "Freemium — $10/mo"
 affiliate: ""
 rating: 4.3
+last_verified: 2026-10-04
 tags: [automation, internal-tools, lowcode]
 features:
   - Components

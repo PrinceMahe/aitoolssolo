@@ -1,0 +1,19 @@
+{{/* Renders the recommendation-engine tool index as standalone /tools-index.json
+   (output format TOOLSJSON on the home page). Raw text output — no HTML
+   escaping, so the JSON is valid for fetch()/JSON.parse(). */}}[
+{{- $first := true }}
+{{- range $slug, $t := .Site.Data.tools }}
+  {{- if eq $t.draft nil }}
+  {{- if not $first }},{{ end }}{{ $first = false }}
+  {
+    "slug": {{ $slug | jsonify }},
+    "name": {{ ($t.name | default $slug) | jsonify }},
+    "category": {{ ($t.category | default "") | jsonify }},
+    "rating": {{ with $t.rating }}{{ . }}{{ else }}0{{ end }},
+    "summary": {{ ($t.summary | default "") | jsonify }},
+    "tags": [{{ range $i, $tag := ($t.tags | default slice) }}{{ if $i }},{{ end }}{{ $tag | jsonify }}{{ end }}],
+    "features": [{{ range $i, $f := ($t.features | default slice) }}{{ if $i }},{{ end }}{{ $f | jsonify }}{{ end }}]
+  }
+  {{- end }}
+{{- end }}
+]

@@ -2,9 +2,10 @@ slug: claude
 name: "Claude"
 category: productivity
 summary: "Anthropic's AI assistant for long-form writing, careful reasoning and coding, with a huge context window and low hallucination rate."
-pricing: "Freemium / $20 mo"
+pricing:  "Freemium — $20/mo"
 affiliate: ""
 rating: 4.7
+last_verified: 2026-10-04
 tags: [productivity, chat, reasoning]
 features:
   - 200K-token context window

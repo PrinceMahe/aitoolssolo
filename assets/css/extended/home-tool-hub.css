@@ -50,6 +50,33 @@ ul.home-posts { list-style: none; padding: 0; margin: 1.2rem 0; }
 .home-posts a { text-decoration: none; }
 .home-posts a:hover { text-decoration: underline; }
 .home-posts time { color: var(--secondary); font-size: 0.88rem; white-space: nowrap; }
+
+/* AIToolsSolo Recommendation Engine */
+.ats-recommend { margin: 1.4rem 0 1rem; padding: 1.2rem 1.4rem; border: 1px solid var(--border); border-radius: 10px; background: var(--entry); }
+.ats-recommend-form label { font-weight: 700; display: block; margin-bottom: 0.5rem; }
+.ats-recommend-row { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.ats-recommend-row input { flex: 1 1 260px; padding: 0.6rem 0.8rem; border: 1px solid var(--border); border-radius: 8px; background: var(--theme); color: var(--primary); font-size: 0.95rem; }
+.ats-recommend-row button { padding: 0.6rem 1.1rem; border: none; border-radius: 8px; background: var(--tertiary); color: var(--primary); font-weight: 600; cursor: pointer; }
+.ats-recommend-row button:hover { background: var(--primary); color: var(--theme); }
+.ats-recommend-results { margin-top: 0.9rem; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 0.6rem; }
+.ats-recommend-results h3 { grid-column: 1 / -1; font-size: 1.05rem; margin: 0 0 0.2rem; }
+.ats-reco-card { display: block; padding: 0.8rem 1rem; border: 1px solid var(--border); border-radius: 9px; text-decoration: none; color: inherit; background: var(--theme); transition: box-shadow 0.15s ease, transform 0.15s ease; }
+.ats-reco-card:hover { box-shadow: 0 3px 12px rgba(0,0,0,0.12); transform: translateY(-1px); }
+.ats-reco-name { display: block; font-weight: 700; color: var(--primary); }
+.ats-reco-sum { display: block; font-size: 0.85rem; color: var(--secondary); line-height: 1.45; margin-top: 0.2rem; }
+.ats-reco-tag { display: inline-block; margin-top: 0.4rem; font-size: 0.72rem; padding: 0.12rem 0.55rem; border-radius: 999px; background: var(--tertiary); color: var(--primary); }
+.ats-recommend-none { color: var(--secondary); font-size: 0.92rem; }
+.ats-recommend-note { color: var(--secondary); font-size: 0.85rem; }
+.ats-reco-h2 { margin-top: 1.6rem; }
+
+/* AIToolsSolo Score */
+.ats-score { margin: 1.6rem 0; padding: 1.2rem 1.4rem; border: 1px solid var(--border); border-radius: 10px; background: var(--entry); }
+.ats-score h2 { margin-top: 0; }
+.ats-score-big { font-size: 2.4rem; font-weight: 800; color: var(--accent); margin: 0.3rem 0 0.2rem; }
+.ats-score-big small { font-size: 1.1rem; font-weight: 400; color: var(--secondary); }
+.ats-score-note { font-size: 0.88rem; color: var(--secondary); line-height: 1.5; max-width: 70ch; }
+.ats-score-breakdown { list-style: none; padding: 0; margin: 0.9rem 0 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.5rem 1rem; font-size: 0.92rem; }
+.ats-score-breakdown code { background: var(--tertiary); padding: 0 0.3rem; border-radius: 4px; }
 @media (max-width: 600px) {
   .tool-grid { grid-template-columns: 1fr; }
 }

@@ -2,9 +2,10 @@ slug: airtable
 name: "Airtable"
 category: automation
 summary: "Spreadsheet-database hybrid with automations."
-pricing: "Freemium / $20 mo"
+pricing:  "Freemium — $20/mo"
 affiliate: ""
 rating: 4.4
+last_verified: 2026-10-04
 tags: [automation, database, nocode]
 features:
   - Bases

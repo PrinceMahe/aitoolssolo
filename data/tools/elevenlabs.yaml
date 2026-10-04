@@ -2,9 +2,10 @@ slug: elevenlabs
 name: "ElevenLabs"
 category: video
 summary: "Best-in-class AI voice cloning and text-to-speech."
-pricing: "Freemium / $5 mo"
+pricing:  "Freemium — $5/mo"
 affiliate: ""
 rating: 4.6
+last_verified: 2026-10-04
 tags: [video, audio, voice]
 features:
   - Voice clone

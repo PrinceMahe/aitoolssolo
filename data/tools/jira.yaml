@@ -2,9 +2,10 @@ slug: jira
 name: "Jira"
 category: business
 summary: "Agile project and issue tracking for dev teams."
-pricing: "Freemium / $"
+pricing: "Freemium — free tier; paid plans"
 affiliate: ""
 rating: 4.1
+last_verified: 2026-10-04
 tags: [business, pm, dev]
 features:
   - Agile

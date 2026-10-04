@@ -2,9 +2,10 @@ slug: perplexity
 name: "Perplexity"
 category: productivity
 summary: "AI answer engine with cited sources and search."
-pricing: "Freemium / $20 mo"
+pricing:  "Freemium — $20/mo"
 affiliate: ""
 rating: 4.5
+last_verified: 2026-10-04
 tags: [productivity, research, search]
 features:
   - Citations

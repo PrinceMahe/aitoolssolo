@@ -2,9 +2,10 @@ slug: notion
 name: "Notion"
 category: automation
 summary: "All-in-one docs, wikis, and databases with AI."
-pricing: "Freemium / $8 mo"
+pricing:  "Freemium — $8/mo"
 affiliate: ""
 rating: 4.5
+last_verified: 2026-10-04
 tags: [automation, notes, workspace]
 features:
   - Docs

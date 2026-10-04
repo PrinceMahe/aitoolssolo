@@ -2,9 +2,10 @@ slug: supabase-ai
 name: "Supabase AI"
 category: coding
 summary: "AI SQL and schema help inside Supabase."
-pricing: "Free / plan"
+pricing: "Free / usage-based"
 affiliate: ""
 rating: 3.9
+last_verified: 2026-10-04
 tags: [coding, sql, database]
 features:
   - SQL gen

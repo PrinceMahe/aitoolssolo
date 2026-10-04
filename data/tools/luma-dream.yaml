@@ -2,9 +2,10 @@ slug: luma-dream
 name: "Luma Dream Machine"
 category: video
 summary: "High-quality text/image-to-video by Luma."
-pricing: "Freemium / $10 mo"
+pricing:  "Freemium — $10/mo"
 affiliate: ""
 rating: 4.3
+last_verified: 2026-10-04
 tags: [video, generation, realistic]
 features:
   - Smooth motion

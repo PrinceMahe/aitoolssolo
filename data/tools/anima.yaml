@@ -2,9 +2,10 @@ slug: anima
 name: "Anima"
 category: coding
 summary: "Figma to code (React, Vue, HTML)."
-pricing: "Freemium / $"
+pricing: "Freemium — free tier; paid plans"
 affiliate: ""
 rating: 3.7
+last_verified: 2026-10-04
 tags: [coding, design, figma]
 features:
   - Figma to code

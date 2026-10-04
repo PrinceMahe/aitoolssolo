@@ -77,7 +77,28 @@ linkCanonical = true
   ]
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS", "JSON", "TOOLSJSON"]
+
+# Recommendation-engine tool index: emitted as a real /tools-index.json file
+# (Hugo html/template escapes inline JSON in a script context, so fetching a
+# dedicated output file is the reliable, minify-safe path).
+[mediaTypes]
+  [mediaTypes."application/toolsjson"]
+    suffixes = ["json"]
+
+[outputFormats.TOOLSJSON]
+  mediaType = "application/toolsjson"
+  baseName = "tools-index"
+  isPlainText = false
+  isHTML = false
+  noUgly = true
+
+# Only the category taxonomy — the default Hugo `tag` taxonomy is disabled so
+# the ~194 generated /tags/* pages (all noindexed junk: "10x", "2025", "3am")
+# are no longer emitted. `tags` still exists on content/data yaml for the
+# `related` index and tool-card pills (data-driven, not a taxonomy).
+[taxonomies]
+  category = "categories"
 
 [markup]
   [markup.goldmark.renderer]

@@ -2,9 +2,10 @@ slug: cursor
 name: "Cursor"
 category: coding
 summary: "AI-first code editor built on VS Code."
-pricing: "Freemium / $20 mo"
+pricing:  "Freemium — $20/mo"
 affiliate: ""
 rating: 4.6
+last_verified: 2026-10-04
 tags: [coding, editor, ai]
 features:
   - Chat

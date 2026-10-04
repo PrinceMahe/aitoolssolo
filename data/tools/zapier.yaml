@@ -2,9 +2,10 @@ slug: zapier
 name: "Zapier"
 category: automation
 summary: "Connect 6,000+ apps with no-code automated workflows."
-pricing: "Freemium / $20 mo"
+pricing:  "Freemium — $20/mo"
 affiliate: ""
 rating: 4.5
+last_verified: 2026-10-04
 tags: [automation, workflow, nocode]
 features:
   - 6k+ apps

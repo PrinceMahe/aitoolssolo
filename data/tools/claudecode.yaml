@@ -5,6 +5,7 @@ summary: "Agentic CLI that plans, edits, and runs your codebase."
 pricing: "Paid — via Claude Pro/Max"
 affiliate: ""
 rating: 4.6
+last_verified: 2026-10-04
 tags: [coding, agent, cli]
 features:
   - Repo-wide edits

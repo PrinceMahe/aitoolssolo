@@ -1,0 +1,122 @@
+{{/* AIToolsSolo Recommendation Engine — drop-in on home + /search/.
+   Not a keyword search: it reads a free-text task ("turn my meeting notes into
+   blog posts"), scores every tool against its category/tags/summary/features,
+   blends with the AIToolsSolo Score, and returns ranked recommendations. */}}
+<div class="ats-recommend">
+  <form id="ats-recommend-form" class="ats-recommend-form" autocomplete="off">
+    <label for="ats-recommend-input">What do you want to do?</label>
+    <div class="ats-recommend-row">
+      <input id="ats-recommend-input" type="text" name="q"
+             placeholder="e.g. turn meeting notes into blog posts, or make short clips from my videos…" />
+      <button type="submit">Recommend</button>
+    </div>
+  </form>
+  <div id="ats-recommend-results" class="ats-recommend-results" aria-live="polite"></div>
+  <noscript><p class="ats-recommend-note">Enable JavaScript to use the interactive recommendation engine.</p></noscript>
+</div>
+
+<script>
+(function () {
+  // ---- Load the tool index from /tools-index.json (Hugo-generated) ----
+  var TOOLS = [];
+  function loadIndex(cb){
+    fetch("/tools-index.json").then(function(r){ return r.json(); })
+      .then(function(arr){ TOOLS = Array.isArray(arr) ? arr : []; cb(); })
+      .catch(function(){ TOOLS = []; cb(); });
+  }
+  var BADGE = {
+    // token -> (category, tool-name, feature/tag) keyword expansions
+    // broad task terms consumers type, mapped to tool vocabulary
+    map: {
+      "write":      ["writing","content","copy","blog","article"],
+      "blog":       ["writing","content","blog","article","seo"],
+      "article":    ["writing","content","article","blog","seo"],
+      "copy":       ["writing","copywriting","copy","marketing"],
+      "social":     ["social","marketing","content","repurpose","post"],
+      "marketing":  ["marketing","seo","email","social","ads"],
+      "seo":        ["seo","rank","optimization","writing"],
+      "image":      ["image","design","generate","art"],
+      "design":     ["design","image","ui","figma"],
+      "video":      ["video","edit","clip","shorts","podcast"],
+      "clip":       ["video","clip","shorts","repurpose"],
+      "podcast":    ["podcast","audio","recording","video"],
+      "audio":      ["audio","voice","tts","transcript"],
+      "code":       ["coding","code","dev","build","software"],
+      "coding":     ["coding","code","dev","build","software"],
+      "automation": ["automation","workflow","integrate","connect","zap"],
+      "workflow":   ["automation","workflow","integrate","connect"],
+      "database":   ["database","data","notes","wiki"],
+      "notes":      ["notes","docs","wiki","database","knowledge"],
+      "finance":    ["finance","accounting","invoice","bookkeeping","bank","card"],
+      "invoice":    ["finance","invoice","accounting","billing"],
+      "email":      ["email","marketing","newsletter","inbox"],
+      "track":      ["tracking","project","pm","task"],
+      "project":    ["project","pm","task","tracking","team"],
+      "meeting":    ["meeting","transcript","notes","audio","video"],
+      "transcript": ["transcript","meeting","audio","notes"],
+      "voice":      ["voice","tts","audio","elevenlabs"],
+      "generate":   ["generate","image","video","art","ai"]
+    },
+    cats: { }  // filled per-tool to make cats searchable
+  };
+
+  function norm(s){ return String(s||"").toLowerCase(); }
+  function tokens(q){ return norm(q).replace(/[^a-z0-9\s]/g," ").split(/\s+/).filter(Boolean); }
+
+  function scoreTool(tool, queryTokens){
+    var hay = [norm(tool.name), norm(tool.category),
+               (tool.tags||[]).map(norm).join(" "),
+               norm(tool.summary), (tool.features||[]).map(norm).join(" ")]
+              .join(" ");
+    var hits = 0, matched = 0;
+    queryTokens.forEach(function(t){
+      var hasDirect = hay.indexOf(t) !== -1;
+      var hasMapped = (BADGE.map[t]||[]).some(function(e){ return hay.indexOf(e) !== -1; });
+      if (hasDirect){ hits += hasMapped ? 2 : 1; matched++; }
+      else if (hasMapped){ hits += 1; matched++; }
+    });
+    if (matched === 0) return -1;                    // no relevance
+    var coverage = matched / queryTokens.length;     // how much of the ask is addressed
+    var rating = (typeof tool.rating === "number") ? tool.rating : 0;
+    return hits * 10 + coverage * 20 + rating * 2;   // relevance strongly outweighs rating
+  }
+
+  function recommend(query){
+    var qtok = tokens(query.replace(/recommend|best|tool|ai|for|to|the|a|an|me|i\s?need/g," "));
+    if (qtok.length === 0) return [];
+    var scored = TOOLS.map(function(t){ return {t:t, s:scoreTool(t,qtok)}; })
+                     .filter(function(x){ return x.s >= 0; })
+                     .sort(function(a,b){ return b.s - a.s; });
+    return scored.slice(0,6).map(function(x){ return x.t; });
+  }
+
+  document.addEventListener("DOMContentLoaded", function(){
+    var form = document.getElementById("ats-recommend-form");
+    var input = document.getElementById("ats-recommend-input");
+    var out = document.getElementById("ats-recommend-results");
+    if (!form || !out) return;
+
+    function render(list){
+      if (!list.length){ out.innerHTML = '<p class="ats-recommend-none">No match — try describing your task differently (e.g. "automate my workflow" or "edit my videos").</p>'; return; }
+      out.innerHTML = '<h3>Recommended for you</h3>' + list.map(function(t){
+        var rating = (typeof t.rating === "number" && t.rating>0) ? ' ★ ' + t.rating.toFixed(1) + '/5' : '';
+        var fs = '<a class=\"ats-reco-card\" href="/tools/' + t.slug + '/">' +
+                 '<span class="ats-reco-name">' + t.name + rating + '</span>' +
+                 '<span class="ats-reco-sum">' + (t.summary||"") + '</span>' +
+                 '<span class="ats-reco-tag">' + (t.category||"") + '</span>' +
+                 '</a>';
+        return fs;
+      }).join("");
+    }
+
+    form.addEventListener("submit", function(e){
+      e.preventDefault();
+      var q = input.value;
+      if (!TOOLS.length) { loadIndex(function(){ render(recommend(q)); }); }
+      else { render(recommend(q)); }
+    });
+    // Preload the index in the background so the first submit is instant.
+    loadIndex(function(){ /* warm cache: results appear when the user asks */ });
+  });
+})();
+</script>

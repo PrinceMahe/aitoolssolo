@@ -2,9 +2,10 @@ slug: toggl
 name: "Toggl"
 category: business
 summary: "Simple time tracking with AI insights."
-pricing: "Freemium / $10 mo"
+pricing:  "Freemium — $10/mo"
 affiliate: ""
 rating: 4.3
+last_verified: 2026-10-04
 tags: [business, time, tracking]
 features:
   - One-click

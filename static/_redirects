@@ -2,3 +2,13 @@
 # treats www.aitoolssolo.com as the single canonical domain.
 https://aitoolssolo.com/* https://www.aitoolssolo.com/:splat 301!
 http://aitoolssolo.com/* https://www.aitoolssolo.com/:splat 301!
+
+# Duplicate tool slugs removed (quality pivot): 301 to canonical so external
+# link equity is not fragmented. Canonical kept, dup deleted.
+/tools/copyai/* /tools/copy-ai/:splat 301!
+/tools/jasper2/* /tools/jasper/:splat 301!
+/tools/notionai/* /tools/notion/:splat 301!
+/tools/opusclip/* /tools/opus-clip/:splat 301!
+/tools/peppertype2/* /tools/peppertype/:splat 301!
+/tools/removebg/* /tools/remove-bg/:splat 301!
+/tools/surferseo/* /tools/surfer-seo/:splat 301!

@@ -2,9 +2,10 @@ slug: opus-clip
 name: "Opus Clip"
 category: video
 summary: "Turn long videos into viral short clips with AI."
-pricing: "Freemium / $19 mo"
+pricing:  "Freemium — $19/mo"
 affiliate: ""
 rating: 4.3
+last_verified: 2026-10-04
 tags: [video, shorts, clipping]
 features:
   - Auto clip

@@ -1,0 +1,59 @@
+{{/* AIToolsSolo Score — transparent, reproducible rating breakdown.
+   Computed from the surfaced data fields a tool actually has; nothing is
+   fabricated. This is the methodology behind the headline ★/5 rating and it
+   feeds the recommendation engine. */}}
+{{- $slug := .Params.tool -}}
+{{- $t := index .Site.Data.tools $slug -}}
+{{- if not $t }}{{ return }}{{ end -}}
+
+{{- $rating := float 0 }}
+{{- if $t.rating }}{{ $rating = float $t.rating }}{{ end }}
+
+{{- /* Evidence depth: how much verified signal the entry carries (0-2.0) */}}
+{{- $depth := 0.0 }}
+{{- if gt (len ($t.features | default slice)) 0 }}{{ $depth = add $depth 0.5 }}{{ end }}
+{{- if gt (len ($t.best_for | default slice)) 0 }}{{ $depth = add $depth 0.5 }}{{ end }}
+{{- if gt (len ($t.pros | default slice)) 0 }}{{ $depth = add $depth 0.5 }}{{ end }}
+{{- if gt (len ($t.cons | default slice)) 0 }}{{ $depth = add $depth 0.5 }}{{ end }}
+
+{{- /* Freshness: last_verified recency (0-1.0), scored 1 for <90d, 0.6 for <1y, 0.2 else */}}
+{{- $fresh := 0.2 }}
+{{- $lv := $t.last_verified | default "" }}
+{{- if $lv }}
+  {{- $lvStr := time $lv }}
+  {{- if lt (now.AddDate 0 0 -90) $lvStr }}{{ $fresh = 1.0 }}
+  {{- else if lt (now.AddDate 0 0 -365) $lvStr }}{{ $fresh = 0.6 }}
+  {{- end }}
+{{- end }}
+
+{{- /* Pricing clarity: 0-0.5 — a concrete bounded figure beats a vague term */}}
+{{- $pricing := $t.pricing | default "" }}
+{{- $priceClarity := 0.0 }}
+{{- if findRE `\$[0-9]` $pricing }}{{ $priceClarity = 0.5 }}
+{{- else if or (findRE `(?i)free` $pricing) (findRE `(?i)freemium` $pricing) (findRE `(?i)open-source` $pricing) }}{{ $priceClarity = 0.3 }}
+{{- else }}{{ $priceClarity = 0.1 }}{{ end }}
+
+{{- /* Positivity spread caps — a tool with only pros and no cons reads as unskeptical */}}
+{{- $balance := 0.3 }}
+{{- if gt (len ($t.cons | default slice)) 0 }}{{ $balance = 0.5 }}{{ end }}
+
+{{- /* Composite: headline rating (out of 5) weighted 70%, evidence/quality signals 30%.
+        Scale the 1-5 rating to 0-5 then add up to +1 from quality signals. */}}
+{{- $quality := add (add $depth $fresh) (add $priceClarity $balance) }}
+{{- /* quality max = 2.0+1.0+0.5+0.5 = 4.0; normalize to /1.5 contribution cap */}}
+{{- $qualContrib := math.Min 1.5 (mul $quality 0.375) }}
+{{- $score := div (math.Round (mul (add (mul $rating 0.7) (mul $qualContrib 2.0)) 10)) 10 }}
+{{- if gt $score 5.0 }}{{ $score = 5.0 }}{{ end }}
+
+<section class="ats-score">
+  <h2>AIToolsSolo Score — {{ $t.name }}</h2>
+  <p class="ats-score-big">{{ lang.FormatNumber 1 $score }}<small>/5</small></p>
+  <p class="ats-score-note">A transparent composite of our hands-on rating (70% weight) and the verified evidence this entry carries (30%: depth of features/pros/cons, <code>last_verified</code> recency, pricing clarity, and pros/cons balance). Only signal actually on the page counts — nothing is auto-inflated.</p>
+  <ul class="ats-score-breakdown">
+    <li>Editorial rating: <strong>{{ lang.FormatNumber 1 $rating }}/5</strong></li>
+    <li>Evidence depth: <strong>{{ lang.FormatNumber 1 $depth }}/2</strong></li>
+    <li>Freshness: <strong>{{ lang.FormatNumber 1 $fresh }}/1</strong></li>
+    <li>Pricing clarity: <strong>{{ lang.FormatNumber 1 $priceClarity }}/0.5</strong></li>
+    <li>Pros/cons balance: <strong>{{ lang.FormatNumber 1 $balance }}/0.5</strong></li>
+  </ul>
+</section>

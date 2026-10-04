@@ -2,9 +2,10 @@ slug: asana
 name: "Asana"
 category: business
 summary: "Work management with timelines and automations."
-pricing: "Freemium / $11 mo"
+pricing:  "Freemium — $11/mo"
 affiliate: ""
 rating: 4.1
+last_verified: 2026-10-04
 tags: [business, pm, workflow]
 features:
   - Tasks

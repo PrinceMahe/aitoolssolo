@@ -2,9 +2,10 @@ slug: coda
 name: "Coda"
 category: automation
 summary: "Doc + table hybrid with AI and automations."
-pricing: "Freemium / $10 mo"
+pricing:  "Freemium — $10/mo"
 affiliate: ""
 rating: 4.1
+last_verified: 2026-10-04
 tags: [automation, docs, workspace]
 features:
   - Docs+Tables
