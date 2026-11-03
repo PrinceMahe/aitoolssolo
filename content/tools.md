@@ -36,6 +36,9 @@ Browse the tools we use and recommend for running a one-person business. Every t
 | **[Beehiiv](https://www.beehiiv.com?via=Prince-Maheshwari)** ⭐ | Creator monetization, built-in ad network, growth tools |
 | **[ConvertKit](https://convertkit.com/)** | Course creators, email sequences |
 | **[Mailchimp](https://mailchimp.com/)** | Beginners, free tier |
+| **[ReadOnce](https://readonce.email)** ⭐ | Free temp email — signup forms without the spam (our own tool) |
+
+→ *Read: [Best Temp Email Services in 2026](/posts/best-temp-email-services-in-2026-i-tested-7-so-you-dont-have-to/)*
 
 ## 🌐 Hosting & Infrastructure
 

@@ -23,3 +23,8 @@ http://aitoolssolo.com/* https://www.aitoolssolo.com/:splat 301!
 /tools/ococa/* /tools/ocoya/:splat 301!
 /tools/stability/* /tools/stablediffusion/:splat 301!
 /tools/todoist-ai/* /tools/todoist/:splat 301!
+
+# /blog/ never existed (menu points at /posts/): 301 any stale external
+# links to the real archive instead of 404.
+/blog/* /posts/:splat 301!
+/blog /posts/ 301!
